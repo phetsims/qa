@@ -22,7 +22,7 @@ Please test the following issues and check them off after addressing. If they ar
 - [ ] showPointerAreas (touchArea=red, mouseArea=blue)
 - [ ] Full screen test
 - [ ] Screenshot test
-- [ ] Does AR need to be notified for any LOL update?
+- [ ] Does AR need to be notified for any LOL updates?
 
 If any new issues are found, please note them in https://github.com/phetsims/{{REPO}}/issues and reference this issue.  
 
