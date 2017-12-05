@@ -39,3 +39,5 @@ Sim-specific terminology:
 • builder - the apparatus in the center of the screen  
 • slots - places where you can drop functions in the builder  
 • input carousel - vertical carousel on the left  
+
+@ariel-phet please assign and prioritize
