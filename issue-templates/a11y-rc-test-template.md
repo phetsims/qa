@@ -31,6 +31,8 @@ PhET supports the following platforms for accessibility so please test these:
 - [ ] Screenshot test
 - [ ] Does AR need to be notified for any LOL updates?
 
+Accessibility strings that are not visible should not be translatable yet, do not worry if these do not change with string tests.
+
 If any new issues are found, please note them in https://github.com/phetsims/{{REPO}}/issues and reference this issue. 
 
 **Critical screen reader information**
