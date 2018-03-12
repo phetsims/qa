@@ -1,8 +1,8 @@
 (*@ mention the appropriate parties, including designers*), {{SIM_TITLE}} 1.X.X-rc.X is ready for RC testing.
 
-**[Link to sim](http://www.colorado.edu/physics/phet/dev/html/{{REPO}}/1.0.0-rc.1/{{REPO}}_en.html)**
+**[Link to sim](http://www.colorado.edu/physics/phet/dev/html/{{REPO}}/phet/1.0.0-rc.1/{{REPO}}_all_phet.html)**
 
-**[Link to iFrame](http://www.colorado.edu/physics/phet/dev/html/{{REPO}}/1.0.0-rc.1/{{REPO}}_en-iframe.html)**
+**[Link to iFrame](http://www.colorado.edu/physics/phet/dev/html/{{REPO}}/phet/1.0.0-rc.1/phet/{{REPO}}_all_iframe_phet.html)**
 
 **[Test Matrix]({{TEST_MATRIX_LINK}})**
 
