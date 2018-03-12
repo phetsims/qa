@@ -38,6 +38,7 @@ If any new issues are found, please note them in https://github.com/phetsims/{{R
 **Critical screen reader information**
 - JAWS might complain about Firefox Quantum. If that is the case, please test with https://www.mozilla.org/en-US/firefox/organizations/
 - The screen reader **must** be turned on and reading before the browser is open for it to work. See https://github.com/phetsims/a11y-research/issues/90
+- JAWS might not automatically switch to forms mode for some controls (like sliders and radio buttons). In this case, pressing "enter" should switch to forms mode.
  
 **(Other potentially useful items)**  
 
