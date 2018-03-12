@@ -1,8 +1,8 @@
 (*@ mention the appropriate parties, including designers*), {{SIM_TITLE}} 1.X.X-rc.X is ready for RC testing.
 
-**[Link to sim](http://www.colorado.edu/physics/phet/dev/html/{{REPO}}/1.0.0-rc.1/{{REPO}}_en.html)**
+**[Link to sim](http://www.colorado.edu/physics/phet/dev/html/{{REPO}}/phet/1.X.X-rc.1/{{REPO}}_all_phet.html)**
 
-**[Link to iFrame](http://www.colorado.edu/physics/phet/dev/html/{{REPO}}/1.0.0-rc.1/{{REPO}}_en-iframe.html)**
+**[Link to iFrame](http://www.colorado.edu/physics/phet/dev/html/{{REPO}}/phet/1.X.X-rc.1/{{REPO}}_all_iframe_phet.html)**
 
 **[Test Matrix]({{TEST_MATRIX_LINK}})**
 
@@ -10,7 +10,7 @@
 [Screen reader intro](https://www.colorado.edu/physics/phet/dev/html/jg-tests/reader-intro.html)
 
 The simulation to test has labels and/or descriptions. They can be "seen" here:
-**[Link to a11y view](http://www.colorado.edu/physics/phet/dev/html/{{REPO}}/{{1.0.0-rc.1/{{REPO}}_a11y_view_html.html)**
+**[Link to a11y view](http://www.colorado.edu/physics/phet/dev/html/{{REPO}}/phet/1.X.X-rc.1/{{REPO}}_a11y_view.html)**
 
 This view shows what is available to a screen reader user. The sim is on the left side in an iframe, while the right side has all of the accessible descriptions. Beneath the sim are real-time alerts that will be announced by the screen reader. Please make sure that the descriptions on the right accurately describe the simulation at all times.
 
