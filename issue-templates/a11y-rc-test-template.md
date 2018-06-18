@@ -36,10 +36,8 @@ Accessibility strings that are not visible should not be translatable yet, do no
 If any new issues are found, please note them in https://github.com/phetsims/{{REPO}}/issues and reference this issue. 
 
 **Critical screen reader information**
-- JAWS might complain about Firefox Quantum. If that is the case, please test with https://www.mozilla.org/en-US/firefox/organizations/
-- The screen reader **must** be turned on and reading before the browser is open for it to work. See https://github.com/phetsims/a11y-research/issues/90
- - JAWS might not automatically switch to forms mode for some controls (like sliders and radio buttons). In this case, pressing "enter" should switch to forms mode. For example, see https://github.com/phetsims/resistance-in-a-wire/issues/138
- - The screen reader might focus the last UI component that had focus on sim load, typically on refresh. This is a "feature". For example, see For example, see phetsims/resistance-in-a-wire#139.
+  We are tracking known AT bugs in https://docs.google.com/document/d/1518zv6F0odExFsodShZxwTmWNQk3civuNwtQUR-rEBs/. If
+  you notice a new bug with AT behavior, please check against this list first.
  
 **(Other potentially useful items)**  
 
