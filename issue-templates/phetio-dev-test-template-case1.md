@@ -24,6 +24,12 @@
 - [ ] Each wrapper is working properly.
 
 
+**Issues to Verify:** [Obviously, feel free to change this checklist to suit your needs.]
+- [ ] [Issue1](github.com/phetsims/relevantRepository/issue/#/)
+- [ ] [Issue2](github.com/phetsims/relevantRepository/issue/#/)
+- [ ] [Issue3](github.com/phetsims/relevantRepository/issue/#/)
+
+
 [Please include additional information here.]
 
 
