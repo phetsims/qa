@@ -33,4 +33,4 @@
 [Please include additional information here.]
 
 
-Assinging @ariel-phet for prioritization.
+Assinging @ariel-phet for prioritization...
