@@ -1,0 +1,511 @@
+% PREAMBLE
+
+\documentclass[titlepage]{article}
+
+\usepackage{fullpage}
+
+\usepackage{parskip}
+
+\usepackage[bottom]{footmisc}
+
+\usepackage
+	[
+		colorlinks = true,
+		linkcolor = blue,
+		urlcolor  = blue,
+		citecolor = blue,
+		anchorcolor = blue
+	]
+{hyperref}
+
+\usepackage{listings}
+
+\usepackage{amsfonts}
+
+\title{The PhET Quality Assurance Handbook \\ Student Tester Edition}
+\date{Last Updated: 2018-05-30}
+\author{}
+
+% BODY
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\pagebreak
+
+% SECTION 1: INTRODUCTION
+
+\section{Introduction}
+
+As a QA student tester, it is your job to test bugs for simulations and perform a variety of miscellaneous tasks.
+
+	\subsection{Devices}
+
+We want our simulations to behave similarly on all devices. Therefore, we have many devices on which we test our simulations. The devices, their operating system(s), and their software are recorded in the \href{https://docs.google.com/spreadsheets/d/1XqnlW8DAlt2fZHDfDgkTMmMLpJZ1c0equBaPdkn2V08/edit#gid=0}{Asset Inventory}.
+
+	\subsection{Operating Systems}
+
+According to the \textit{New Oxford American Dictionary}, an operating system is ``the software that supports a computer's basic functions, such as scheduling tasks, executing applications, and controlling peripherals.'' The most common operating systems are Windows, macOS, and GNU/Linux. We usually test our simulations on Windows and macOS devices.
+
+	\subsection{Web Browsers}
+
+According to \href{https://en.wikipedia.org/wiki/Web_browser}{Wikipedia}, a web browser is ``a software application for retrieving, presenting and traversing information resources on the World Wide Web.'' The most common web browsers are Internet Explorer, Edge, Safari, Firefox, Opera, and Chrome. We usually test our simulations using Edge, Safari, Firefox, and Chrome.
+
+\pagebreak
+
+% SECTION 2: COMMUNICATION & COORDINIZATION
+
+\section{Communication \& Coordination}
+
+As a QA student tester, you may need to communicate and coordinate with developers, designers, student workers, and other PhET employees.
+
+	\subsection{Slack}
+
+Slack is messaging software that many workplaces use. PhET employees may wish to communicate with you. It is your job to annoy developers with silly gifs.
+	\subsection{Zoom}
+
+Zoom is software that many workplaces use to make video calls and audio calls. You might have to use Zoom periodically to communicate with PhET employees.
+
+	\subsection{Google Drive}
+
+\href{https://www.google.com/drive/}{Google Drive} is where PhET keeps its documents, spreadsheets, slideshows, etc. We try to grant edit access to as few people as possible to avoid any edit or deletion mishaps. You will be responsible for maintaining everything in the QA folder, including testing matrices.
+
+\pagebreak
+
+% SECTION 3: GITHUB
+
+\section{GitHub}
+
+According to \href{https://en.wikipedia.org/wiki/GitHub}{Wikipedia}, GitHub is ``a web-based hosting service for version control using git.'' In plain English, it's a website that makes it easier for multiple developers to work on the same project at once. It's where we keep the code for our simulations. It's also where we document issues with the simulations. You'll need to become familiar with \href{https://github.com/phetsims}{GitHub} as it's where you'll spend the majority of your time.
+
+	\subsection{Repositories}
+
+A GitHub repository is like a folder where the code and issues for a specific simulation are kept. It's important that you familiarize yourself with each repository and its contents.
+
+Some repositories contain code for things that aren't simulations. The following is a list of those repositories with brief descriptions:
+
+		\begin{enumerate}
+			\item a11y-research: Accessibility Research is dedicated to keeping track of accessibility research.
+			\item aqua: Automated Quality Assurance (AQuA) holds code for continuous testing. PhETTest uses some code in aqua.
+			\item assert: Assert holds code for handling assertions.
+			\item axon: Axon is sort of like the nerve system. Axon holds code for things related to properties, e.g. the value of a speedometer.
+			\item babel: Babel holds files of translated strings for HTML5 simulations.
+			\item blast: Blast holds code for a simple simulation. This simulation only uses code from axon, joist, and scenery. Blast is used to diagnose issues.
+			\item brand: Brand holds assets for each of the three brands. The brands are 1) PhET, 2) PhET-iO, and 3) Adapted from PhET.
+			\item bumper: Bumper holds code for a simulation that is used to test deployment procedures.
+			\item chains: Chains holds code for a simulation that is used to test string translation tools.
+			\item chipper: Chipper holds code for tools used to develop and build simulations.
+			\item dot: Dot is a mathematics library.
+			\item example-sim: Example Simulation holds code for an example simulation. It is used to show interns and new employees how the simulations are structured.
+			\item griddle: Griddle is a charting library.
+			\item joist: Joist holds code for the ``framework'' of simulations, e.g. the splash screen, home screen, navigation bar, about dialog, etc.
+			\item kite: Kite is a library for 2D shapes.
+			\item mobius: Mobius is a library for 3D shapes.
+			\item nitroglycerin: Nitroglycerin holds code for chemistry-related things.
+			\item perennial: Perennial holds, among other things, build server code. It also holds utilities for doing the build.
+			\item phet-core: PhET Core holds code for utilities used by all simulations.
+			\item phet-info: PhET Information is mostly documentation.
+			\item phetcommon: PhET Common contains general purpose common code.
+			\item phetmarks: PhET Marks holds a simulation that contains code that developers use to bookmark URLs.
+			\item phet-office-mix: PhET Office Mix holds Microsoft Office 365 things. Collaboration with Microsoft to make PhET simulations compatible Microsoft Office applications.
+			\item query-string-machine: Query String Machine holds code that parses query parameters.
+			\item rosetta: Rosetta holds code for the translation of HTML5 simulations.
+			\item scenery-phet: Scenery PhET holds components based on Scenery that are specific to PhET simulations.
+			\item scenery: Scenery is the scene graph library that is used to create all visual aspects of PhET simulations.
+			\item sherpa: Sherpa holds third party libraries.
+			\item shred: Shred holds code used in simulations with subatomic particles.
+			\item simula-rasa: Simula Rasa holds code for a blank simulation.
+			\item slater: Slater holds code that translates Java to JavaScript. This isn't used very much.
+			\item sun: Sun holds code for low level user interface components, e.g. buttons and sliders. It uses code from Scenery.
+			\item tambo: Tambo holds code for sonification.
+			\item tandem: Tandem holds code for supporting material for PhET-iO simulations. Used in conjunction with PhET-iO to enable access to model and user interface components of the simulation.
+			\item tasks: Tasks is a list of tasks.
+			\item twixt: Twixt is an animation library. 
+			\item vegas: Vegas holds code for the components used in games.
+			\item vibe: Vibe holds code for handling audio in simulations.
+			\item webgl-ripples: WebGL Ripples holds code for 2D waves.
+			\item website-meteor: Website Meteor holds code for the Meteor-React upgrade of the PhET website.
+		\end{enumerate}
+
+	\subsection{Issues}
+
+Most of the issues you'll create on GitHub will be bug reports. Creating a bug report or general issue is easy. Here are the steps you need to follow:
+
+		\begin{enumerate}
+			\item Before you even think about creating a new issue, comb through existing issues to see if someone already created the issue. Search all repositories on GitHub for the issue.
+			\item If someone has created a similar issue, then consider commenting on that issue instead of creating a new issue.
+			\item Otherwise, go to the appropriate repository.
+			\item Click on the ``Issues'' tab.
+			\item Click on the ``New Issue'' button.
+			\item If the issue is a bug report for a simulation, then use the formatting below.
+			\item If the issue is a general issue, then simply describe the issue thoroughly and concisely.
+			\item Assign the appropriate PhET employee(s) and use relevant labels.
+			\item Click the ``Submit New Issue'' button.
+		\end{enumerate}
+
+		\begin{lstlisting}[frame=single, caption={Correct Bug Report Format}]
+<b>Test Device</b>
+
+blah
+
+<b>Operating System</b>
+
+blah
+
+<b>Browser</b>
+
+blah
+
+<b>Problem Description</b>
+
+blah
+
+<b>Steps to Reproduce</b>
+
+blah
+
+<b>Visuals</b>
+
+blah
+
+<details>
+<summary><b>Troubleshooting Information</b></summary>
+
+blah
+
+</details>
+		\end{lstlisting}
+
+		\begin{itemize}
+			\item Delete sections you don't need.
+			\item It is courteous to use screenshots or gifs in the ``Visuals'' section of the bug report. For Windows, \href{http://www.screentogif.com/}{ScreenToGif} is recommended. For macOS, \href{https://getkap.co/}{Kap} is recommended.
+			\item The troubleshooting information\footnote{The troubleshooting information for a simulation is unique to that simulation.} for a simulation comes from the ``Report a Problem'' link in the simulation.
+			\item If an issue is related to another issue, then add ``related to $\#xyz$'' to the issue, where $x,$ $y,$ and $z$ are natural numbers.
+		\end{itemize}
+
+The following is a list of labels and their descriptions:
+
+		\begin{itemize}
+			\item design:a11y - For issues with the design of accessibility-related features, e.g. keyboard navigation, sonification, etc.
+			\item design:artwork - For issues with the design of artwork.
+			\item design:general - For general design issues.
+			\item design:phet-io - For issues with PhET-iO simulations.
+			\item dev:a11y - For issues related to accessibility development.
+			\item dev:enhancement - For issues related to development improvements.
+			\item dev:phet-io - For PhET-iO development issues.
+			\item dev:sonification - For issues related to sound.
+			\item phet-io:event-stream - For issues related to event wrappers in PhET-iO simulations.
+			\item phet-io:studio - For issues related to studio in PhET-iO branded sims.
+			\item phet-io:record-and-playback - For issues relating to record and playback in PhET-iO simulations.
+			\item phet-io:save-and-load - For issues related to state wrappers and launching from proxies in PhET-iO branded simulations.
+			\item type:automated-testing - For automated testing issues.
+			\item type:bug - For bugs.
+			\item type:duplicate - For duplicate issues.
+			\item type:i18n - For issues related to internalization.
+			\item type:legacy-bug - For issues that also exist in Java or Flash sims.
+			\item type:multitouch - For issues that require multiple inputs.
+			\item type:performance - For performance issues, e.g. low frame rate, lag, etc.
+			\item type:question - For questions.
+		\end{itemize}
+
+\pagebreak
+
+% SECTION 4: TESTING
+
+\section{Testing}
+
+Testing is essential to quality assurance. As a QA student tester, it is your responsibility to break what the developers make. Be scrupulous.
+	
+	\subsection{Terminology}
+
+It is important to familiarize yourself with the correct terminology for the various things you will encounter in a simulation. The words in quotation marks are the explanatory terms, and the words without quotation marks are the correct terms. (Some terms are intuitive while others are counterintuitive, hence the list.)
+
+		\begin{itemize}
+			\item ``tab'' $ = $ screen
+			\item ``loading screen'' $ = $ splash screen
+			\item ``picture of the simulation that directs you to the simulation when clicked'' $ = $ screen icon
+			\item ``screen that loads after the splash screen and has screen icons'' $ = $ home screen
+			\item ``screen icon that exists in the home screen'' $ = $ home screen icon
+			\item ``bar that has screen icons'' $ = $ navigation bar
+			\item ``screen icon that exists in the navigation bar'' $ = $ navigation bar icon\footnote{navigation bar icon $ \neq $ home screen icon}
+			\item ``PhET logo that opens a menu when clicked'' $ = $ PhET menu
+			\item ``box in which items that can be dragged and interacted with are stored'' $ = $ toolbox
+			\item ``item that exists in a toolbox'' $ = $ tool
+			\item ``button that resets everything in the simulation'' $ = $ reset all button
+			\item ``button that resets some things in the simulation'' $ = $ reset button
+			\item ``button in a browser that reloads the page'' $ = $ refresh button\footnote{refresh button $ \neq $ reset button $ \neq $ reset all button}
+			\item ``button with a right pointing triangle'' $ = $ play button
+			\item ``button with two bars'' $ = $ pause button
+			\item  ``button with a bar and a right pointing triangle'' $ = $ step forward button
+			\item ``button with a square'' $ = $ stop button
+			\item ``boxed off area that contains information'' $ = $ panel
+			\item ``red button with minus sign'' $ = $ collapse button
+			\item ``green button with plus sign'' $ = $ expand button
+			\item ``panel with a collapse and expand button'' $ = $ accordion panel
+			\item ``circular button that can be blank or solid'' $ = $ radio button
+			\item ``box in which a check mark can exist'' $ = $ checkbox
+			\item ``bar with button that can be dragged up and down xor left and right'' $ = $ slider
+			\item ``slider button'' $ = $ thumb
+			\item ``pop-up information'' $ = $ dialogue
+			\item ``X button in dialogue'' $ = $ close button
+			\item ``drop down menu'' $ = $ combo box
+			\item ``number adjuster that looks like a spinner'' $ = $ number picker
+			\item ``number adjuster that looks like a picker'' $ = $ number spinner
+			\item ``slightly different simulation within a screen'' $ = $ scene
+			\item ``toolbox that has multiple pages'' $ = $ carousel
+			\item ``different pages in carousel'' $ = $ pages
+			\item ``dots that exist under a carousel'' = dots
+			\item ``using the dots to navigate between pages'' $ = $ dot navigation
+			\item ``clicking and holding'' $ = $ fire on hold
+		\end{itemize}
+
+	\subsection{Development Testing}
+
+Development testing is whatever the developer wants it to be. Generally speaking, a development test entails making sure the simulation behaves as intended. The GitHub issue for a development test will specify what needs to be tested. There should be a link to the simulation in the issue, but if there isn't, then you can find it \href{https://phet-dev.colorado.edu/html/}{here}. Here are the steps you need to follow for a development test:
+
+		\begin{enumerate}
+			\item If the developer wants something tested on specific devices or browsers, then use the correct device and the correct browser.
+			\item Familiarize yourself with the simulation.
+			\item If the developer wants you to test previous issues, then test those first.
+			\item Test screen bounds.
+			\item Make sure you don't lose tools.
+			\item Make sure the reset all button works properly.
+			\item Do multitouch tests.
+			\item Look for bugs.
+			\item Try to break the simulation.
+		\end{enumerate}
+
+	\subsection{Release Candidate Testing}
+	
+Release candidate testing is more thorough than development testing because the simulation being tested is a ``release candidate.'' Theoretically, major issues with the simulation will have been fixed by the time it undergoes an RC test. In the issue for the RC test, you will find, among other things, the following: a link to the simulation, a link to an iFrame, and a link to a testing matrix. The link to the simulation can also be found \href{https://phet-dev.colorado.edu/html/}{here}. Testing the simulation in an iFrame is optional. The testing matrix is where we document what has been tested and by whom. Here are the steps you need to follow for a release candidate test:
+	
+		\begin{enumerate}
+			\item Familiarize yourself with the simulation.
+			\item If the developer wants you to test previous issues, then test those first.
+			\item Open the testing matrix.
+			\item Choose a device and browser combination that hasn't been tested.
+			\item Perform the below tests and fill out the testing matrix accordingly.
+		\end{enumerate}
+
+\textbf{Full Screen Test}
+
+To do the full screen test, do the following:
+
+		\begin{enumerate}
+			\item In the PhET menu, there is a ``Full Screen'' button. Press that button.
+			\item Make sure the simulation goes into and out of full screen easily.
+			\item Make sure the simulation does not change when the simulation goes into and out of full screen.
+		\end{enumerate}
+
+\textbf{Screenshot Test}
+
+To do the screenshot test, do the following:
+
+		\begin{enumerate}
+			\item In the PhET menu, there is a ``Screenshot'' button. Press that button.
+			\item Make sure the screenshot is exactly the same as the simulation\footnote{The resolution will be lower in the screenshot.}.
+		\end{enumerate}
+
+\textbf{Query Parameters Test}
+
+To do the query parameters test, append the URL with the following query parameters:
+
+		\begin{itemize}
+			\item \verb|?dev|: shows borders
+				\begin{itemize}
+					\item This query parameter can be used to test whether things remain in bounds.
+				\end{itemize}
+			\item \verb|?showPointerAreas|: shows red touch area and blue mouse area
+				\begin{itemize}
+					\item Some things won't have a pointer area. This is normal.
+					\item Sometimes pointer areas will look strange, e.g. extending beyond the borders of a carousel. This is normal.
+					\item Make sure pointer areas do not overlap.
+					\item This query parameter adversely affects the performance of the simulation.
+				\end{itemize}
+			\item \verb|?stringTest=double|: doubles strings
+				\begin{itemize}
+					\item Strings should scale down. Nothing should overlap.
+					\item If there is an issue, then it is an internalization issue.
+				\end{itemize}
+			\item \verb|?stringTest=long|: makes strings \verb|12345678901234567890123456789012345678901234567890|
+				\begin{itemize}
+					\item The simulation does not have to pass this test!
+					\item This query parameter might reveal issues that \verb|?stringTest=double| doesn't.
+				\end{itemize}
+			\item \verb|?stringTest=rtl|: makes strings Farsi
+				\begin{itemize}
+					\item Make sure everything looks good.
+					\item Make sure everything functions normally.
+				\end{itemize}
+			\item \verb|?stringTest=X|: makes strings \verb|X|
+			\item \verb|?stringTest=xss|: cross site scripting
+				\begin{itemize}
+					\item This query parameter puts JavaScript into every screen. This JavaScript should not be executed.
+					\item If the simulation does not redirect to another website, then the simulation passes this test.
+					\item If the simulation crashes or fails to load, then the simulation still passes this test.
+				\end{itemize}
+		\end{itemize}
+
+It should be noted that multiple query parameters can be used at once. To do so, append the URL with the following \verb|queryParameter1&queryParameter2|. Use \href{https://en.wikipedia.org/wiki/Camel_case}{camelCase}.
+
+\textbf{Legends of Learning Test}
+
+To test a simulation in the Legends of Learning harness, do the following:
+
+		\begin{enumerate}
+			\item Go \href{https://developers.legendsoflearning.com/public-harness/index.html}{here}.
+			\item Copy and paste the simulation's URL into ``Enter Game Source URL.''
+			\item Append the URL with \verb|?legendsOfLearning|.
+			\item Make sure you can pause the simulation.
+			\item Make sure you can resume the simulation.
+		\end{enumerate}
+
+\textbf{HTML Download Test}
+
+To perform the HTML download test, do the following:
+
+		\begin{enumerate}
+			\item On an iOS device, open the simulation and add it to your ``Reading List.''
+			\item Disconnect from the internet.
+			\item Open the simulation and make sure it behaves normally.
+			\item On a device with Google Chrome installed, open the simulation, right click, and save the simulation.
+			\item Disconnect from the internet.
+			\item Open the simulation and make sure it behaves normally.
+		\end{enumerate}
+
+\textbf{iFrame Test}
+
+To perform the iFrame test, simply click the link to the iFrame and make sure the simulation behaves normally.
+
+	\subsection{PhET-iO Testing}
+
+PhET-iO simulations are licensed versions of PhET simulations. PhET-iO simulations are not available to the general public. We charge customers for these simulations because they are highly customizable. When a customer pays for a PhET-iO simulation, they are provided with the password for the simulation as well as an application program interface (API) that they can use to customize the simulation. In the PhET-iO issue, there will be, among other things, a link to a root directory and a link to a testing matrix. The root directory contains all of the wrappers, i.e. environments, in which the simulation will be tested. The testing matrix is where we document what has been tested and by whom. There should be a link to the simulation in the issue, but if there isn't, then you can find it \href{https://phet-dev.colorado.edu/html/}{here}. Here are the steps you need to follow for a PhET-iO test:
+
+		\begin{enumerate}
+			\item Open a private tab.
+			\item Click the link to the root directory.
+			\item Enter the username and password.
+			\item Familiarize yourself with the simulation.
+			\item Open the testing matrix.
+			\item Choose a device and browser combination that hasn't been tested.
+			\item Perform the below tests and fill out the testing matrix accordingly.
+		\end{enumerate}
+
+Before reading about the various tests you'll perform on a PhET-iO simulation, it should be noted that PhET-iO testing can be daunting. It will help if you learn what a tandem ID is. You will no doubt encounter them. A tandem ID is an identifier for a particular behavior of the simulation. For example, you could encounter the following tandem ID while testing the studio wrapper.
+\begin{verbatim}
+faradaysLaw.faradaysLawScreen.model.magnet.positionProperty:
+\end{verbatim}
+The above tandem ID tells you the following: 1) the simulation is Faraday's Law, 2) the behavior the tandem ID refers to occurs in the Faraday's Law screen, 3) model indicates that something is being modeled according to some set of rules, 3) magnet indicates that the magnet is what is being modeled, and 4) positionProperty states the current position of the magnet. For a more comprehensive treatment of tandem IDs, read \href{https://docs.google.com/document/d/1Fr-B66SD-6Xt7egNv9ZeSXdcsK6k8Lkc0nqR853_eJ4/edit#heading=h.oz7vdnbiq4ni}{this}.
+
+\textbf{Simulation Wrapper Test}
+
+\textit{What?} This wrapper is the simulation.
+
+\textit{How?} To test this wrapper, follow the steps for a development test or a release candidate test depending on what the issue specifies.
+
+\textbf{Studio Wrapper Test}
+
+\textit{What?} This wrapper is the simulation alongside a long list of instrumented characteristics. An instrumented characteristic is some aspect of the simulation that can be modified by a licensed owner of a PhET-iO simulation, e.g. a property. Not all characteristics of the simulation are instrumented so as to retain the functionality of the simulation.
+
+\textit{How?} To test this wrapper, make sure instrumented characteristics can be modified and make sure characteristics that haven't been instrumented can't be modified. Also, do the following:
+
+		\begin{enumerate}
+			\item Periodically launch the simulation to make sure it works using the ``Launch'' button.
+			\item Periodically copy and paste the HTML into a text editor, save the file, and open it in a browser to make sure the modifications you made are still there using the ``Generate HTML'' button.
+		\end{enumerate}
+
+\textbf{Events: Colorized Wrapper Test}
+
+\textit{What?} This wrapper is the simulation, but when you open the console, you are able to view a colorized event stream.
+
+\textit{How?} To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the manipulations.
+
+\textbf{Events: JSON Wrapper Test}
+
+\textit{What?} This wrapper is the simulation, but when you open the console, you are able to view the event stream in JavaScript object notation.
+
+\textit{How?} To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the manipulations.
+
+\textbf{Events: Text Area Wrapper Test}
+
+\textit{What?} This wrapper is the simulation with the event stream below. There is a limit to the number of events that can be displayed below the simulation.
+
+\textit{How?} To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the manipulations.
+
+\textbf{Events: Recording Wrapper Test}
+
+\textit{What?} This wrapper allows you to record your actions in the simulation.
+
+\textit{How?} To test this wrapper, do the following:
+
+		\begin{enumerate}
+			\item In the URL, replace \verb|&console| with \verb|&localFile|. (If \verb|&console| doesn't exist, then you should still add \verb|&localFile|.)
+			\item Record your actions in the simulation. (Remember what you did.)
+			\item Open the console.
+			\item Follow the directions in the console to download a copy of the recording.
+			\item View the recording in the Events: Playback wrapper and make sure your actions were recorded accurately.
+		\end{enumerate}
+
+\textbf{State Wrapper Test}
+
+\textit{What?} This is a wrapper that contains a simulation, a mirror of the simulation that is updated once every second, and a condensed list of instrumented characteristics.
+
+\textit{How?} To test this wrapper, simply play with the simulation and make sure your actions are mirrored accurately.
+
+\textbf{Mirror Inputs Wrapper Test}
+
+\textit{What?} This is a wrapper that contains a simulation and a mirror of the simulation that is updated with every user input.
+
+\textit{How?} To test this wrapper, make sure your actions are mirrored accurately. Spend plenty of time testing this wrapper.
+
+\textbf{Screenshot Wrapper Test}
+
+\textit{What?} This is a wrapper in which you can take a screenshot of the simulation.
+
+\textit{How?} To test this wrapper, test screenshots as you normally would by pressing the ``Take Screenshot'' button in the wrapper, not the ``Screenshot'' button in the simulation.
+
+\textbf{Active Wrapper Test}
+
+\textit{What?} This is a wrapper that allows you to toggle between an active simulation and an inactive simulation.
+
+\textit{How?} To test this wrapper, simply make sure you can interact with the simulation when it is active and cannot interact with the simulation when it is inactive. Animations should resume without ``jumping.''
+
+	\subsection{Accessibility Testing}
+	
+One of PhET's goals is to make our simulations available to everyone. This, of course, includes people with disabilities. There are two features to unique to accessibility testing: keyboard navigation compatibility and screen reader compatibility. Keyboard navigation compatibility allows the user to play with the simulation using the keyboard, i.e. they don't have to use the mouse. Keyboard navigation can be tested on any device with a physical keyboard and in any browser. Screen reader compatibility allows the user to hear a description of what is happening in the simulation. Screen readers are tested using Firefox on Windows devices and using Safari on macOS devices. On Windows devices, we test the \href{https://www.nvaccess.org/}{NVDA} and \href{http://www.freedomscientific.com/Products/Blindness/JAWS}{JAWS} screen readers. On macOS devices, we test the VoiceOver screen reader, which is installed by default. To familiarize yourself with screen readers, please read \href{https://bayes.colorado.edu/dev/html/jg-tests/reader-intro.html}{this}. In an issue for a test of a simulation with accessibility feature(s) you will find, among other things, a link to the simulation, a link to an iFrame, perhaps a link to a testing matrix (if the test is an RC test), and a link to the a11y view. The a11y view, or accessibility view, is a page with the simulation on the left and the description of the simulation in plain text on the right. Below the simulation are real-time alerts that will be announced by the screen reader. There should be a link to the simulation in the issue, but if there isn't, then you can find it \href{https://phet-dev.colorado.edu/html/}{here}.
+
+It should be noted that for keyboard navigation to work properly in Safari, you must make sure the following setting is true:
+
+\verb|Safari > Preferences > Advanced > Press Tab to highlight each item on a webpage|
+
+It should also be noted that on Macintosh devices, for Firefox to work properly, you must make sure the following setting is true:
+
+\verb|System Preferences > Keyboard > Shortcuts > All controls|
+
+To test the accessibility features of a simulation, follow the steps below:
+
+		\begin{enumerate}
+			\item Start the screen reader before you open a browser.
+			\item Familiarize yourself with the simulation.
+			\item If the developer wants you to test previous issues, then test those first.
+			\item Perform the below tests.
+		\end{enumerate}
+
+\textbf{Keyboard Navigation Test}
+
+To test keyboard navigation, make sure the keyboard navigation functions as described in the ``Keyboard Shortcuts'' dialogue.
+
+\textbf{Screen Reader Test}
+
+To test a screen reader, do the following:
+		\begin{enumerate}
+			\item Make sure the screen reader's description of the simulation matches the description in the a11y view. 
+			\item Make sure the alerts you hear match the alerts in the a11y view.
+		\end{enumerate}
+
+\pagebreak
+
+\end{document}
