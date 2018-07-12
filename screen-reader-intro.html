@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Screen reader introduction</title>
+</head>
+
+<body>
+    <h1>Welcome!</h1>
+    <h2>Install a screen reader</h2>
+    <p>
+        Welcome to the screen reader introduction! If you haven't already, please install a screen reader. On windows, we recommend <a href="https://www.nvaccess.org/">NVDA</a>. VoiceOver comes pre-installed on macOS. It can be enabled by navigating system preferences, or quickly with command+f5.
+    </p>
+    <h2>Feature set</h2>
+    <p>
+        Now that a screen reader is installed, familiarize yourself with its features. Screen readers provide numerous strategies for finding and reading content on the page. But every one is different. Below are links to documentation about common features of each of PhET's supported screen readers.
+    </p>
+    <a href="https://webaim.org/resources/shortcuts/nvda">NVDA key commands</a>
+    <br>
+    <a href="http://doccenter.freedomscientific.com/doccenter/archives/training/jawskeystrokes.htm">JAWS key commands</a>
+    <br>
+    <a href="https://webaim.org/articles/voiceover/">VoiceOver key commands</a>
+    <br>
+    <h2>Practice using the screen reader</h2>
+    <p>
+        Now that you are aware of common screen reader features, practice reading through the above content. Try reading through individual lines and jumping between headings and links. Once you are familiar with that, try navigating and using the form elements below to understand how AT read things.
+    </p>
+    <div>
+        <p id="range-label">Typical range slider:</p>
+        <input type="range" min="1" max="100" value="50" aria-labelledby="range-label">
+        <br>
+        <button type="button" onclick="alert('Hey, you clicked me!')">Click Me!</button>
+        <form>
+            <input type="checkbox" name="maths"> Physics
+            <input type="checkbox" name="physics"> Chemistry
+            <input type="checkbox" name="physics"> Math
+        </form>
+        <div>
+            <p>Typical radio button group</p>
+            <input type="radio" name="contact">
+            <label for="contactChoice1">Email</label>
+            <input type="radio" name="contact">
+            <label for="contactChoice2">Phone</label>
+            <input type="radio" name="contact">
+            <label for="contactChoice3">Mail</label>
+        </div>
+        <div>
+            <h3>Reading Modes</h3>
+            <p>Screen readers have two different modes for reading called "document mode" and "forms mode". In "document mode", you are free to use all of the navigation strategies you have learned about to read sentences, and find headings, buttons, lists, and so on. In "forms mode", all of those strategies are disabled and keys are used to interact with the focused element. For example, when you navigate to the above slider, your screen reader might beep or say "forms mode on", to let you know that the arrow keys will change the value rather than read other information.
+            </p>
+            <div>
+                <h3>Alerts</h3>
+                <p>
+                    Sometimes the screen reader needs to announce that something happened on a page without your input. These are called alerts and are used extensively in PhET sims. After pressing the button below, an alert will trigger, and the screen reader will announce that immediately even though focus is on the button.
+                </p>
+                <button id="alertButton">Create random fact!</button><span> (Thanks, <a href="http://randomfactgenerator.net/">Random Fact Generator</a>)</span>
+                <p id="readout" aria-live="assertive"></p>
+            </div>
+        </div>
+        <div>
+        </div>
+        <script>
+        var sentences = [
+            'The name \"Wendy\" was made up for the book Peter Pan!',
+            'In the U.S., for every dollar you spend on gasoline 27 cents of it is in taxes.',
+            'People in parts of Western China put salt in their tea instead of sugar.',
+            'It takes a drop of ocean water more than 1,000 years to circulate around the world.',
+            'Americans collectively eat one hundred pounds of chocolate every second.',
+            'Betsy Ross was born with a fully formed set of teeth.',
+            'The storage capacity of human brain exceeds 4 Terrabytes.',
+            'Heineken beer is designed to "foam" for exactly five minutes.',
+            'The average housefly weighs 10 to 15 millionths of a pound.',
+            'For every gallon of sea water, you get more than a quarter pound of salt.',
+            'You inhale about 700,000 of your own skin flakes each day.',
+            'Leonardo da Vinci was dyslexic, and he often wrote backwards.',
+            'A survey reported that 12% of Americans think that Joan of Arc was Noah\'s wife.',
+            'Koala Bears are not bears.',
+            'Energy is being wasted if a toaster is left plugged in after use.',
+            'Almost all varieties of breakfast cereals are made of grass.',
+            'Each day, more than $40 Trillion Dollars changes hands worldwide.',
+            'About 400 different kinds of microbes live on and in the human body.',
+            'The Dallas/Ft. Worth airport is larger than New York City\'s Manhattan Island.',
+            'The symbol on the "pound" key (#) is called an octothorpe.',
+            'It takes Several hundred thousand years for newly made photons (light) to travel from the core of the sun to it\'s surface.',
+            'Most cell phone antennas have no purpose other than to make people believe that flipping up a 2 inch antenna just gave them better reception. They are not connected to any circuitry.',
+            'By recycling just one glass bottle, the amount of energy that is being saved is enough to light a 100 watt bulb for four hours.',
+            'There are more plastic flamingos in the U.S, than real ones!',
+            'Oenophobia is the Fear of wines.',
+            'Until the nineteenth century, solid blocks of tea were used as money in Siberia.',
+            'At one "feeding", a mosquito can absorb one and a half times its own weight in blood.',
+            'A blue whale\'s heart is the size of a Volkswagen Beetle!',
+            'A hedgehog\'s heart beats 300 times a minute on average!',
+            'Deep Breathing gives you health benefits similar to aerobics.',
+            'Liquid TIDE laundry detergent glows under a blacklight.',
+            'A roach can live up to nine days without its head.',
+            'The best time for a person to buy shoes is in the afternoon. This is because the foot tends to swell a bit around this time.',
+            'Business.com is currently the most expensive domain name sold for $7.5 million.',
+            'It takes 3,000 cows to supply the NFL with enough leather for a year\'s supply of footballs.',
+            'When young and impoverished, Pablo Picasso kept warm by burning his own paintings.',
+            'The penguin is the only bird that can swim, but cannot fly.',
+            'The can opener was invented 48 years after the can.',
+            'An albatross can sleep while it flies!',
+            'Grapes explode when you put them in the microwave.',
+            'A quarter has 119 grooves on its edge, a dime has one less groove!',
+            'None of the Beatles knew how to read music. (Paul McCartney eventually taught himself.)',
+            '7-11 sells 10,000 pots of coffee an hour, every hour, every day.',
+            'Approximately 40% of the U.S. paper currency in circulation was counterfeit by the end of the Civil War.'
+        ];
+        document.getElementById('alertButton').addEventListener('click', function() {
+            var sentence = sentences[Math.floor(Math.random() * sentences.length)];
+            document.getElementById('readout').textContent = sentence;
+        });
+        </script>
+    </div>
+</body>
+
+</html>
