@@ -22,9 +22,8 @@
 
 \usepackage{amsfonts}
 
-\title{The PhET Quality Assurance Handbook \\ Student Tester Edition}
+\title{The PhET Quality Assurance Handbook \\ Team Lead Edition}
 \date{Last Updated: 2018-05-30}
-\author{}
 
 % BODY
 
@@ -40,7 +39,7 @@
 
 \section{Introduction}
 
-As a QA student tester, it is your job to test bugs for simulations and perform a variety of miscellaneous tasks.
+As the QA team lead, it is your job to test bugs for simulations, shepherd student workers, and perform a variety of miscellaneous tasks.
 
 	\subsection{Devices}
 
@@ -54,24 +53,29 @@ According to the \textit{New Oxford American Dictionary}, an operating system is
 
 According to \href{https://en.wikipedia.org/wiki/Web_browser}{Wikipedia}, a web browser is ``a software application for retrieving, presenting and traversing information resources on the World Wide Web.'' The most common web browsers are Internet Explorer, Edge, Safari, Firefox, Opera, and Chrome. We usually test our simulations using Edge, Safari, Firefox, and Chrome.
 
+	\subsection{Updates}
+
+It is important that you update devices that need to be updated. (Some of our devices are meant to have outdated operating systems.) If an update for an operating system or an important piece of software is released, then you'll need to update the device or software. Think before you update something!
+
 \pagebreak
 
 % SECTION 2: COMMUNICATION & COORDINIZATION
 
 \section{Communication \& Coordination}
 
-As a QA student tester, you may need to communicate and coordinate with developers, designers, student workers, and other PhET employees.
+As the QA team lead, you'll need to communicate and coordinate with developers, designers, student workers, and other PhET employees.
 
 	\subsection{Slack}
 
-Slack is messaging software that many workplaces use. PhET employees may wish to communicate with you. It is your job to annoy developers with silly gifs.
+Slack is messaging software that many workplaces use. It is important that you are on Slack every day. PhET employees may wish to communicate with you. It is your job to annoy developers with silly gifs. To do so, simply type \verb|/giphy <whatever you want a gif of>| into Slack.
+
 	\subsection{Zoom}
 
-Zoom is software that many workplaces use to make video calls and audio calls. You might have to use Zoom periodically to communicate with PhET employees.
+Zoom is software that many workplaces use to make video calls and audio calls. You'll have to use Zoom periodically to communicate with PhET employees.
 
 	\subsection{Google Drive}
 
-\href{https://www.google.com/drive/}{Google Drive} is where PhET keeps its documents, spreadsheets, slideshows, etc. We try to grant edit access to as few people as possible to avoid any edit or deletion mishaps. You will be responsible for maintaining everything in the QA folder, including testing matrices.
+\href{https://www.google.com/drive/}{Google Drive} is where PhET keeps its documents, spreadsheets, slideshows, etc. We try to grant edit access to as few people as possible to avoid any edit or deletion mishaps. You will be responsible for maintaining everything in the QA folder, including testing matrices. (For more information, see the \hyperref[subsec:matrix]{section on testing matrix management}.)
 
 \pagebreak
 
@@ -85,7 +89,7 @@ According to \href{https://en.wikipedia.org/wiki/GitHub}{Wikipedia}, GitHub is `
 
 A GitHub repository is like a folder where the code and issues for a specific simulation are kept. It's important that you familiarize yourself with each repository and its contents.
 
-Some repositories contain code for things that aren't simulations. The following is a list of those repositories with brief descriptions:
+Some repositories contain code for things that aren't simulations. The following is a list of those repositories with brief\footnote{Ask John for better descriptions.} descriptions:
 
 		\begin{enumerate}
 			\item a11y-research: Accessibility Research is dedicated to keeping track of accessibility research.
@@ -217,7 +221,7 @@ The following is a list of labels and their descriptions:
 
 \section{Testing}
 
-Testing is essential to quality assurance. As a QA student tester, it is your responsibility to break what the developers make. Be scrupulous.
+Testing is essential to quality assurance. As the QA team lead, it is your responsibility to break what the developers make. Be scrupulous.
 	
 	\subsection{Terminology}
 
@@ -481,7 +485,7 @@ It should be noted that for keyboard navigation to work properly in Safari, you 
 
 \verb|Safari > Preferences > Advanced > Press Tab to highlight each item on a webpage|
 
-It should also be noted that on macOS devices, for Firefox to work properly, you must make sure the following setting is true:
+It should also be noted that on Macintosh devices, for Firefox to work properly, you must make sure the following setting is true:
 
 \verb|System Preferences > Keyboard > Shortcuts > All controls|
 
@@ -506,6 +510,401 @@ To test a screen reader, do the following:
 			\item Make sure the alerts you hear match the alerts in the a11y view.
 		\end{enumerate}
 
+	\subsection{Online Website Testing}
+
+The developers may occasionally ask you to test various parts of the website. Typically, they will provide details. Theoretically, all of the steps you follow to test the offline website could be followed for the online website. (Obviously, some things would be different, as the website would be online instead of offline.) The \hyperref[subsec:wa]{section on website administration} may contain pertinent information.
+
+	\subsection{Offline Website (Installer) Testing}
+
+The The offline website installers are built every Sunday morning. Test the offline website every Monday. To test the offline website, follow the steps below:
+
+		\begin{enumerate}
+			\item Go \href{https://phet.colorado.edu/en/offline-access}{here}.
+			\item Make sure the date on which the installer was built is correct, e.g. if you're testing the simulation on a Monday, and the installer builder was built on Sunday morning, then the date should be Monday's date minus one day.
+			\item If this is not the case, then stop testing and inform the developer.
+			\item Otherwise, make sure the file sizes aren't too large or too small. As of 2018-03-23, the installer without activities is approximately 370 MB and the installer with activities is approximately 1300 MB. If these numbers are drastically different, then stop testing and inform the developer.
+		\end{enumerate}
+		
+The following should be noted:
+
+		\begin{itemize}
+			\item You should alternate between Windows and macOS on a weekly basis.
+			\item You should alternate between browsers on a weekly basis.
+			\item You should alternate between the installer without activities and the installer with activities on a weekly basis. That is, you should not test both in one week.
+			\item If you download the installer with activities, then \verb|index.html| should exist in the \verb|PhET| folder and in the \verb|en| folder.
+			\item If you download the installer without activities, then \verb|index.html| should exist in \verb|PhET| folder and not in the \verb|en| folder.
+			\item If you are testing the website while disconnected from the internet, then the offline website should not be trying to connect to the internet. (There are some exceptions to this.)
+			\item If you are testing the website while disconnected from the internet, then some buttons like the Google Classroom button might be missing from the offline website. This is normal.
+			\item You should have one offline website for every month of the year.
+			\item If you wish to be rid of an offline website, then delete it. Do not use the uninstaller.
+		\end{itemize}
+		
+		\begin{enumerate}
+			\item Download the installer builder. (This is why it's called installer testing.)
+			\item Install the offline website.
+			\item During installation, append the file name with \verb|_YYYY-MM-DD| (the \href{https://xkcd.com/1179/}{correct numeric date format}).
+			\item Open the offline website every way you can. (On a Windows device, the installer will create a desktop shortcut and an application shortcut. This does not occur on Macintosh devices.)
+			\item Make sure the update date on the offline website matches the update date on the online website.
+			\item If this is not the case, then stop testing and inform the developer.
+			\item Otherwise, disconnect from the internet and test applicable items in the below list. Then reconnect to the internet and test applicable items in the below list again.
+		\end{enumerate}
+		
+		\begin{itemize}
+			\item For all versions of the installer, make sure two HTML5 simulations open.
+			\item For all versions of the installer, make sure two translated HTML5 simulations open.
+			\item For all versions of the installer, make sure two Flash simulations open.
+			\item For all versions of the installer, make sure two Java sims open.
+			\item For all versions of the installer, make sure two translated Flash sims open.
+			\item For all versions of the installer, make sure two translated Java sims open.
+			\item For the installer without activities, make sure that activity links redirect you to the website if you are connected to the internet.
+			\item For the installer with activities, make sure two activities open.
+			\item For the installer with activities, make sure two translated activities open.
+			\item For the installer with activities, make sure one teacher tip opens.
+		\end{itemize}
+
+You might encounter issues with Java simulations. If you are having issues with a \verb|.jlnp| file and the developer asks you to check the permissions of the file, then open the file with a text editor and check the permissions. If you are having issues with a \verb|.jar| file and the developer asks you to check the permissions, then use \verb|7-Zip > Open archive > META > MANIFEST > Check permissions| to check the permissions.
+
+The following should be noted:
+
+		\begin{itemize}
+			\item You should only test one version of the installer per week.
+			\item You should alternate between downloading the installer for Windows and the installer for macOS on a weekly basis.
+			\item You should alternate between the installer without activities and the installer with activities on a weekly basis. That is, you should not test both in one week.
+			\item You should alternate your testing between browsers on a weekly basis.
+			\item If you are testing the website while disconnected from the internet, then the offline website should direct you to the internet. (There are some exceptions to this, e.g. if you click a link to an activity on an installer without activities, then you should be directed to the internet.)
+			\item If you are testing the website while disconnected from the internet, then some buttons like the Google Classroom button might be missing from the offline website. This is normal.
+			\item You should keep one offline website for every month of the year.
+			\item If you have an installation of the offline website that you don't need, then delete it. Do not use the uninstaller.
+		\end{itemize}
+
+	\subsection{Automated Testing}
+
+Open \href{https://bayes.colorado.edu/continuous-testing/aqua/html/continuous-report.html}{this} in a private\footnote{You should always use a private window when viewing automated testing results.} window. Read the description.
+
+The name of the server that hosts the website for automated testing is called Bayes. Automated testing is commonly referred to as Continuous Testing (CT). When you load the website for automated testing, Bayes is always running tests on simulations in a headless browser, i.e. a browser without a page. Bayes will pick a simulation and a test randomly. Each test gets 40 seconds from start to finish. If the simulation takes 20 seconds to load, then it will only be tested for 20 seconds. If the simulation takes 1 second to load, then it will be tested for 39 seconds. Once every simulation has undergone every test, Bayes does more tests\footnote{The test number can increase because tests aren't counted until the simulation is built.} randomly.
+
+If someone makes a commit, then Bayes detects the commit, pulls it, and takes a snapshot of the PhET codebase. This is not instantaneous. The creation of a snapshot takes approximately 15 minutes.
+
+The numbers and colors of the cells are important:
+		\begin{itemize}
+			\item Let $ n $ be a natural number in one of the cells.
+			\item If $ n = 100, $ then there are two cases:
+				\begin{itemize}
+					\item Case 1: The cell is dark green. This implies that the simulation passed all tests.
+					\item Case 2: The cell is light green. This implies that the simulation has passed all tests thus far.
+				\end{itemize}
+			\item If $ 0 < n < 100, $ then some tests have failed.
+				\begin{itemize}
+					\item If this is the case, then the cell is some shade of orange.
+				\end{itemize}
+			\item If $ n = 0, $ then all tests have failed.
+				\begin{itemize}
+					\item If this is the case, then the cell is red.
+				\end{itemize}
+		\end{itemize}
+The color of a named cell corresponds to the color of the cell that was tested most recently in that row.
+
+If a cell is outlined, then there are results to see. Click on the cell to view the results. The following run unit tests. They will always have results. If they do not have results, then you should notify a developer.
+		\begin{itemize}
+			\item Axon
+			\item All PhET-iO simulations
+			\item Balloons and Static Electricity
+			\item Circuit Construction Kit Common
+			\item Dot
+			\item Kite
+			\item PhET Core
+			\item PhET-iO
+			\item PhET Common
+			\item Query String Machine
+			\item Scenery
+			\item Tandem
+		\end{itemize}
+
+There are some common errors you should be aware of. If a simulation does not load in 40 seconds, then an error is given. If a window location changes, then an error is given. If this occurs frequently, then notify a developer. For other errors, make an issue in the appropriate repository with the type:automated-testing and type:bug labels. Lint errors can be easily fixed!
+
+If Bayes restarts, then it takes the automated testing page a long time to show anything. Similarly, if someone tells Bayes to start or stop doing something, then it takes a long time for things to show up on the automated testing page. In this case, they will show up one at a time.
+
+	\subsection{Memory Leak Testing}
+
+Memory leak testing is sometimes performed on simulations that are undergoing a development test or a release candidate test. To do a memory leak test, follow these steps:
+
+		\begin{enumerate}
+			\item Open an ``Incognito Window'' Google Chrome.
+			\item Open the development link or the RC link to find the simulation.
+			\item Once you've found and loaded the simulation, open development tools to the ``Memory'' tab.
+			\item Take a heap snapshot.
+			\item Append the URL with \verb|?fuzzMouse|.
+			\item Have a stopwatch ready for when you reload the simulation with the new query parameter, \verb|?fuzzMouse|.
+			\item Reload the simulation.
+			\item Once the simulation gets past the splash screen, start the stopwatch.
+			\item Every minute, for 10 minutes, take a heap snapshot.
+			\item While the simulation is paused and the heap snapshot is being taken, pause the stopwatch.
+			\item Once the simulation resumes, press resume on the stopwatch.
+			\item After you've taken 11 heap snapshots, start taking heap snapshots every 10 to 20 minutes.
+			\item Stop taking heap snapshots when you feel you have collected sufficient data.
+		\end{enumerate}
+
 \pagebreak
+
+% SECTION 6: TRANSLATIONS
+
+\section{Translations}
+
+One of PhET's goals is to make our simulations available to everyone in the world. It wouldn't be possible to do this without the help of volunteers who translate our simulations and the website.
+
+	\subsection{Flash \& Java Simulation Translations}
+
+We have lots of old simulations that use Adobe Flash Player or Java. People still use these translations, so they're still being translated. To translate a Flash or Java simulation, do the following\footnote{If something goes wrong at any point, the best course of action is to start over.}:
+
+		\begin{enumerate}
+			\item Log in to Gmail as phethelp@gmail.com on Hanson.
+			\item Download all \verb|.xml| (Flash) and \verb|.properties| (Java) files.
+			\item Move these files to the ``Translations'' folder. 
+			\item Open \href{https://docs.google.com/spreadsheets/d/10co5pwJI6HaJq6RD7fX2xVm3Ks1WpYfXei9scnPGKxM/edit#gid=0}{this}.
+			\item Enter relevant information into the spreadsheet.
+			\item Open the Git shortcut on Hanson.
+			\item Wait for it to load.
+			\item Click the ``Translations'' tab.
+			\item Click ``Deploy Simulation Translations.''
+			\item Enter your IdentiKey username and password.
+			\item Enter the path for the ``Translations'' folder.
+			\item Commit the files that are not updated.
+			\item Copy and paste the relevant information from the spreadsheet for each commit message.
+			\item Click ``OK.''
+			\item Wait for it to complete.
+			\item Click OK.
+			\item Copy the URL from the Git terminal and paste it into a browser.
+			\item Wait for it to load.
+			\item Test the English version and the translated version of each simulation. (Make sure the strings look normal.)
+			\item If the strings look normal, then press the publish now button.
+			\item Send an email to the translator with a link to the translation.
+			\item Delete the contents of the ``Translations'' folder.
+		\end{enumerate}
+
+	\subsection{HTML5 Simulation Translations}
+
+HTML5 simulation translations are submitted to the website by trusted translators. The new translation of the simulation is then automatically uploaded to the website.
+
+Rosetta is the program we use to translate HTML5 simulations. A trusted translator logs in to the website, does all of his or her translations in the browser, and then he or she clicks submit. Rosetta then sends these string files to Babel. Babel then builds a new simulation with the new strings.
+
+	\subsection{Website Translations}
+
+Website translations are fairly simple. For each case\footnote{These cases will likely be changed in the future. The process for translating Flash and Java simulations may be changed in the future.} below, follow the relevant instructions.
+
+\textbf{Case 1:}
+The author of an existing translation submits an updated version of that translation.	
+		\begin{enumerate}
+			\item Go \href{https://phet.colorado.edu/}{here}.
+			\item Sign in.
+			\item Click the ``Administration'' link.
+			\item Click the ``Translations'' link.
+			\item Click the ``Update'' button for the correct translation, i.e. the simulation whose number matches the number in the email.
+			\item Email the translator the following:
+		\end{enumerate}
+
+``Thank you for submitting your translation. I have updated our website.
+
+Sincerely,
+
+PhET Help''
+
+\textbf{Case 2a:}
+A translator creates a translation of a language we don't have published.
+
+If this is the case, then we have to create a new public translation.
+
+Email the translator the following:
+
+``Dear translator,
+
+I've noticed that you recently started a Divehi (dv) translation of our website and wanted to check in with you to see if you have any questions about the process.  Please let me know if you have any questions about how this works and of course please read the full instructions page prior to starting your translation:
+
+http://phet.colorado.edu/en/for-translators/website
+
+As I'm sure you've realized at this point translating the website is not a small task.  We estimate it will probably take about 50 - 100 hours to fully make a website translation.  Because of this, and because we will only provide one public translation per language, we encourage translators to collaborate on a translation for their language.  We want translators to work together to move any partial translations to one "master" translation as only one translation will go public.
+
+Thank you for your efforts to make PhET sims available worldwide.
+
+Sincerely,
+
+PhET Help''
+
+\textbf{Case 2b:}
+A translator submits a translation of a language we don't have published.
+		
+		\begin{enumerate}
+			\item Check to see how many translated strings the translation has.
+			\item If the number of translated strings is greater than 1000, then make the translation visible by toggling.
+			\item Otherwise, email the translator the following:
+		\end{enumerate}
+
+``Dear translator,
+
+I've noticed that you recently started a Gujarati (gu) translation of our website and wanted to check in with you to see if you have any questions about the process.  Please let me know if you have any questions about how this works and of course please read the full instructions page:
+
+http://phet.colorado.edu/en/for-translators/website
+
+As I'm sure you've realized at this point translating the website is not a small task.  We estimate it will probably take about 50 - 100 hours to fully make a website translation.  Because of this, and because we will only provide one public translation per language, we encourage translators to collaborate on a translation for their language.  We want translators to work together to move any partial translations to one "master" translation as only one translation will go public.
+
+Also, we typically only publish translations once they reach at least 1000 strings because before that point they aren't completely usable. You do not need to submit your translation to save your work. All changes are automatically saved to our servers.
+
+Thank you for your efforts to make PhET sims available worldwide.
+
+Sincerely,
+
+PhET Help''
+
+\textbf{Case 3:}
+A translator creates a new English (en) translation.
+		
+		\begin{enumerate}
+			\item Delete the translation.
+			\item Email the translator the following:
+		\end{enumerate}
+
+``Dear translator,
+
+I noticed that you recently started an English (en) translation of our website. Since our website is written in English, we will delete this translation. If you meant to create a translation in another language, please see http://phet.colorado.edu/en/for-translators/website for instructions.
+
+Sincerely,
+
+PhET Help''
+
+\textbf{Case 4:}
+A translator creates a copy of an existing translation that is being worked on.
+
+Email the translator the following:
+
+``Dear Translator,
+
+I've noticed that you recently started an Arabic (ar) translation of our website and wanted to check in with you to see if you have any questions about the process.  Please let me know if you have any questions about how this works and of course please read the full instructions page prior to starting your translation:
+
+http://phet.colorado.edu/en/for-translators/website
+
+As I'm sure you've realized at this point translating the website is not a small task.  We estimate it will probably take about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one public translation per language, we encourage translators to collaborate on a translation for their language.  We want translators to work together to move any partial translations to one "master" translation as only one translation will go public.
+
+Since there are already multiple Arabic (ar) translations being worked on, I would encourage you to send a request to collaborate on the translation by clicking "request to collaborate". This will allow you to send an email to the translators with your email address, so they can contact you about collaboration.
+
+Thank you for your efforts to make PhET sims available worldwide.
+
+Sincerely,
+PhET Help''
+
+\textbf{Case 5:}
+A translator submits a translation of a language we don't have.
+
+		\begin{enumerate}
+			\item Check to see how many translated strings the translation has.
+			\item If the number of translated strings is greater than 1000, then email the developer and ask them to publish the translation.
+			\item Otherwise, email the translator the following:
+		\end{enumerate}
+
+``Dear translator,
+
+I see that your translation currently has 636 strings translated. We typically only publish translations once they reach at least 1000 strings because before that point they aren't completely usable.
+
+There is no need to submit your translation to save your progress. Your translation work is automatically saved when any changes are made.
+
+Do you feel that your translation is complete enough to be published to the PhET website?
+
+Sincerely,
+
+PhET Help''
+
+\pagebreak
+
+% SECTION 6: MAINTENENCE & MANAGEMENT
+
+\section{Maintenance \& Management}
+
+As the QA team lead, you will often need to maintain and manage various things related to testing.
+
+	\subsection{Testing Matrix Management}\label{subsec:matrix}
+
+Every time we do a release candidate test, you have to make a testing matrix. To do so, follow these steps:
+
+		\begin{enumerate}
+			\item If the simulation hasn't undergone an RC test, then you'll need to create a new testing matrix. You can do so \href{https://drive.google.com/drive/folders/0B6CMwxdP0NGYbW9fTGNCODdYVjQ}{here}. Make a copy of the correct testing matrix.
+			\item Create a new tab in the existing spreadsheet for the simulation for the RC test.
+			\item Copy and paste URLs into the testing matrix.
+			\item Do the ``Yes'' or ``No'' for Legends of Learning, Keyboard Navigation. and Screen Reader.
+			\item Edit the URLs in the GitHub issue.
+		\end{enumerate}
+
+	\subsection{PhET Test Maintenance}
+
+\href{http://phettest.colorado.edu/}{PhET Test} is a computer with files on it. As of 2018-05-10, the computer is Turing\footnote{Turing is connected to the internet via an ethernet cable. You must be connected to the internet via UCB Wireless or via a virtual private network (VPN).}\footnote{The sticky note on Turing has its internet protocol (IP) address and its media access control (MAC) address.}, a MacBook Pro. PhET Test is used to check master. (Master is the main branch of the software development tree.) PhET Test has caching issues, so always use a private window when accessing PhET Test. If you see something like "failed to pull," then look through Turing's terminal to see if you can find the culprit. Every time a new repository is made, press the ``Refresh Perennial'' button. (Perennial is the list of simulations.) PhETMarks is another website that contains everything in master. Press the "Pull All" button every 5 hours.
+
+Here is a list of helpful commands:
+
+		\begin{itemize}
+			\item \verb|$ pm2 stop index-server.js|
+			\item \verb|$ pm2 start index-server.js|
+			\item \verb|$ pm2 logs|
+		\end{itemize}
+
+	\subsection{Website Administration}\label{subsec:wa}
+	
+First and foremost, do not delete English versions of simulations! There are three servers:
+
+		\begin{enumerate}
+			\item \href{ox-dev.colorado.edu}{Ox-Dev}: This is the development server. It's kind of like a playground. You can do whatever you want to the website on this server.
+			
+				\begin{itemize}
+					\item Ox-Dev has to be manually synced with the website. (This is not something that you will have to do.)
+					\item Because Ox-Dev has to be manually synced with the website, it might be missing certain things.
+					\item Accounts created on Ox-Dev are deleted when Ox-Dev gets synced with the website, so make as many accounts as you'd like.
+				\end{itemize}
+			
+			\item \href{bayes.colorado.edu}{Bayes}: This server has multiple functions. It is the disaster recovery server and it does Continuous Testing, among other things.
+
+			\item \href{phet.colorado.edu}{Figaro}: This server is also known as phet-server. This is the server on which \href{phet.colorado.edu}{www.phet.colorado.edu} runs.
+			
+		\end{enumerate}
+
+To get to the administrative page of the website, sign in and click the ``Administration'' link.
+
+		\begin{itemize}
+			\item ``Help Center'' is where helpful information that we post on the website is added, removed, or edited.
+			\item ``Edit Content Page'' is where English strings for the website and the simulations can be edited.
+			\item ``Team Page'' is where team members and their descriptions can be added, removed, or edited.
+			\item ``Asks Data Page'' is to be ignored.
+			\item ``Simulations'' is where flavors, projects, and simulations are listed. Do not click the remove link! Once a simulation is published, ask the relevant designer(s) to fill in the flavor information for that simulation. Each flavor has a checkbox for visibility. Do not check this checkbox without permission from the relevant designer(s).
+			\item ``Projects'' is the same thing as the list of projects in ``Simulations.''
+			\item ``Categories'' is to be ignored.
+			\item ``Activities'' is a comprehensive list of activities. It also contains activities that are pending approval.
+				\begin{itemize}
+					\item To test ``Activities,'' make all sorts of different files to submit, and submit them. If you aren't logged in as a team member or if you aren't an administrator, then you shouldn't be able to see the activities you've submitted. Make sure this is the case. Make sure you can download and use all activities.
+					\item If you are testing ``Activities'' and you are logged in as a team member, then you should see the red box. If you are testing ``Activities'' and you are not logged in, you should not see the red box.
+				\end{itemize}
+			\item ``Notifications'' is a list of notifications for updated activities.
+			\item ``Users'' is where user accounts can be added, removed, or edited.
+			\item ``Metadata'' is to be ignored.
+			\item ``Translations'' is for translations.
+			\item ``FAQs'' is to be ignored.
+			\item ``Strings'' is to be ignored.
+			\item ``Caches and Search Index'' is to be ignored.
+			\item ``Statistics'' is where we record useful statistics.
+			\item ``Documentation and Help'' is to be ignored.
+			\item ``Schools'' is where our list of schools maintained.
+			\item ``Organizations'' is where our list of organizations is maintained.
+		\end{itemize}
+
+	\subsection{Assets Screenshots}
+
+When we are getting ready to publish a simulation to the website, we need to take screenshots of the simulation for the website. We have a bizarre process for taking screenshots.
+
+		\begin{enumerate}
+			\item You have to take these screenshots on an iOS 9 device.
+			\item You need to have at least 2 tabs open.
+			\item Typically, we don't take more than 3 screenshots. (Get some variety. Don't show correct answers.)
+			\item Email or AirDrop and on in Preview.
+			\item Crop to 2048x1342.
+			\item Tools > Adjust Size > Scale proportionally checkbox unchecked.
+			\item Resize to 2048x1344.
+			\item Rename each image to simulation-name-screenshot.png.
+			\item Go to the simulation repository, assets.
+			\item Upload screenshots.
+		\end{enumerate}
 
 \end{document}
