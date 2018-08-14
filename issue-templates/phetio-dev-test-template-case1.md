@@ -18,16 +18,22 @@
 **[Link to Simulation](https://bayes.colorado.edu/dev/html/{{simulation}}/{{version}}/wrappers/index/)**
 
 
-**Please Verify the Following:** [Obviously, feel free to change this checklist to suit your needs.]
+**Please Verify the Following:** [Change this checklist to suit your needs.]
 - [ ] The standalone simulation is working properly.
 - [ ] The index is working properly.
 - [ ] Each wrapper is working properly.
 
 
-**Issues to Verify:** [Obviously, feel free to change this checklist to suit your needs.]
+**Issues to Verify:** [Change this checklist to suit your needs.]
 - [ ] [Issue1](github.com/phetsims/relevantRepository/issue/#/)
 - [ ] [Issue2](github.com/phetsims/relevantRepository/issue/#/)
 - [ ] [Issue3](github.com/phetsims/relevantRepository/issue/#/)
+
+
+**Platforms to Test:** [Change this checklist to suit your needs.]
+- [ ] [Platform 1]
+- [ ] [Platform 2]
+- [ ] [Platform 3]
 
 
 [Please include additional information here.]
