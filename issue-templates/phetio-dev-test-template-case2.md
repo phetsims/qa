@@ -18,7 +18,7 @@
 **[Link to Simulation](https://bayes.colorado.edu/dev/html/{{simulation}}/{{version}}/wrappers/index/)**
 
 
-**[Link to Testing Matrix](addLinkToTestingMatrixHere)** [Omit the testing matrix if you fell it's unnecessary.]
+**[Link to Testing Matrix](addLinkToTestingMatrixHere)** [Omit the testing matrix if you feel it's unnecessary.]
 
 
 **Please Verify the Following:** [Change this checklist to suit your needs.]
