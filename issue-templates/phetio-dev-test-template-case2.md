@@ -18,7 +18,7 @@
 **[Link to Simulation](https://bayes.colorado.edu/dev/html/{{simulation}}/{{version}}/wrappers/index/)**
 
 
-**[Link to Testing Matrix](addLinkToTestingMatrixHere)** [Let QA know if you need a testing matrix. If so, what do you need tested?]
+**[Link to Testing Matrix](addLinkToTestingMatrixHere)** [Let QA know if you need a testing matrix. What platforms need to be tested?]
 
 
 **Please Verify the Following:** [Change this checklist to suit your needs.]
