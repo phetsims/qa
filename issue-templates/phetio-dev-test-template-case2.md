@@ -15,7 +15,7 @@
 - For any issues you make phetsims/relevantRepository/issues, please reference this issue.
 
 
-**[Link to Simulation](https://bayes.colorado.edu/dev/html/{{simulation}}/{{version}}/wrappers/index/)**
+**[Link to Wrappers Index](https://bayes.colorado.edu/dev/html/{{simulation}}/{{version}}/wrappers/index/)**
 
 
 **[Link to Testing Matrix](addLinkToTestingMatrixHere)** [Let QA know if you need a testing matrix. What platforms need to be tested?]
