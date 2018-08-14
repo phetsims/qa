@@ -31,9 +31,9 @@
 
 
 **Platforms to Test:** [Change this checklist to suit your needs.]
-- [ ] [Platform 1]
-- [ ] [Platform 2]
-- [ ] [Platform 3]
+- [ ] [Platform1]
+- [ ] [Platform2]
+- [ ] [Platform3]
 
 
 [Please include additional information here.]
