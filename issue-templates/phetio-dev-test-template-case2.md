@@ -2,13 +2,13 @@
 
 [EVERYTHING IN ANGLE BRACKETS NEEDS TO BE CHANGED!]
 
-[CASE 2: This simulation will _not_ undergo further testing prior to being delivered.]
+[CASE 2: This simulation will _not_ undergo further testing prior to being shared with one of our close clients for development purposes.]
 
 <@relevantDesigner1>, <@relevantDesigner2>, <Simulation Name> <#.#.#-dev.#> is ready for dev testing.
 
 
 **Please Note:**
-- This simulation will _not_ undergo further testing prior to being delivered to the client.
+- This simulation will _not_ undergo further testing prior to being shared with one of our close clients for development purposes.
 - The client requested this simulation for <reason(s), e.g. general release, study, etc.>.
 - The deadline for delivery is < YYYY-MM-DD >.
 - Create issues phetsims/relevantRepository/issues.
