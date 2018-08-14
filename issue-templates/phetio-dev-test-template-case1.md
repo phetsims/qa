@@ -15,7 +15,7 @@
 - For any issues you make in phetsims/relevantRepository/issues, please reference this issue.
 
 
-**[Link to Simulation](https://bayes.colorado.edu/dev/html/{{simulation}}/{{version}}/wrappers/index/)**
+**[Link to Wrappers Index](https://bayes.colorado.edu/dev/html/{{simulation}}/{{version}}/wrappers/index/)**
 
 
 **Please Verify the Following:** [Change this checklist to suit your needs.]
