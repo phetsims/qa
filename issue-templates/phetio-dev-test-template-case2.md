@@ -48,4 +48,4 @@
 [Please include additional information here.]
 
 
-Assinging @ariel-phet for prioritization.
+Assigning @ariel-phet for prioritization.
