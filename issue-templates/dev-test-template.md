@@ -96,14 +96,14 @@ Here are the instructions for this PhET-iO dev test...
 
 <details>
 <summary><i>3.1: How to do a11y Dev Testing</i></summary>
-Here's how to dev...
+Here's how to dev test a11y features...
 </details>
 
 <br>
 
 <details>
 <summary><i>3.2: Instructions for This a11y Dev Test</i></summary>
-Here's how to dev test a11y features...
+Here are the instructions for this a11y dev test...
 </details>
 
 <br>
