@@ -28,6 +28,7 @@ Notes and Instructions for Developers:
   <summary><i>0.1: How to Make an Issue</i></summary>
   Here's a template for making issues:
     ```
+
       <b>Test Device</b>
 
       blah
@@ -58,6 +59,7 @@ Notes and Instructions for Developers:
       blah
 
       </details>
+
     ```
   </details>
 
