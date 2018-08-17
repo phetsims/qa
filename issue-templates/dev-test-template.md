@@ -22,8 +22,10 @@ Notes and Instructions for Developers:
   <!--- Subsection 0.1: There are multiple tests in this issue... What should I test first? [DO NOT EDIT] -->
 
   <details>
-  <summary><i>There are multiple tests in this issue... Which test should I do first?</i></summary>
+  <summary><i>There are multiple tests in this issue... Which test should I do first?</i></summary> 
+  
   Test in order! Test the first thing first, the second thing second, and so on.
+
   </details>
 
   <br>
@@ -32,6 +34,7 @@ Notes and Instructions for Developers:
 
   <details>
   <summary><i>How should I format my issue?</i></summary>
+  
   Here's a template for making issues:
 
       <b>Test Device</b>
@@ -73,7 +76,27 @@ Notes and Instructions for Developers:
 
   <details>
   <summary><i>Who should I assign?</i></summary>
+  
   We typically assign the developer who opened the issue in the QA repository.
+
+  </details>
+  
+  <br>
+
+  <!--- Subsection 0.4: My question isn't in here... What should I do? [DO NOT EDIT] -->
+
+  <details>
+  <summary><i>My question isn't in here... What should I do?</i></summary>
+  
+  You should:
+
+  1. Consult the [QA Book](link).
+  2. Google it.
+  3. Ask Katie.
+  4. Ask a developer.
+  5. Google it again.
+  6. Cry.
+
   </details>
 
 <br>
@@ -93,7 +116,9 @@ Notes and Instructions for Developers:
 
   <details>
   <summary><i>How to Dev Test</i></summary>
+  
   Here's how to dev test...
+
   </details>
 
   <br>
@@ -102,7 +127,9 @@ Notes and Instructions for Developers:
 
   <details>
   <summary><i>Instructions for This Dev Test</i></summary>
+  
   Here are the instructions for this dev test...
+
   </details>
 
 <br>
@@ -122,7 +149,9 @@ Notes and Instructions for Developers:
 
   <details>
   <summary><i>How to Dev Test a PhET-iO Sim</i></summary>
+  
   Here's how to dev test a PhET-iO sim...
+
   </details>
 
   <br>
@@ -131,7 +160,9 @@ Notes and Instructions for Developers:
 
   <details>
   <summary><i>Instructions for This PhET-iO Dev Test</i></summary>
+  
   Here are the instructions for this PhET-iO dev test...
+
   </details>
 
 <br>
@@ -151,7 +182,9 @@ Notes and Instructions for Developers:
 
   <details>
   <summary><i>How to Do a11y Dev Testing</i></summary>
+  
   Here's how to dev test a11y features...
+
   </details>
 
   <br>
@@ -160,7 +193,9 @@ Notes and Instructions for Developers:
 
   <details>
   <summary><i>Instructions for This a11y Dev Test</i></summary>
+  
   Here are the instructions for this a11y dev test...
+
   </details>
 
 <br>
@@ -180,11 +215,13 @@ Notes and Instructions for Developers:
 
   <details>
   <summary><i>Issues to Verify</i></summary>
+  
   Please verify that these issues are fixed:
   
   - [ ] [Issue1](link)
   - [ ] [Issue2](link)
   - [ ] [Issue3](link)
+
   </details>
   
   <br>
@@ -193,7 +230,9 @@ Notes and Instructions for Developers:
 
   <details>
   <summary><i>Query Parameters</i></summary>
+  
   Here's are some useful query parameters...
+
   </details>
 
 <br>
