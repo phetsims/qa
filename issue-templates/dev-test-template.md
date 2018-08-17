@@ -135,12 +135,6 @@ Assigning @ariel-phet for prioritization.
 
 [Provide further instructions here. If you have any further tests you want done or specific platforms you want tested, list them here. Any behaviors you want QA to pay special attention to should be listed here.]
 
-<!--- [DO NOT OMIT, CAN BE EDITED] -->
-<h3>Link(s)</h3>
-
-- **[Simulation](link)**
-- **[XHTML](link)**
-
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Issues to Verify</h3>
 
@@ -149,6 +143,12 @@ Assigning @ariel-phet for prioritization.
 - [ ] [Issue3](link)
 
 These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed.
+
+<!--- [DO NOT OMIT, CAN BE EDITED] -->
+<h3>Link(s)</h3>
+
+- **[Simulation](link)**
+- **[XHTML](link)**
 
 <hr>
 
@@ -175,6 +175,15 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 
 [Provide further instructions here. If you have any further tests you want done or specific platforms you want tested, list them here. Any behaviors you want QA to pay special attention to should be listed here.]
 
+<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
+<h3>Issues to Verify</h3>
+
+- [ ] [Issue1](link)
+- [ ] [Issue2](link)
+- [ ] [Issue3](link)
+
+These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed.
+
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
 
@@ -189,15 +198,6 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 - [ ] [Wrapper1](link)
 - [ ] [Wrapper2](link)
 - [ ] [Wrapper3](link)
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Issues to Verify</h3>
-
-- [ ] [Issue1](link)
-- [ ] [Issue2](link)
-- [ ] [Issue3](link)
-
-These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed.
 
 <hr>
 
@@ -217,16 +217,25 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 - Specific instructions can be found below.
 - Make sure the a11y feature doesn't negatively affect the sim in any way.
 
+<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
+<h3>Focus and Special Instructions</h3>
+
+[Provide further instructions here. If you have any further tests you want done or specific platforms you want tested, list them here. Any behaviors you want QA to pay special attention to should be listed here.]
+
+<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
+<h3>Issues to Verify</h3>
+
+- [ ] [Issue1](link)
+- [ ] [Issue2](link)
+- [ ] [Issue3](link)
+
+These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed.
+
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
 
 - **[a11y View](link)**
 - **[Simulation](link)**
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Focus and Special Instructions</h3>
-
-[Provide further instructions here. If you have any further tests you want done or specific platforms you want tested, list them here. Any behaviors you want QA to pay special attention to should be listed here.]
 
 <!--- [CAN BE OMITTED, DO NOT EDIT] -->
 <h3>Screen Readers</h3>
@@ -249,15 +258,6 @@ We are tracking known screen reader bugs in [this Google Document](https://docs.
 <h3>Keyboard Navigation</h3>
 
 This sim supports keyboard navigation. Please make sure it works as intended on all platforms by itself and with a screen reader.
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Issues to Verify</h3>
-
-- [ ] [Issue1](link)
-- [ ] [Issue2](link)
-- [ ] [Issue3](link)
-
-These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed.
 
 <hr>
 
