@@ -5,21 +5,28 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Notes and Instructions for Developers:
-  1. HTML comments deliniate each section and subsection of the template.
-  2. Please check the HTML comment of a section or subsection before trying to edit or omit something.
-  3. If a section's HTML comment indicates that it can be omitted, then any of the section's subsections can be omitted.
-  4. Please don't rearrange the sections.
+  1. Comments indicate whether something can be omitted or edited. 
+  2. Please check the comments before trying to omit or edit something.
+  3. Please don't rearrange the sections.
 
 -->
 
-<!--- Section 0: Instructions for QA Members [DO NOT OMIT] -->
+@relevantPerson1, @relevantPerson2, simulation-name/#.#.#-dev.# is ready for dev testing. [List deadlines and whether this will be shared with a client.] Document issues in https://github.com/phetsims/{{REPO}}/issues and link to this issue.
+
+Assigning @ariel-phet for prioritization.
+
+<!---
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////// Section 0: Instructions for QA Members [DO NOT OMIT, DO NOT EDIT]
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
 
 <details>
 <summary><b>FAQs for QA Members</b></summary>
 
 <br>
   
-  <!--- Subsection 0.1: There are multiple tests in this issue... What should I test first? [DO NOT EDIT] -->
+  <!--- Subsection 0.1: There are multiple tests in this issue... What should I test first? [DO NOT OMIT, DO NOT EDIT] -->
 
   <details>
   <summary><i>There are multiple tests in this issue... Which test should I do first?</i></summary> 
@@ -30,7 +37,7 @@ Notes and Instructions for Developers:
 
   <br>
 
-  <!--- Subsection 0.2: How should I format my issue? [DO NOT EDIT] -->
+  <!--- Subsection 0.2: How should I format my issue? [DO NOT OMIT, DO NOT EDIT] -->
 
   <details>
   <summary><i>How should I format my issue?</i></summary>
@@ -72,7 +79,7 @@ Notes and Instructions for Developers:
 
   <br>
 
-  <!--- Subsection 0.3: Who should I assign? [DO NOT EDIT] -->
+  <!--- Subsection 0.3: Who should I assign? [DO NOT OMIT, DO NOT EDIT] -->
 
   <details>
   <summary><i>Who should I assign?</i></summary>
@@ -83,7 +90,7 @@ Notes and Instructions for Developers:
   
   <br>
 
-  <!--- Subsection 0.4: My question isn't in here... What should I do? [DO NOT EDIT] -->
+  <!--- Subsection 0.4: My question isn't in here... What should I do? [DO NOT OMIT, DO NOT EDIT] -->
 
   <details>
   <summary><i>My question isn't in here... What should I do?</i></summary>
@@ -105,137 +112,152 @@ Notes and Instructions for Developers:
 
 </details>
 
-<!--- Section 1: General Dev Testing [CAN BE OMITTED] -->
+<!---
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////// Section 1: General Dev Testing [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED]
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
 
 <details>
 <summary><b>General Dev Test</b></summary>
 
-<br>
+<!--- [DO NOT OMIT, CAN BE EDITED] -->
+<h3>What to Test</h3>
 
-  <!--- Subsection 1.1: How to Dev Test [DO NOT EDIT] -->
+- Click every single button.
+- If there is sound, make sure it works.
+- Make sure you can't lose anything.
+- Play with the sim normally.
+- Try to break the sim.
 
-  <details>
-  <summary><i>How to Dev Test</i></summary>
-  
-  Here's how to dev test...
+<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
+<h3>Focus and Special Instructions</h3>
 
-  </details>
+[Provide further instructions here. If you have any further tests you want done or specific platforms you want tested, list them here. Any behaviors you want QA to pay special attention to should be listed here.]
 
-  <br>
+<!--- [DO NOT OMIT, CAN BE EDITED] -->
+<h3>Link(s)</h3>
 
-  <!--- Subsection 1.2: Instructions for This Dev Test [EDIT] -->
+- **[Simulation](link)**
+- **[XHTML](link)**
 
-  <details>
-  <summary><i>Instructions for This Dev Test</i></summary>
-  
-  Here are the instructions for this dev test...
+<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
+<h3>Issues to Verify</h3>
 
-  </details>
+- [ ] [Issue1](link)
+- [ ] [Issue2](link)
+- [ ] [Issue3](link)
 
-<br>
+These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post comment in the issue saying that it wasn't fixed for this dev test.
 
 <hr>
 
 </details>
 
-<!--- Section 2: PhET-iO Dev Test [CAN BE OMITTED] -->
+<!---
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////// Section 2: PhET-iO Dev Test [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED]
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
 
 <details>
 <summary><b>PhET-iO Dev Test</b></summary>
 
-<br>
-  
-  <!--- Subsection 2.1: How to Dev Test a PhET-iO Sim [DO NOT EDIT] -->
+<!--- [DO NOT OMIT, CAN BE EDITED] -->
+<h3>What to Test</h3>
 
-  <details>
-  <summary><i>How to Dev Test a PhET-iO Sim</i></summary>
-  
-  Here's how to dev test a PhET-iO sim...
+- Make sure standalone simulation is working properly.
+- Make sure the wrapper index is working properly.
+- Make sure each wrapper is working properly.
 
-  </details>
+<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
+<h3>Focus and Special Instructions</h3>
 
-  <br>
+[Provide further instructions here. If you have any further tests you want done or specific platforms you want tested, list them here. Any behaviors you want QA to pay special attention to should be listed here.]
 
-  <!--- Subsection 2.2: Instructions for This PhET-iO Dev Test [EDIT] -->
+<!--- [DO NOT OMIT, CAN BE EDITED] -->
+<h3>Link(s)</h3>
 
-  <details>
-  <summary><i>Instructions for This PhET-iO Dev Test</i></summary>
-  
-  Here are the instructions for this PhET-iO dev test...
+- **[Standalone Simulation](link)**
+- **[Wrapper Index](link)**
 
-  </details>
+<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->]
+<h3>Wrappers</h3>
 
-<br>
+[Specify which wrappers you want tested.]
+
+- [ ] [Wrapper1](link)
+- [ ] [Wrapper2](link)
+- [ ] [Wrapper3](link)
+
+<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
+<h3>Issues to Verify</h3>
+
+- [ ] [Issue1](link)
+- [ ] [Issue2](link)
+- [ ] [Issue3](link)
+
+These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post comment in the issue saying that it wasn't fixed for this dev test.
 
 <hr>
 
 </details>
 
-<!--- Section 3: For Accessibility (a11y) Dev Test [CAN BE OMITTED] -->
+<!---
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////// Section 3: For Accessibility (a11y) Dev Test [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED]
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
 
 <details>
 <summary><b>Accessibility (a11y) Dev Test</b></summary>
 
-<br>
-  
-  <!--- Subsection 3.1: How to Do a11y Dev Testing [DO NOT EDIT] -->
+<h3>What to Test</h3>
 
-  <details>
-  <summary><i>How to Do a11y Dev Testing</i></summary>
-  
-  Here's how to dev test a11y features...
+- Specific instructions can be found below.
+- Make sure the a11y feature doesn't negatively affect the sim in any way.
 
-  </details>
+<!--- [DO NOT OMIT, CAN BE EDITED] -->
+<h3>Link(s)</h3>
 
-  <br>
+- **[a11y View](link)**
+- **[Simulation](link)**
 
-  <!--- Subsection 3.2: Instructions for This a11y Dev Test [EDIT] -->
+<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
+<h3>Focus and Special Instructions</h3>
 
-  <details>
-  <summary><i>Instructions for This a11y Dev Test</i></summary>
-  
-  Here are the instructions for this a11y dev test...
+[Provide further instructions here. If you have any further tests you want done or specific platforms you want tested, list them here. Any behaviors you want QA to pay special attention to should be listed here.]
 
-  </details>
+<!--- [CAN BE OMITTED, DO NOT EDIT] -->
+<h3>Screen Readers</h3>
 
-<br>
+This sim supports screen readers. The Parallel Document Object Model (PDOM) (what the screen reader reads) can be found in the a11y View.
 
-<hr>
+<!--- [CAN BE OMITTED, CAN BE EDITED] -->
+<h3>Platforms and Screen Readers to Be Tested</h3>
 
-</details>
+- [ ] Windows 10 + Latest Firefox + Latest JAWS
+- [ ] Windows 10 + Latest Firefox + Latest NVDA
+- [ ] macOS + Safari + VoiceOver
 
-<!--- Section 4: Additional Information and/or Special Instructions [CAN BE OMITTED] -->
+<!--- [CAN BE OMITTED, CAN BE EDITED] -->
+<h3>Critical Screen Reader Information</h3>
 
-<details>
-<summary><b>Additional Information and/or Special Instructions</b></summary>
+We are tracking known screen reader bugs in [this Google Document](https://docs.google.com/document/d/1518zv6F0odExFsodShZxwTmWNQk3civuNwtQUR-rEBs/). If you find a screen reader bug, please check it against this list.
 
-<br>
-  
-  <!--- Subsection 4.1: Issues to Verify [EDIT] -->
+<!--- [CAN BE OMITTED, CAN BE EDITED] -->
+<h3>Keyboard Navigation</h3>
 
-  <details>
-  <summary><i>Issues to Verify</i></summary>
-  
-  Please verify that these issues are fixed:
-  
-  - [ ] [Issue1](link)
-  - [ ] [Issue2](link)
-  - [ ] [Issue3](link)
+This sim supports keyboard navigation. Please make sure it works as intended on all platforms by itself and with a screen reader.
 
-  </details>
-  
-  <br>
-  
-  <!--- Subsection 4.2: Query Parameters [EDIT] -->
+<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
+<h3>Issues to Verify</h3>
 
-  <details>
-  <summary><i>Query Parameters</i></summary>
-  
-  Here's are some useful query parameters...
+- [ ] [Issue1](link)
+- [ ] [Issue2](link)
+- [ ] [Issue3](link)
 
-  </details>
-
-<br>
+These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post comment in the issue saying that it wasn't fixed for this dev test.
 
 <hr>
 
