@@ -148,7 +148,7 @@ Assigning @ariel-phet for prioritization.
 - [ ] [Issue2](link)
 - [ ] [Issue3](link)
 
-These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post comment in the issue saying that it wasn't fixed for this dev test.
+These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed.
 
 <hr>
 
@@ -181,7 +181,7 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 - **[Standalone Simulation](link)**
 - **[Wrapper Index](link)**
 
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->]
+<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Wrappers</h3>
 
 [Specify which wrappers you want tested.]
@@ -197,7 +197,7 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 - [ ] [Issue2](link)
 - [ ] [Issue3](link)
 
-These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post comment in the issue saying that it wasn't fixed for this dev test.
+These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed.
 
 <hr>
 
@@ -231,7 +231,7 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 <!--- [CAN BE OMITTED, DO NOT EDIT] -->
 <h3>Screen Readers</h3>
 
-This sim supports screen readers. The Parallel Document Object Model (PDOM) (what the screen reader reads) can be found in the a11y View.
+This sim supports screen readers. Look over the a11y view before opening the simulation. Once you've done that, open the simulation and make sure alerts and descriptions work as intended.
 
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Platforms and Screen Readers to Be Tested</h3>
@@ -257,7 +257,7 @@ This sim supports keyboard navigation. Please make sure it works as intended on 
 - [ ] [Issue2](link)
 - [ ] [Issue3](link)
 
-These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post comment in the issue saying that it wasn't fixed for this dev test.
+These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed.
 
 <hr>
 
