@@ -169,6 +169,8 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 - Make sure standalone simulation is working properly.
 - Make sure the wrapper index is working properly.
 - Make sure each wrapper is working properly.
+- Download the example/template to a new html file then open it. Make sure the simulation starts without crashing or console errors.
+- Make sure that public files do not have password protection and that private files do have password protection. Use a private browser for this.
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
