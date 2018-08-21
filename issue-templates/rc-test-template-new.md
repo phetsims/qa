@@ -129,7 +129,7 @@ Assigning @ariel-phet for prioritization.
 - Make sure you can't lose anything.
 - Play with the sim normally.
 - Try to break the sim.
-- Test all query parameters on all platforms. (See QA book for a list of query parameters.)
+- Test all query parameters on all platforms. (See [QA Book](link) for a list of query parameters.)
 - Download HTML on Chrome and iOS.
 - Make sure the iFrame version of the simulation is working as intended on all platforms.
 - Make sure the XHTML version of the simulation is working as intended on all platforms.
