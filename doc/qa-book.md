@@ -8,9 +8,11 @@
 
 <h1>QA Book</h1>
 
-This is the QA Book. Only readers with the most eclectic of tastes will appreciate the writing herein. Blah, blah, blah.
+This is the QA Book. (QA stands for quality assurance.) If you're reading this, you're probably our new QA tester. If so, welcome! If you're not a PhET employee, 1) thank you for reading this, 2) please let us know how you managed to find this obscure corner of GitHub, and 3) feel free to read on and learn how we test our simulations. Just about everything you need to know to test PhET simulations is in this book.
 
 [Insert cover comic here.]
+
+Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their [humorous comic](https://www.monkeyuser.com/2018/the-struggle/) that Megan "PhETified."
 
 <hr>
 
@@ -54,6 +56,7 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
   - [6.1: Testing Matrix Management](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#61-testing-matrix-management)
   - [6.2: PhET Test Maintenance](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#62-phet-test-maintenance)
   - [6.3: Website Administration](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#63-website-administration)
+  - [6.4: QA Book Maintenance](link)
 
 <hr>
 
@@ -146,5 +149,6 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 <h3>6.1: Testing Matrix Management</h3>
 <h3>6.2: PhET Test Maintenance</h3>
 <h3>6.3: Website Administration</h3>
+<h3>6.4: QA Book Maintenance</h3>
 
 <hr>
