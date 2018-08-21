@@ -112,14 +112,14 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 
 <h2>Section 4: Testing</h2>
 
-<h3>4.2: Development (Dev) Testing</h3>
-<h3>4.3: Release Candidate (RC) Testing</h3> <!--- Add screenshots. -->
-<h3>4.4: PhET-iO Testing</h3>
-<h3>4.5: Accessibility (a11y) Testing</h3>
-<h3>4.6: Online Website Testing</h3>
-<h3>4.7: Offline Website (Installer) Testing</h3>
-<h3>4.8: Automated (Continuous) Testing</h3>
-<h3>4.9: Memory Leak Testing</h3>
+<h3>4.1: Development (Dev) Testing</h3>
+<h3>4.2: Release Candidate (RC) Testing</h3> <!--- Add screenshots. -->
+<h3>4.3: PhET-iO Testing</h3>
+<h3>4.4: Accessibility (a11y) Testing</h3>
+<h3>4.5: Online Website Testing</h3>
+<h3>4.6: Offline Website (Installer) Testing</h3>
+<h3>4.7: Automated (Continuous) Testing</h3>
+<h3>4.8: Memory Leak Testing</h3>
 
 <hr>
 
