@@ -36,25 +36,24 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
   - [3.3: Terminology](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#33-terminology)
 
 **[Section 4: Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-4-testing)**
-  - [4.1: Development (Dev) Testing](link)
-  - [4.2: Release Candidate (RC) Testing](link)
-  - [4.3: PhET-iO Testing](link)
-  - [4.4: Accessibility (a11y) Testing](link)
-  - [4.5: Online Website Testing](link)
-  - [4.6: Offline Website (Installer) Testing](link)
-  - [4.7: Automated (Continuous) Testing](link)
-  - [4.8: Memory Leak Testing](link)
+  - [4.1: Development (Dev) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#41-development-dev-testing)
+  - [4.2: Release Candidate (RC) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#42-release-candidate-rc-testing)
+  - [4.3: PhET-iO Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#43-phet-io-testing)
+  - [4.4: Accessibility (a11y) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#44-accessibility-a11y-testing)
+  - [4.5: Online Website Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#45-online-website-testing)
+  - [4.6: Offline Website (Installer) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#46-offline-website-installer-testing)
+  - [4.7: Automated (Continuous) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#47-automated-continuous-testing)
+  - [4.8: Memory Leak Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#48-memory-leak-testing)
 
 **[Section 5: Translations](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-5-translations)**
-  - [5.1: Legacy Simulation Translations](link)
-  - [5.2: HTML5 Simulation Translations](link)
-  - [5.3: Website Translations](link)
+  - [5.1: Legacy Simulation Translations](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#51-legacy-simulation-translations)
+  - [5.2: HTML5 Simulation Translations](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#52-html5-simulation-translations)
+  - [5.3: Website Translations](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#53-website-translations)
 
 **[Section 6: Maintenance & Management](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-6-maintenance--management)**
-  - [6.1: Testing Matrix Management](link)
-  - [6.2: PhET Test Maintenance](link)
-  - [6.3: Website Administration](link)
-  - [6.4: Assests Screenshots](link)
+  - [6.1: Testing Matrix Management](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#61-testing-matrix-management)
+  - [6.2: PhET Test Maintenance](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#62-phet-test-maintenance)
+  - [6.3: Website Administration](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#63-website-administration)
 
 <hr>
 
@@ -65,7 +64,6 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 -->
 
 <h2>Section 1: Hardware & Software</h2>
-
 <h3>1.1: Devices</h3>
 <h3>1.2: Operating Systems</h3>
 <h3>1.3: Web Browsers</h3>
