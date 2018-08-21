@@ -17,22 +17,22 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 <h2>Contents</h2>
 
 **[Section 1: Hardware & Software](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-1-hardware--software)**
-  - [1.1: Devices](link)
-  - [1.2: Operating Systems](link)
-  - [1.3: Web Browsers](link)
-  - [1.4: Updates](link)
+  - [1.1: Devices](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#11-devices)
+  - [1.2: Operating Systems](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#12-operating-systems)
+  - [1.3: Web Browsers](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#13-web-browsers)
+  - [1.4: Updates](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#14-updates)
 
 **[Section 2: Communication & Coordinization](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-2-communication--coordinization)**
-  - [2.1: Email](link)
-  - [2.2: Google Groups](link)
-  - [2.3: Google Calendar](link)
-  - [2.4: Google Drive](link)
-  - [2.5: Slack](link)
-  - [2.6: Zoom](link)
+  - [2.1: Email](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#21-email)
+  - [2.2: Google Groups](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#22-google-groups)
+  - [2.3: Google Calendar](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#23-google-calendar)
+  - [2.4: Google Drive](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#24-google-drive)
+  - [2.5: Slack](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#25-slack)
+  - [2.6: Zoom](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#26-zoom)
 
 **[Section 3: GitHub](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-3-github)**
-  - [3.1: Repositories](link)
-  - [3.2: Issues](link)
+  - [3.1: Repositories](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#31-repositories)
+  - [3.2: Issues](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#32-issues)
   - [3.3: Terminology](link)
 
 **[Section 4: Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-4-testing)**
@@ -100,6 +100,7 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 
 <h3>3.1: Repositories</h3>
 <h3>3.2: Issues</h3>
+<h3>3.3: Terminology</h3>
 
 <hr>
 
