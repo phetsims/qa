@@ -17,7 +17,7 @@ Assigning @ariel-phet for prioritization.
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////// Section 0: Instructions for QA Members [DO NOT OMIT, DO NOT EDIT]
+////////// Section 0: FAQs for QA Members [DO NOT OMIT, DO NOT EDIT]
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
@@ -189,7 +189,6 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
 
-- **[Standalone Simulation](link)**
 - **[Wrapper Index](link)**
 
 <hr>
@@ -205,6 +204,7 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 <details>
 <summary><b>Accessibility (a11y) Dev Test</b></summary>
 
+<!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>What to Test</h3>
 
 - Specific instructions can be found below.
