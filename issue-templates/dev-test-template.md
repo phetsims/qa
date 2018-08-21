@@ -148,7 +148,6 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 <h3>Link(s)</h3>
 
 - **[Simulation](link)**
-- **[XHTML](link)**
 
 <hr>
 
@@ -169,8 +168,9 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 - Make sure standalone simulation is working properly.
 - Make sure the wrapper index is working properly.
 - Make sure each wrapper is working properly.
-- Download the example/template to a new html file then open it. Make sure the simulation starts without crashing or console errors.
-- Make sure that public files do not have password protection and that private files do have password protection. Use a private browser for this.
+- For newer PhET-iO wrapper indicies, save the "basic example of a functional wrapper" as a .html file and open it. Make sure the simulation loads without crashing or throwing errors.
+- Make sure that public files do not have password protection. Use a private browser for this.
+- Make sure that private files do have password protection. Use a private browser for this.
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
