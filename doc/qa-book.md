@@ -17,7 +17,7 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 <h2>Contents</h2>
 
 **[Section 1: Hardware & Software](link)**
-  - [1.1: Devices]()
+  - [1.1: Devices](link)
   - [1.2: Operating Systems](link)
   - [1.3: Web Browsers](link)
   - [1.4: Updates](link)
@@ -60,11 +60,11 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 
 <!---
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\ Section 1: Introduction
+\\\\\\\\\\ Section 1: Hardware & Software
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->
 
-<h2>Section 1: Introduction</h2>
+<h2>Section 1: Hardware & Software</h2>
 
 <h3>1.1: Devices</h3>
 <h3>1.2: Operating Systems</h3>
