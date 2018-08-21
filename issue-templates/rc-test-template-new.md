@@ -125,6 +125,9 @@ Assigning @ariel-phet for prioritization.
 <h3>What to Test</h3>
 
 - Click every single button.
+- Test all possible forms of input.
+  - Test mouse/trackpad inputs.
+  - Test all touchscreen inputs.
 - If there is sound, make sure it works.
 - Make sure you can't lose anything.
 - Play with the sim normally.
@@ -220,6 +223,11 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 
 - Specific instructions can be found below.
 - Make sure the a11y feature doesn't negatively affect the sim in any way.
+- Test all possible forms of input.
+  - Test mouse/trackpad inputs.
+  - Test all touchscreen inputs.
+  - Test all keyboard navigation inputs.
+  - Test all forms of input with a screen reader (if applicable).
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
