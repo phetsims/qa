@@ -56,7 +56,7 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their [
   - [6.1: Testing Matrix Management](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#61-testing-matrix-management)
   - [6.2: PhET Test Maintenance](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#62-phet-test-maintenance)
   - [6.3: Website Administration](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#63-website-administration)
-  - [6.4: QA Book Maintenance](link)
+  - [6.4: QA Book Maintenance](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#64-qa-book-maintenance)
 
 <hr>
 
