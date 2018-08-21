@@ -137,6 +137,7 @@ Assigning @ariel-phet for prioritization.
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>General Dev Test Platforms</h3>
+
 - [ ] Latest macOS, all browsers
 - [ ] Latest iOS, Safari
 - [ ] Windows 10, all browsers
