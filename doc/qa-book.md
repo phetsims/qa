@@ -14,30 +14,33 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 
 <h2>Contents</h2>
 
-**[Section 1: Introduction](link)**
+**[Section 1: Hardware & Software](link)**
   - [1.1: Devices](link)
   - [1.2: Operating Systems](link)
   - [1.3: Web Browsers](link)
   - [1.4: Updates](link)
 
 **[Section 2: Communication & Coordinization](link)**
-  - [2.1: Slack](link)
-  - [2.2: Zoom](link)
-  - [2.3: Google Drive](link)
+  - [2.1: Email](link)
+  - [2.2: Google Groups](link)
+  - [2.3: Google Calendar](link)
+  - [2.4: Google Drive](link)
+  - [2.5: Slack](link)
+  - [2.6: Zoom](link)
 
 **[Section 3: GitHub](link)**
   - [3.1: Repositories](link)
   - [3.2: Issues](link)
+  - [3.3: Terminology](link)
 
 **[Section 4: Testing](link)**
-  - [4.1: Terminology](link)
   - [4.2: Development (Dev) Testing](link)
   - [4.3: Release Candidate (RC) Testing](link)
   - [4.4: PhET-iO Testing](link)
-  - [4.5: Accessibility Testing](link)
+  - [4.5: Accessibility (a11y) Testing](link)
   - [4.6: Online Website Testing](link)
   - [4.7: Offline Website (Installer) Testing](link)
-  - [4.8: Automated Testing](link)
+  - [4.8: Automated (Continuous) Testing](link)
   - [4.9: Memory Leak Testing](link)
 
 **[Section 5: Translations](link)**
@@ -50,8 +53,6 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
   - [6.2: PhET Test Maintenance](link)
   - [6.3: Website Administration](link)
   - [6.4: Assests Screenshots](link)
-
-<hr>
 
 <!---
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -66,8 +67,6 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 <h3>1.3: Web Browsers</h3>
 <h3>1.4: Updates</h3>
 
-<hr>
-
 <!---
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\ Section 2: Communication & Coordinization
@@ -76,11 +75,12 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 
 <h2>Section 2: Communication & Coordinization</h2>
 
-<h3>2.1: Slack</h3>
-<h3>2.2: Zoom</h3>
-<h3>2.3: Google Drive</h3>
-
-<hr>
+<h3>2.1: Email</h3>
+<h3>2.2: Google Groups</h3>
+<h3>2.3: Google Calendar</h3>
+<h3>2.4: Google Drive</h3>
+<h3>2.5: Slack</h3>
+<h3>2.6: Zoom</h3>
 
 <!---
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -93,8 +93,6 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 <h3>3.1: Repositories</h3>
 <h3>3.2: Issues</h3>
 
-<hr>
-
 <!---
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\ Section 4: Testing
@@ -105,15 +103,13 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 
 <h3>4.1: Terminology</h3>
 <h3>4.2: Development (Dev) Testing</h3>
-<h3>4.3: Release Candidate (RC) Testing</h3>
+<h3>4.3: Release Candidate (RC) Testing</h3> <!--- Add screenshots. -->
 <h3>4.4: PhET-iO Testing</h3>
 <h3>4.5: Accessibility (a11y) Testing</h3>
 <h3>4.6: Online Website Testing</h3>
 <h3>4.7: Offline Website (Installer) Testing</h3>
 <h3>4.8: Automated (Continuous) Testing</h3>
 <h3>4.9: Memory Leak Testing</h3>
-
-<hr>
 
 <!---
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -127,8 +123,6 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 <h3>5.2: HTML5 Simulation Translations</h3>
 <h3>5.3: Website Translations</h3>
 
-<hr>
-
 <!---
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\ Section 6: Maintenance & Management
@@ -140,6 +134,3 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 <h3>6.1: Testing Matrix Management</h3>
 <h3>6.2: PhET Test Maintenance</h3>
 <h3>6.3: Website Administration</h3>
-<h3>6.4: Assets Screenshots</h3>
-
-<hr>
