@@ -175,7 +175,7 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 
 - Make sure that public files do not have password protection. Use a private browser for this.
 - Make sure that private files do have password protection. Use a private browser for this.
-- Make sure standalone simulation is working properly.
+- Make sure standalone sim is working properly.
 - Make sure the wrapper index is working properly.
 - Make sure each wrapper is working properly.
 - For newer PhET-iO wrapper indicies, save the "basic example of a functional wrapper" as a .html file and open it. Make sure the simulation loads without crashing or throwing errors.
