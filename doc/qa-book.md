@@ -16,13 +16,13 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 
 <h2>Contents</h2>
 
-**[Section 1: Hardware & Software](link)**
+**[Section 1: Hardware & Software](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-1-hardware--software)**
   - [1.1: Devices](link)
   - [1.2: Operating Systems](link)
   - [1.3: Web Browsers](link)
   - [1.4: Updates](link)
 
-**[Section 2: Communication & Coordinization](link)**
+**[Section 2: Communication & Coordinization](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-2-communication--coordinization)**
   - [2.1: Email](link)
   - [2.2: Google Groups](link)
   - [2.3: Google Calendar](link)
@@ -30,12 +30,12 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
   - [2.5: Slack](link)
   - [2.6: Zoom](link)
 
-**[Section 3: GitHub](link)**
+**[Section 3: GitHub](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-3-github)**
   - [3.1: Repositories](link)
   - [3.2: Issues](link)
   - [3.3: Terminology](link)
 
-**[Section 4: Testing](link)**
+**[Section 4: Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-4-testing)**
   - [4.2: Development (Dev) Testing](link)
   - [4.3: Release Candidate (RC) Testing](link)
   - [4.4: PhET-iO Testing](link)
@@ -45,12 +45,12 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
   - [4.8: Automated (Continuous) Testing](link)
   - [4.9: Memory Leak Testing](link)
 
-**[Section 5: Translations](link)**
+**[Section 5: Translations](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-5-translations)**
   - [5.1: Legacy Simulation Translations](link)
   - [5.2: HTML5 Simulation Translations](link)
   - [5.3: Website Translations](link)
 
-**[Section 6: Maintenance & Management](link)**
+**[Section 6: Maintenance & Management](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-6-maintenance--management)**
   - [6.1: Testing Matrix Management](link)
   - [6.2: PhET Test Maintenance](link)
   - [6.3: Website Administration](link)
