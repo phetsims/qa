@@ -135,6 +135,13 @@ Assigning @ariel-phet for prioritization.
 
 [Provide further instructions here. If you have any further tests you want done or specific platforms you want tested, list them here. Any behaviors you want QA to pay special attention to should be listed here.]
 
+<!--- [DO NOT OMIT, CAN BE EDITED] -->
+<h3>General Dev Test Platforms</h3>
+- [ ] Latest macOS, all browsers
+- [ ] Latest iOS, Safari
+- [ ] Windows 10, all browsers
+- [ ] Latest Chrome OS, Chrome
+
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Issues to Verify</h3>
 
