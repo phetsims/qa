@@ -12,6 +12,8 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 
 [Insert cover comic here.]
 
+<hr>
+
 <h2>Contents</h2>
 
 **[Section 1: Hardware & Software](link)**
@@ -54,6 +56,8 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
   - [6.3: Website Administration](link)
   - [6.4: Assests Screenshots](link)
 
+<hr>
+
 <!---
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\ Section 1: Introduction
@@ -66,6 +70,8 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 <h3>1.2: Operating Systems</h3>
 <h3>1.3: Web Browsers</h3>
 <h3>1.4: Updates</h3>
+
+<hr>
 
 <!---
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -82,6 +88,8 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 <h3>2.5: Slack</h3>
 <h3>2.6: Zoom</h3>
 
+<hr>
+
 <!---
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\ Section 3: GitHub
@@ -92,6 +100,8 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 
 <h3>3.1: Repositories</h3>
 <h3>3.2: Issues</h3>
+
+<hr>
 
 <!---
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -111,6 +121,8 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 <h3>4.8: Automated (Continuous) Testing</h3>
 <h3>4.9: Memory Leak Testing</h3>
 
+<hr>
+
 <!---
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\ Section 5: Translations
@@ -123,6 +135,8 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 <h3>5.2: HTML5 Simulation Translations</h3>
 <h3>5.3: Website Translations</h3>
 
+<hr>
+
 <!---
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\ Section 6: Maintenance & Management
@@ -134,3 +148,5 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 <h3>6.1: Testing Matrix Management</h3>
 <h3>6.2: PhET Test Maintenance</h3>
 <h3>6.3: Website Administration</h3>
+
+<hr>
