@@ -245,7 +245,8 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 <!--- [CAN BE OMITTED, DO NOT EDIT] -->
 <h3>Screen Readers</h3>
 
-This sim supports screen readers. Look over the a11y view before opening the simulation. Once you've done that, open the simulation and make sure alerts and descriptions work as intende
+This sim supports screen readers. If you are unfamiliar with screen readers, please ask Katie to introduce you to screen readers. If you simply need a refresher on screen readers, please consult the [QA Book](link), which should have all of the information you need as well as a link to a screen reader tutorial made by Jesse. Otherwise, look over the a11y view before opening the simulation. Once you've done that, open the simulation and make sure alerts and descriptions work as intended.
+
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Platforms and Screen Readers to Be Tested</h3>
 
