@@ -33,17 +33,17 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 **[Section 3: GitHub](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-3-github)**
   - [3.1: Repositories](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#31-repositories)
   - [3.2: Issues](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#32-issues)
-  - [3.3: Terminology](link)
+  - [3.3: Terminology](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#33-terminology)
 
 **[Section 4: Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-4-testing)**
-  - [4.2: Development (Dev) Testing](link)
-  - [4.3: Release Candidate (RC) Testing](link)
-  - [4.4: PhET-iO Testing](link)
-  - [4.5: Accessibility (a11y) Testing](link)
-  - [4.6: Online Website Testing](link)
-  - [4.7: Offline Website (Installer) Testing](link)
-  - [4.8: Automated (Continuous) Testing](link)
-  - [4.9: Memory Leak Testing](link)
+  - [4.1: Development (Dev) Testing](link)
+  - [4.2: Release Candidate (RC) Testing](link)
+  - [4.3: PhET-iO Testing](link)
+  - [4.4: Accessibility (a11y) Testing](link)
+  - [4.5: Online Website Testing](link)
+  - [4.6: Offline Website (Installer) Testing](link)
+  - [4.7: Automated (Continuous) Testing](link)
+  - [4.8: Memory Leak Testing](link)
 
 **[Section 5: Translations](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-5-translations)**
   - [5.1: Legacy Simulation Translations](link)
@@ -112,7 +112,6 @@ This is the QA Book. Only readers with the most eclectic of tastes will apprecia
 
 <h2>Section 4: Testing</h2>
 
-<h3>4.1: Terminology</h3>
 <h3>4.2: Development (Dev) Testing</h3>
 <h3>4.3: Release Candidate (RC) Testing</h3> <!--- Add screenshots. -->
 <h3>4.4: PhET-iO Testing</h3>
