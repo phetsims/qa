@@ -72,7 +72,7 @@ We like to make sure our sims work on most hardware and most software.
 
 <h3>1.1: Devices</h3>
 
-Check out the [Asset Inventory](link) for a comprehensive list of the devices we own. The "QA Simplified Inventory" is a list of the devices in Ariel's office (F925).
+Check out the [Asset Inventory](https://docs.google.com/spreadsheets/d/1XqnlW8DAlt2fZHDfDgkTMmMLpJZ1c0equBaPdkn2V08/edit#gid=0) for a comprehensive list of the devices we own. The "QA Simplified Inventory" is a list of the devices in Ariel's office (F925).
 
 <h3>1.2: Operating Systems</h3>
 
@@ -720,9 +720,11 @@ Do not delete English versions of simulations!
 
 There are three servers:
 1. [Ox-Dev](https://ox-dev.colorado.edu/): This is the development server. It’s kind of like a playground. You can do whatever you want to the website on this server.
-    - Ox-Dev has to be manually synced with the website. (This is not something that you will have to do.)
-    - Because Ox-Dev has to be manually synced with the website, it might be missing certain things.
-    - Accounts created on Ox-Dev are deleted when Ox-Dev gets synced with the website, so make as many accounts as you’d like.
+
+  - Ox-Dev has to be manually synced with the website. (This is not something that you will have to do.)
+  - Because Ox-Dev has to be manually synced with the website, it might be missing certain things.
+  - Accounts created on Ox-Dev are deleted when Ox-Dev gets synced with the website, so make as many accounts as you’d like.
+
 2. [Bayes](https://bayes.colorado.edu/): This server has multiple functions. It is the disaster recovery server and it does automated testing, among other things.
 3. [Figaro](https://phet.colorado.edu/): This server is also known as phet-server. This is the server on which https://phet.colorado.edu runs.
 
