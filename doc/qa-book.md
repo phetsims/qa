@@ -36,7 +36,6 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their [
   - [3.1: Repositories](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#31-repositories)
   - [3.2: Terminology](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#32-terminology)
   - [3.3: Issues](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#33-issues)
-    - [3.3.1: Issue Template]()
 
 **[Section 4: Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-4-testing)**
   - [4.1: Development (Dev) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#41-development-dev-testing)
@@ -416,7 +415,7 @@ To perform the HTML download test, do the following:
 
 To perform the iFrame test or the XHTML test, simply click the link to the iFrame or the link to the XHTML version of the simulation and make sure the simulation behaves normally.
 
-<h3>PhET-iO Testing</h3>
+<h3>4.3: PhET-iO Testing</h3>
 
 
 PhET-iO simulations are licensed versions of PhET simulations. PhET-iO simulations are not available to the general public. We charge customers for these simulations because they are highly customizable. When a customer pays for a PhET-iO simulation, they are provided with the password for the simulation as well as an application program interface (API) that they can use to customize the simulation. In the PhET-iO issue, there will be, among other things, a link to a root directory or wrapper index and a link to a testing matrix. The root directory contains all of the wrappers, i.e. environments, in which the simulation will be tested. The testing matrix is where we document what has been tested and by whom. There should be a link to the simulation in the issue, but if there isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/). Here are the steps you need to follow for a PhET-iO test:
