@@ -34,13 +34,31 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their [
 
 **[Section 3: GitHub](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-3-github)**
   - [3.1: Repositories](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#31-repositories)
-  - [3.2: Terminology](link)
-  - [3.3: Issues](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#32-issues)
+  - [3.2: Terminology](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#32-terminology)
+  - [3.3: Issues](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#33-issues)
+    - [3.3.1: Issue Template]()
 
 **[Section 4: Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-4-testing)**
   - [4.1: Development (Dev) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#41-development-dev-testing)
   - [4.2: Release Candidate (RC) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#42-release-candidate-rc-testing)
+    - [4.2.1:]()
+    - [4.2.2:]()
+    - [4.2.3:]()
+      - [4.2.3.1: Syntax for Multiple Query Parameters]()
+    - [4.2.4:]()
+    - [4.2.5:]()
+    - [4.2.6:]()
   - [4.3: PhET-iO Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#43-phet-io-testing)
+    - [4.3.1:]()
+    - [4.3.2:]()
+    - [4.3.3:]()
+    - [4.3.4:]()
+    - [4.3.5:]()
+    - [4.3.6:]()
+    - [4.3.7:]()
+    - [4.3.2:]()
+    - [4.3.9:]()
+    - [4.3.10:]()
   - [4.4: Accessibility (a11y) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#44-accessibility-a11y-testing)
   - [4.5: Online Website Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#45-online-website-testing)
   - [4.6: Offline Website (Installer) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#46-offline-website-installer-testing)
@@ -287,7 +305,7 @@ blah
 simulation.
 - If your issue is related to another issue, link the related issue.
 
-<h5>A List of Labels and Their Descriptions</h5>
+<h4>3.3.1: A List of Labels and Their Descriptions</h4>
 
 - design:a11y - For issues with the design of accessibility-related features, e.g. keyboard navigation, sonification, etc.
 - design:artwork - For issues with the design of artwork.
@@ -339,26 +357,25 @@ When a simulation needs to be tested, a developer will open an issue in the QA r
 4. Choose a device and browser combination that hasn’t been tested.
 5. Perform the below tests and fill out the testing matrix accordingly.
 
-<h4>Full Screen Test</h4>
+<h4>4.2.1: Full Screen Test</h4>
 
 To do the full screen test, do the following:
 1. In the PhET menu, there is a “Full Screen” button. Press that button.
 2. Make sure the simulation goes into and out of full screen mode easily.
 3. Make sure the simulation does not change when the simulation goes into and out of full screen mode.
 
-<h4>Screenshot Test</h4>
+<h4>4.2.2: Screenshot Test</h4>
 
 To do the screenshot test, do the following:
 1. In the PhET menu, there is a “Screenshot” button. Press that button.
 2. Make sure the screenshot is exactly the same as the simulation.
 
-<h4>Query Parameters Test</h4>
+<h4>4.2.3: Query Parameters Test</h4>
 
 To do the query parameters test, append the URL with the following query parameters:
 - `?showPointerAreas`: shows red touch area and blue mouse area
   – Some things won’t have a pointer area. This is normal.
-  – Sometimes pointer areas will look strange, e.g. extending beyond the borders of a carousel. This
-is normal.
+  – Sometimes pointer areas will look strange, e.g. extending beyond the borders of a carousel. This is normal.
   – Make sure pointer areas do not overlap.
   – This query parameter adversely affects the performance of the simulation.
 - `?stringTest=double`: doubles strings
@@ -378,11 +395,11 @@ is normal.
 
 Multiple query parameters can be used at once. It's as simple as adding an ampersand between query parameters.
 
-<h5>Syntax for Multiple Query Parameters</h5>
+<h5>4.2.3.1: Syntax for Multiple Query Parameters</h5>
 
 `?queryParameter1&queryParameter2&queryParameter3`
 
-<h4>Legends of Learning Test</h4>
+<h4>4.2.4: Legends of Learning Test</h4>
 
 To test a simulation in the Legends of Learning harness, do the following:
 1. Go to https://developers.legendsoflearning.com/public-harness/index.html.
@@ -391,7 +408,7 @@ To test a simulation in the Legends of Learning harness, do the following:
 4. Make sure you can pause the simulation.
 5. Make sure you can resume the simulation.
 
-<h4>HTML Download Test</h4>
+<h4>4.2.5: HTML Download Test</h4>
 
 To perform the HTML download test, do the following:
 1. On an iOS device, open the simulation and add it to your “Reading List.”
@@ -401,7 +418,7 @@ To perform the HTML download test, do the following:
 5. Disconnect from the internet.
 6. Open the simulation and make sure it behaves normally.
 
-<h4>iFrame Test & XHTML Test</h4>
+<h4>4.2.6: iFrame Test & XHTML Test</h4>
 
 To perform the iFrame test or the XHTML test, simply click the link to the iFrame or the link to the XHTML version of the simulation and make sure the simulation behaves normally.
 
@@ -424,61 +441,61 @@ Before reading about the various tests you’ll perform on a PhET-iO simulation,
 
 The above tandem ID tells you the following: 1) the simulation is Faraday’s Law, 2) the behavior the tandem ID refers to occurs in the Faraday’s Law screen, 3) model indicates that something is being modeled according to some set of rules, 3) magnet indicates that the magnet is what is being modeled, and 4) positionProperty states the current position of the magnet. For a more comprehensive treatment of tandem IDs, read [this](https://docs.google.com/document/d/1Fr-B66SD-6Xt7egNv9ZeSXdcsK6k8Lkc0nqR853_eJ4/edit?pli=1#heading=h.oz7vdnbiq4ni).
 
-<h4>Simulation Wrapper Test</h4>
+<h4>4.3.1: Simulation Wrapper Test</h4>
 
 - *What?* This wrapper is the simulation.
 - *How?* To test this wrapper, follow the steps for a development test or a release candidate test depending on
 what the issue specifies.
 
-<h4>Studio Wrapper Test</h4>
+<h4>4.3.2: Studio Wrapper Test</h4>
 
 - *What?* This wrapper is the simulation alongside a long list of instrumented characteristics. An instrumented characteristic is some aspect of the simulation that can be modified by a licensed owner of a PhET-iO simulation, e.g. a property. Not all characteristics of the simulation are instrumented so as to retain the functionality of the simulation.
 - *How?* To test this wrapper, make sure instrumented characteristics can be modified and make sure charac- teristics that haven’t been instrumented can’t be modified. Also, do the following:
   1. Periodically launch the simulation to make sure it works using the “Launch” button.
   2. Periodically copy and paste the HTML into a text editor, save the file, and open it in a browser to make sure the modifications you made are still there using the “Generate HTML” button.
 
-<h4>Events: Colorized Wrapper Test</h4>
+<h4>4.3.3: Events: Colorized Wrapper Test</h4>
 
 - *What?* This wrapper is the simulation, but when you open the console, you are able to view a colorized event stream.
 - *How?* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the manipulations.
 
-<h4>Events: JSON Wrapper Test</h4>
+<h4>4.3.4: Events: JSON Wrapper Test</h4>
 
 - *What?* This wrapper is the simulation, but when you open the console, you are able to view the event stream in JavaScript object notation.
 - *How?* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the manipulations.
 
-<h4>Events: Text Area Wrapper Test</h4>
+<h4>4.3.5: Events: Text Area Wrapper Test</h4>
 
 - *What?* This wrapper is the simulation with the event stream below. There is a limit to the number of events that can be displayed below the simulation.
 - *How?* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the manipulations.
 
-<h4>Events: Recording Wrapper Test</h4>
+<h4>4.3.6: Events: Recording Wrapper Test</h4>
 
 - *What?* This wrapper allows you to record your actions in the simulation.
 - *How?* To test this wrapper, do the following:
-  1. In the URL, replace &console with &localFile. (If &console doesn’t exist, then you should still add &localFile.)
+  1. In the URL, replace `&console` with `&localFile`. (If `&console` doesn’t exist, then you should still add `&localFile`.)
   2. Record your actions in the simulation. (Remember what you did.)
   3. Open the console.
   4. Follow the directions in the console to download a copy of the recording.
   5. View the recording in the Events: Playback wrapper and make sure your actions were recorded accu- rately.
 
-<h4>State Wrapper Test</h4>
+<h4>4.3.7: State Wrapper Test</h4>
 
 - *What?* This is a wrapper that contains a simulation, a mirror of the simulation that is updated once every second, and a condensed list of instrumented characteristics.
 - *How?* To test this wrapper, simply play with the simulation and make sure your actions are mirrored accurately.
 
-<h4>Mirror Inputs Wrapper Test</h4>
+<h4>4.3.8: Mirror Inputs Wrapper Test</h4>
 
 - *What?* This is a wrapper that contains a simulation and a mirror of the simulation that is updated with every user input.
 - *How?* To test this wrapper, make sure your actions are mirrored accurately. Spend plenty of time testing this wrapper.
 
-<h4>Screenshot Wrapper Test</h4>
+<h4>4.3.9: Screenshot Wrapper Test</h4>
 
 - *What?* This is a wrapper in which you can take a screenshot of the simulation.
 - *How?* To test this wrapper, test screenshots as you normally would by pressing the “Take Screenshot”
 button in the wrapper, not the “Screenshot” button in the simulation.
 
-<h4>Active Wrapper Test</h4>
+<h4>4.3.10: Active Wrapper Test</h4>
 
 - *What?* This is a wrapper that allows you to toggle between an active simulation and an inactive simulation.
 - *How?* To test this wrapper, simply make sure you can interact with the simulation when it is active and
