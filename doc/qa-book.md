@@ -10,7 +10,7 @@
 
 This is the QA Book. (QA stands for quality assurance.) If you're reading this, you're probably our new QA tester. If so, welcome! If you're not a PhET employee, 1) thank you for reading this, 2) please let us know how you managed to find this obscure corner of GitHub, and 3) feel free to read on and learn how we test our simulations. Just about everything you need to know to test PhET simulations is in this book.
 
-[Insert cover comic here.]
+<img src="img/cover-comic.png" alt="Cover Comic">
 
 Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their [humorous comic](https://www.monkeyuser.com/2018/the-struggle/) that Megan "PhETified."
 
@@ -217,11 +217,11 @@ It is important to familiarize yourself with the correct terminology for the var
 - “drop down menu” = combo box
 - “number adjuster that looks like a spinner” = number picker
 
-<img src="img/NumberPicker.png" alt="Number Picker">
+<img src="img/number-picker.png" alt="Number Picker">
 
 - “number adjuster that looks like a picker” = number spinner
 
-<img src="img/NumberSpinner.png" alt="Number Spinner">
+<img src="img/number-spinner.png" alt="Number Spinner">
 
 - “slightly different simulation within a screen” = scene
 - “toolbox that has multiple pages” = carousel
@@ -245,7 +245,7 @@ Most of the issues you’ll create on GitHub will be bug reports. Creating a bug
 8. Assign the appropriate PhET employee(s) and use relevant labels.
 9. Click the “Submit New Issue” button.
 
-Issue Template:
+<h4>Issue Template</h4>
 
 ```
 <b>Test Device</b>
@@ -326,18 +326,18 @@ If it ain't broke, break it!
 
 Development testing is whatever the developer wants it to be. Generally speaking, a development test entails making sure the simulation behaves as intended. The GitHub issue for a development test will specify what needs to be tested.
 
-When a simulation needs to be tested, a developer will open an issue in the QA repository and they should use [the new template for development tests](https://github.com/phetsims/QA/blob/master/issue-templates/dev-test-template.md). The template should specify what exactly needs to be tested. The steps you need to follow for a development test can be found in the template.
+When a simulation needs to be tested, a developer will open an issue in the QA repository and they should use [the new template for development tests](https://github.com/phetsims/QA/blob/master/issue-templates/dev-test-template.md). The template should specify what exactly needs to be tested. The steps you need to follow and the platforms you need to test for a development test can be found in the template. There should be a link to the simulation in the issue, but if there isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/).
 
 <h3>4.2: Release Candidate (RC) Testing</h3> <!--- Add screenshots. -->
 
 Release candidate testing is more thorough than development testing because the simulation being tested is a “release candidate.” Theoretically, major issues with the simulation will have been fixed by the time it undergoes an RC test.
 
-When a simulation needs to be tested, a developer will open an issue in the QA repository and they should use [the new template for release candidate tests](https://github.com/phetsims/QA/blob/master/issue-templates/dev-test-template.md). The template should specify what exactly needs to be tested. Here are the steps you need to follow for a release candidate test:
+When a simulation needs to be tested, a developer will open an issue in the QA repository and they should use [the new template for release candidate tests](https://github.com/phetsims/QA/blob/master/issue-templates/rc-test-template-new.md). There should be a link to the simulation in the issue, but if there isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/). The template should specify what exactly needs to be tested. Here are the steps you need to follow for a release candidate test:
 1. Familiarize yourself with the simulation.
 2. If the developer wants you to test previous issues, then test those first.
 3. Open the testing matrix.
-4. Choose a device and browser combination that hasn’t been tested.
-5. Perform the below tests and fill out the testing matrix accordingly.
+4. Choose a device and browser combination that hasn’t been tested. Add your initials to indicate that you are testing that platform.
+5. Perform the below tests and fill out the testing matrix.
 
 <h4>Full Screen Test</h4>
 
@@ -386,6 +386,7 @@ To do the query parameters test, append the URL with the following query paramet
     <li>If the simulation crashes or fails to load, the simulation still passes this test.</li>
   </ul>
 </ul>
+
 Multiple query parameters can be used at once. It's as simple as adding an ampersand between query parameters.
 
 <h5>Syntax for Multiple Query Parameters</h5>
@@ -416,7 +417,6 @@ To perform the HTML download test, do the following:
 To perform the iFrame test or the XHTML test, simply click the link to the iFrame or the link to the XHTML version of the simulation and make sure the simulation behaves normally.
 
 <h3>4.3: PhET-iO Testing</h3>
-
 
 PhET-iO simulations are licensed versions of PhET simulations. PhET-iO simulations are not available to the general public. We charge customers for these simulations because they are highly customizable. When a customer pays for a PhET-iO simulation, they are provided with the password for the simulation as well as an application program interface (API) that they can use to customize the simulation. In the PhET-iO issue, there will be, among other things, a link to a root directory or wrapper index and a link to a testing matrix. The root directory contains all of the wrappers, i.e. environments, in which the simulation will be tested. The testing matrix is where we document what has been tested and by whom. There should be a link to the simulation in the issue, but if there isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/). Here are the steps you need to follow for a PhET-iO test:
 
@@ -470,7 +470,7 @@ what the issue specifies.
   2. Record your actions in the simulation. (Remember what you did.)
   3. Open the console.
   4. Follow the directions in the console to download a copy of the recording.
-  5. View the recording in the Events: Playback wrapper and make sure your actions were recorded accu- rately.
+  5. View the recording in the Events: Playback wrapper and make sure your actions were recorded accurately.
 
 <h4>State Wrapper Test</h4>
 
@@ -495,10 +495,137 @@ button in the wrapper, not the “Screenshot” button in the simulation.
 cannot interact with the simulation when it is inactive. Animations should resume without “jumping.”
 
 <h3>4.4: Accessibility (a11y) Testing</h3>
+
+One of PhET’s goals is to make our simulations available to everyone. This, of course, includes people with disabilities. There are three features to unique to accessibility testing: keyboard navigation compatibility, screen reader compatibility, and sound effects (sonification). Keyboard navigation compatibility allows the user to play with the simulation using the keyboard, i.e. they don’t have to use the mouse. Keyboard navigation can be tested on any device with a physical keyboard and in any browser. Screen reader compatibility allows the user to hear a description of what is happening in the simulation. Screen readers are tested using Firefox on Windows devices and using Safari on macOS devices. On Windows devices, we test the NVDA and JAWS screen readers. On macOS devices, we test the VoiceOver screen reader, which is installed by default. To familiarize yourself with a screen reader, use the screen reader to read [this](https://bayes.colorado.edu/dev/html/jg-tests/reader-intro.html). In an issue for a test of a simulation with accessibility feature(s) you will find, among other things, a link to the simulation, perhaps a link to a testing matrix (if the test is an RC test), and a link to the a11y view. The a11y view, is a page with the simulation on the left and the description of the simulation in plain text (the parallel document object model or PDOM) on the right. Below the simulation are real-time alerts that will be announced by the screen reader.
+
+Please read through this [list of known a11y bugs](https://docs.google.com/document/d/1518zv6F0odExFsodShZxwTmWNQk3civuNwtQUR-rEBs/edit) before doing any testing.
+
+To test the accessibility features of a simulation, follow the steps below:
+1. Start the screen reader before you open a browser.
+2. Familiarize yourself with the simulation.
+3. If the developer wants you to test previous issues, then test those first.
+4. Perform the below tests.
+
+<h4>Keyboard Navigation Test</h4>
+
+To test keyboard navigation, make sure keyboard navigation functions as described in the “Keyboard Shortcuts” dialogue.
+
+<h4>Screen Reader Test</h4>
+
+To test a screen reader, do the following:
+1. Make sure you know how to use screen readers. (If you don't, ask Katie.)
+2. Carefully read the a11y view.
+3. Quit your browser.
+4. Start your screen reader.
+5. Open the sim.
+6. Read everything in the simulation with the screen reader.
+7. Make sure all possible alerts are given.
+8. Make sure all possible descriptions match the state of the simulation.
+9. Make sure the alerts and descriptions make sense.
+
+<h4>Sound Test</h4>
+
+To test sound in a simulation, make sure the sound effects work and sound good on all platforms.
+
 <h3>4.5: Online Website Testing</h3>
+
+The developers may occasionally ask you to test various parts of the website. They should provide details. Theoretically, all of the steps you follow to test the offline website could be followed for the online website. (Obviously, some things would be different, as the website would be online instead of offline.) The [section on website administration](link) may contain pertinent information.
+
 <h3>4.6: Offline Website (Installer) Testing</h3>
+
+The The offline website installers are (typically) built every Sunday morning. Test the offline website every Monday. To test the offline website, follow the steps below:
+1. Go to the ["Offline Access" page of the PhET website](https://phet.colorado.edu/en/offline-access).
+2. Make sure the date on which the installer was built is correct, e.g. if you’re testing the simulation on a Monday, and the installer builder was built on Sunday morning, then the date should be Monday’s date minus one day.
+3. If this is not the case, then stop testing and inform the developer.
+4. Otherwise, make sure the file sizes aren’t too large or too small. As of 2018-03-23, the installer without activities is approximately 370 MB and the installer with activities is approximately 1300 MB. If these numbers are drastically different, then stop testing and inform the developer.
+
+The following should be noted:
+- You should alternate between Windows and macOS on a weekly basis.
+- You should alternate between browsers on a weekly basis.
+- You should alternate between the installer without activities and the installer with activities on a weekly basis. That is, you should not test both in one week.
+- If you download the installer with activities, index.html should exist in the `PhET` folder and in the `en` folder.
+- If you download the installer without activities, index.html should exist in the `PhET` folder and not in the `en` folder.
+- If you are testing the website while disconnected from the internet, the offline website should not be trying to connect to the internet. (There are some exceptions to this.)
+- You should have one offline website for every month of the year.
+- If you want to get rid of an offline website, delete it. Do not use the uninstaller.
+
+5. Download the installer builder. (This is why it’s called installer testing.)
+6. Install the offline website.
+7. During installation, append the file name with `_YYYY-MM-DD` (the [correct numeric date format](https://xkcd.com/1179/)).
+8. Open the offline website every way you can. (On a Windows device, the installer will create a desktop shortcut and an application shortcut. This does not occur on macOS.)
+9. Make sure the update date on the offline website matches the update date on the online website.
+10. If this is not the case, then stop testing and inform the developer.
+11. Otherwise, disconnect from the internet and test applicable items in the below list.
+
+- For all versions of the installer, make sure two HTML5 simulations open.
+- For all versions of the installer, make sure two translated HTML5 simulations open.
+- For all versions of the installer, make sure two Flash simulations open.
+- For all versions of the installer, make sure two Java sims open.
+- For all versions of the installer, make sure two translated Flash sims open.
+- For all versions of the installer, make sure two translated Java sims open.
+- For the installer without activities, make sure that activity links redirect you to the website if you are connected to the internet.
+- For the installer with activities, make sure two activities open.
+- For the installer with activities, make sure two translated activities open.
+- For the installer with activities, make sure one teacher tip opens.
+
+12. Reconnect to the internet and test applicable items in the above list again.
+
+You might encounter issues with Java simulations. If you are having issues with a `.jlnp` file and the developer asks you to check the permissions of the file, then open the file with a text editor and check the permissions. If you are having issues with a `.jar` file and the developer asks you to check the permissions, then use `7-Zip > Open archive > META > MANIFEST > Check permissions` to check the permissions.
+
 <h3>4.7: Automated (Continuous) Testing</h3>
+
+Open [this](https://bayes.colorado.edu/continuous-testing/aqua/html/continuous-report.html) in a private window. (You should always use a private window when viewing automated testing results because of caching issues.) Read the description at the top of the page. (The test number can increase because tests aren’t counted until the simulation is built.)
+
+The name of the server that hosts the website for automated testing is called Bayes. Automated testing is commonly referred to as Continuous Testing (CT). When you load the website for automated testing, Bayes is always running tests on simulations in a headless browser, i.e. a browser without a page. Bayes will pick a simulation and a test randomly. Each test gets 40 seconds from start to finish. If the simulation takes 20 seconds to load, then it will only be tested for 20 seconds. If the simulation takes 1 second to load, then it will be tested for 39 seconds. Once every simulation has undergone every test, Bayes does more tests randomly. If someone makes a commit, then Bayes detects the commit, pulls it, and takes a snapshot of the PhET codebase. This is not instantaneous. The creation of a snapshot takes approximately 15 minutes.
+
+The numbers and colors of the cells are important:
+- Let n be a natural number in one of the cells.
+- If *n* = 100, then there are two cases:
+  - Case 1: The cell is dark green. This implies that the simulation passed all tests.
+  - Case 2: The cell is light green. This implies that the simulation has passed all tests thus far.
+- If 0 < *n* < 100, then some tests have failed.
+  - If this is the case, then the cell is some shade of orange.
+- If *n* = 0, then all tests have failed.
+  - If this is the case, then the cell is red.
+
+The color of a named cell corresponds to the color of the cell that was tested most recently in that row. If a cell is outlined, then there are results to see. Click on the cell to view the results.
+
+The following run unit tests. They will always have results. If they do not have results, then you should notify a developer.
+- Axon
+- All PhET-iO simulations
+- Balloons and Static Electricity
+- Circuit Construction Kit Common
+- Dot
+- Kite
+- PhET Core
+- PhET-iO
+- PhET Common
+- Query String Machine
+- Scenery
+- Tandem
+
+There are some common errors you should be aware of. If a simulation does not load in 40 seconds, an error is given. If a window location changes, an error is given. If this occurs frequently, notify a developer. For other errors, make an issue in the appropriate repository with the "type:automated-testing" and "type:bug" labels. Lint errors can be fixed easily!
+
+If Bayes restarts, then it takes the automated testing page a long time to show anything. Similarly, if someone tells Bayes to start or stop doing something, then it takes a long time for things to show up on the automated testing page. In this case, they will show up one at a time.
+
+If you see an error, check GitHub to see who has been comitting to that repository. Notify the developer.
+
 <h3>4.8: Memory Leak Testing</h3>
+
+Memory leak testing is sometimes performed on simulations that are undergoing a development test or a release candidate test. To do a memory leak test, follow these steps:
+1. Open an Incognito Window in Google Chrome.
+2. Open the simulation.
+3. Once the simulation has loaded, open development tools to the “Memory” tab.
+4. Take a heap snapshot.
+5. Append the URL with `?fuzzMouse`.
+6. Have a stopwatch ready for when you reload the simulation with the new query parameter, `?fuzzMouse`.
+7. Reload the simulation.
+8. Once the simulation gets past the splash screen, start the stopwatch.
+9. Every minute, for 10 minutes, take a heap snapshot.
+10. While the simulation is paused and the heap snapshot is being taken, pause the stopwatch.
+11. Once the simulation resumes, press resume on the stopwatch.
+12. After you’ve taken 11 heap snapshots, start taking heap snapshots every 10 to 20 minutes.
+13. Stop taking heap snapshots when you feel you have collected sufficient data.
 
 <hr>
 
@@ -510,9 +637,52 @@ cannot interact with the simulation when it is inactive. Animations should resum
 
 <h2>Section 5: Translations</h2>
 
+One of PhET’s goals is to make our simulations available to everyone in the world. It wouldn’t be possible to do this without the help of volunteers who translate our simulations and the website.
+
 <h3>5.1: Legacy Simulation Translations</h3>
+
+We have lots of old simulations that use Adobe Flash Player or Java. People still use these translations, so they’re still being translated. To translate a Flash or Java simulation, do the following:
+1. Log in to Gmail as phethelp@gmail.com on Hanson.
+2. Download all `.xml` (Flash) and `.properties` (Java) files.
+3. Move these files to the “Translations” folder.
+4. Open [this spreadsheet](https://docs.google.com/spreadsheets/d/10co5pwJI6HaJq6RD7fX2xVm3Ks1WpYfXei9scnPGKxM/edit?pli=1#gid=0).
+5. Enter relevant information into the spreadsheet.
+6. Open the Git Bash shortcut on Hanson's Desktop.
+7. Wait for it to load.
+8. Click the “Translations” tab.
+9. Click “Deploy Simulation Translations" and read each message that you see after this step carefully.
+10. Enter your IdentiKey credentials.
+11. Enter the file path for the “Translations” folder.
+12. Commit the files that are not updated.
+13. Copy and paste the relevant information from the spreadsheet into each commit message.
+14. Click the “OK” button.
+15. Wait for it to complete.
+16. Click the "OK" button. 
+17. Copy the URL from Git Bash and paste it into a browser.
+18. Wait for it to load.
+19. Test the English version and the translated version of each simulation. (Make sure the strings look normal.)
+20. If the strings look normal, then press the "Publish Now" button.
+21. Send an email to the translator with a link to the page on the PhET website where their newly translated simulations can be found.
+22. Delete the contents of the “Translations” folder.
+23. Send the translator a thank-you email.
+
+Note:
+- This process will not work if Matt hasn't done some wizardy to make it so that you can do it.
+- If something goes wrong at any point in the process, the best course of action is to start over.
+
 <h3>5.2: HTML5 Simulation Translations</h3>
+
+HTML5 simulation translations are submitted to the website by trusted translators. The new translation of the simulation is then automatically uploaded to the website.
+
+Rosetta is the program we use to translate HTML5 simulations. A trusted translator logs in to the website, does all of his or her translations in the browser, and then he or she clicks submit. Rosetta then sends these string files to Babel. Babel then builds a new simulation with the new strings.
+
 <h3>5.3: Website Translations</h3>
+
+We have a bizarre.
+
+[Insert shiny, new instructions for website translations here.]
+
+Please refer to the TeX version of the QA book until we get the new instructions up.
 
 <hr>
 
@@ -524,9 +694,65 @@ cannot interact with the simulation when it is inactive. Animations should resum
 
 <h2>Section 6: Maintenance & Management</h2>
 
+There are a couple miscellaneous tasks related to maintenance and management that QA gets to deal with.
+
 <h3>6.1: Testing Matrix Management</h3>
+
+Every time we do a release candidate test, you have to make a testing matrix. To do so, follow these steps:
+1. If the simulation hasn’t undergone a release candidate test, then you’ll need to create a new testing matrix. Go to Google Drive and then `PhET Files > PhET QA > Testing Matrices` to find example matrices. Make a copy of the correct testing matrix by clicking `File > Make a copy...`. Do not copy and paste the test matrix.
+2. Otherwise, create a new tab in the existing spreadsheet for the simulation for the release candidate test.
+3. Copy and paste URLs into the testing matrix.
+4. Do the “Yes” or “No” for Legends of Learning, Keyboard Navigation. and Screen Reader.
+5. Edit the URLs in the GitHub issue.
+
 <h3>6.2: PhET Test Maintenance</h3>
+
+PhET Test is a computer with files on it. As of 2018-05-10, the computer is Turing, a MacBook Pro. Turing is connected to the internet via an ethernet cable. You must be connected to the internet via UCB Wireless or via a virtual private network (VPN) to connect to Turing. The sticky note on Turing has its internet protocol (IP) address and its media access control (MAC) address. PhET Test is used to check master. (Master is the main branch of the software development tree.) PhET Test has caching issues, so always use a private window when accessing PhET Test. If you see something like ”failed to pull,” then look through Turing’s terminal to see if you can find the culprit. Every time a new repository is made, press the “Refresh Perennial” button. (Perennial is the list of simulations.) Press the ”Pull All” button every 5 hours.
+
+Here is a list of helpful commands:
+- `$ pm2 stop index-server.js`
+- `$ pm2 start index-server.js`
+- `$ pm2 logs`
+
 <h3>6.3: Website Administration</h3>
+
+Do not delete English versions of simulations!
+
+There are three servers:
+1. [Ox-Dev](https://ox-dev.colorado.edu/): This is the development server. It’s kind of like a playground. You can do whatever you want to the website on this server.
+- Ox-Dev has to be manually synced with the website. (This is not something that you will have to do.)
+- Because Ox-Dev has to be manually synced with the website, it might be missing certain things.
+- Accounts created on Ox-Dev are deleted when Ox-Dev gets synced with the website, so make as many accounts as you’d like. 
+2. [Bayes](https://bayes.colorado.edu/): This server has multiple functions. It is the disaster recovery server and it does automated testing, among other things.
+3. [Figaro](https://phet.colorado.edu/): This server is also known as phet-server. This is the server on which https://phet.colorado.edu runs.
+
+To get to the administrative page of the website, sign in and click the “Administration” button in the upper-right corner.
+- “Help Center” is where helpful information that we post on the website is added, removed, or edited.
+- “Edit Content Page” is where English strings for the website and the simulations can be edited.
+- “Team Page” is where team members and their descriptions can be added, removed, or edited.
+- “Asks Data Page” is to be ignored.
+- “Simulations” is where flavors, projects, and simulations are listed. Do not click the remove link! Once a simulation is published, ask the relevant designer(s) to fill in the flavor information for that simulation. Each flavor has a checkbox for visibility. Do not check this checkbox without permission from the relevant designer(s).
+- “Projects” is the same thing as the list of projects in “Simulations.”
+- “Categories” is to be ignored.
+- “Activities” is a comprehensive list of activities. It also contains activities that are pending approval.
+- To test “Activities,” make all sorts of different files to submit, and submit them. If you aren’t logged in as a team member or if you aren’t an administrator, then you shouldn’t be able to see the activities you’ve submitted. Make sure this is the case. Make sure you can download and use all activities.
+- If you are testing “Activities” and you are logged in as a team member, then you should see the red box. If you are testing “Activities” and you are not logged in, you should not see the red box.
+- “Notifications” is a list of notifications for updated activities.
+- “Users” is where user accounts can be added, removed, or edited.
+- “Metadata” is to be ignored.
+- “Translations” is for translations.
+- “FAQs” is to be ignored.
+- “Strings” is to be ignored.
+- “Caches and Search Index” is to be ignored.
+- “Statistics” is where we record useful statistics.
+- “Documentation and Help” is to be ignored.
+- “Schools” is where our list of schools maintained.
+- “Organizations” is where our list of organizations is maintained.
+
 <h3>6.4: QA Book Maintenance</h3>
+
+Please keep this book up-to-date so that it can be a useful resource!
+
+Use this [Google Document](https://docs.google.com/document/d/18gGQhZNzwEmtQmK3FXK25hu-RQ8lx-H-fVziCCI65Rg/edit) to record things that need to be added and to view dates for scheduled maintenance.
 
 <hr>
