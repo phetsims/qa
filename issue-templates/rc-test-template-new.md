@@ -138,6 +138,7 @@ Assigning @ariel-phet for prioritization.
 - Make sure the XHTML version of the simulation is working as intended on all platforms.
 - Complete the test matrix.
 - Don't forget to make sure the sim works with Legends of Learning.
+- Check [this](https://docs.google.com/spreadsheets/d/1umIAmhn89WN1nzcHKhYJcv-n3Oj6ps1wITc-CjWYytE/edit#gid=0) LoL spreadsheet and notify AR if it not there.
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
