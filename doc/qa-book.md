@@ -133,7 +133,7 @@ We occasionally use Zoom to video conference.
 
 <h2>Section 3: GitHub</h2>
 
-GitHub is a code hosting website. If GitHub is integrated with Git, everything you commit is automatically posted. PhET also uses GitHub to document issues with sims.
+GitHub is a code hosting website. If GitHub is integrated with Git, everything you commit and push is automatically posted. PhET also uses GitHub to document issues with sims.
 
 <h3>3.1: Repositories</h3>
 
