@@ -579,7 +579,7 @@ Open [this](https://bayes.colorado.edu/continuous-testing/aqua/html/continuous-r
 The name of the server that hosts the website for automated testing is called Bayes. Automated testing is commonly referred to as Continuous Testing (CT). When you load the website for automated testing, Bayes is always running tests on simulations in a headless browser, i.e. a browser without a page. Bayes will pick a simulation and a test randomly. Each test gets 40 seconds from start to finish. If the simulation takes 20 seconds to load, then it will only be tested for 20 seconds. If the simulation takes 1 second to load, then it will be tested for 39 seconds. Once every simulation has undergone every test, Bayes does more tests randomly. If someone makes a commit, then Bayes detects the commit, pulls it, and takes a snapshot of the PhET codebase. This is not instantaneous. The creation of a snapshot takes approximately 15 minutes.
 
 The numbers and colors of the cells are important:
-- Let n be a natural number in one of the cells.
+- Let *n* be a natural number in one of the cells.
 - If *n* = 100, then there are two cases:
   - Case 1: The cell is dark green. This implies that the simulation passed all tests.
   - Case 2: The cell is light green. This implies that the simulation has passed all tests thus far.
