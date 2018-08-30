@@ -97,7 +97,7 @@ Assigning @ariel-phet for prioritization.
   
   You should:
 
-  1. Consult the [QA Book](link).
+  1. Consult the [QA Book](https://github.com/phetsims/QA/blob/master/doc/qa-book.md).
   2. Google it.
   3. Ask Katie.
   4. Ask a developer.
@@ -132,7 +132,7 @@ Assigning @ariel-phet for prioritization.
 - Make sure you can't lose anything.
 - Play with the sim normally.
 - Try to break the sim.
-- Test all query parameters on all platforms. (See [QA Book](link) for a list of query parameters.)
+- Test all query parameters on all platforms. (See [QA Book](https://github.com/phetsims/QA/blob/master/doc/qa-book.md) for a list of query parameters.)
 - Download HTML on Chrome and iOS.
 - Make sure the iFrame version of the simulation is working as intended on all platforms.
 - Make sure the XHTML version of the simulation is working as intended on all platforms.
