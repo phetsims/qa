@@ -161,7 +161,7 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 - **[iFrame](link)**
 - **[XHTML](link)**
 - **[Test Matrix](link)**
-- **[Legends of Learning Harness](harness.legendsoflearning.com)**
+- **[Legends of Learning Harness](https://developers.legendsoflearning.com/public-harness/index.html?startPayload=%7B%22languageCode%22%3A%22en%22%7D)**
 
 <hr>
 
