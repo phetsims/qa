@@ -667,7 +667,7 @@ We have lots of old simulations that use Adobe Flash Player or Java. People stil
 23. Send the translator a thank-you email.
 
 Note:
-- This process will not work if Matt hasn't done some wizardy to make it so that you can do it.
+- This process will not work if Matt hasn't done some wizardry to make it so that you can do it.
 - If something goes wrong at any point in the process, the best course of action is to start over.
 
 <h3>5.2: HTML5 Simulation Translations</h3>
