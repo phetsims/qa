@@ -356,30 +356,30 @@ To do the screenshot test, do the following:
 
 To do the query parameters test, append the URL with the following query parameters:
 <ul>
-<li>`?showPointerAreas`: shows red touch area and blue mouse area</li>
+<li>?showPointerAreas: shows red touch area and blue mouse area</li>
   <ul>
     <li>Some things won’t have a pointer area. This is normal.</li>
     <li>Sometimes pointer areas will look strange, e.g. extending beyond the borders of a carousel. This is normal.</li>
     <li>Make sure pointer areas do not overlap.</li>
     <li>This query parameter adversely affects the performance of the simulation.</li>
   </ul>
-<li>`?stringTest=double`: doubles strings.</li>
+<li>?stringTest=double: doubles strings.</li>
   <ul>
     <li>Strings should scale down. Nothing should overlap.</li>
     <li>If there is an issue, then it is an internationalization issue.</li>
   </ul>
-<li>`?stringTest=long`: makes strings 12345678901234567890123456789012345678901234567890</li>
+<li>?stringTest=long: makes strings 12345678901234567890123456789012345678901234567890</li>
   <ul>
     <li>Make sure there aren't any layout issues.</li>
     <li>This query parameter might reveal issues that ?stringTest=double doesn’t.</li>
   </ul>
-<li>`?stringTest=rtl`: makes strings Farsi</li>
+<li>?stringTest=rtl: makes strings Farsi</li>
   <ul>
     <li>Make sure everything looks good.</li>
     <li>Make sure everything functions normally.</li>
   </ul>
-<li>`?stringTest=X`: makes strings X</li>
-<li>`?stringTest=xss`: cross site scripting</li>
+<li>?stringTest=X: makes strings X</li>
+<li>?stringTest=xss: cross site scripting</li>
   <ul>
     <li>This query parameter puts JavaScript into every string. The page should not redirect.</li>
     <li>If the simulation does not redirect to another website, the simulation passes this test.</li>
