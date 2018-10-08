@@ -151,7 +151,6 @@ Some repositories contain code for things that aren’t simulations. The followi
 * sherpa: Sherpa holds third party libraries.
 * shred: Shred holds code used in simulations with subatomic particles.
 * simula-rasa: Simula Rasa holds code for a blank simulation.
-* slater: Slater holds code that translates Java to JavaScript. This isn’t used very much.
 * sun: Sun holds code for low level user interface components, e.g. buttons and sliders. It uses code from Scenery.
 * tambo: Tambo holds code for sonification.
 * tandem: Tandem holds code for supporting material for PhET-iO simulations. Used in conjunction with PhET-iO to enable access to model and user interface components of the simulation.
