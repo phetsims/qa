@@ -511,11 +511,12 @@ To test a screen reader, do the following:
 2. Carefully read the a11y view.
 3. Quit your browser.
 4. Start your screen reader.
-5. Open the sim.
-6. Read everything in the simulation with the screen reader.
-7. Make sure all possible alerts are given.
-8. Make sure all possible descriptions match the state of the simulation.
-9. Make sure the alerts and descriptions make sense.
+5. Make sure "audio ducking" is off in screen reader settings.
+6. Open the sim.
+7. Read everything in the simulation with the screen reader.
+8. Make sure all possible alerts are given.
+9. Make sure all possible descriptions match the state of the simulation.
+10. Make sure the alerts and descriptions make sense.
 
 #### Sound Test
 
