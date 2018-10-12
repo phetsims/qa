@@ -553,7 +553,7 @@ The The offline website installers are (typically) built every Sunday morning. T
   * For all versions of the installer, make sure two Flash simulations open.
   * For all versions of the installer, make sure two Java sims open.
   * For all versions of the installer, make sure two translated Flash sims open.
-  * For all versions of the installer, make sure two translated Java sims open.
+  * For all versions of the installer, make sure two translated Java sims direct to the website if you are connected to the internet.
   * For the installer without activities, make sure that activity links redirect you to the website if you are connected to the internet.
   * For the installer with activities, make sure two activities open.
   * For the installer with activities, make sure two translated activities open.
