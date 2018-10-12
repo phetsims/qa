@@ -394,6 +394,10 @@ To perform the HTML download test, do the following:
 
 To perform the iFrame test or the XHTML test, simply click the link to the iFrame or the link to the XHTML version of the simulation and make sure the simulation behaves normally.
 
+#### Debug Version
+
+It is a good idea to have the debug version of the rc found [here](https://phet-dev.colorado.edu/html/) running with the querry parameter fuzzMouse enabled.
+
 #### Screenshots
 
 [Insert process for taking screenshots here.]
