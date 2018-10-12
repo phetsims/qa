@@ -459,6 +459,7 @@ what the issue specifies.
   3. Open the console.
   4. Follow the directions in the console to download a copy of the recording.
   5. View the recording in the Events: Playback wrapper and make sure your actions were recorded accurately.
+  6. If a previous recording wrapper exists and is provided, make a recording in that wrapper and test with the current playback method.
 
 #### State Wrapper Test
 
