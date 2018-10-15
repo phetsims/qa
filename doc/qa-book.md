@@ -464,6 +464,11 @@ what the issue specifies.
   4. Follow the directions in the console to download a copy of the recording.
   5. View the recording in the Events: Playback wrapper and make sure your actions were recorded accurately.
   6. If a previous recording wrapper exists and is provided, make a recording in that wrapper and test with the current playback method.
+  
+  #### Metacog Recording Testing
+  
+* *What?* This is a method of checking a recording that does not use a play back wrapper.
+* *How?* First, make the recording using the link provided.  Check that you are recording to metacog by looking in the console for the line `Recorder initialized, sending data to: ["metacog"]`.  When you are done, press either the back arrow or x out of the tab.  You should be prompted to stay while the process finishes.  DO NOT LEAVE, instead press cancel and wait for the go-ahead to leave.  (Note: Firefox may not show the dialog if you use the back arrow.)  Wait for thirty minutes before moving to the next step.  Use this [link](http://phettest.colorado.edu/phet-io-website/root/metacog/request-data.html) to retrieve the data.  Paste the provided URL into the URL box, the provided ID into the Application ID, and the email you want to receive the logs in into the email box.  Nothing else needs to be entered.  If you have the console open when you hit submit you will get an ID number you can use if something goes wrong with the retrieval.  The email will take about 20 minutes.  Make sure the gz file is uncompressed.  Use the provided playback link to test the recording. [This](https://github.com/phetsims/phet-io/blob/master/doc/metacog.md) may be helpful.
 
 #### State Wrapper Test
 
