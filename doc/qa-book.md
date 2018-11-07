@@ -400,7 +400,33 @@ It is a good idea to have the debug version of the rc found [here](https://phet-
 
 #### Screenshots
 
-[Insert process for taking screenshots here.]
+##### Screenshots on Chrome
+
+1. Download Window Resizer.
+2. Download Screenshot Capture.
+3. Window Resizer -> preset 1536x1008
+4. Resize viewport.
+5. Right click Screenshot Capture icon -> options -> make sure capture method is set to capture viewport.
+6. Set up as close as possible the desired screenshot.
+7. Double check that there are enough pixels. Extension should give a warning if it cannot resize properly.
+8. Press `alt + s` (this is the default keyboard shortcut) to take the screenshot.
+9. Check the image to make sure it has the right dimensions (1536x1008).
+10. Rename screenshots `sim-name-screenshot.png` or `sim-name-screenshot-alt#.png`.
+11. Upload screenshots to GitHub.
+
+##### Screenshots on Firefox
+
+1. Download ResizeIT.
+2. Download Screenshot Extension (Screen Capture Tool).
+3. ResizeIT -> set dimension to 1548x1089 (maybe?)
+4. Set up screenshot.
+5. Double check that there are enough pixels. Extension should give a warning if it cannot resize properly.
+6. Click on the screenshot extension.
+7. Select capture visible web content.
+8. Save the screenshot.
+9. Double check dimensions. Dimensions should be (1536x1008).
+10. Rename screenshots `sim-name-screenshot.png` or `sim-name-screenshot-alt#.png`.
+11. Upload screenshots to GitHub.
 
 ### 4.3: PhET-iO Testing
 
@@ -465,10 +491,10 @@ what the issue specifies.
   5. View the recording in the Events: Playback wrapper and make sure your actions were recorded accurately.
   6. If a previous recording wrapper exists and is provided, make a recording in that wrapper and test with the current playback method.
   
-  #### Metacog Recording Testing
+#### Metacog Recording Testing
   
-* *What?* his test exercises the full recording and playback process used for PhET studies. This includes recording to and retrieving from our data back end partner, Metacog.
-* *How?* First, make the recording using the link provided.  Check that you are recording to metacog by looking in the console for the line `Recorder initialized, sending data to: ["metacog"]`.  When you are done, press either the back arrow or x out of the tab.  You should be prompted to stay while the process finishes.  DO NOT LEAVE, instead press cancel and wait for the go-ahead to leave.  (Note: Firefox may not show the dialog if you use the back arrow.)  Wait for thirty minutes before moving to the next step.  Use this [link](http://phettest.colorado.edu/phet-io-website/root/metacog/request-data.html) to retrieve the data.  Paste the provided URL into the URL box, the ID into the Application ID (this will not be given in the issue, but you can ask the developer for it), and the email you want to receive the logs in into the email box.  Nothing else needs to be entered.  If you have the console open when you hit submit you will get an ID number you can use if something goes wrong with the retrieval.  The email will take about 20 minutes.  Make sure the gz file is uncompressed.  Use the playback link in the wrapper index to test the recording. [This](https://github.com/phetsims/phet-io/blob/master/doc/metacog.md) may be helpful.
+* *What?* This test exercises the full recording and playback process used for PhET studies. This includes recording data to and retrieving data from our data back end partner, Metacog.
+* *How?* First, make the recording using the link provided. Check that you are recording to metacog by looking in the console. You should see the following: `Recorder initialized, sending data to: ["metacog"]`. When you are done, press either the back arrow or close the tab. You should be prompted to stay while the process finishes. DO NOT LEAVE! Instead, press cancel and wait for the go-ahead to leave. (Note: Firefox may not show the dialog if you use the back arrow.) Wait for thirty minutes before moving to the next step. Use this [link](http://phettest.colorado.edu/phet-io-website/root/metacog/request-data.html) to retrieve the data. Paste the provided URL into the URL box, the ID into the Application ID (this will not be given in the issue, but you can ask the developer for it), and the email you want to receive the logs in into the email box. Nothing else needs to be entered. If you have the console open when you hit submit you will get an ID number you can use if something goes wrong with the retrieval. The email will take about 20 minutes. Make sure the `.gz` file is uncompressed. Use the playback link in the wrapper index to test the recording. [This](https://github.com/phetsims/phet-io/blob/master/doc/metacog.md) may be helpful.
 
 #### State Wrapper Test
 
@@ -672,11 +698,15 @@ Rosetta is the program we use to translate HTML5 simulations. A trusted translat
 
 ### 5.3: Website Translations
 
-We have a bizarre.
+#### Update Case
 
-[Insert shiny, new instructions for website translations here.]
+A translator submits an update of an existing translation. Go to the Translations page and 
 
-Please refer to the TeX version of the QA book until we get the new instructions up.
+#### Creates New Language Case
+#### Submits New Language Case
+#### Delete Case
+#### Created Copy Case
+#### Submitted Clone Case
 
 ***
 
