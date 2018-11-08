@@ -635,7 +635,7 @@ If you see an error, check GitHub to see who has been comitting to that reposito
 
 ### 4.8: Memory Leak Testing
 
-Memory leak testing is sometimes performed on simulations that are undergoing a development test or a release candidate test. To do a memory leak test, follow these steps:
+Memory leak testing is sometimes performed on simulations that are undergoing a development test or a release candidate test. They should also be done for any rc.1 testing. To do a memory leak test, follow these steps:
 
 1. Open an Incognito Window in Google Chrome.
 2. Open the simulation.
