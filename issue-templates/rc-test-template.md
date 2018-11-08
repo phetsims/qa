@@ -44,6 +44,7 @@ Assigning @ariel-phet for prioritization.
 - Complete the test matrix.
 - Don't forget to make sure the sim works with Legends of Learning.
 - Check [this](https://docs.google.com/spreadsheets/d/1umIAmhn89WN1nzcHKhYJcv-n3Oj6ps1wITc-CjWYytE/edit#gid=0) LoL spreadsheet and notify AR if it not there.
+- If this is rc.1 please do a memory test.
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
