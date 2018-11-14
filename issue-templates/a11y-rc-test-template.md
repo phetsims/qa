@@ -16,7 +16,7 @@ This view shows what is available to a screen reader user. The sim is on the lef
 
 PhET supports the following platforms for accessibility so please test these:
 *(These should be in the test matrix)*
-- [ ] JAWS with latest Windows, latest Firefox
+- [ ] JAWS with latest Windows, latest Chrome
 - [ ] NVDA with latest Windows, latest Firefox
 - [ ] VoiceOver with latest macOS, latest Safari
 

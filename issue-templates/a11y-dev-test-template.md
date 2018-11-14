@@ -11,7 +11,7 @@ The above sim has labels and/or descriptions. They can be "seen" here:
 This view should assist in seeing what is available to a screen reader user. While testing,  please make sure that all descriptions and alerts accurately describe the state of the simulation. All content in the a11y-view should be readable with a screen reader when one is active.
 
 PhET supports the following platforms for accessibility so please test these:
-- [ ] JAWS with latest Windows, latest Firefox
+- [ ] JAWS with latest Windows, latest Chrome
 - [ ] NVDA with latest Windows, latest Firefox
 - [ ] VoiceOver with latest macOS, latest Safari
 

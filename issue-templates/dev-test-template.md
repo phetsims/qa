@@ -151,7 +151,7 @@ This sim supports screen readers. If you are unfamiliar with screen readers, ple
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Platforms and Screen Readers to Be Tested</h3>
 
-- [ ] Windows 10 + Latest Firefox + Latest JAWS
+- [ ] Windows 10 + Latest Chrome + Latest JAWS
 - [ ] Windows 10 + Latest Firefox + Latest NVDA
 - [ ] macOS + Safari + VoiceOver
 
