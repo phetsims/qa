@@ -180,6 +180,10 @@ We are tracking known screen reader bugs in [this Google Document](https://docs.
 
 This sim supports keyboard navigation. Please make sure it works as intended on all platforms by itself and with a screen reader.
 
+<h3>Final Requests</h3>
+
+- [ ] If this sim is in [this list](https://github.com/phetsims/perennial/blob/master/data/accessibility), make an issue in [website](https://github.com/phetsims/website) to ask if PhET research page links need updating. Please assign to @terracoda and @emily-phet.
+
 <hr>
 
 </details>
