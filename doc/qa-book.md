@@ -593,6 +593,8 @@ The The offline website installers are (typically) built every Sunday morning. T
 
 You might encounter issues with Java simulations. If you are having issues with a `.jlnp` file and the developer asks you to check the permissions of the file, then open the file with a text editor and check the permissions. If you are having issues with a `.jar` file and the developer asks you to check the permissions, then use `7-Zip > Open archive > META > MANIFEST > Check permissions` to check the permissions.
 
+If you encounter problems installing a linux installer, it is possible that it is due to the installer being 32-bit and the computer being 64-bit.  If so, follow documentation found in [this issue](https://github.com/phetsims/installer-builder/issues/197).
+
 ### 4.7: Automated (Continuous) Testing
 
 Open [this](https://bayes.colorado.edu/continuous-testing/aqua/html/continuous-report.html) in a private window. (You should always use a private window when viewing automated testing results because of caching issues.) Read the description at the top of the page. (The test number can increase because tests aren’t counted until the simulation is built.)
