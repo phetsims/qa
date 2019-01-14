@@ -3,18 +3,19 @@
 Please document all known AT bugs in this document.
 
 **Contents**
-* [1: Screen Readers]()
-  * [1.1: General Bugs]()
-  * [1.2: JAWS]()
-    * [1.2.1: Firefox Bugs]()
-  * [1.3: NVDA]()
-    * [1.3.1: Firefox Bugs]()
-  * [1.4: VoiceOver]()
-    * [1.4.1: Safari Bugs]()
-* [2: Keyboard Navigation]()
-  * [2.1: General Bugs]()
-  * [2.2: Firefox Bugs]()
-  * [2.3: Safari Bugs]()
+* [1: Screen Readers](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#1-screen-readers)
+  * [1.1: General Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#11-general-bugs)
+  * [1.2: JAWS](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#12-jaws)
+    * [1.2.1: Firefox Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#121-firefox-bugs)
+  * [1.3: NVDA](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#13-nvda)
+    * [1.3.1: Firefox Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#131-firefox-bugs)
+  * [1.4: VoiceOver](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#14-voiceover)
+    * [1.4.1: Safari Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#141-safari-bugs)
+    * [1.4.2: Mobile Safari Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#142-mobile-safari-bugs)
+* [2: Keyboard Navigation](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#2-keyboard-navigation)
+  * [2.1: General Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#21-general-bugs)
+  * [2.2: Firefox Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#22-firefox-bugs)
+  * [2.3: Safari Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#23-safari-bugs)
 
 ## 1: Screen Readers
 
