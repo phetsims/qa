@@ -316,7 +316,7 @@ Here's a list of platforms we like to do development tests on:
 
 Release candidate testing is more thorough than development testing because the simulation being tested is a “release candidate.” Theoretically, major issues with the simulation will have been fixed by the time it undergoes an RC test.
 
-When a simulation needs to be tested, a developer will open an issue in the QA repository and they should use [the new template for release candidate tests](https://github.com/phetsims/QA/blob/master/issue-templates/rc-test-template-new.md). There should be a link to the simulation in the issue, but if there isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/). The template should specify what exactly needs to be tested. Here are the steps you need to follow for a release candidate test:
+When a simulation needs to be tested, a developer will open an issue in the QA repository and they should use [the new template for release candidate tests](https://github.com/phetsims/QA/blob/master/issue-templates/rc-test-template.md). There should be a link to the simulation in the issue, but if there isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/). The template should specify what exactly needs to be tested. Here are the steps you need to follow for a release candidate test:
 
 1. Familiarize yourself with the simulation.
 2. If the developer wants you to test previous issues, then test those first.
