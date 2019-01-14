@@ -2,6 +2,20 @@
 
 Please document all known AT bugs in this document.
 
+**Contents**
+* [1: Screen Readers]()
+  * [1.1: General Bugs]()
+  * [1.2: JAWS]()
+    * [1.2.1: Firefox Bugs]()
+  * [1.3: NVDA]()
+    * [1.3.1: Firefox Bugs]()
+  * [1.4: VoiceOver]()
+    * [1.4.1: Safari Bugs]()
+* [2: Keyboard Navigation]()
+  * [2.1: General Bugs]()
+  * [2.2: Firefox Bugs]()
+  * [2.3: Safari Bugs]()
+
 ## 1: Screen Readers
 
 ### 1.1: General Bugs
