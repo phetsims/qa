@@ -173,7 +173,7 @@ This sim supports screen readers. If you are unfamiliar with screen readers, ple
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Critical Screen Reader Information</h3>
 
-We are tracking known screen reader bugs in [this Google Document](https://docs.google.com/document/d/1518zv6F0odExFsodShZxwTmWNQk3civuNwtQUR-rEBs/). If you find a screen reader bug, please check it against this list.
+We are tracking known screen reader bugs in [this Google Document](https://drive.google.com/open?id=12kTs-g-iKEIH1dyG7Q41_W_oNL4gUKbkW-IQgZjMUBw). If you find a screen reader bug, please check it against this list.
 
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Keyboard Navigation</h3>
