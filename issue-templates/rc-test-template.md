@@ -63,7 +63,7 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
 
-- **[Simulation](link)**
+- **[Simulation](all_phet_link)**
 - **[iFrame](link)**
 - **[XHTML](link)**
 - **[Test Matrix](link)**
@@ -155,7 +155,7 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 <h3>Link(s)</h3>
 
 - **[a11y View](link)**
-- **[Simulation](link)**
+- **[Simulation](all_phet_link)**
 - **[Test Matrix](link)**
 
 <!--- [CAN BE OMITTED, DO NOT EDIT] -->
