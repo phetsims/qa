@@ -561,7 +561,15 @@ The developers may occasionally ask you to test various parts of the website. Th
 
 The The offline website installers are (typically) built every Sunday morning. Test the offline website every Monday. To test the offline website, follow the steps below:
 
-1. Go to the ["Offline Access" page of the PhET website](https://phet.colorado.edu/en/offline-access).
+1. Go to whichever of the following links is appropriate for the test being done.
+  * https://phet.colorado.edu/installer/PhET-Installer_windows.exe
+  * https://phet.colorado.edu/installer/PhET-Installer_osx.zip
+  * https://phet.colorado.edu/installer/PhET-Installer_linux.bin
+  * https://phet.colorado.edu/installer/PhET-Installer-with-activities_windows.exe
+  * https://phet.colorado.edu/installer/PhET-Installer-with-activities_osx.zip
+  * https://phet.colorado.edu/installer/PhET-Installer-with-activities_linux.bin
+  * https://phet.colorado.edu/installer/PhET-Installer_cdrom.zip
+  * https://phet.colorado.edu/installer/PhET-Installer_dvdrom.zip
 2. Make sure the date on which the installer was built is correct, e.g. if you’re testing the simulation on a Monday, and the installer builder was built on Sunday morning, then the date should be Monday’s date minus one day.
 3. If this is not the case, then stop testing and inform the developer.
 4. Otherwise, make sure the file sizes aren’t too large or too small. As of 2018-03-23, the installer without activities is approximately 370 MB and the installer with activities is approximately 1300 MB. If these numbers are drastically different, then stop testing and inform the developer.
