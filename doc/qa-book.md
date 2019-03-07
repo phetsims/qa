@@ -362,6 +362,10 @@ To do the query parameters test, append the URL with the following query paramet
     * This query parameter puts JavaScript into every string. The page should not redirect.
     * If the simulation does not redirect to another website, the simulation passes this test.
     * If the simulation crashes or fails to load, the simulation still passes this test.
+    
+##### Other Usefull Query Parameters #####
+* `?fuzz`: makes random clicks and touches
+* `?profiler`: Shows frame rate of the sim
 
 Multiple query parameters can be used at once. It's as simple as adding an ampersand between query parameters.
 
