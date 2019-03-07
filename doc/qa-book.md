@@ -417,7 +417,7 @@ It is a good idea to have the debug version of the rc found [here](https://phet-
 ##### Screenshots on Firefox
 
 1. Download ResizeIT.
-2. Download Screenshot Extension (Screen Capture Tool).
+2. Download Easy Screenshot.
 3. ResizeIT -> set dimension to 1548x1089 (maybe?)
 4. Set up screenshot.
 5. Double check that there are enough pixels. Extension should give a warning if it cannot resize properly.
