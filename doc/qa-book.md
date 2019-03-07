@@ -311,6 +311,8 @@ Here's a list of platforms we like to do development tests on:
 * Windows + Microsoft Edge
 * Windows + Firefox
 * Windows + Chrome
+* iOS + Safari
+* Chrome OS
 
 ### 4.2: Release Candidate (RC) Testing ###
 
@@ -323,6 +325,7 @@ When a simulation needs to be tested, a developer will open an issue in the QA r
 3. Open the testing matrix.
 4. Choose a device and browser combination that hasn’t been tested. Add your initials to indicate that you are testing that platform.
 5. Perform the below tests and fill out the testing matrix.
+6. When you find an issue, see if it was in a previously published version (if it exsists)
 
 #### Full Screen Test
 
