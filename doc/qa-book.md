@@ -694,7 +694,7 @@ We have lots of old simulations that use Adobe Flash Player or Java. People stil
 14. Click the “OK” button.
 15. Wait for it to complete.
 16. Click the "OK" button. 
-17. Copy the URL from Git Bash and paste it into a browser.
+17. Copy the URL from Git Bash and paste it into a browser.  URL should look like `https://phet.colorado.edu/admin/deploy-translation?dir=`...
 18. Wait for it to load.
 19. Test the English version and the translated version of each simulation. (Make sure the strings look normal.)
 20. If the strings look normal, then press the "Publish Now" button.
