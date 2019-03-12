@@ -411,7 +411,7 @@ It is a good idea to have the debug version of the rc found [here](https://phet-
 
 1. Download Window Resizer.
 2. Download Screenshot Capture.
-3. Window Resizer -> preset 1536x1008
+3. Window Resizer -> preset 1536x1008.  Screenshot Capture -> Adjust to actual size preset.
 4. Resize viewport.
 5. Right click Screenshot Capture icon -> options -> make sure capture method is set to capture viewport.
 6. Set up as close as possible the desired screenshot.
