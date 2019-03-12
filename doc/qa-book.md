@@ -314,6 +314,8 @@ Here's a list of platforms we like to do development tests on:
 * iOS + Safari
 * Chrome OS
 
+Something to note about sims using webGL.  WebGL may not run on certain platforms and browsers, such as chrome on lower Mac OS.
+
 ### 4.2: Release Candidate (RC) Testing ###
 
 Release candidate testing is more thorough than development testing because the simulation being tested is a “release candidate.” Theoretically, major issues with the simulation will have been fixed by the time it undergoes an RC test.
