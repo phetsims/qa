@@ -373,7 +373,7 @@ To do the query parameters test, append the URL with the following query paramet
 * `?profiler`: Shows frame rate of the sim
 
 ##### Private Query Parameters #####
-Some Query Parameters may only be used by members of the PhET team. The method of viewing them SHOULD NOT be disclosed. [This](https://github.com/phetsims/special-ops/issues/129#issuecomment-470688353) private issue details the method for making these parameters visible.
+Some Query Parameters may only be used by members of the PhET team. The method of viewing them SHOULD NOT be disclosed. See [Private Features for PhET Team Members](https://github.com/phetsims/special-ops/blob/master/doc/phetTeamMember.md) for instructions on how to enable private query parameters.
 
 Multiple query parameters can be used at once. It's as simple as adding an ampersand between query parameters.
 
