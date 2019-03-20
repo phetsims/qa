@@ -328,6 +328,7 @@ When a simulation needs to be tested, a developer will open an issue in the QA r
 4. Choose a device and browser combination that hasn’t been tested. Add your initials to indicate that you are testing that platform.
 5. Perform the below tests and fill out the testing matrix.
 6. When you find an issue, see if it was in a previously published version (if it exsists)
+7. On at least one platform, run a fuzz test on the debug version of the rc to look for assertions.
 
 #### Full Screen Test
 
