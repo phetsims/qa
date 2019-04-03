@@ -83,7 +83,8 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 - Make sure standalone sim is working properly.
 - Make sure the wrapper index is working properly.
 - Make sure each wrapper is working properly.
-- For newer PhET-iO wrapper indicies, save the "basic example of a functional wrapper" as a .html file and open it. Make sure the simulation loads without crashing or throwing errors.
+- Launch the simulation in Studio with ?stringTest=xss and make sure the sim doesn't navigate to youtube
+- For newer PhET-iO wrapper indices, save the "basic example of a functional wrapper" as a .html file and open it. Make sure the simulation loads without crashing or throwing errors.
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
