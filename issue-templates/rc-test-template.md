@@ -45,6 +45,7 @@ Assigning to @ariel-phet for prioritization.
 - Don't forget to make sure the sim works with Legends of Learning.
 - Check [this](https://docs.google.com/spreadsheets/d/1umIAmhn89WN1nzcHKhYJcv-n3Oj6ps1wITc-CjWYytE/edit#gid=0) LoL spreadsheet and notify AR if it not there.
 - If this is rc.1 please do a memory test.
+- When making an issue, check to see if it was in a previously published version
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
@@ -63,7 +64,7 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
 
-- **[Simulation](link)**
+- **[Simulation](all_phet_link)**
 - **[iFrame](link)**
 - **[XHTML](link)**
 - **[Test Matrix](link)**
@@ -156,7 +157,7 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 <h3>Link(s)</h3>
 
 - **[a11y View](link)**
-- **[Simulation](link)**
+- **[Simulation](all_phet_link)**
 - **[Test Matrix](link)**
 
 <!--- [CAN BE OMITTED, DO NOT EDIT] -->
@@ -170,6 +171,7 @@ This sim supports screen readers. If you are unfamiliar with screen readers, ple
 - [ ] Windows 10 + Latest Chrome + Latest JAWS
 - [ ] Windows 10 + Latest Firefox + Latest NVDA
 - [ ] macOS + Safari + VoiceOver
+- [ ] iOS + Safari + VoiceOver (only if specified in testing issue)
 
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Critical Screen Reader Information</h3>

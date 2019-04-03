@@ -60,7 +60,7 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
 
-- **[Simulation](link)**
+- **[Simulation](all_phet_link)**
 
 <hr>
 
@@ -142,7 +142,7 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 <h3>Link(s)</h3>
 
 - **[a11y View](link)**
-- **[Simulation](link)**
+- **[Simulation](all_phet_link)**
 
 <!--- [CAN BE OMITTED, DO NOT EDIT] -->
 <h3>Screen Readers</h3>
@@ -155,6 +155,7 @@ This sim supports screen readers. If you are unfamiliar with screen readers, ple
 - [ ] Windows 10 + Latest Chrome + Latest JAWS
 - [ ] Windows 10 + Latest Firefox + Latest NVDA
 - [ ] macOS + Safari + VoiceOver
+- [ ] iOS + Safari + VoiceOver (only if specified in testing issue)
 
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Critical Screen Reader Information</h3>

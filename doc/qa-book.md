@@ -311,6 +311,10 @@ Here's a list of platforms we like to do development tests on:
 * Windows + Microsoft Edge
 * Windows + Firefox
 * Windows + Chrome
+* iOS + Safari
+* Chrome OS
+
+Something to note about sims using webGL.  WebGL may not run on certain platforms and browsers, such as chrome on lower Mac OS.
 
 ### 4.2: Release Candidate (RC) Testing ###
 
@@ -323,6 +327,8 @@ When a simulation needs to be tested, a developer will open an issue in the QA r
 3. Open the testing matrix.
 4. Choose a device and browser combination that hasn’t been tested. Add your initials to indicate that you are testing that platform.
 5. Perform the below tests and fill out the testing matrix.
+6. When you find an issue, see if it was in a previously published version (if it exsists)
+7. On at least one platform, run a fuzz test on the debug version of the rc to look for assertions.
 
 #### Full Screen Test
 
@@ -362,6 +368,13 @@ To do the query parameters test, append the URL with the following query paramet
     * This query parameter puts JavaScript into every string. The page should not redirect.
     * If the simulation does not redirect to another website, the simulation passes this test.
     * If the simulation crashes or fails to load, the simulation still passes this test.
+    
+##### Other Usefull Query Parameters #####
+* `?fuzz`: makes random clicks and touches
+* `?profiler`: Shows frame rate of the sim
+
+##### Private Query Parameters #####
+Some Query Parameters may only be used by members of the PhET team. The method of viewing them SHOULD NOT be disclosed. See [Private Features for PhET Team Members](https://github.com/phetsims/special-ops/blob/master/doc/phetTeamMember.md) for instructions on how to enable private query parameters.
 
 Multiple query parameters can be used at once. It's as simple as adding an ampersand between query parameters.
 
@@ -404,12 +417,12 @@ It is a good idea to have the debug version of the rc found [here](https://phet-
 
 1. Download Window Resizer.
 2. Download Screenshot Capture.
-3. Window Resizer -> preset 1536x1008
+3. Window Resizer -> preset 1536x1008.  Screenshot Capture -> Adjust to actual size preset.
 4. Resize viewport.
 5. Right click Screenshot Capture icon -> options -> make sure capture method is set to capture viewport.
 6. Set up as close as possible the desired screenshot.
 7. Double check that there are enough pixels. Extension should give a warning if it cannot resize properly.
-8. Press `alt + s` (this is the default keyboard shortcut) to take the screenshot.
+8. Press `alt + s` (this is the default keyboard shortcut) to take the screenshot.  (Tip: make sure the download bar from any previous screenshots is gone.)
 9. Check the image to make sure it has the right dimensions (1536x1008).
 10. Rename screenshots `sim-name-screenshot.png` or `sim-name-screenshot-alt#.png`.
 11. Upload screenshots to GitHub.
@@ -417,11 +430,11 @@ It is a good idea to have the debug version of the rc found [here](https://phet-
 ##### Screenshots on Firefox
 
 1. Download ResizeIT.
-2. Download Screenshot Extension (Screen Capture Tool).
+2. Download Easy Screenshot.
 3. ResizeIT -> set dimension to 1548x1089 (maybe?)
 4. Set up screenshot.
 5. Double check that there are enough pixels. Extension should give a warning if it cannot resize properly.
-6. Click on the screenshot extension.
+6. Click on the screenshot extension. (Tip: make sure the download bar from any previous screenshots is gone.)
 7. Select capture visible web content.
 8. Save the screenshot.
 9. Double check dimensions. Dimensions should be (1536x1008).
@@ -561,7 +574,15 @@ The developers may occasionally ask you to test various parts of the website. Th
 
 The The offline website installers are (typically) built every Sunday morning. Test the offline website every Monday. To test the offline website, follow the steps below:
 
-1. Go to the ["Offline Access" page of the PhET website](https://phet.colorado.edu/en/offline-access).
+1. Go to whichever of the following links is appropriate for the test being done.
+  * https://phet.colorado.edu/installer/PhET-Installer_windows.exe
+  * https://phet.colorado.edu/installer/PhET-Installer_osx.zip
+  * https://phet.colorado.edu/installer/PhET-Installer_linux.bin
+  * https://phet.colorado.edu/installer/PhET-Installer-with-activities_windows.exe
+  * https://phet.colorado.edu/installer/PhET-Installer-with-activities_osx.zip
+  * https://phet.colorado.edu/installer/PhET-Installer-with-activities_linux.bin
+  * https://phet.colorado.edu/installer/PhET-Installer_cdrom.zip
+  * https://phet.colorado.edu/installer/PhET-Installer_dvdrom.zip
 2. Make sure the date on which the installer was built is correct, e.g. if you’re testing the simulation on a Monday, and the installer builder was built on Sunday morning, then the date should be Monday’s date minus one day.
 3. If this is not the case, then stop testing and inform the developer.
 4. Otherwise, make sure the file sizes aren’t too large or too small. As of 2018-03-23, the installer without activities is approximately 370 MB and the installer with activities is approximately 1300 MB. If these numbers are drastically different, then stop testing and inform the developer.
@@ -679,7 +700,7 @@ We have lots of old simulations that use Adobe Flash Player or Java. People stil
 14. Click the “OK” button.
 15. Wait for it to complete.
 16. Click the "OK" button. 
-17. Copy the URL from Git Bash and paste it into a browser.
+17. Copy the URL from Git Bash and paste it into a browser.  URL should look like `https://phet.colorado.edu/admin/deploy-translation?dir=`...
 18. Wait for it to load.
 19. Test the English version and the translated version of each simulation. (Make sure the strings look normal.)
 20. If the strings look normal, then press the "Publish Now" button.
