@@ -757,6 +757,12 @@ Here is a list of helpful commands:
 * `$ pm2 start index-server.js`
 * `$ pm2 logs`
 
+or
+
+* `$ pm2 stop index-server`
+* `$ pm2 start index-server`
+* `$ pm2 logs`
+
 ### 6.3: Website Administration
 
 Do not delete English versions of simulations!
