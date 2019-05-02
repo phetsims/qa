@@ -303,10 +303,12 @@ Development testing is whatever the developer wants it to be. Generally speaking
 
 When a simulation needs to be tested, a developer will open an issue in the QA repository and they should use [the template for development tests](https://github.com/phetsims/QA/blob/master/issue-templates/dev-test-template.md). The template should specify what exactly needs to be tested. The steps you need to follow and the platforms you need to test for a development test can be found in the template. There should be a link to the simulation in the issue, but if there isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/).
 
+If the developer has issues they want tested they will either use the labels "status:ready-for-qa" or "status:ready-for-review." If it is ready for qa then close the issue if fixed. If ready for review then leave open and assign back to the developer.
+
 Here's a list of platforms we like to do development tests on:
 
 * macOS + Safari
-* macOS + Firefox
+* macOS + Firefox (sometimes)
 * macOS + Chrome
 * Windows + Microsoft Edge
 * Windows + Firefox
@@ -323,7 +325,7 @@ Release candidate testing is more thorough than development testing because the 
 When a simulation needs to be tested, a developer will open an issue in the QA repository and they should use [the new template for release candidate tests](https://github.com/phetsims/QA/blob/master/issue-templates/rc-test-template.md). There should be a link to the simulation in the issue, but if there isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/). The template should specify what exactly needs to be tested. Here are the steps you need to follow for a release candidate test:
 
 1. Familiarize yourself with the simulation.
-2. If the developer wants you to test previous issues, then test those first.
+2. If the developer wants you to test previous issues, then test those first. THey should be marked with "status:ready-for-qa" and, if they are fixed, should be checked off and closed.
 3. Open the testing matrix.
 4. Choose a device and browser combination that hasn’t been tested. Add your initials to indicate that you are testing that platform.
 5. Perform the below tests and fill out the testing matrix.
