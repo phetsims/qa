@@ -587,7 +587,7 @@ The The offline website installers are (typically) built every Sunday morning. T
   * https://phet.colorado.edu/installer/PhET-Installer_dvdrom.zip
 2. Make sure the date on which the installer was built is correct, e.g. if you’re testing the simulation on a Monday, and the installer builder was built on Sunday morning, then the date should be Monday’s date minus one day.
 3. If this is not the case, then stop testing and inform the developer.
-4. Otherwise, make sure the file sizes aren’t too large or too small. As of 2018-03-23, the installer without activities is approximately 370 MB and the installer with activities is approximately 1300 MB. If these numbers are drastically different, then stop testing and inform the developer.
+4. Otherwise, make sure the file sizes aren’t too large or too small. As of 2019-05-05, the installer without activities is approximately 484 MB and the installer with activities is approximately 1700 MB. If these numbers are drastically different, then stop testing and inform the developer.
   * You should alternate between Windows and macOS on a weekly basis.
   * You should alternate between browsers on a weekly basis.
   * You should alternate between the installer without activities and the installer with activities on a weekly basis. That is, you should not test both in one week.
