@@ -725,13 +725,93 @@ Rosetta is the program we use to translate HTML5 simulations. A trusted translat
 
 #### Update Case
 
-A translator submits an update of an existing translation. Go to the Translations page and 
+A translator submits an update of an existing translation. Go to the Translations page and click the update button next to the corresponding language. Send the translator a thank-you email.
 
 #### Creates New Language Case
+
+Send this email:
+
+"Dear Translator,
+
+I've noticed that you recently started a Divehi (dv) translation of our website and wanted to check in with you to see if you have any questions about the process. Please let me know if you have any questions about how this works and of course please read the full instructions page prior to starting your translation:
+
+http://phet.colorado.edu/en/for-translators/website
+
+As I'm sure you've realized at this point translating the website is not a small task. We estimate it will probably take about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one public translation per language, we encourage translators to collaborate on a translation for their language. We want translators to work together to move any partial translations to one "master" translation as only one translation will go public.
+
+Thank you for your efforts to make PhET sims available worldwide.
+
+Sincerely,
+
+PhET Help"
+
 #### Submits New Language Case
+
+First, check to see how many strings the new translation has. We generally only will publish translation that have more than 1000 strings translated. 
+
+If it has more than 1000, make the translation visible.
+
+Otherwise tell the translator we don’t normally publish incomplete translations and to submit once they have translated more than 1000 strings:
+
+"Dear Translator,
+
+I've noticed that you recently started a Gujarati (gu) translation of our website and wanted to check in with you to see if you have any questions about the process. Please let me know if you have any questions about how this works and of course please read the full instructions page prior to starting your translation:
+
+http://phet.colorado.edu/en/for-translators/website
+
+As I'm sure you've realized at this point translating the website is not a small task. We estimate it will probably take about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one public translation per language, we encourage translators to collaborate on a translation for their language. We want translators to work together to move any partial translations to one "master" translation as only one translation will go public.
+
+Also, we typically only publish translations once they reach at least 1000 strings because before that point they aren't completely usable. You do not need to submit your translation to save your work. All changes are automatically saved to our servers.
+
+Thank you for your efforts to make PhET sims available worldwide.
+
+Sincerely,
+
+PhET Help"
+
 #### Delete Case
+
+The translator creates or submits an English translation. This should never happen because our website is already in English. Delete the (en) copy they created. Be careful not to delete the original English for the website.
+
+Send this email:
+
+"Dear translator,
+
+I noticed that you recently started an English (en) translation of our website. Since our website is written in English, we will delete this translation. If you meant to create a translation in another language, please see here for instructions:
+
+http://phet.colorado.edu/en/for-translators/website
+
+Best,
+
+PhET Help"
+
 #### Created Copy Case
+
+The translator creates a copy an existing translation.
+
+Email them informing them of the existing translation:
+
+"Dear Translator,
+
+I've noticed that you recently started an Arabic (ar) translation of our website and wanted to check in with you to see if you have any questions about the process.  Please let me know if you have any questions about how this works and of course please read the full instructions page prior to starting your translation:
+
+http://phet.colorado.edu/en/for-translators/website
+
+As I'm sure you've realized at this point translating the website is not a small task.  We estimate it will probably take about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one public translation per language, we encourage translators to collaborate on a translation for their language.  We want translators to work together to move any partial translations to one "master" translation as only one translation will go public.
+
+Since there are already multiple Arabic (ar) translations being worked on, I would encourage you to send a request to collaborate on the translation by clicking "request to collaborate". This will allow you to send an email to the translators with your email address, so they can contact you about collaboration.
+
+Thank you for your efforts to make PhET sims available worldwide.
+
+Sincerely,
+
+PhET Help"
+
 #### Submitted Clone Case
+
+The translator submits a clone of an existing translation.
+
+Email the translator letting them know that we already have a translation in that language (provide URL) and ask them to instead “Request Collaboration” on the existing translation.
 
 ***
 
