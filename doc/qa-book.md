@@ -303,7 +303,7 @@ Development testing is whatever the developer wants it to be. Generally speaking
 
 When a simulation needs to be tested, a developer will open an issue in the QA repository and they should use [the template for development tests](https://github.com/phetsims/QA/blob/master/issue-templates/dev-test-template.md). The template should specify what exactly needs to be tested. The steps you need to follow and the platforms you need to test for a development test can be found in the template. There should be a link to the simulation in the issue, but if there isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/).
 
-If the developer has issues they want tested they will either use the labels "status:ready-for-qa" or "status:ready-for-review." If it is ready for qa then close the issue if fixed. If ready for review then leave open and assign back to the developer.
+If the developer has issues they want tested they will either use the labels `status:ready-for-qa` or `status:ready-for-review`. If it is ready for QA then close the issue if fixed. If ready for review then leave open and assign back to the developer.
 
 Here's a list of platforms we like to do development tests on:
 
@@ -316,20 +316,20 @@ Here's a list of platforms we like to do development tests on:
 * iOS + Safari
 * Chrome OS
 
-Something to note about sims using webGL.  WebGL may not run on certain platforms and browsers, such as chrome on lower Mac OS.
+Something to note about sims using WebGL. WebGL may not run on certain platforms and browsers, such as chrome on lower macOS.
 
-### 4.2: Release Candidate (RC) Testing ###
+### 4.2: Release Candidate (RC) Testing
 
 Release candidate testing is more thorough than development testing because the simulation being tested is a “release candidate.” Theoretically, major issues with the simulation will have been fixed by the time it undergoes an RC test.
 
 When a simulation needs to be tested, a developer will open an issue in the QA repository and they should use [the new template for release candidate tests](https://github.com/phetsims/QA/blob/master/issue-templates/rc-test-template.md). There should be a link to the simulation in the issue, but if there isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/). The template should specify what exactly needs to be tested. Here are the steps you need to follow for a release candidate test:
 
 1. Familiarize yourself with the simulation.
-2. If the developer wants you to test previous issues, then test those first. THey should be marked with "status:ready-for-qa" and, if they are fixed, should be checked off and closed.
+2. If the developer wants you to test previous issues, then test those first. THey should be marked with `status:ready-for-qa` and, if they are fixed, should be checked off and closed.
 3. Open the testing matrix.
 4. Choose a device and browser combination that hasn’t been tested. Add your initials to indicate that you are testing that platform.
 5. Perform the below tests and fill out the testing matrix.
-6. When you find an issue, see if it was in a previously published version (if it exsists)
+6. When you find an issue, see if it was in a previously published version (if it exsists).
 7. On at least one platform, run a fuzz test on the debug version of the rc to look for assertions.
 
 #### Full Screen Test
@@ -371,11 +371,11 @@ To do the query parameters test, append the URL with the following query paramet
     * If the simulation does not redirect to another website, the simulation passes this test.
     * If the simulation crashes or fails to load, the simulation still passes this test.
     
-##### Other Usefull Query Parameters #####
+##### Other Usefull Query Parameters
 * `?fuzz`: makes random clicks and touches
 * `?profiler`: Shows frame rate of the sim
 
-##### Private Query Parameters #####
+##### Private Query Parameters
 Some Query Parameters may only be used by members of the PhET team. The method of viewing them SHOULD NOT be disclosed. See [Private Features for PhET Team Members](https://github.com/phetsims/special-ops/blob/master/doc/phetTeamMember.md) for instructions on how to enable private query parameters.
 
 Multiple query parameters can be used at once. It's as simple as adding an ampersand between query parameters.
@@ -421,10 +421,10 @@ It is a good idea to have the debug version of the rc found [here](https://phet-
 2. Download Screenshot Capture.
 3. Window Resizer -> preset 1536x1008.  Screenshot Capture -> Adjust to actual size preset.
 4. Resize viewport.
-5. Right click Screenshot Capture icon -> options -> make sure capture method is set to capture viewport.
+5. Right click screenshot capture icon -> options -> make sure the capture method is set to capture viewport.
 6. Set up as close as possible the desired screenshot.
 7. Double check that there are enough pixels. Extension should give a warning if it cannot resize properly.
-8. Press `alt + s` (this is the default keyboard shortcut) to take the screenshot.  (Tip: make sure the download bar from any previous screenshots is gone.)
+8. Press `alt + s` (this is the default keyboard shortcut) to take the screenshot. (Make sure the download bar from any previous screenshots is gone.)
 9. Check the image to make sure it has the right dimensions (1536x1008).
 10. Rename screenshots `sim-name-screenshot.png` or `sim-name-screenshot-alt#.png`.
 11. Upload screenshots to GitHub.
@@ -433,10 +433,10 @@ It is a good idea to have the debug version of the rc found [here](https://phet-
 
 1. Download ResizeIT.
 2. Download Easy Screenshot.
-3. ResizeIT -> set dimension to 1548x1089 (maybe?)
+3. ResizeIT -> Set dimension to 1548x1089.
 4. Set up screenshot.
 5. Double check that there are enough pixels. Extension should give a warning if it cannot resize properly.
-6. Click on the screenshot extension. (Tip: make sure the download bar from any previous screenshots is gone.)
+6. Click on the screenshot extension. (Make sure the download bar from any previous screenshots is gone.)
 7. Select capture visible web content.
 8. Save the screenshot.
 9. Double check dimensions. Dimensions should be (1536x1008).
