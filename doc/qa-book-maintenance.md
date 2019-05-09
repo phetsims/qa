@@ -7,6 +7,7 @@ Add any items that need to be added to the [QA Book](https://github.com/phetsims
 - [ ] Add places to find sim specific terminology and query parameters.
 - [ ] Add documentation of any useful query parameters not necessarily used in RC testing.
 - [ ] Add [process for Metacog maintenance testing](https://github.com/phetsims/QA/issues/187#issue-360088338). See [this issue](https://github.com/phetsims/QA/issues/191). Formatting doesn’t look great though, so maybe we should take a second look there.
+- [ ] Add documentation for new labeling system.
 
 ## Big Things
 
