@@ -12,5 +12,5 @@ Add any items that need to be added to the [QA Book](https://github.com/phetsims
 ## Big Things
 
 - [ ] Rework website translation cases for clarity.
-- [ ] Add new screenshot process.
+- [ ] Rework screenshot process for clarity.
 - [ ] Add new website translation steps.
