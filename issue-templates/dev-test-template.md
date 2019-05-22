@@ -55,7 +55,7 @@ Assigning @ariel-phet for prioritization.
 - [ ] [Issue2](link)
 - [ ] [Issue3](link)
 
-These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed.
+These issues should have either use the labels "status:ready-for-qa" or "status:ready-for-review." If it is ready for QA then close the issue if fixed. If ready for review then leave open and assign back to the developer.
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
@@ -98,7 +98,7 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 - [ ] [Issue2](link)
 - [ ] [Issue3](link)
 
-These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed.
+These issues should have either use the labels "status:ready-for-qa" or "status:ready-for-review." If it is ready for QA then close the issue if fixed. If ready for review then leave open and assign back to the developer.
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
@@ -136,7 +136,7 @@ These issues should have the "status:fixed-pending-testing" label. Check these i
 - [ ] [Issue2](link)
 - [ ] [Issue3](link)
 
-These issues should have the "status:fixed-pending-testing" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed.
+These issues should have either use the labels "status:ready-for-qa" or "status:ready-for-review." If it is ready for QA then close the issue if fixed. If ready for review then leave open and assign back to the developer.
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
