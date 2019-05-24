@@ -65,7 +65,7 @@ These issues should have the "status:ready-for-QA" label. Check these issues off
 <h3>Link(s)</h3>
 
 - **[Simulation](all_phet_link)**
-- **[iFrame](link)**
+- **[iFrame](all_iframe_link)**
 - **[XHTML](link)**
 - **[Test Matrix](link)**
 - **[Legends of Learning Harness](https://developers.legendsoflearning.com/public-harness/index.html?startPayload=%7B%22languageCode%22%3A%22en%22%7D)**
