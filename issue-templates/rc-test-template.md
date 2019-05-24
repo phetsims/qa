@@ -59,7 +59,7 @@ Assigning to @ariel-phet for prioritization.
 - [ ] [Issue2](link)
 - [ ] [Issue3](link)
 
-These issues should have the "status:ready-for-QA" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed and link back to this issue. If the label is "status:ready-for-review" or "status:fixed-pending-deploy" then assign back to the developer when done, even if fixed.
+These issues should have the "status:ready-for-qa" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed and link back to this issue. If the label is "status:ready-for-review" or "status:fixed-pending-deploy" then assign back to the developer when done, even if fixed.
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
@@ -107,7 +107,7 @@ These issues should have the "status:ready-for-QA" label. Check these issues off
 - [ ] [Issue2](link)
 - [ ] [Issue3](link)
 
-These issues should have the "status:ready-for-QA" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed and link back to this issue. If the label is "status:ready-for-review" or "status:fixed-pending-deploy" then assign back to the developer when done, even if fixed.
+These issues should have the "status:ready-for-qa" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed and link back to this issue. If the label is "status:ready-for-review" or "status:fixed-pending-deploy" then assign back to the developer when done, even if fixed.
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
@@ -151,7 +151,7 @@ These issues should have the "status:ready-for-QA" label. Check these issues off
 - [ ] [Issue2](link)
 - [ ] [Issue3](link)
 
-These issues should have the "status:ready-for-QA" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed and link back to this issue. If the label is "status:ready-for-review" or "status:fixed-pending-deploy" then assign back to the developer when done, even if fixed.
+These issues should have the "status:ready-for-qa" label. Check these issues off and close them if they are fixed. Otherwise, post a comment in the issue saying that it wasn't fixed and link back to this issue. If the label is "status:ready-for-review" or "status:fixed-pending-deploy" then assign back to the developer when done, even if fixed.
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
