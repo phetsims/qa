@@ -138,7 +138,7 @@ These issues should have either use the labels "status:ready-for-qa" or "status:
 
 These issues should have either use the labels "status:ready-for-qa" or "status:ready-for-review." If it is ready for QA then close the issue if fixed. If ready for review then leave open and assign back to the developer.
 
-<!--- [DO NOT OMIT, CAN BE EDITED] -->
+<!--- [DO NOT OMIT, SHOULD BE EDITED] -->
 <h3>Link(s)</h3>
 
 - **[a11y View](link)**
