@@ -533,6 +533,10 @@ button in the wrapper, not the “Screenshot” button in the simulation.
 * *How?* To test this wrapper, simply make sure you can interact with the simulation when it is active and
 cannot interact with the simulation when it is inactive. Animations should resume without “jumping.”
 
+#### Multi Wrapper Test
+* *What?* This wrapper demonstrates how to embed multiple PhET-iO simulations in the same page.
+* *How?* To test this wrapper, make sure the active toggle works on both sims. Make sure to property toggle has the expected effect based on its language for each.
+
 ### 4.4: Accessibility (a11y) Testing
 
 One of PhET’s goals is to make our simulations available to everyone. This, of course, includes people with disabilities. There are three features to unique to accessibility testing: keyboard navigation compatibility, screen reader compatibility, and sound effects (sonification). Keyboard navigation compatibility allows the user to play with the simulation using the keyboard, i.e. they don’t have to use the mouse. Keyboard navigation can be tested on any device with a physical keyboard and in any browser. Screen reader compatibility allows the user to hear a description of what is happening in the simulation. On Windows devices, we test the NVDA and JAWS screen readers. On macOS devices, we test the VoiceOver screen reader, which is installed by default. JAWS is tested on Chrome, NVDA is tested on Firefox, and VoiceOver is tested on Safari. To familiarize yourself with a screen reader, use the screen reader to read [this](https://bayes.colorado.edu/dev/html/jg-tests/reader-intro.html). In an issue for a test of a simulation with accessibility feature(s) you will find, among other things, a link to the simulation, perhaps a link to a testing matrix (if the test is an RC test), and a link to the a11y view. The a11y view, is a page with the simulation on the left and the description of the simulation in plain text (the parallel document object model or PDOM) on the right. Below the simulation are real-time alerts that will be announced by the screen reader.
