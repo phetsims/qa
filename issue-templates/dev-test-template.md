@@ -86,6 +86,14 @@ These issues should have either use the labels "status:ready-for-qa" or "status:
 - Launch the simulation in Studio with ?stringTest=xss and make sure the sim doesn't navigate to youtube
 - For newer PhET-iO wrapper indices, save the "basic example of a functional wrapper" as a .html file and open it. Make sure the simulation loads without crashing or throwing errors.
 
+<!--- [DO NOT OMIT, CAN BE EDITED] -->
+<h3>General Dev Test Platforms</h3>
+
+- [ ] Latest macOS, all browsers
+- [ ] Latest iOS, Safari
+- [ ] Windows 10, all browsers
+- [ ] Latest Chrome OS, Chrome
+
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
 
