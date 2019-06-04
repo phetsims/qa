@@ -499,9 +499,9 @@ what the issue specifies.
 
 * *What?* This wrapper allows you to record your actions in the simulation.
 * *How?* To test this wrapper, do the following:
-  1. In the URL, replace `&console` with `&localFile`. (If `&console` doesn’t exist, then you should still add `&localFile`.)
-  2. Record your actions in the simulation. (Remember what you did.)
-  3. Open the console.
+  1. Open the console.
+  2. In the URL, replace `&console` with `&localFile`. (If `&console` doesn’t exist, then you should still add `&localFile`.)
+  3. Record your actions in the simulation. (Remember what you did.)
   4. Follow the directions in the console to download a copy of the recording.
   5. View the recording in the Events: Playback wrapper and make sure your actions were recorded accurately.
   6. If a previous recording wrapper exists and is provided, make a recording in that wrapper and test with the current playback method.
