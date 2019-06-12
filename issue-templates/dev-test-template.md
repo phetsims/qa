@@ -130,7 +130,8 @@ These issues should have either use the labels "status:ready-for-qa" or "status:
 <h3>What to Test</h3>
 
 - Specific instructions can be found below.
-- Make sure the a11y feature doesn't negatively affect the sim in any way.
+- Make sure the a11y feature testing doesn't negatively affect the sim in any way.
+- Load the a11y view and make sure that interacting with all elements in the simulation updates the appropriate descriptions in the PDOM.
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
