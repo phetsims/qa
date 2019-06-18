@@ -675,8 +675,8 @@ Memory leak testing is sometimes performed on simulations that are undergoing a 
 2. Open the simulation.
 3. Once the simulation has loaded, open development tools to the “Memory” tab.
 4. Take a heap snapshot.
-5. Append the URL with `?fuzzMouse`.
-6. Have a stopwatch ready for when you reload the simulation with the new query parameter, `?fuzzMouse`.
+5. Append the URL with `?fuzz`.
+6. Have a stopwatch ready for when you reload the simulation with the new query parameter, `?fuzz`.
 7. Reload the simulation.
 8. Once the simulation gets past the splash screen, start the stopwatch.
 9. Every minute, for 10 minutes, take a heap snapshot.
