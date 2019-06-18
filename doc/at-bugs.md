@@ -39,7 +39,7 @@ Please document all known AT bugs in this document.
 * If you click on the Windows taskbar (maybe other things too) pressing arrow keys will have no response from JAWS. Return to the browser and arrow keys should continue to work as expected.
 * When focused on draggable objects, using the arrow keys will not move the object when JAWS is enabled because of https://github.com/phetsims/a11y-research/issues/9. WASD keys should still work.
 
-### 1.2.2: Chrome Bugs
+#### 1.2.2: Chrome Bugs
 
 * If you use a slider by pressing and holding an arrow key, you will hear duplicate alerts that read the value when you release the arrow key. See https://github.com/phetsims/john-travoltage/issues/227.
 * When using a slider and holding down an arrow key, you might see the thumb move slowly while holding the key down, then move rapidly in one direction when you release a key, see https://github.com/phetsims/john-travoltage/issues/242.
