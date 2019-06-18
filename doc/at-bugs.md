@@ -7,6 +7,7 @@ Please document all known AT bugs in this document.
   * [1.1: General Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#11-general-bugs)
   * [1.2: JAWS](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#12-jaws)
     * [1.2.1: Firefox Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#121-firefox-bugs)
+    * [1.2.2: Chrome Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#122-chrome-bugs)
   * [1.3: NVDA](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#13-nvda)
     * [1.3.1: Firefox Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#131-firefox-bugs)
   * [1.4: VoiceOver](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#14-voiceover)
@@ -37,6 +38,11 @@ Please document all known AT bugs in this document.
 * When reading about a slider with the virtual cursor, JAWS might read the min/max value with floating point rounding errors. For example “0.1” might sound like “0.1000...01”. See https://github.com/phetsims/resistance-in-a-wire/issues/177.
 * If you click on the Windows taskbar (maybe other things too) pressing arrow keys will have no response from JAWS. Return to the browser and arrow keys should continue to work as expected.
 * When focused on draggable objects, using the arrow keys will not move the object when JAWS is enabled because of https://github.com/phetsims/a11y-research/issues/9. WASD keys should still work.
+
+### 1.2.2: Chrome Bugs
+
+* If you use a slider by pressing and holding an arrow key, you will hear duplicate alerts that read the value when you release the arrow key. See https://github.com/phetsims/john-travoltage/issues/227.
+* When using a slider and holding down an arrow key, you might see the thumb move slowly while holding the key down, then move rapidly in one direction when you release a key, see https://github.com/phetsims/john-travoltage/issues/242.
 
 ### 1.3: NVDA
 
