@@ -283,6 +283,8 @@ simulation.
 * phet-io:studio - For issues related to studio in PhET-iO branded sims.
 * phet-io:record-and-playback - For issues relating to record and playback in PhET-iO simulations.
 * phet-io:save-and-load - For issues related to state wrappers and launching from proxies in PhET-iO branded simulations.
+* status:ready-for-qa - For issues ready to be confirmed by QA and then closed. (We're done with this issue, please confirm that it is fixed.)
+* status:ready-for-review - For issues that need to be looked over and reassigned to the developer. (We're not necessarily done with this issues, we just need some QA feedback.)
 * type:automated-testing - For automated testing issues.
 * type:bug - For bugs.
 * type:duplicate - For duplicate issues.
@@ -291,8 +293,6 @@ simulation.
 * type:multitouch - For issues that require multiple inputs.
 * type:performance - For performance issues, e.g. low frame rate, lag, etc.
 * type:question - For questions.
-* status:ready-for-qa - For issues ready to be confirmed by QA and then closed. (We're done with this issue, please confirm that it is fixed.)
-* status:ready-for-review - For issues that need to be looked over and reassigned to the developer. (We're not necessarily done with this issues, we just need some QA feedback.)
 
 ***
 
