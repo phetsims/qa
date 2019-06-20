@@ -319,7 +319,9 @@ Here's a list of platforms we like to do development tests on:
 * iOS + Safari
 * Chrome OS
 
-Something to note about sims using WebGL. WebGL may not run on certain platforms and browsers, such as chrome on lower macOS.
+#### Note on WebGL
+
+WebGL may not run on certain platforms and browsers, such as Chrome on old versions of macOS.
 
 ### 4.2: Release Candidate (RC) Testing
 
