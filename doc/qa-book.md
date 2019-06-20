@@ -127,7 +127,7 @@ Some repositories contain code for things that aren’t simulations. The followi
 * axon: Axon is sort of like the nerve system. Axon holds code for things related to properties, e.g. the value of a speedometer.
 * babel: Babel holds files of translated strings for HTML5 simulations.
 * blast: Blast holds code for a simple simulation. This simulation only uses code from axon, joist, and scenery. Blast is used to diagnose issues.
-* brand: Brand holds assets for each of the three brands. The brands are 1) PhET, 2) PhET-iO, and 3) Adapted from PhET.
+* brand: Brand holds assets for each of the three brands. The brands are (1) PhET, (2) PhET-iO, and (3) Adapted from PhET.
 * bumper: Bumper holds code for a simulation that is used to test deployment procedures.
 * chains: Chains holds code for a simulation that is used to test string translation tools.
 * chipper: Chipper holds code for tools used to develop and build simulations.
