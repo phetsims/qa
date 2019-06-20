@@ -311,7 +311,6 @@ If the developer has issues they want tested they will either use the labels `st
 Here's a list of platforms we like to do development tests on:
 
 * macOS + Safari
-* macOS + Firefox (sometimes)
 * macOS + Chrome
 * Windows + Microsoft Edge
 * Windows + Firefox
