@@ -376,15 +376,17 @@ To do the query parameters test, append the URL with the following query paramet
     * If the simulation crashes or fails to load, the simulation still passes this test.
     
 ##### Other Usefull Query Parameters
+
 * `?fuzz`: makes random clicks and touches
-* `?profiler`: Shows frame rate of the sim
+* `?profiler`: shows frame rate of the sim
 
 ##### Private Query Parameters
-Some Query Parameters may only be used by members of the PhET team. The method of viewing them SHOULD NOT be disclosed. See [Private Features for PhET Team Members](https://github.com/phetsims/special-ops/blob/master/doc/phetTeamMember.md) for instructions on how to enable private query parameters.
 
-Multiple query parameters can be used at once. It's as simple as adding an ampersand between query parameters.
+Some Query Parameters may only be used by members of the PhET team. The method of viewing them should not be disclosed. See [Private Features for PhET Team Members](https://github.com/phetsims/special-ops/blob/master/doc/phetTeamMember.md) for instructions on how to enable private query parameters.
 
 ##### Syntax for Multiple Query Parameters
+
+Multiple query parameters can be used at once. It's as simple as adding an ampersand between query parameters.
 
 `?queryParameter1&queryParameter2&queryParameter3`
 
@@ -415,37 +417,39 @@ To perform the iFrame test or the XHTML test, simply click the link to the iFram
 
 #### Debug Version
 
-It is a good idea to have the debug version of the rc found [here](https://phet-dev.colorado.edu/html/) running with the querry parameter fuzzMouse enabled.
+Run the debug version of an RC found [here](https://phet-dev.colorado.edu/html/) with the query parameter `?fuzz` to see if errors pop up in the console.
 
 #### Screenshots
+
+When a simulation is about to be published, we have to take screenshots of the simulation that will be used on the website.
 
 ##### Screenshots on Chrome
 
 1. Download Window Resizer.
 2. Download Screenshot Capture.
-3. Window Resizer -> preset 1536x1008.  Screenshot Capture -> Adjust to actual size preset.
-4. Resize viewport.
-5. Right click screenshot capture icon -> options -> make sure the capture method is set to capture viewport.
-6. Set up as close as possible the desired screenshot.
-7. Double check that there are enough pixels. Extension should give a warning if it cannot resize properly.
+3. In Window Resizer set preset to 1536x1008. In Screenshot Capture set "Adjust to actual size" preset.
+4. Resize the viewport.
+5. Right click screenshot capture icon, go to options, and make sure the capture method is set to capture viewport.
+6. Set up the screenshot.
+7. Make sure there are enough pixels. The extension should give a warning if it can't resize properly.
 8. Press `alt + s` (this is the default keyboard shortcut) to take the screenshot. (Make sure the download bar from any previous screenshots is gone.)
 9. Check the image to make sure it has the right dimensions (1536x1008).
 10. Rename screenshots `sim-name-screenshot.png` or `sim-name-screenshot-alt#.png`.
-11. Upload screenshots to GitHub.
+11. Upload the screenshots to GitHub.
 
 ##### Screenshots on Firefox
 
 1. Download ResizeIT.
 2. Download Easy Screenshot.
-3. ResizeIT -> Set dimension to 1548x1089.
-4. Set up screenshot.
-5. Double check that there are enough pixels. Extension should give a warning if it cannot resize properly.
+3. In ResizeIT set the dimension to 1548x1089.
+4. Set up the screenshot.
+5. Make sure there are enough pixels. The extension should give a warning if it can't resize properly.
 6. Click on the screenshot extension. (Make sure the download bar from any previous screenshots is gone.)
-7. Select capture visible web content.
+7. Select "capture visible web content".
 8. Save the screenshot.
-9. Double check dimensions. Dimensions should be (1536x1008).
+9. Check the image to make sure it has the right dimensions (1536x1008).
 10. Rename screenshots `sim-name-screenshot.png` or `sim-name-screenshot-alt#.png`.
-11. Upload screenshots to GitHub.
+11. Upload the screenshots to GitHub.
 
 ### 4.3: PhET-iO Testing
 
@@ -538,9 +542,11 @@ button in the wrapper, not the “Screenshot” button in the simulation.
 cannot interact with the simulation when it is inactive. Animations should resume without “jumping.”
 
 #### Dif Wrapper Test
-?To Be Added?
+
+Wow, much empty.
 
 #### Multi Wrapper Test
+
 * *What?* This wrapper demonstrates how to embed multiple PhET-iO simulations in the same page.
 * *How?* To test this wrapper, make sure the active toggle works on both sims. Make sure to property toggle has the expected effect based on its language for each.
 
@@ -837,7 +843,7 @@ Every time we do a release candidate test, you have to make a testing matrix. To
 1. If the simulation hasn’t undergone a release candidate test, then you’ll need to create a new testing matrix. Go to Google Drive and then `PhET Files > PhET QA > Testing Matrices` to find example matrices. Make a copy of the correct testing matrix by clicking `File > Make a copy...`. Do not copy and paste the test matrix.
 2. Otherwise, create a new tab in the existing spreadsheet for the simulation for the release candidate test.
 3. Copy and paste URLs into the testing matrix.
-4. Do the “Yes” or “No” for Legends of Learning, Keyboard Navigation. and Screen Reader.
+4. Do the “Yes” or “No” for Legends of Learning, Keyboard Navigation, and Screen Reader.
 5. Edit the URLs in the GitHub issue.
 
 ### 6.2: PhET Test Maintenance
@@ -897,6 +903,6 @@ To get to the administrative page of the website, sign in and click the “Admin
 
 Please keep this book up-to-date so that it can be a useful resource!
 
-Use this [Google Document](https://docs.google.com/document/d/18gGQhZNzwEmtQmK3FXK25hu-RQ8lx-H-fVziCCI65Rg/edit) to record things that need to be added and to view dates for scheduled maintenance.
+Use this [Markdown File](https://github.com/phetsims/QA/blob/master/doc/qa-book-maintenance.md) to record things that need to be added and to view dates for scheduled maintenance.
 
 ***
