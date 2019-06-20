@@ -60,7 +60,7 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their [
 
 ## Section 1: Hardware & Software
 
-We like to make sure our sims work on most hardware and most software.
+We like to make sure our simulations (sims) work on most hardware and most software.
 
 ### 1.1: Devices
 
