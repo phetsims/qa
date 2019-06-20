@@ -134,7 +134,7 @@ Some repositories contain code for things that aren’t simulations. The followi
 * dot: Dot is a mathematics library.
 * example-sim: Example Simulation holds code for an example simulation. It is used to show interns and new employees how the simulations are structured.
 * griddle: Griddle is a charting library.
-* joist: Joist holds code for the “framework” of simulations, e.g. the splash screen, home screen, navi- gation bar, about dialog, etc.
+* joist: Joist holds code for the “framework” of simulations, e.g. the splash screen, home screen, navigation bar, about dialog, etc.
 * kite: Kite is a library for 2D shapes.
 * mobius: Mobius is a library for 3D shapes.
 * nitroglycerin: Nitroglycerin holds code for chemistry-related things.
