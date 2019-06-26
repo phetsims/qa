@@ -853,6 +853,12 @@ Every time we do a release candidate test, you have to make a testing matrix. To
 4. Do the “Yes” or “No” for Legends of Learning, Keyboard Navigation, and Screen Reader.
 5. Edit the URLs in the GitHub issue.
 
+When Platforms are added or dropped the testing matrix needs to be updated to reflect the new support.  To do so, keep these things in mind:
+
+1. Many of the parts of the matrix depend on condition formatting and functions.
+2. Before making edits, make a copy of the old test matrix in case something goes wrong (by right clicking the sheet tab).
+3. Do some tests filling out the matrix to make sure everything adds up correctly.
+
 ### 6.2: PhET Test Maintenance
 
 PhET Test is a computer with files on it. As of 2018-05-10, the computer is Turing, a MacBook Pro. Turing is connected to the internet via an ethernet cable. You must be connected to the internet via UCB Wireless or via a virtual private network (VPN) to connect to Turing. The sticky note on Turing has its internet protocol (IP) address and its media access control (MAC) address. PhET Test is used to check master. (Master is the main branch of the software development tree.) PhET Test has caching issues, so always use a private window when accessing PhET Test. If you see something like ”failed to pull,” then look through Turing’s terminal to see if you can find the culprit. Every time a new repository is made, press the “Refresh Perennial” button. (Perennial is the list of simulations.) Press the ”Pull All” button every 5 hours.
