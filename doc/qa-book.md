@@ -318,6 +318,8 @@ Here's a list of platforms we like to do development tests on:
 * iOS + Safari
 * Chrome OS
 
+It is also often a good idea to make sure the sim loads and doesn't break on Internet Explorer.
+
 #### Note on WebGL
 
 WebGL may not run on certain platforms and browsers, such as Chrome on old versions of macOS.
