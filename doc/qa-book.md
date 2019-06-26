@@ -379,6 +379,9 @@ To do the query parameters test, append the URL with the following query paramet
 
 * `?fuzz`: makes random clicks and touches
 * `?profiler`: shows frame rate of the sim
+* `?screens=#`: only shows screens indicated by the number sign
+* `?ea`: enables assertions but doesn't work on rcs
+* `?speed=#`: multiples animation speed by the number
 
 ##### Private Query Parameters
 
