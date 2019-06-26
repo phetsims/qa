@@ -767,9 +767,9 @@ PhET Help"
 
 #### Submits New Language Case
 
-First, check to see how many strings the new translation has. We generally only will publish translation that have more than 1000 strings translated. 
+First, check to see how many strings the new translation has. We generally only will publish translation that have more than 1000 strings translated.
 
-If it has more than 1000, make the translation visible.
+If it has more than 1000, make the translation visible. Make sure no one else is working on the translation. It would likely be better if approaches 2000.
 
 Otherwise tell the translator we don’t normally publish incomplete translations and to submit once they have translated more than 1000 strings:
 
@@ -832,6 +832,10 @@ PhET Help"
 The translator submits a clone of an existing translation.
 
 Email the translator letting them know that we already have a translation in that language (provide URL) and ask them to instead “Request Collaboration” on the existing translation.
+
+#### Other Possible Cases
+
+If you feel that a translation does not fit one of these cases for one reason or another, ask Katie. Oliver may also be able to help, especially if a decission about publishing needs to be made.
 
 ***
 
