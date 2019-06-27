@@ -77,7 +77,7 @@ For a comprehensive list of browsers we support, check out the [the PhET Help Ce
 
 ### 1.4: Updates
 
-Never update a testing device unless the QA team lead asks you to do so.  Be especially carefull when dealing with devices with older versions of iOS or macOS.
+Never update a testing device unless the QA team lead asks you to do so. Be especially careful when dealing with devices with older versions of iOS or macOS.
 
 ***
 
