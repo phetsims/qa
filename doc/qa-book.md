@@ -81,6 +81,13 @@ As of 7/12/19 the OS's tested are:
 
 For a comprehensive list of browsers we support, check out the [the PhET Help Center](https://phet.colorado.edu/en/help-center/running-sims). (Open the "What are the System Requirements for running PhET simulations?" details.)
 
+Browsers may include:
+
+ * Chrome
+ * Firefox
+ * Edge
+ * Internet Explorer
+ * Safari
 
 ### 1.4: Updates
 
