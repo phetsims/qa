@@ -113,11 +113,11 @@ Make sure your availability is accurately reflected in the "PhET Student Employe
 
 ### 2.4: Google Drive
 
-We put all sorts of stuff that you'll need to use on Google Drive. You can post videos that you want to use in your issues to Google Drive.
+We put all sorts of stuff that you'll need to use on Google Drive. You can post videos that you want to use in your issues to Google Drive. It is recomended that any github videos you store in Drive are kept in a separate file so they can be kept track of easily.
 
 ### 2.5: Slack
 
-If you're working, you should be on Slack! Please bother the developers with silly gifs. To do so, type `/giphy hello`. (Replace "hello" with whatever you want a gif of.)
+If you're working, you should be on Slack! Please bother the developers with silly gifs. To do so, type `/giphy hello`. (Replace "hello" with whatever you want a gif of.)  It is also a good idea to check Slack periodically during the week for any updates.
 
 ### 2.6: Zoom
 
