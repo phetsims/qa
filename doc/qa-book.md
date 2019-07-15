@@ -492,8 +492,8 @@ The wrapper index is password protected! The Simulation, Events:colorized, and E
 
 #### Wrapper Index Test
 
-In the Wrapper Index there should be some example code. Copy and paste it into a text editor, save it, and make sure the resulting html file runs properly.
-
+* In the Wrapper Index there should be some example code. Copy and paste it into a text editor, save it, and make sure the resulting html file runs properly.
+* Add ```/lib``` to the end of the wrapper URL. Make sure a file called ```phet-io.js``` is there. If it is, make sure it is minified.
 #### Simulation Wrapper Test
 
 * *What?* This wrapper is the simulation.
