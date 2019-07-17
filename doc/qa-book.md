@@ -282,6 +282,7 @@ blah
 * The troubleshooting information for a simulation comes from the “Report a Problem” link in the
 simulation.
 * If your issue is related to another issue, link the related issue.
+* If there is a console available, check for errors and include them in the Problem Description.
 
 #### A List of Labels and Their Descriptions
 
