@@ -46,6 +46,7 @@ Assigning to @ariel-phet for prioritization.
 - Check [this](https://docs.google.com/spreadsheets/d/1umIAmhn89WN1nzcHKhYJcv-n3Oj6ps1wITc-CjWYytE/edit#gid=0) LoL spreadsheet and notify AR or AM if it not there.
 - If this is rc.1 please do a memory test.
 - When making an issue, check to see if it was in a previously published version
+- If there is a console available, check for errors and include them in the Problem Description.
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
