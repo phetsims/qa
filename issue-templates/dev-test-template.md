@@ -33,6 +33,7 @@ Assigning @ariel-phet for prioritization.
 - Make sure you can't lose anything.
 - Play with the sim normally.
 - Try to break the sim.
+- If there is a console available, check for errors and include them in the Problem Description.
 
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
