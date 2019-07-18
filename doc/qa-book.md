@@ -282,7 +282,7 @@ blah
 * The troubleshooting information for a simulation comes from the “Report a Problem” link in the
 simulation.
 * If your issue is related to another issue, link the related issue.
-* If there is a console available, check for errors and include them in the Problem Description.
+* If there is a console available, check for errors and include them in the Problem Description. Opening the Console The console is a workspace which shows and allows access to the internal workings of a webpage. It is used often in testing to make sure that the sim is doing what it should be. To access the console, right click and click on the option which says Inspect, or Inspect Element. Then click the console button. The hotkey for Mac is Command+Option+i and for Windows is Control+Shift+i.
 
 #### A List of Labels and Their Descriptions
 
