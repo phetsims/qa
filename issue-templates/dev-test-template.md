@@ -34,6 +34,7 @@ Assigning @ariel-phet for prioritization.
 - Play with the sim normally.
 - Try to break the sim.
 - If there is a console available, check for errors and include them in the Problem Description.
+- Rung through the string tests on at least one platform, especially if it is about to go to rc.
 
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
