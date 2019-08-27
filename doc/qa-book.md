@@ -471,6 +471,10 @@ When a simulation is about to be published, we have to take screenshots of the s
 10. Rename screenshots `sim-name-screenshot.png` or `sim-name-screenshot-alt#.png`.
 11. Upload the screenshots to GitHub.
 
+#### General Protocol for Z-Ordering of Tools
+
+Generally speaking, we try to make sure the active, i.e. most recently clicked, tool or item should be on top of other tools or items. There are, of course, exceptions to this rule, so don't lose your mind if this isn't the case. Consult the design doc or ask the designer if you think something is wrong with the z-ordering of tools or items.
+
 ### 4.3: PhET-iO Testing
 
 PhET-iO simulations are licensed versions of PhET simulations. PhET-iO simulations are not available to the general public. We charge customers for these simulations because they are highly customizable. When a customer pays for a PhET-iO simulation, they are provided with the password for the simulation as well as an application program interface (API) that they can use to customize the simulation. In the PhET-iO issue, there will be, among other things, a link to a root directory or wrapper index and a link to a testing matrix. The root directory contains all of the wrappers, i.e. environments, in which the simulation will be tested. The testing matrix is where we document what has been tested and by whom. There should be a link to the simulation in the issue, but if there isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/). Here are the steps you need to follow for a PhET-iO test:
