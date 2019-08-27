@@ -392,7 +392,7 @@ To do the query parameters test, append the URL with the following query paramet
     * If the simulation does not redirect to another website, the simulation passes this test.
     * If the simulation crashes or fails to load, the simulation still passes this test.
     
-##### Other Usefull Query Parameters
+##### Other Useful Query Parameters
 
 * `?fuzz`: makes random clicks and touches
 * `?profiler`: shows frame rate of the sim
