@@ -399,6 +399,7 @@ To do the query parameters test, append the URL with the following query paramet
 * `?screens=#`: only shows screens indicated by the number sign
 * `?ea`: enables assertions but doesn't work on rcs
 * `?speed=#`: multiples animation speed by the number
+* `?dev`: shows bounds of the sim
 
 ##### Private Query Parameters
 
