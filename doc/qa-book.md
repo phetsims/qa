@@ -432,6 +432,8 @@ To perform the HTML download test, do the following:
 5. Disconnect from the internet.
 6. Open the simulation and make sure it behaves normally.
 
+For this test, we only care about the `{simulation}_all_phet.html` link.
+
 #### iFrame Test & XHTML Test
 
 To perform the iFrame test or the XHTML test, simply click the link to the iFrame or the link to the XHTML version of the simulation and make sure the simulation behaves normally.
