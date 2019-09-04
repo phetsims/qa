@@ -5,7 +5,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Notes and Instructions for Developers:
-  1. Comments indicate whether something can be omitted or edited. 
+  1. Comments indicate whether something can be omitted or edited.
   2. Please check the comments before trying to omit or edit something.
   3. Please don't rearrange the sections.
 
@@ -178,6 +178,10 @@ We are tracking known screen reader bugs in [this Google Document](https://drive
 
 This sim supports keyboard navigation. Please make sure it works as intended on all platforms by itself and with a screen reader.
 
+<h3>Final Requests</h3>
+
+- [ ] If this sim is being tested for a11y we may want to do some testing on Talkback to check on latest behavior of that screen reader. Please comment in the issue asking if Talkback should be tested. See https://github.com/phetsims/a11y-research/issues/144.
+
 <hr>
 
 </details>
@@ -192,12 +196,12 @@ This sim supports keyboard navigation. Please make sure it works as intended on 
 <summary><b>FAQs for QA Members</b></summary>
 
 <br>
-  
+
   <!--- Subsection 0.1: There are multiple tests in this issue... What should I test first? [DO NOT OMIT, DO NOT EDIT] -->
 
   <details>
-  <summary><i>There are multiple tests in this issue... Which test should I do first?</i></summary> 
-  
+  <summary><i>There are multiple tests in this issue... Which test should I do first?</i></summary>
+
   Test in order! Test the first thing first, the second thing second, and so on.
 
   </details>
@@ -208,7 +212,7 @@ This sim supports keyboard navigation. Please make sure it works as intended on 
 
   <details>
   <summary><i>How should I format my issue?</i></summary>
-  
+
   Here's a template for making issues:
 
       <b>Test Device</b>
@@ -250,18 +254,18 @@ This sim supports keyboard navigation. Please make sure it works as intended on 
 
   <details>
   <summary><i>Who should I assign?</i></summary>
-  
+
   We typically assign the developer who opened the issue in the QA repository.
 
   </details>
-  
+
   <br>
 
   <!--- Subsection 0.4: My question isn't in here... What should I do? [DO NOT OMIT, DO NOT EDIT] -->
 
   <details>
   <summary><i>My question isn't in here... What should I do?</i></summary>
-  
+
   You should:
 
   1. Consult the [QA Book](link).
