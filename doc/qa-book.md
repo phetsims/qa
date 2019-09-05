@@ -303,7 +303,7 @@ simulation.
 * type:automated-testing - For automated testing issues.
 * type:bug - For bugs.
 * type:duplicate - For duplicate issues.
-* type:i18n - For issues related to internalization.
+* type:i18n - For issues related to internationalization.
 * type:legacy-bug - For issues that also exist in Java or Flash sims.
 * type:multitouch - For issues that require multiple inputs.
 * type:performance - For performance issues, e.g. low frame rate, lag, etc.
