@@ -400,6 +400,7 @@ To do the query parameters test, append the URL with the following query paramet
 * `?ea`: enables assertions but doesn't work on rcs
 * `?speed=#`: multiples animation speed by the number
 * `?dev`: shows bounds of the sim
+* `?colorProfile=projector`: starts sim in projector mode if available
 
 ##### Private Query Parameters
 
