@@ -168,6 +168,7 @@ Some repositories contain code for things that aren’t simulations. The followi
 * sun: Sun holds code for low level user interface components, e.g. buttons and sliders. It uses code from Scenery.
 * tambo: Tambo holds code for sonification.
 * tandem: Tandem holds code for supporting material for PhET-iO simulations. Used in conjunction with PhET-iO to enable access to model and user interface components of the simulation.
+* tappi: Tappi holds the code for haptics.
 * tasks: Tasks is a list of tasks.
 * twixt: Twixt is an animation library.
 * vegas: Vegas holds code for the components used in games.
