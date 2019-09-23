@@ -42,6 +42,7 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their [
   * [4.6: Offline Website (Installer) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#46-offline-website-installer-testing)
   * [4.7: Automated (Continuous) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#47-automated-continuous-testing)
   * [4.8: Memory Leak Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#48-memory-leak-testing)
+  * [4.9: Maintenance Release Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#49-maintenance-release-testing)
 
 **[Section 5: Translations](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-5-translations)**
 
