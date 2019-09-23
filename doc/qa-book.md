@@ -723,6 +723,10 @@ Memory leak testing is sometimes performed on simulations that are undergoing a 
 12. After you’ve taken 11 heap snapshots, start taking heap snapshots every 10 to 20 minutes.
 13. Stop taking heap snapshots when you feel you have collected sufficient data.
 
+### 4.9: Maintenance Release Testing
+
+This type of test is done when a relatively small change needs to be made to multiple sims. What needs to be tested will vary depending on the change, and is determined by the developer in charge of the release. Generally, there will be a list of links to sims to test. Each will involve a short check to make sure nothing was broken by the change, and other tests that will be described in the issue. For the phet-io sims, older versions labled "instance proxies" may not work, particularly when looking at the "lauch" button. Exploring changes to the sim should still work.
+
 ***
 
 ## Section 5: Translations
