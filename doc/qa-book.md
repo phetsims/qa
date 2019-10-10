@@ -403,6 +403,7 @@ To do the query parameters test, append the URL with the following query paramet
 * `?speed=#`: multiples animation speed by the number
 * `?dev`: shows bounds of the sim
 * `?colorProfile=projector`: starts sim in projector mode if available
+* `?a11y`: activates any a11y features that are available but not visible
 
 ##### Private Query Parameters
 
