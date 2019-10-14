@@ -18,3 +18,4 @@ Add any items that need to be added to the [QA Book](https://github.com/phetsims
 The console is a workspace which shows and allows access to the internal workings of a webpage. It is used often in testing to make sure that the sim is doing what it should be. To access the console, right click and click on the option which says Inspect, or Inspect Element. Then click the console button. The hotkey for Mac is Command+Option+i and for Windows is Control+Shift+i. " and then a reminder later:
 " make sure to have the console open! It is either helpful or required for the testing. Refer to the Opening the Console section to see how to open a console on your browser."
 - [x] Add a Maintenance release testing section. Include problems with launching Instance Proxies
+- [ ] Define performance requirements more clearly
