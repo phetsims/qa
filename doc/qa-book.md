@@ -71,10 +71,10 @@ Check out the [Asset Inventory](https://docs.google.com/spreadsheets/d/1XqnlW8DA
 
 For a comprehensive list of operating systems we support, check out the [the PhET Help Center](https://phet.colorado.edu/en/help-center/running-sims). (Open the "What are the System Requirements for running PhET simulations?" details.)
 
-As of 7/12/19 the OS's tested are:
+As of 10/22/19 the OS's tested are:
 
- * iOS 11 and 12
- * Mac 10.10-10.14
+ * iOS 11, 12, and iPadOS
+ * Mac 10.10-10.15
  * Win 7 and 10
  * Chrome OS
 
