@@ -47,6 +47,7 @@ Assigning to @ariel-phet for prioritization.
 - If this is rc.1 please do a memory test.
 - When making an issue, check to see if it was in a previously published version
 - If there is a console available, check for errors and include them in the Problem Description.
+- As an RC begins and ends, check the sim repo. If there is a maintenance issue, check it and notify developers if there is a problem.
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
