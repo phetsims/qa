@@ -446,6 +446,10 @@ To perform the iFrame test or the XHTML test, simply click the link to the iFram
 
 Run the debug version of an RC found [here](https://phet-dev.colorado.edu/html/) with the query parameter `?fuzz` to see if errors pop up in the console.
 
+#### Maintenance Issues
+
+Check the sim's repo for issues that indicate a maintenance release has occured. It should be marked Ready-for-QA. If there is a problem, notify the developers.
+
 #### Screenshots
 
 When a simulation is about to be published, we have to take screenshots of the simulation that will be used on the website.
