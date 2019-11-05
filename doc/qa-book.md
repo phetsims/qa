@@ -211,11 +211,11 @@ It is important to familiarize yourself with the correct terminology for the var
 * “pop-up information” = dialogue
 * “X button in dialogue” = close button
 * “drop down menu” = combo box
-* “number adjuster that looks like a spinner” = number picker
+* “number adjuster that looks like a spinner”/has floating arrows = number picker
 
 ![Number Picker](https://github.com/phetsims/QA/blob/master/doc/img/number-picker.png "Number Picker")
 
-* “number adjuster that looks like a picker” = number spinner
+* “number adjuster that looks like a picker”/has buttons = number spinner
 
 ![Number Spinner](https://github.com/phetsims/QA/blob/master/doc/img/number-spinner.png "Number Spinner")
 
