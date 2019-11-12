@@ -543,7 +543,7 @@ what the issue specifies.
 
 * *What?* This wrapper allows you to record your actions in the simulation.
 * *How?* To test this wrapper, do the following:
-  1. Open the console.
+  1. Open the console. (This is an important step! If you don't open the console prior to recording, `window.saveLogToFile` will not work!)
   2. In the URL, replace `&console` with `&localFile`. (If `&console` doesn’t exist, then you should still add `&localFile`.)
   3. Record your actions in the simulation. (Remember what you did.)
   4. Follow the directions in the console to download a copy of the recording.
