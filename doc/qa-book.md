@@ -737,6 +737,10 @@ This type of test is done when a relatively small change needs to be made to mul
 
 Be aware of what sims are being tested. If anything looks out of place, be sure to notify the developers. In particular, sims currently in RC testing may need special attention.
 
+### 4.10: PhetTest
+
+Phettest.colorado.edu contains up-to-date versions of the sim with latest code changes made by the developers. When a developer asks for something to be checked on master, this is where you will go to do that for the most part. PhETMarks serves a similar purpose with more options in case you need to test something more involved like PhET-iO. When you open the website, do so in incognito mode to ensure you aren’t looking at an old version of a sim. Make sure all of the common code repos are up to date, as well as the sim you want to look at. You can press the pull button to update one repo, or the Pull All button at the top to update everything. To quickly check a sim, click the link with the sim in the title. To check on IE or make a longer lasting version, click build, and then click Built Version when the process finishes. For IE you will need to do this in a different browser and copy the resulting url into IE.
+
 ***
 
 ## Section 5: Translations
