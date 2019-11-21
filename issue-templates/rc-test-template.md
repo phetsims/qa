@@ -96,7 +96,7 @@ These issues should have the "status:ready-for-qa" label. Check these issues off
 - Launch the simulation in Studio with ?stringTest=xss and make sure the sim doesn't navigate to youtube
 - For newer PhET-iO wrapper indices, save the "basic example of a functional wrapper" as a .html file and open it. Make sure the simulation loads without crashing or throwing errors.
 - For an update or maintenance release please check the backwards compatibility of the playback wrapper. [link to previous wrapper](link)
-- load the login wrapper just to make sure it works. Do so by adding this link from the sim deployed root: 
+- Load the login wrapper just to make sure it works. Do so by adding this link from the sim deployed root: 
   ```
   /wrappers/login/?wrapper=record&validationRule=validateDigits&&numberOfDigits=5&promptText=ENTER_A_5_DIGIT_NUMBER
   ```   
@@ -104,8 +104,9 @@ These issues should have the "status:ready-for-qa" label. Check these issues off
     - successful login should take you to the record wrapper
     - test that the login `phettest` successfully loads
     - test that a five digit number successfully loads
+    - test that an incorrect login doesn't redirect
     - once on the record wrapper, type `window.sessionStorage` into the console, and make sure that the key `phet.metacog.learner_id` has a value of the login id you provided it.
-- please at least load all wrappers except studio in the wrapper suite with internet explorer. 
+- Please at least load all wrappers except studio in the wrapper suite with internet explorer. 
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
