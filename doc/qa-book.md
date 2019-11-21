@@ -511,6 +511,15 @@ The wrapper index is password protected! The Simulation, Events:colorized, and E
 
 * In the Wrapper Index there should be some example code. Copy and paste it into a text editor, save it, and make sure the resulting html file runs properly.
 * Add ```/lib``` to the end of the wrapper URL. Make sure a file called ```phet-io.js``` is there. If it is, make sure it is minified.
+
+#### Login Wrapper Test
+
+* Add this to the end of the link to test: ```/wrappers/login/?wrapper=record&validationRule=validateDigits&&numberOfDigits=5&promptText=ENTER_A_5_DIGIT_NUMBER```
+* Successful login should take you to the record wrapper
+* Test that the login `phettest` successfully loads
+* Test that a five digit number successfully loads
+* Once on the record wrapper, type `window.sessionStorage` into the console, and make sure that the key `phet.metacog.learner_id` has a value of the login id you provided it.
+
 #### Simulation Wrapper Test
 
 * *What?* This wrapper is the simulation.
