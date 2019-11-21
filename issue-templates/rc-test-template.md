@@ -100,12 +100,7 @@ These issues should have the "status:ready-for-qa" label. Check these issues off
   ```
   /wrappers/login/?wrapper=record&validationRule=validateDigits&&numberOfDigits=5&promptText=ENTER_A_5_DIGIT_NUMBER
   ```   
-  From here ensure a few items:
-    - successful login should take you to the record wrapper
-    - test that the login `phettest` successfully loads
-    - test that a five digit number successfully loads
-    - test that an incorrect login doesn't redirect
-    - once on the record wrapper, type `window.sessionStorage` into the console, and make sure that the key `phet.metacog.learner_id` has a value of the login id you provided it.
+  Further instructions in QA Book
 - Please at least load all wrappers except studio in the wrapper suite with internet explorer. 
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
