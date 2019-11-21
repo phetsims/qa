@@ -93,7 +93,7 @@ These issues should have either use the labels "status:ready-for-qa" or "status:
 
 - [ ] Latest macOS, all browsers
 - [ ] Latest iOS, Safari
-- [ ] Windows 10, all browsers
+- [ ] Windows 10, all browsers, including IE
 - [ ] Latest Chrome OS, Chrome
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
