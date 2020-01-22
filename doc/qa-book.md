@@ -529,9 +529,10 @@ what the issue specifies.
 #### Studio Wrapper Test
 
 * *What?* This wrapper is the simulation alongside a long list of instrumented characteristics. An instrumented characteristic is some aspect of the simulation that can be modified by a licensed owner of a PhET-iO simulation, e.g. a property. Not all characteristics of the simulation are instrumented so as to retain the functionality of the simulation.
-* *How?* To test this wrapper, make sure instrumented characteristics can be modified and make sure charac- teristics that haven’t been instrumented can’t be modified. Also, do the following:
+* *How?* To test this wrapper, make sure instrumented characteristics can be modified and make sure charac- teristics that haven’t been instrumented can’t be modified. Make sure the UI functions as expected. Also, do the following:
   1. Periodically launch the simulation to make sure it works using the “Launch” button.
   2. Periodically copy and paste the HTML into a text editor, save the file, and open it in a browser to make sure the modifications you made are still there using the “Generate HTML” button.
+  3. When doing the above, make sure that the resulting sim resets to the state it launched in, rather than the default sim's original state, when you hit reset all.
 
 #### Events: Colorized Wrapper Test
 
