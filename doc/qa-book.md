@@ -405,6 +405,7 @@ To do the query parameters test, append the URL with the following query paramet
 * `?dev`: shows bounds of the sim
 * `?colorProfile=projector`: starts sim in projector mode if available
 * `?a11y`: activates any a11y features that are available but not visible
+* `?phetioDebug`: adds/checks for assertions in phetio sims
 
 ##### Private Query Parameters
 
