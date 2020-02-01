@@ -535,22 +535,22 @@ what the issue specifies.
   2. Periodically copy and paste the HTML into a text editor, save the file, and open it in a browser to make sure the modifications you made are still there using the “Generate HTML” button.
   3. When doing the above, make sure that the resulting sim resets to the state it launched in, rather than the default sim's original state, when you hit reset all.
 
-#### Events: Colorized Wrapper Test
+#### Data: Colorized Wrapper Test
 
 * *What?* This wrapper is the simulation, but when you open the console, you are able to view a colorized event stream.
 * *How?* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the manipulations.
 
-#### Events: JSON Wrapper Test
+#### Data: JSON Wrapper Test
 
 * *What?* This wrapper is the simulation, but when you open the console, you are able to view the event stream in JavaScript object notation.
 * *How?* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the manipulations.
 
-#### Events: Text Area Wrapper Test
+#### Data: Text Area Wrapper Test
 
 * *What?* This wrapper is the simulation with the event stream below. There is a limit to the number of events that can be displayed below the simulation.
 * *How?* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the manipulations.
 
-#### Events: Recording Wrapper Test
+#### Data: Recording Wrapper Test
 
 * *What?* This wrapper allows you to record your actions in the simulation.
 * *How?* To test this wrapper, do the following:
@@ -562,7 +562,7 @@ what the issue specifies.
   6. If a previous recording wrapper exists and is provided, make a recording in that wrapper and test with the current playback method.
   7. If this sim is outfitted with alternative input (such as keyboard navigation), then also test that to make sure that those input events work as well.
   
-#### Metacog Recording Testing
+#### Data: Recording Wrapper Test
   
 * *What?* This test exercises the full recording and playback process used for PhET studies. This includes recording data to and retrieving data from our data back end partner, Metacog.
 * *How?* First, make the recording using the link provided. Check that you are recording to Metacog by looking in the console. You should see the following: `Recorder initialized, sending data to: ["metacog"]`. When you are done, press either the back arrow or close the tab. You should be prompted to stay while the process finishes. Do not leave! Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show the dialog if you use the back arrow.) Wait for thirty minutes before moving to the next step. Use this [link](http://phettest.colorado.edu/phet-io-website/root/metacog/request-data.html) to retrieve the data. Paste the provided URL (just the query parameter part) into the URL box, the ID into the Application ID (this will not be given in the issue, but you can ask the developer for it), and the email you want to receive the logs in into the email box. Nothing else needs to be entered. If you have the console open when you hit submit you will get an ID number you can use if something goes wrong with the retrieval. The email will take about 20 minutes. Make sure the `.gz` file is uncompressed. Use the playback link in the wrapper index to test the recording. [This](https://github.com/phetsims/phet-io/blob/master/doc/metacog.md) may be helpful.
@@ -589,7 +589,7 @@ button in the wrapper, not the “Screenshot” button in the simulation.
 * *How?* To test this wrapper, simply make sure you can interact with the simulation when it is active and
 cannot interact with the simulation when it is inactive. Animations should resume without “jumping.”
 
-#### Dif Wrapper Test
+#### Diff Wrapper Test
 
 * *What?* This is a wrapper that allows you to compare the differences between a previous build and the current build.
 * *How?* To test this wrapper you will need to test two different cases by entering a url into the box.  The first url should be for the wrapper currently being tested, and it should show no differences. The second url will be provided in the issue and should show some difference.
