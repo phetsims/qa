@@ -508,6 +508,8 @@ The above tandem ID tells you the following: (1) the simulation is Faraday’s L
 
 The wrapper index is password protected! The Simulation, Events:colorized, and Events:json are not password protected.
 
+When making issues, try to include the specific link you were using when you found the problem. You may need to message it to the developer if the issue is in a public repo.
+
 #### Wrapper Index Test
 
 * In the Wrapper Index there should be some example code. Copy and paste it into a text editor, save it, and make sure the resulting html file runs properly.
