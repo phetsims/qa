@@ -564,6 +564,7 @@ what the issue specifies.
   6. If a previous recording wrapper exists and is provided, make a recording in that wrapper and test with the current playback method.
   7. If this sim is outfitted with alternative input (such as keyboard navigation), then also test that to make sure that those input events work as well.
   8. Not supported on iPad or IE.
+  9. This should not be done in a private window (won't work in some browsers.)
   
 #### Data: Metacog Cycle Test
   
