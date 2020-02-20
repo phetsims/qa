@@ -574,7 +574,7 @@ what the issue specifies.
 #### State Wrapper Test
 
 * *What?* This is a wrapper that contains a simulation, a mirror of the simulation that is updated once every second, and a condensed list of instrumented characteristics.
-* *How?* To test this wrapper, simply play with the simulation and make sure your actions are mirrored accurately.
+* *How?* To test this wrapper, simply play with the simulation and make sure your actions are mirrored accurately. Note that menus being opened (such as keyboard nav instructions) is not transmitted. This applies to studio launches as well.
 
 #### Mirror Inputs Wrapper Test
 
