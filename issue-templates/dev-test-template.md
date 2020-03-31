@@ -33,6 +33,7 @@ Assigning @ariel-phet for prioritization.
 - Make sure you can't lose anything.
 - Play with the sim normally.
 - Try to break the sim.
+- Try to include browser version numbers
 - If there is a console available, check for errors and include them in the Problem Description.
 - Rung through the string tests on at least one platform, especially if it is about to go to rc.
 
