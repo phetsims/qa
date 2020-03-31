@@ -240,8 +240,9 @@ Most of the issues you’ll create on GitHub will be bug reports. Creating a bug
 5. Click on the “New Issue” button.
 6. If the issue is a bug report for a simulation, use the template below.
 7. If the issue is a general issue, simply describe the issue thoroughly and concisely.
-8. Assign the appropriate PhET employee(s) and use relevant labels. This is often the developer who made the test issue. Design questions go to Amy if they are science, or Amanda if they are math.
-9. Click the “Submit New Issue” button.
+8. Try to include versions of browsers etc. Be thurough.
+9. Assign the appropriate PhET employee(s) and use relevant labels. This is often the developer who made the test issue. Design questions go to Amy if they are science, or Amanda if they are math.
+10. Click the “Submit New Issue” button.
 
 #### Issue Template
 
