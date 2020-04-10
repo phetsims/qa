@@ -17,7 +17,7 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their [
   * [1.3: Web Browsers](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#13-web-browsers)
   * [1.4: Updates](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#14-updates)
 
-**[Section 2: Communication & Coordinization](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-2-communication--coordinization)**
+**[Section 2: Communication & Coordination](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-2-communication--coordination)**
 
   * [2.1: Email](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#21-email)
   * [2.2: Google Groups](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#22-google-groups)
@@ -43,7 +43,7 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their [
   * [4.7: Automated (Continuous) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#47-automated-continuous-testing)
   * [4.8: Memory Leak Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#48-memory-leak-testing)
   * [4.9: Maintenance Release Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#49-maintenance-release-testing)
-  * [4.10: PhetTest](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#410-phettest)
+  * [4.10: PhETTest](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#410-phettest)
 
 **[Section 5: Translations](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-5-translations)**
 
@@ -66,18 +66,20 @@ We like to make sure our simulations (sims) work on most hardware and most softw
 
 ### 1.1: Devices
 
-Check out the [Asset Inventory](https://docs.google.com/spreadsheets/d/1XqnlW8DAlt2fZHDfDgkTMmMLpJZ1c0equBaPdkn2V08/edit#gid=0) for a comprehensive list of the devices we own. The "QA Simplified Inventory" is a list of the devices in Ariel's office (F925).
+Check out the [Asset Inventory](https://docs.google.com/spreadsheets/d/1XqnlW8DAlt2fZHDfDgkTMmMLpJZ1c0equBaPdkn2V08/edit#gid=0) for a comprehensive list of the devices we own. The "QA Simplified Inventory" is a list of the devices in Ariel's office (F925) in Gamow Tower.
 
 ### 1.2: Operating Systems
 
-For a comprehensive list of operating systems we support, check out the [the PhET Help Center](https://phet.colorado.edu/en/help-center/running-sims). (Open the "What are the System Requirements for running PhET simulations?" details.)
+For a comprehensive list of operating systems (OS's) we support, check out the [the PhET Help Center](https://phet.colorado.edu/en/help-center/running-sims). (Open the "What are the System Requirements for running PhET simulations?" details.)
 
-As of 10/22/19 the OS's tested are:
+As of 2020-04-10 the OS's we support are:
 
- * iOS 11, 12, and iPadOS
- * Mac 10.10-10.15
- * Win 7 and 10
- * Chrome OS
+* Chrome OS
+* iOS 12+
+* iPadOS 13+
+* macOS 10.9.5+
+* Windows 7
+* Windows 10
 
 ### 1.3: Web Browsers
 
@@ -85,11 +87,11 @@ For a comprehensive list of browsers we support, check out the [the PhET Help Ce
 
 Browsers may include:
 
- * Chrome
- * Firefox
- * Edge
- * Internet Explorer
- * Safari
+* Google Chrome
+* Firefox
+* Internet Explorer
+* Microsoft Edge
+* Safari
 
 ### 1.4: Updates
 
@@ -97,13 +99,13 @@ Never update a testing device unless the QA team lead asks you to do so. Be espe
 
 ***
 
-## Section 2: Communication & Coordinization
+## Section 2: Communication & Coordination
 
-We try to communicate and coordinate effictively at PhET.
+We try to communicate and coordinate effectively at PhET.
 
 ### 2.1: Email
 
-Be sure to check your email frequently as PhET employees often communicate their schedules via email. You'll also recieve GitHub notifications via email.
+Be sure to check your email frequently as PhET employees often communicate their schedules via email. You'll also receive GitHub notifications via email.
 
 ### 2.2: Google Groups
 
@@ -115,11 +117,11 @@ Make sure your availability is accurately reflected in the "PhET Student Employe
 
 ### 2.4: Google Drive
 
-We put all sorts of stuff that you'll need to use on Google Drive. You can post videos that you want to use in your issues to Google Drive. It is recomended that any github videos you store in Drive are kept in a separate file so they can be kept track of easily.
+We put all sorts of stuff that you'll need to use on Google Drive. You can post videos that you want to use in your issues to Google Drive. It is reccomended that any GitHub videos you store on Google Drive are kept in a separate file so it's easy to keep track of them.
 
 ### 2.5: Slack
 
-If you're working, you should be on Slack! Please bother the developers with silly gifs. To do so, type `/giphy hello`. (Replace "hello" with whatever you want a gif of.)  It is also a good idea to check Slack periodically during the week for any updates.
+If you're working, you should be on Slack! Please bother the developers with silly gifs. To do so, type `/giphy hello`. (Replace "hello" with whatever you want a gif of.)  It’s also a good idea to check Slack periodically during the week for any updates.
 
 ### 2.6: Zoom
 
@@ -129,7 +131,7 @@ We occasionally use Zoom to video conference.
 
 ## Section 3: GitHub
 
-GitHub is a code hosting website. If GitHub is integrated with Git, everything you commit and push is automatically posted. PhET also uses GitHub to document issues with sims.
+GitHub is a code hosting website. If GitHub is integrated with Git, version control software, everything you commit and push is automatically posted. PhET also uses GitHub to document issues with sims.
 
 ### 3.1: Repositories
 
@@ -240,7 +242,7 @@ Most of the issues you’ll create on GitHub will be bug reports. Creating a bug
 5. Click on the “New Issue” button.
 6. If the issue is a bug report for a simulation, use the template below.
 7. If the issue is a general issue, simply describe the issue thoroughly and concisely.
-8. Try to include versions of browsers etc. Be thurough.
+8. Try to include versions of browsers etc. Be thorough.
 9. Assign the appropriate PhET employee(s) and use relevant labels. This is often the developer who made the test issue. Design questions go to Amy if they are science, or Amanda if they are math.
 10. Click the “Submit New Issue” button.
 
@@ -286,7 +288,7 @@ blah
 * The troubleshooting information for a simulation comes from the “Report a Problem” link in the
 simulation.
 * If your issue is related to another issue, link the related issue.
-* If there is a console available, check for errors and include them in the Problem Description. Opening the Console The console is a workspace which shows and allows access to the internal workings of a webpage. It is used often in testing to make sure that the sim is doing what it should be. To access the console, right click and click on the option which says Inspect, or Inspect Element. Then click the console button. The hotkey for Mac is Command+Option+i and for Windows is Control+Shift+i.
+* If there is a console available, check for errors and include them in the Problem Description. The console is a tool that browsers provide. It shows and allows access to the internal workings of a webpage. It is used often in testing to make sure that the sim is doing what it should be. To access the console, right click and click on the option which says “Inspect”, or “Inspect Element”. Then click the console button. The hotkey for macOS is `command + option + i` and for Windows is `control + shift + i`.
 
 #### A List of Labels and Their Descriptions
 
@@ -329,15 +331,15 @@ If the developer has issues they want tested they will either use the labels `st
 
 Here's a list of platforms we like to do development tests on:
 
+* Chrome OS
+* iOS + Safari
 * macOS + Safari
 * macOS + Chrome
 * Windows + Microsoft Edge
 * Windows + Firefox
 * Windows + Chrome
-* iOS + Safari
-* Chrome OS
 
-It is also often a good idea to make sure the sim loads and doesn't break on Internet Explorer.
+It’s a good idea to make sure the sim loads and doesn't break on Internet Explorer.
 
 #### Note on WebGL
 
@@ -354,8 +356,8 @@ When a simulation needs to be tested, a developer will open an issue in the QA r
 3. Open the testing matrix.
 4. Choose a device and browser combination that hasn’t been tested. Add your initials to indicate that you are testing that platform.
 5. Perform the below tests and fill out the testing matrix.
-6. When you find an issue, see if it was in a previously published version (if it exsists).
-7. On at least one platform, run a fuzz test on the debug version of the rc to look for assertions.
+6. When you find an issue, see if it was in a previously published version if it exists.
+7. On at least one platform, run a fuzz test on the debug version of the RC to look for assertions. To do this, add the query parameter `?fuzz`.
 
 #### Full Screen Test
 
@@ -401,12 +403,12 @@ To do the query parameters test, append the URL with the following query paramet
 * `?fuzz`: makes random clicks and touches
 * `?profiler`: shows frame rate of the sim
 * `?screens=#`: only shows screens indicated by the number sign
-* `?ea`: enables assertions but doesn't work on rcs
+* `?ea`: enables assertions but doesn't work on RC’s
 * `?speed=#`: multiples animation speed by the number
 * `?dev`: shows bounds of the sim
 * `?colorProfile=projector`: starts sim in projector mode if available
 * `?a11y`: activates any a11y features that are available but not visible
-* `?phetioDebug`: adds/checks for assertions in phetio sims
+* `?phetioDebug`: adds and checks for assertions in PhET-iO sims
 
 ##### Private Query Parameters
 
@@ -451,7 +453,7 @@ Run the debug version of an RC found [here](https://phet-dev.colorado.edu/html/)
 
 #### Maintenance Issues
 
-Check the sim's repo for issues that indicate a maintenance release has occured. It should be marked Ready-for-QA. If there is a problem, notify the developers.
+Check the sim's repo for issues that indicate a maintenance release has occurred. It should be marked Ready-for-QA. If there is a problem, notify the developers.
 
 #### Screenshots
 
@@ -509,7 +511,7 @@ The above tandem ID tells you the following: (1) the simulation is Faraday’s L
 
 The wrapper index is password protected! The Simulation, Events:colorized, and Events:json are not password protected.
 
-When making issues, try to include the specific link you were using when you found the problem. You may need to message it to the developer if the issue is in a public repo.
+When making issues, try to include the specific link you were using when you found the problem. You need to Slack the link to the developer if the issue is in a public GitHub repository.
 
 #### Wrapper Index Test
 
@@ -518,11 +520,11 @@ When making issues, try to include the specific link you were using when you fou
 
 #### Login Wrapper Test
 
-* Add this to the end of the link to test: ```/wrappers/login/?wrapper=record&validationRule=validateDigits&&numberOfDigits=5&promptText=ENTER_A_5_DIGIT_NUMBER```
-* Successful login should take you to the record wrapper
-* Test that the login `phettest` successfully loads
-* Test that a five digit number successfully loads
-* Once on the record wrapper, type `window.sessionStorage` into the console, and make sure that the key `phet.metacog.learner_id` has a value of the login id you provided it.
+* Add this to the end of the link to test: `/wrappers/login/?wrapper=record&validationRule=validateDigits&&numberOfDigits=5&promptText=ENTER_A_5_DIGIT_NUMBER`.
+* Successful login should take you to the record wrapper.
+* Test that the login `phettest` successfully loads.
+* Test that a five digit number successfully loads.
+* Once on the record wrapper, type `window.sessionStorage` into the console, and make sure that the key `phet.metacog.learner_id` has a value of the login ID you provided it.
 
 #### Simulation Wrapper Test
 
@@ -689,7 +691,7 @@ The The offline website installers are (typically) built every Sunday morning. T
 
 You might encounter issues with Java simulations. If you are having issues with a `.jlnp` file and the developer asks you to check the permissions of the file, then open the file with a text editor and check the permissions. If you are having issues with a `.jar` file and the developer asks you to check the permissions, then use `7-Zip > Open archive > META > MANIFEST > Check permissions` to check the permissions.
 
-If you encounter problems installing a linux installer, it is possible that it is due to the installer being 32-bit and the computer being 64-bit.  If so, follow documentation found in [this issue](https://github.com/phetsims/installer-builder/issues/197).
+If you encounter problems installing a linux installer, it is possible that it is due to the installer being 32-bit and the computer being 64-bit. If so, follow documentation found in [this issue](https://github.com/phetsims/installer-builder/issues/197).
 
 ### 4.7: Automated (Continuous) Testing
 
@@ -751,13 +753,13 @@ Memory leak testing is sometimes performed on simulations that are undergoing a 
 
 ### 4.9: Maintenance Release Testing
 
-This type of test is done when a relatively small change needs to be made to multiple sims. What needs to be tested will vary depending on the change, and is determined by the developer in charge of the release. Generally, there will be a list of links to sims to test. Each will involve a short check to make sure nothing was broken by the change, and other tests that will be described in the issue. For the phet-io sims, older versions labled "instance proxies" may not work, particularly when looking at the "lauch" button. Exploring changes to the sim should still work.
+This type of test is done when a relatively small change needs to be made to multiple sims. What needs to be tested will vary depending on the change, and is determined by the developer in charge of the release. Generally, there will be a list of links to sims to test. Each will involve a short check to make sure nothing was broken by the change, and other tests that will be described in the issue. For the PhET-iO sims, older versions labeled "instance proxies" may not work, particularly when looking at the “launch” button. Exploring changes to the sim should still work.
 
 Be aware of what sims are being tested. If anything looks out of place, be sure to notify the developers. In particular, sims currently in RC testing may need special attention.
 
-### 4.10: PhetTest
+### 4.10: PhETTest
 
-Phettest.colorado.edu contains up-to-date versions of the sim with latest code changes made by the developers. When a developer asks for something to be checked on master, this is where you will go to do that for the most part. PhETMarks serves a similar purpose with more options in case you need to test something more involved like PhET-iO. When you open the website, do so in incognito mode to ensure you aren’t looking at an old version of a sim. Make sure all of the common code repos are up to date, as well as the sim you want to look at. You can press the pull button to update one repo, or the Pull All button at the top to update everything. To quickly check a sim, click the link with the sim in the title. To check on IE or make a longer lasting version, click build, and then click Built Version when the process finishes. For IE you will need to do this in a different browser and copy the resulting url into IE.
+[PhETTest](phettest.colorado.edu) contains up-to-date versions of the sim with latest code changes made by the developers. When a developer asks for something to be checked on master, this is where you will go to do that for the most part. PhETMarks serves a similar purpose with more options in case you need to test something more involved like PhET-iO. When you open the website, do so in incognito mode to ensure you aren’t looking at an old version of a sim. Make sure all of the common code repos are up to date, as well as the sim you want to look at. You can press the pull button to update one repo, or the Pull All button at the top to update everything. To quickly check a sim, click the link with the sim in the title. To check on IE or make a longer lasting version, click build, and then click Built Version when the process finishes. For IE you will need to do this in a different browser and copy the resulting url into IE.
 
 ***
 
@@ -778,7 +780,7 @@ We have lots of old simulations that use Adobe Flash Player or Java. People stil
 7. Wait for it to load.
 8. Click the “Translations” tab.
 9. Click “Deploy Simulation Translations" and read each message that you see after this step carefully.
-10. Enter your IdentiKey credentials.
+10. Enter your CU IdentiKey credentials.
 11. Enter the file path for the “Translations” folder.
 12. Commit the files that are not updated.
 13. Copy and paste the relevant information from the spreadsheet into each commit message.
@@ -898,7 +900,7 @@ Email the translator letting them know that we already have a translation in tha
 
 #### Other Possible Cases
 
-If you feel that a translation does not fit one of these cases for one reason or another, ask Katie. Oliver may also be able to help, especially if a decission about publishing needs to be made.
+If you feel that a translation does not fit one of these cases for one reason or another, ask Katie. Oliver may also be able to help, especially if a decision about publishing needs to be made.
 
 ***
 
