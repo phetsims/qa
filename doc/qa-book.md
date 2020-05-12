@@ -285,6 +285,7 @@ blah
 * It is courteous to use screenshots or gifs in the “Visuals” section of the bug report. For Windows,
 [ScreenToGif](https://www.screentogif.com/) is recommended. For macOS, [Kap](https://getkap.co/) is recommended.
 * Sometimes you'll need to record a video since GitHub only allows gifs that are smaller than 10 megabytes. You can upload a video to your CU Google Drive and then post a link to the video in the GitHub issue.
+* If you make a screen recording using the native iOS or iPadOS screen recording feature, you can use [ezgif.com](https://ezgif.com/) to convert your mp4 to a gif.
 * The troubleshooting information for a simulation comes from the “Report a Problem” link in the
 simulation.
 * If your issue is related to another issue, link the related issue.
