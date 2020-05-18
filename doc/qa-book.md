@@ -600,7 +600,7 @@ cannot interact with the simulation when it is inactive. Animations should resum
 #### Diff Wrapper Test
 
 * *What?* This is a wrapper that allows you to compare the differences between a previous build and the current build.
-* *How?* To test this wrapper you will need to test two different cases by entering a url into the box.  The first url should be for the wrapper currently being tested, and it should show no differences. The second url will be provided in the issue and should show some difference.
+* *How?* To test this wrapper you will need to test two different cases by entering a URL into the box. The first URL should be the wrapper index URL, which should be /simulation/version/phet-io/ currently being tested, and it should show no differences. The second URL will be provided in the issue (and it should be the wrapper index URL, which should be /simulation/version/phet-io) and should show some difference.
 
 #### Multi Wrapper Test
 
