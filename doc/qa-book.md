@@ -510,7 +510,7 @@ Before reading about the various tests you’ll perform on a PhET-iO simulation,
 
 The above tandem ID tells you the following: (1) the simulation is Faraday’s Law, (2) the behavior the tandem ID refers to occurs in the Faraday’s Law screen, (3) model indicates that something is being modeled according to some set of rules, (4) magnet indicates that the magnet is what is being modeled, and (5) positionProperty states the current position of the magnet. For a more comprehensive treatment of tandem IDs, read [this](https://docs.google.com/document/d/1Fr-B66SD-6Xt7egNv9ZeSXdcsK6k8Lkc0nqR853_eJ4/edit?pli=1#heading=h.oz7vdnbiq4ni).
 
-The wrapper index is password protected! The Simulation, Events:colorized, and Events:json are not password protected.
+The wrapper index is password protected! The Simulation, phet-io.js, Events:colorized, and Events:json are not password protected.
 
 When making issues, try to include the specific link you were using when you found the problem. You need to Slack the link to the developer if the issue is in a public GitHub repository.
 
