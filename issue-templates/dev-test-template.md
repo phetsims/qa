@@ -35,7 +35,7 @@ Assigning @ariel-phet for prioritization.
 - Try to break the sim.
 - Try to include browser version numbers
 - If there is a console available, check for errors and include them in the Problem Description.
-- Wrung through the string tests on at least one platform, especially if it is about to go to rc.
+- Run through the string tests on at least one platform, especially if it is about to go to rc.
 
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
