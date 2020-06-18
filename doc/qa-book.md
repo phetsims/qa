@@ -89,7 +89,6 @@ Browsers may include:
 
 * Google Chrome
 * Firefox
-* Internet Explorer
 * Microsoft Edge
 * Safari
 
