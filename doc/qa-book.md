@@ -77,7 +77,7 @@ As of 2020-04-10 the OS's we support are:
 * Chrome OS
 * iOS 12+
 * iPadOS 13+
-* macOS 10.9.5+
+* macOS 10.12+
 * Windows 7
 * Windows 10
 
