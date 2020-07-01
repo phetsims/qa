@@ -1,4 +1,6 @@
-If this simulation is new or if there is a new release branch of the simulation, please make a credits issue in the simulation's repository. Please only verify the credits at the end of the last round of QA testing before publishing.  It may be a good idea to send a reminder/heads up to those assigned when the sim will soon be published.
+If this simulation is new or if there is a new release branch of the simulation, please make a credits issue in the
+simulation's repository. Please only verify the credits at the end of the last round of QA testing before publishing.
+It may be a good idea to send a reminder/heads up to those assigned when the sim will soon be published.
 
 ## Credits (These instructions go in their own issue in the repository for the simulation.)
 
@@ -17,7 +19,8 @@ If this simulation is new or if there is a new release branch of the simulation,
 - [ ] Design Credits Up-To-Date yyyy-mm-dd
 * Design: (Credits go here.)
 
-@KatieWoe, please verify the QA credits for this simulation.  (Please link to this issue in RC's so student workers can see it.)
+@KatieWoe, please verify the QA credits for this simulation. (Please link to this issue in RC's so student workers can
+see it.)
 
 - [ ] QA Credits Up-To-Date yyyy-mm-dd
 * QA: (Credits go here.)
