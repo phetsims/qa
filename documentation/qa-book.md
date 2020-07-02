@@ -48,6 +48,7 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
   * [4.8: Memory Leak Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#48-memory-leak-testing)
   * [4.9: Maintenance Release Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#49-maintenance-release-testing)
   * [4.10: PhETTest](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#410-phettest)
+  * [4.11: App Testing](link)
 
 **[Section 5: Translations](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-5-translations)**
 
@@ -275,7 +276,9 @@ issue. Search all repositories on GitHub for the issue.
 7. If the issue is a general issue, simply describe the issue thoroughly and concisely.
 8. Try to include versions of browsers etc. Be thorough.
 9. Assign the appropriate PhET employee(s) and use relevant labels. This is often the developer who made the test
-issue. Design questions go to Amy if they are science, or Amanda if they are math.
+issue. Design questions go to Amy if they are science, or Amanda if they are math. If you are unsure who to assign, you
+might be able to figure it out by reading the 
+[Responsible Dev Document](https://github.com/phetsims/phet-info/blob/master/sim-info/responsible_dev.md) on GitHub.
 10. Click the “Submit New Issue” button.
 
 #### Issue Template
@@ -955,6 +958,23 @@ button to update one repo, or the Pull All button at the top to update everythin
 link with the sim in the title. To check on IE or make a longer lasting version, click build, and then click Built
 Version when the process finishes. For IE you will need to do this in a different browser and copy the resulting URL
 into IE.
+
+### 4.11: App Testing
+
+PhET has an iOS app, and as of 2020-07-01, we're developing an Android app.
+
+#### iOS App Testing
+
+There isn't a rigorous process for testing the app. We try to manually test each feature and look for anything out of
+ordinary, kind of like a dev test for a simulation.
+
+##### App Translation Testing
+
+Add steps for translating the app here!
+
+#### Android App Testing
+
+We haven't had to test the Android app yet, but the process will probably be similar to the process for testing the iOS
 
 ***
 
