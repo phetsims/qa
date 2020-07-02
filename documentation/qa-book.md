@@ -48,7 +48,7 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
   * [4.8: Memory Leak Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#48-memory-leak-testing)
   * [4.9: Maintenance Release Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#49-maintenance-release-testing)
   * [4.10: PhETTest](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#410-phettest)
-  * [4.11: App Testing](link)
+  * [4.11: App Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#411-app-testing)
 
 **[Section 5: Translations](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-5-translations)**
 
