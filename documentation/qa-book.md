@@ -153,20 +153,20 @@ your computer to GitHub. PhET also uses GitHub to document issues with sims.
 
 ### 3.1: Repositories
 
-A GitHub repository is like a folder where the code and issues for a specific simulation are kept. It’s important to
+A GitHub repository is like a folder with the code and issues for a specific simulation. It’s important to
 familiarize yourself with each repository and its contents.
 
 Some repositories contain code for things that aren’t simulations. The following is a list of those repositories with
 brief descriptions:
 
-* a11y-research: Accessibility Research is dedicated to keeping track of accessibility research.
+* a11y-research: Accessibility Research keeps track of accessibility research.
 * aqua: Automated Quality Assurance (AQuA) holds code for continuous testing. PhETTest uses some code in aqua.
 * assert: Assert holds code for handling assertions.
 * axon: Axon is sort of like the nerve system. Axon holds code for things related to properties, e.g. the value of a
 speedometer.
 * babel: Babel holds files of translated strings for HTML5 simulations.
 * blast: Blast holds code for a simple simulation. This simulation only uses code from axon, joist, and scenery. Blast
-is used to diagnose issues.
+diagnoses issues.
 * brand: Brand holds assets for each of the three brands. The brands are (1) PhET, (2) PhET-iO, and (3) Adapted from
 PhET.
 * bumper: Bumper holds code for a simulation that is used to test deployment procedures.
@@ -174,10 +174,10 @@ PhET.
 * chipper: Chipper holds code for tools used to develop and build simulations.
 * dot: Dot is a mathematics library.
 * example-sim: Example Simulation holds code for an example simulation. It is used to show interns and new employees
-how the simulations are structured.
+how the simulations work.
 * griddle: Griddle is a charting library.
 * joist: Joist holds code for the “framework” of simulations, e.g. the splash screen, home screen, navigation bar,
-about dialog, etc.
+about dialogue, etc.
 * kite: Kite is a library for 2D shapes.
 * mobius: Mobius is a library for 3D shapes.
 * nitroglycerin: Nitroglycerin holds code for chemistry-related things.
@@ -400,11 +400,11 @@ WebGL may not run on certain platforms and browsers, such as Chrome on old versi
 
 ### 4.2: Release Candidate (RC) Testing
 
-Release candidate testing is more thorough than development testing because the simulation being tested is a
-“release candidate.” Theoretically, major issues with the simulation will have been fixed by the time it undergoes an
+Release candidate testing is more thorough than development testing because the simulation undergoing testing is a
+“release candidate.” Theoretically, major issues with the simulation will be fixed by the time it undergoes an
 RC test.
 
-When a simulation needs to be tested, a developer will open an issue in the QA repository and they should use
+When a simulation needs to be tested, a developer will open an issue in the QA repository. They should use
 [the new template for release candidate tests](https://github.com/phetsims/QA/blob/master/issue-templates/rc-test-template.md).
 There should be a link to the simulation in the issue, but if there isn’t, then you can find it
 [here](https://phet-dev.colorado.edu/html/). The template should specify what exactly needs to be tested. Here are the
@@ -605,7 +605,7 @@ link to the developer if the issue is in a public GitHub repository.
 
 * In the Wrapper Index there should be some example code. Copy and paste it into a text editor, save it, and make sure
 the resulting html file runs properly.
-* Add ```/lib``` to the end of the wrapper URL. Make sure a file called ```phet-io.js``` is there. If it is, make sure
+* Add `/lib` to the end of the wrapper URL. Make sure a file called `phet-io.js` is there. If it is, make sure
 it is minified.
 
 #### Login Wrapper Test
@@ -613,9 +613,9 @@ it is minified.
 * Add this to the end of the link to test:
 `/wrappers/login/?wrapper=record&validationRule=validateDigits&&numberOfDigits=5&promptText=ENTER_A_5_DIGIT_NUMBER`.
 * Successful login should take you to the record wrapper.
-* Test that the login `phettest` successfully loads.
-* Test that a five digit number successfully loads.
-* Once on the record wrapper, type `window.sessionStorage` into the console, and make sure that the key
+* Make sure login `phettest` successfully loads.
+* Make sure a five digit number successfully loads.
+* Once on the record wrapper, type `window.sessionStorage` into the console, and make sure the key
 `phet.metacog.learner_id` has a value of the login ID you provided it.
 
 #### Simulation Wrapper Test
@@ -671,8 +671,8 @@ manipulations.
   5. View the recording in the Events: Playback wrapper and make sure your actions were recorded accurately.
   6. If a previous recording wrapper exists and is provided, make a recording in that wrapper and test with the current
   playback method.
-  7. If this sim is outfitted with alternative input (such as keyboard navigation), then also test that to make sure
-  that those input events work as well.
+  7. If this sim is outfitted with alternative input (such as keyboard navigation), then also test it to make sure
+  those input events work as well.
   8. Not supported on iPad or IE.
   9. This should not be done in a private window (won't work in some browsers.)
   
@@ -680,7 +680,7 @@ manipulations.
   
 * *What?* This test exercises the full recording and playback process used for PhET studies. This includes recording
 data to and retrieving data from our data back end partner, Metacog.
-* *How?* First, make the recording using the link provided. Check that you are recording to Metacog by looking in the
+* *How?* First, make the recording using the link provided. Make sure you are recording to Metacog by looking in the
 console. You should see the following: `Recorder initialized, sending data to: ["metacog"]`. When you are done, press
 either the back arrow or close the tab. You should be prompted to stay while the process finishes. Do not leave!
 Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show the dialog if you use the back arrow.)
@@ -698,7 +698,7 @@ uncompressed. Use the playback link in the wrapper index to test the recording.
 * *What?* This is a wrapper that contains a simulation, a mirror of the simulation that is updated once every second,
 and a condensed list of instrumented characteristics.
 * *How?* To test this wrapper, simply play with the simulation and make sure your actions are mirrored accurately. Note
-that menus being opened (such as keyboard nav instructions) is not transmitted. This applies to studio launches as well.
+that some actions like opening menus aren't transmitted. This applies to studio launches as well.
 
 #### Mirror Inputs Wrapper Test
 
@@ -799,7 +799,7 @@ these accounts.
 
 ### 4.6: Offline Website (Installer) Testing
 
-The The offline website installers are (typically) built every Sunday morning. Test the offline website every Monday. To
+The offline website installers are (typically) built every Sunday morning. Test the offline website every Monday. To
 test the offline website, follow the steps below:
 
 1. Go to whichever of the following links is appropriate for the test being done.
@@ -1174,7 +1174,7 @@ testing matrix by clicking `File > Make a copy...`. Do not copy and paste the te
 4. Do the “Yes” or “No” for Legends of Learning, Keyboard Navigation, and Screen Reader.
 5. Edit the URLs in the GitHub issue.
 
-When Platforms are added or dropped the testing matrix needs to be updated to reflect the new support. To do so, keep
+When platforms are added or dropped the testing matrix needs to be updated to reflect the new support. To do so, keep
 these things in mind:
 
 1. Many of the parts of the matrix depend on condition formatting and functions.
