@@ -14,54 +14,54 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
 
 ## Contents
 
-**[Section 1: Hardware & Software](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-1-hardware--software)**
+**[Section 1: Hardware & Software](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-1-hardware--software)**
 
-  * [1.1: Devices](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#11-devices)
-  * [1.2: Operating Systems](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#12-operating-systems)
-  * [1.3: Web Browsers](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#13-web-browsers)
-  * [1.4: Updates](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#14-updates)
+  * [1.1: Devices](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#11-devices)
+  * [1.2: Operating Systems](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#12-operating-systems)
+  * [1.3: Web Browsers](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#13-web-browsers)
+  * [1.4: Updates](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#14-updates)
 
-**[Section 2: Communication & Coordination](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-2-communication--coordination)**
+**[Section 2: Communication & Coordination](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-2-communication--coordination)**
 
-  * [2.1: Email](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#21-email)
-  * [2.2: Google Groups](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#22-google-groups)
-  * [2.3: Google Calendar](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#23-google-calendar)
-  * [2.4: Google Drive](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#24-google-drive)
-  * [2.5: Slack](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#25-slack)
-  * [2.6: Zoom](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#26-zoom)
+  * [2.1: Email](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#21-email)
+  * [2.2: Google Groups](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#22-google-groups)
+  * [2.3: Google Calendar](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#23-google-calendar)
+  * [2.4: Google Drive](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#24-google-drive)
+  * [2.5: Slack](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#25-slack)
+  * [2.6: Zoom](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#26-zoom)
 
-**[Section 3: GitHub](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-3-github)**
+**[Section 3: GitHub](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-3-github)**
 
-  * [3.1: Repositories](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#31-repositories)
-  * [3.2: Terminology](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#32-terminology)
-  * [3.3: Issues](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#33-issues)
+  * [3.1: Repositories](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#31-repositories)
+  * [3.2: Terminology](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#32-terminology)
+  * [3.3: Issues](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#33-issues)
 
-**[Section 4: Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-4-testing)**
+**[Section 4: Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-4-testing)**
 
-  * [4.1: Development (Dev) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#41-development-dev-testing)
-  * [4.2: Release Candidate (RC) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#42-release-candidate-rc-testing)
-  * [4.3: PhET-iO Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#43-phet-io-testing)
-  * [4.4: Accessibility (a11y) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#44-accessibility-a11y-testing)
-  * [4.5: Online Website Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#45-online-website-testing)
-  * [4.6: Offline Website (Installer) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#46-offline-website-installer-testing)
-  * [4.7: Automated (Continuous) Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#47-automated-continuous-testing)
-  * [4.8: Memory Leak Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#48-memory-leak-testing)
-  * [4.9: Maintenance Release Testing](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#49-maintenance-release-testing)
-  * [4.10: PhETTest](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#410-phettest)
+  * [4.1: Development (Dev) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#41-development-dev-testing)
+  * [4.2: Release Candidate (RC) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#42-release-candidate-rc-testing)
+  * [4.3: PhET-iO Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#43-phet-io-testing)
+  * [4.4: Accessibility (a11y) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#44-accessibility-a11y-testing)
+  * [4.5: Online Website Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#45-online-website-testing)
+  * [4.6: Offline Website (Installer) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#46-offline-website-installer-testing)
+  * [4.7: Automated (Continuous) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#47-automated-continuous-testing)
+  * [4.8: Memory Leak Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#48-memory-leak-testing)
+  * [4.9: Maintenance Release Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#49-maintenance-release-testing)
+  * [4.10: PhETTest](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#410-phettest)
   * [4.11: App Testing](link)
 
-**[Section 5: Translations](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-5-translations)**
+**[Section 5: Translations](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-5-translations)**
 
-  * [5.1: Legacy Simulation Translations](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#51-legacy-simulation-translations)
-  * [5.2: HTML5 Simulation Translations](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#52-html5-simulation-translations)
-  * [5.3: Website Translations](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#53-website-translations)
+  * [5.1: Legacy Simulation Translations](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#51-legacy-simulation-translations)
+  * [5.2: HTML5 Simulation Translations](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#52-html5-simulation-translations)
+  * [5.3: Website Translations](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#53-website-translations)
 
-**[Section 6: Maintenance & Management](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#section-6-maintenance--management)**
+**[Section 6: Maintenance & Management](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-6-maintenance--management)**
 
-  * [6.1: Testing Matrix Management](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#61-testing-matrix-management)
-  * [6.2: PhET Test Maintenance](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#62-phet-test-maintenance)
-  * [6.3: Website Administration](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#63-website-administration)
-  * [6.4: QA Book Maintenance](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#64-qa-book-maintenance)
+  * [6.1: Testing Matrix Management](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#61-testing-matrix-management)
+  * [6.2: PhET Test Maintenance](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#62-phet-test-maintenance)
+  * [6.3: Website Administration](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#63-website-administration)
+  * [6.4: QA Book Maintenance](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#64-qa-book-maintenance)
 
 ***
 
