@@ -5,7 +5,7 @@ so, welcome! If you're not a PhET employee, (1) thank you for reading this, (2) 
 find this obscure corner of GitHub, and (3) feel free to read on and learn how we test our simulations. Just about
 everything you need to know to test PhET simulations is in this book.
 
-![Cover Comic](https://github.com/phetsims/QA/blob/master/doc/images/cover-comic.jpg "Funny Comic")
+![Cover Comic](https://github.com/phetsims/QA/blob/master/documentation/images/cover-comic.jpg "Funny Comic")
 
 Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
 [humorous comic](https://www.monkeyuser.com/2018/the-struggle/) that Megan "PhETified."
