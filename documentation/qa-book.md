@@ -82,7 +82,7 @@ For a comprehensive list of operating systems (OS's) we support, check out the
 [the PhET Help Center](https://phet.colorado.edu/en/help-center/running-sims). (Open the "What are the System
 Requirements for running PhET simulations?" details.)
 
-As of 2020-04-10 the OS's we support are:
+As of 2020-04-10 the operating systems we officially support are:
 
 * Chrome OS
 * iOS 12+
@@ -97,7 +97,7 @@ For a comprehensive list of browsers we support, check out the
 [the PhET Help Center](https://phet.colorado.edu/en/help-center/running-sims). (Open the "What are the System
 Requirements for running PhET simulations?" details.)
 
-Browsers may include:
+Browsers probably include:
 
 * Google Chrome
 * Firefox
@@ -107,7 +107,7 @@ Browsers may include:
 ### 1.4: Updates
 
 Never update a testing device unless the QA team lead asks you to do so. Be especially careful when dealing with
-devices with older versions of iOS or macOS.
+devices with older versions of iOS or macOS because Apple doesn't let you "un-upgrade" your iOS or macOS version.
 
 ***
 
@@ -126,18 +126,18 @@ You should be part of the "PhET Team" Google Group.
 
 ### 2.3: Google Calendar
 
-Make sure your availability is accurately reflected in the "PhET Student Employees/Researchers" Google Calendar.
+Accurately reflect your availability in the "PhET Student Employees/Researchers" Google Calendar.
 
 ### 2.4: Google Drive
 
 We put all sorts of stuff that you'll need to use on Google Drive. You can post videos that you want to use in your
-issues to Google Drive. Any GitHub videos you store on Google Drive should be in a separate file so it's easy to keep
-track of them.
+issues to Google Drive. Come up with a good way to organize your videos on Google Drive. You might want to use the
+GitHub issue number in the name of your Google Drive video. 
 
 ### 2.5: Slack
 
 If you're working, you should be on Slack! Please bother the developers with silly gifs. To do so, type `/giphy hello`.
-(Replace "hello" with whatever you want a gif of.)  It’s also a good idea to check Slack periodically during the week
+(Replace "hello" with whatever you want a gif of.) It’s also a good idea to check Slack periodically during the week
 for any updates.
 
 ### 2.6: Zoom
@@ -148,13 +148,13 @@ We occasionally use Zoom to video conference.
 
 ## Section 3: GitHub
 
-GitHub is a code hosting website. If GitHub is integrated with Git, version control software, everything you commit
-and push is automatically posted. PhET also uses GitHub to document issues with sims.
+GitHub is a code hosting website. If you use the version control software Git, you can post changes to code you make on
+your computer to GitHub. PhET also uses GitHub to document issues with sims.
 
 ### 3.1: Repositories
 
-A GitHub repository is like a folder where the code and issues for a specific simulation are kept. It’s important that
-you familiarize yourself with each repository and its contents.
+A GitHub repository is like a folder where the code and issues for a specific simulation are kept. It’s important to
+familiarize yourself with each repository and its contents.
 
 Some repositories contain code for things that aren’t simulations. The following is a list of those repositories with
 brief descriptions:
