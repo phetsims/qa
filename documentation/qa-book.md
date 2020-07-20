@@ -729,9 +729,15 @@ be /simulation/version/phet-io) and should show some difference. The simulation 
 also work.
 
 ##### Michael Kauzmann's Detailed Diff Wrapper Instructions
-1. Make sure it says the APIs are the same when comparing to itself, type "https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/ into the comparison input text.
-2. If the sim has been published before on phet-io.colorado.edu, compare the most recent version there. Ask the dev to run (or run yourself) `cd perennial; grunt print-phet-io-links` to see if the sim is in the list.
-3. If not, see if there is a previous dev version for phet-io that you can compare to. It will likely have lots of changes in it, and that's OK! It is expected that each phet-io version being published has been thoroughly designed, and that it is as expected (including prior use of the diff wrapper by designers to see if anything suspicious has changed between versions).
+
+1. Make sure it says the APIs are the same when comparing to itself, type
+https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/ into the comparison input text.
+2. If the sim has been published before on phet-io.colorado.edu, compare the most recent version there. Ask the dev to
+run (or run yourself) `cd perennial; grunt print-phet-io-links` to see if the sim is in the list.
+3. If not, see if there is a previous dev version for phet-io that you can compare to. It will likely have lots of changes
+in it, and that's OK! It is expected that each phet-io version being published has been thoroughly designed, and that it
+is as expected (including prior use of the diff wrapper by designers to see if anything suspicious has changed between
+versions).
 
 #### Multi Wrapper Test
 
