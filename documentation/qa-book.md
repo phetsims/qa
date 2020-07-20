@@ -743,7 +743,7 @@ versions).
 
 * *What?* This wrapper demonstrates how to embed multiple PhET-iO simulations in the same page.
 * *How?* To test this wrapper, make sure the active toggle works on both sims. Make sure to property toggle has the
-expected effect based on its language for each.
+expected effect based on its language for each. If the sim is not active, property changes will not appear until the sim is active again.
 
 ### 4.4: Accessibility (a11y) Testing
 
