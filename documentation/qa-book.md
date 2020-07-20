@@ -245,11 +245,11 @@ correct terms. (Some terms are intuitive while others are counterintuitive, henc
 * “drop down menu” = combo box
 * “number adjuster that looks like a spinner”/has floating arrows = number picker
 
-![Number Picker](https://github.com/phetsims/QA/blob/master/doc/img/number-picker.png "Number Picker")
+![Number Picker](https://github.com/phetsims/QA/blob/master/documentation/images/number-picker.png "Number Picker")
 
 * “number adjuster that looks like a picker”/has buttons = number spinner
 
-![Number Spinner](https://github.com/phetsims/QA/blob/master/doc/img/number-spinner.png "Number Spinner")
+![Number Spinner](https://github.com/phetsims/QA/blob/master/documentation/images/number-spinner.png "Number Spinner")
 
 * “slightly different simulation within a screen” = scene
 * “toolbox that has multiple pages” = carousel
