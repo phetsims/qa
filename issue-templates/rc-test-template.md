@@ -213,6 +213,12 @@ screen reader bug, please check it against this list.
 This sim supports keyboard navigation. Please make sure it works as intended on all platforms by itself and with a
 screen reader.
 
+<h3>Magnification</h3>
+
+This sim supports magnification with pinch and drag gestures on touch screens, keyboard shortcuts, and mouse/wheel controls. Please test magnfication and make sure
+it is working as intended and well with the use cases of the simulation. Due to the way screen readers handle user input, magnification is NOT expected to
+work while using a screen reader so there is no need to test this case.
+
 <h3>Final Requests</h3>
 
 - [ ] If this sim is in [this list](https://github.com/phetsims/perennial/blob/master/data/accessibility), make an
