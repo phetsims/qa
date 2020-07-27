@@ -110,6 +110,7 @@ sure the simulation loads without crashing or throwing errors.
   /wrappers/login/?wrapper=record&validationRule=validateDigits&&numberOfDigits=5&promptText=ENTER_A_5_DIGIT_NUMBER
   ```   
   Further instructions in QA Book
+- Conduct a recording test to Metacog, further instructions in the QA Book. 
 
 <!--- [CAN BE
 OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
