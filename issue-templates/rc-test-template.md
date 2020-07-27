@@ -110,9 +110,9 @@ sure the simulation loads without crashing or throwing errors.
   /wrappers/login/?wrapper=record&validationRule=validateDigits&&numberOfDigits=5&promptText=ENTER_A_5_DIGIT_NUMBER
   ```   
   Further instructions in QA Book
-- Please at least load all wrappers except studio in the wrapper suite with internet explorer. 
 
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
+<!--- [CAN BE
+OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
 
 [Provide further instructions here. If you have any further tests you want done or specific platforms you want tested,
