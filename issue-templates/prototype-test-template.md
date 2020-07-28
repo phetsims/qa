@@ -1,7 +1,7 @@
 <!---
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~ PhET Release Candidate Test Template ~~
+~~ PhET Prototype Release Candidate Test Template ~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Notes and Instructions for Developers:
@@ -12,8 +12,8 @@ Notes and Instructions for Developers:
 -->
 
 @relevantPerson1, @relevantPerson2, simulation-name/#.#.#-rc.# is ready for prototype testing. This simulation will be
-put on the website as prototype and will likely have more bugs than a published simulation. Document issues in 
-https://github.com/phetsims/{{REPO}}/issues and link to this issue. Issues should focus on base usability and pedagogy.
+put on the website as a prototype and will likely have more bugs than a published simulation. Document issues in 
+https://github.com/phetsims/{{REPO}}/issues and link to this issue. **Issues should focus on base usability and pedagogy.**
 
 Assigning to @ariel-phet for prioritization.
 
