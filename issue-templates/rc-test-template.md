@@ -44,6 +44,7 @@ for a list of query parameters.)
 - Make sure the XHTML version of the simulation is working as intended on all platforms.
 - Complete the test matrix.
 - Don't forget to make sure the sim works with Legends of Learning.
+- Test the Game Up harness on at least one platform.
 - Check [this](https://docs.google.com/spreadsheets/d/1umIAmhn89WN1nzcHKhYJcv-n3Oj6ps1wITc-CjWYytE/edit#gid=0) LoL
 spreadsheet and notify AR or AM if it not there.
 - If this is rc.1 please do a memory test.
