@@ -502,7 +502,7 @@ To test the Game Up harness, do the following:
 2. Add a querry parameter that includes the url of sim being tested `?sim=https://phet-dev.colorado.edu/html/sim/#.#.#-dev.#/phet/sim.html`.
 3. Add a second querry parameter (with a second `?` rather than a `&`) that looks like `?gameUpLogging&gameUp&gameUpTestHarness`. Order matters and these should be after step 2.
 4. Open the console. It should say: `Enabled Game Up Camera`, `Posted captureReady, number of checks #`, and `GameUpCaptureReady`.
-5. The number of checks should be low. If over 10 there is likely an issue.
+5. The number of checks should be low. If over 5 there is likely an issue.
 6. Make sure you can press the capture button and get a screenshot. The console should say `Sent image`.
 
 #### HTML Download Test
