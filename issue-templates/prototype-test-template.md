@@ -12,7 +12,7 @@ Notes and Instructions for Developers:
 -->
 
 @relevantPerson1, @relevantPerson2, simulation-name/#.#.#-rc.# is ready for prototype testing. This simulation will be
-put on the website as a prototype and will likely have more bugs than a published simulation. Document issues in 
+put on the website as a prototype and will likely have more bugs than a publication ready simulation. Document issues in 
 https://github.com/phetsims/{{REPO}}/issues and link to this issue. **Issues should focus on base usability and pedagogy.**
 
 Assigning to @ariel-phet for prioritization.
@@ -34,8 +34,9 @@ Assigning to @ariel-phet for prioritization.
 - Complete the test matrix.
 - Try to include version numbers for browsers
 - If there is a console available, check for errors and include them in the Problem Description.
-- Focus on breaking and pedagogy issues. If you find others, make the issues, but it likely won't stop publication of the prototype.
-- If a11y aspects are present, test them, but likely to a lesser extent.
+- Focus on pedagogy issues and bugs that break the sim. 
+- If you find bugs beyond pedagogy/breaking, still document these bugs as github issues.
+- If a11y aspects are present, test them, but with an eye for "normal use".
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
