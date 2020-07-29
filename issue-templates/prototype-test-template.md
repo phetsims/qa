@@ -12,7 +12,7 @@ Notes and Instructions for Developers:
 -->
 
 @relevantPerson1, @relevantPerson2, simulation-name/#.#.#-rc.# is ready for prototype testing. This simulation will be
-put on the website as a prototype and will likely have more bugs than a publication ready simulation. Document issues in 
+put on the website as a prototype and will likely have more bugs than a publication-ready simulation. Document issues in 
 https://github.com/phetsims/{{REPO}}/issues and link to this issue. **Issues should focus on base usability and pedagogy.**
 
 Assigning to @ariel-phet for prioritization.
@@ -60,11 +60,9 @@ at this point, just be aware of them as you test.
 - **[Simulation](all_phet_link)**
 - **[Test Matrix](link)**
 
-
 <hr>
 
 </details>
-
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
