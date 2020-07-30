@@ -708,6 +708,7 @@ use if something goes wrong with the retrieval.
 uncompressed. 
   * Use the playback link in the wrapper index to test the recording.
 [This](https://github.com/phetsims/phet-io/blob/master/doc/metacog.md) may be helpful.
+  * This test should be done on two platforms. iPadOS + Safari, and one other random platform that should change with each test.
 
 #### State Wrapper Test
 
