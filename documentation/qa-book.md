@@ -691,17 +691,22 @@ manipulations.
   
 * *What?* This test exercises the full recording and playback process used for PhET studies. This includes recording
 data to and retrieving data from our data back end partner, Metacog.
-* *How?* First, make the recording using the link provided. Make sure you are recording to Metacog by looking in the
-console. You should see the following: `Recorder initialized, sending data to: ["metacog"]`. When you are done, press
+* *How?* 
+  * First generate the link for testing. From the version directory of the RC, add the following: `/wrappers/login/?wrapper=record&validationRule=validateDigits&numberOfDigits=5&promptText=Enter%20a%205%20Digit%20ID&publisher_id={{PUBLISHER_ID}}&key_name=testing&widget_id={{SIM}}-{{VERSION}}-qaTest&metacog`. @KatieWoe should have the publisherID that goes with the key_name provided. Please note that these two values version together, so not any publisher_id will work. Make sure to change the `widget_id` based on each test. This is the unique identifier used to get back a collection of tests. We change this each sim/version to make sure you don't get back recording sessions from other test issues. Make your recording using this link. 
+  * Make sure you are recording to Metacog by looking in the
+console. You should see the following: `Recorder initialized, sending data to: ["metacog"]`. 
+  * When you are done, press
 either the back arrow or close the tab. You should be prompted to stay while the process finishes. Do not leave!
 Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show the dialog if you use the back arrow.)
-Wait for thirty minutes before moving to the next step. Use this
+  * Wait for thirty minutes before moving to the next step. 
+  * Use this
 [link](http://phettest.colorado.edu/phet-io-website/root/metacog/request-data.html) to retrieve the data. Paste the
 provided URL (just the query parameter part) into the URL box, the ID into the Application ID (this will not be given
-in the issue, but you can ask the developer for it), and the email you want to receive the logs in into the email box.
-Nothing else needs to be entered. If you have the console open when you hit submit you will get an ID number you can
-use if something goes wrong with the retrieval. The email will take about 20 minutes. Make sure the `.gz` file is
-uncompressed. Use the playback link in the wrapper index to test the recording.
+in the issue, but @katieWoe will have it), and the email you want to receive the logs in into the email box. Nothing else needs to be entered. If you have the console open when you hit submit you will get an ID number you can
+use if something goes wrong with the retrieval. 
+  * The email will take about 20 minutes. Make sure the `.gz` file is
+uncompressed. 
+  * Use the playback link in the wrapper index to test the recording.
 [This](https://github.com/phetsims/phet-io/blob/master/doc/metacog.md) may be helpful.
 
 #### State Wrapper Test
@@ -1282,3 +1287,4 @@ Use this [Markdown File](https://github.com/phetsims/QA/blob/master/doc/qa-book-
 need to be added and to view dates for scheduled maintenance.
 
 ***
+
