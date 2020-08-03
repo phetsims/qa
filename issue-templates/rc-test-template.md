@@ -112,6 +112,7 @@ sure the simulation loads without crashing or throwing errors.
   ```   
   Further instructions in QA Book
 - Conduct a recording test to Metacog, further instructions in the QA Book. Do this for iPadOS + Safari and one other random platform.
+- Conduct a memory test on the stand alone sim wrapper.
 
 <!--- [CAN BE
 OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
