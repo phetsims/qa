@@ -612,6 +612,9 @@ protected.
 When making issues, try to include the specific link you were using when you found the problem. You need to Slack the
 link to the developer if the issue is in a public GitHub repository.
 
+There will be links to guides in the wrapper index. One of these guides will include client requests. Make sure to check these 
+requests during testing.
+
 #### Wrapper Index Test
 
 * In the Wrapper Index there should be some example code. Copy and paste it into a text editor, save it, and make sure
@@ -633,7 +636,7 @@ it is minified.
 
 * *What?* This wrapper is the simulation.
 * *How?* To test this wrapper, follow the steps for a development test or a release candidate test depending on
-what the issue specifies.
+what the issue specifies. A memory test should be included on one platform here.
 
 #### Studio Wrapper Test
 
