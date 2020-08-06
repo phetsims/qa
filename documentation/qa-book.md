@@ -703,7 +703,7 @@ either the back arrow or close the tab. You should be prompted to stay while the
 Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show the dialog if you use the back arrow.)
   * Wait for thirty minutes before moving to the next step. 
   * Use this
-[link](http://phettest.colorado.edu/phet-io-website/root/metacog/request-data.html) to retrieve the data. Paste the
+[link](http://phettest.colorado.edu/phet-io-website/root/metacog/request-data.html) or [link](https://phet-io.colorado.edu/metacog/request-data.html) to retrieve the data. Paste the
 provided URL (just the query parameter part) into the URL box, the ID into the Application ID (this will not be given
 in the issue, but @katieWoe will have it), and the email you want to receive the logs in into the email box. Nothing else needs to be entered. If you have the console open when you hit submit you will get an ID number you can
 use if something goes wrong with the retrieval. 
