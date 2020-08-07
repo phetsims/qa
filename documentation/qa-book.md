@@ -498,7 +498,7 @@ To test a simulation in the Legends of Learning harness, do the following:
 
 To test the Game Up harness, do the following:
 
-1. Enter `http://phettest.colorado.edu/aqua/html/gameup-harness.html` in the url (this may change).
+1. Enter `https://phet-dev.colorado.edu/html/gameup/gameup-harness.html` in the url.
 2. Add a querry parameter that includes the url of sim being tested `?sim=https://phet-dev.colorado.edu/html/sim/#.#.#-dev.#/phet/sim.html`.
 3. Add a second querry parameter (with a second `?` rather than a `&`) that looks like `?gameUpLogging&gameUp&gameUpTestHarness`. Order matters and these should be after step 2.
 4. Open the console. It should say: `Enabled Game Up Camera`, `Posted captureReady, number of checks #`, and `GameUpCaptureReady`.
