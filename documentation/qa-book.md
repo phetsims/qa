@@ -651,6 +651,8 @@ that haven’t been instrumented can’t be modified. Make sure the UI functions
   modifications you made are still there using the “Generate HTML” button.
   3. When doing the above, make sure that the resulting sim resets to the state it launched in, rather than the default
   sim's original state, when you hit reset all.
+ 
+ One random platform combination should use the `?phetioDebug` query parameter.
 
 #### Data: Colorized Wrapper Test
 
@@ -718,7 +720,8 @@ uncompressed.
 * *What?* This is a wrapper that contains a simulation, a mirror of the simulation that is updated once every second,
 and a condensed list of instrumented characteristics.
 * *How?* To test this wrapper, simply play with the simulation and make sure your actions are mirrored accurately. Note
-that some actions like opening menus aren't transmitted. This applies to studio launches as well.
+that some actions like opening menus aren't transmitted. This applies to studio launches as well. One random platform combo should 
+use the `?phetioDebug` query parameter.
 
 #### Mirror Inputs Wrapper Test
 
