@@ -13,7 +13,7 @@ Notes and Instructions for Developers:
 
 @relevantPerson1, @relevantPerson2, simulation-name/#.#.#-dev.# is ready for dev testing. [List deadlines and whether
 this will be shared with a client.] Document issues in https://github.com/phetsims/{{REPO}}/issues and link to this
-issue.
+issue. [If the test is delayed until QA is more open, state that here.]
 
 Assigning @ariel-phet for prioritization.
 
