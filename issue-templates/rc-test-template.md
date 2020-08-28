@@ -13,7 +13,7 @@ Notes and Instructions for Developers:
 
 @relevantPerson1, @relevantPerson2, simulation-name/#.#.#-rc.# is ready for RC testing. [List deadlines and whether
 this will be shared with a client.] Document issues in https://github.com/phetsims/{{REPO}}/issues and link to this
-issue.
+issue. [If this rc is delayed until QA is more open, state that here.]
 
 Assigning to @ariel-phet for prioritization.
 
