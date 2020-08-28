@@ -505,6 +505,14 @@ To test the Game Up harness, do the following:
 5. The number of checks should be low. If over 5 there is likely an issue.
 6. Make sure you can press the capture button and get a screenshot. The console should say `Sent image`.
 
+#### Zoom in/out testing
+
+You should be able to zoom in and out using the same sorts of methods you would expect for most web pages.
+
+1. Ctrl + +/-/0
+2. Ctrl + scrolling
+3. Pinch to zoom
+
 #### HTML Download Test
 
 To perform the HTML download test, do the following:
