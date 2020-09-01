@@ -191,7 +191,8 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
 <h3>Screen Readers</h3>
 
 This sim supports screen readers. If you are unfamiliar with screen readers, please ask Katie to introduce you to
-screen readers. If you simply need a refresher on screen readers, please consult the [QA Book](link), which should have
+screen readers. If you simply need a refresher on screen readers, please consult the
+[QA Book](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md), which should have
 all of the information you need as well as a link to a screen reader tutorial made by Jesse. Otherwise, look over the
 a11y view before opening the simulation. Once you've done that, open the simulation and make sure alerts and
 descriptions work as intended.
@@ -315,7 +316,7 @@ to @terracoda and @emily-phet.
   
   You should:
 
-  1. Consult the [QA Book](https://github.com/phetsims/QA/blob/master/doc/qa-book.md).
+  1. Consult the [QA Book](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md).
   2. Google it.
   3. Ask Katie.
   4. Ask a developer.
