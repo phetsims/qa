@@ -489,9 +489,9 @@ Multiple query parameters can be used at once. It's as simple as adding an amper
 To test a simulation in the Legends of Learning (LoL) harness, do the following:
 
 1. Go to https://developers.legendsoflearning.com/public-harness/index.html.
-2. Copy and paste the simulation’s URL into “Enter Game Source URL.”
-3. Append the URL of the simulation with `?legendsOfLearning`.
-4. Press "Mount Game" button
+2. Copy and paste the simulation’s URL into “Enter Game Source URL” text field.
+3. Append `?legendsOfLearning` to the simulation's URL.
+4. Press the "Mount Game" button.
 5. Above the sim frame, press "▷ Start"
 6. Above the sim frame, verify that you can use "|| Pause" and "|▷ Resume" to pause and play the sim.
 
