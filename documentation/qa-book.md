@@ -491,8 +491,9 @@ To test a simulation in the Legends of Learning (LoL) harness, do the following:
 1. Go to https://developers.legendsoflearning.com/public-harness/index.html.
 2. Copy and paste the simulation’s URL into “Enter Game Source URL.”
 3. Append the URL of the simulation with `?legendsOfLearning`.
-4. Make sure you can pause the simulation.
-5. Make sure you can resume the simulation.
+4. Press "Mount Game" button
+5. Above the sim frame, press "▷ Start"
+6. About the sim frame, verify that you can use "|| Pause" and "|▷ Resume" to pause and play the sim.
 
 #### Game Up/Snap Thought Test
 
