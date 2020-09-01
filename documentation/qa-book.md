@@ -486,7 +486,7 @@ Multiple query parameters can be used at once. It's as simple as adding an amper
 
 #### Legends of Learning Test
 
-To test a simulation in the Legends of Learning harness, do the following:
+To test a simulation in the Legends of Learning (LoL) harness, do the following:
 
 1. Go to https://developers.legendsoflearning.com/public-harness/index.html.
 2. Copy and paste the simulation’s URL into “Enter Game Source URL.”
