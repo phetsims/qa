@@ -37,7 +37,7 @@ Assigning to @ariel-phet for prioritization.
 - Make sure you can't lose anything.
 - Play with the sim normally.
 - Try to break the sim.
-- Test all query parameters on all platforms. (See [QA Book](https://github.com/phetsims/QA/blob/master/doc/qa-book.md)
+- Test all query parameters on all platforms. (See [QA Book](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md)
 for a list of query parameters.)
 - Download HTML on Chrome and iOS.
 - Make sure the iFrame version of the simulation is working as intended on all platforms.
