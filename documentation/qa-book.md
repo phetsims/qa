@@ -546,7 +546,7 @@ there is a problem, notify the developers.
 #### Screenshots
 
 When a simulation is about to be published, we have to take screenshots of the simulation that will be used on the
-website.
+website. Usually you have one main screenshot and two to three alt screenshots.
 
 ##### Screenshots on Chrome
 
