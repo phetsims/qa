@@ -514,6 +514,8 @@ You should be able to zoom in and out using the same sorts of methods you would 
 2. Ctrl + scrolling
 3. Pinch to zoom
 
+Make sure that all UI components behave normally while zooming in. Dragable objects should behave as expected and not move the screen.
+
 #### HTML Download Test
 
 To perform the HTML download test, do the following:
