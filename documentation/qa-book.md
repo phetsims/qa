@@ -35,6 +35,7 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
   * [3.1: Repositories](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#31-repositories)
   * [3.2: Terminology](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#32-terminology)
   * [3.3: Issues](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#33-issues)
+  * [3.4: QA Pipeline](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#34-qa-pipline)
 
 **[Section 4: Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-4-testing)**
 
