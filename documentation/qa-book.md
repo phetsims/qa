@@ -359,6 +359,14 @@ necessarily done with this issues, we just need some QA feedback.)
 * type:performance - For performance issues, e.g. low frame rate, lag, etc.
 * type:question - For questions.
 
+### 3.4 QA Pipline
+
+In the QA repo, there is a project called the QA Pipeline. The pipeline contains cards that either correspond to issues 
+in the QA repo for tests and sims, or to sims that will soon enter QA. The placement of these cards indicates where in testing 
+that particular sim/issue is. It also indicates priority. If a test is in the active tests column then, the higher it is, the 
+higher its priority. The pipline is edited primarily by Ariel and Katie. When tests are done, they will be moved to their 
+appropriate column.
+
 ***
 
 ## Section 4: Testing
