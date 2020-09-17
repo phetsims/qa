@@ -82,13 +82,12 @@ For a comprehensive list of operating systems (OS's) we support, check out the
 [the PhET Help Center](https://phet.colorado.edu/en/help-center/running-sims). (Open the "What are the System
 Requirements for running PhET simulations?" details.)
 
-As of 2020-04-10 the operating systems we officially support are:
+As of 2020-09-10 the operating systems we officially support are:
 
 * Chrome OS
 * iOS 12+
 * iPadOS 13+
 * macOS 10.12+
-* Windows 7
 * Windows 10
 
 ### 1.3: Web Browsers
@@ -101,7 +100,6 @@ Browsers probably include:
 
 * Google Chrome
 * Firefox
-* Microsoft Edge
 * Safari
 
 ### 1.4: Updates
