@@ -682,21 +682,22 @@ that haven’t been instrumented can’t be modified. Make sure the UI functions
 
 * *What?* This wrapper is the simulation, but when you open the console, you are able to view a colorized event stream.
 * *How?* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the
-manipulations.
+manipulations. This test should be done lightly to make sure the data stream prints out to the console as it should.
 
 #### Data: JSON Wrapper Test
 
 * *What?* This wrapper is the simulation, but when you open the console, you are able to view the event stream in
 JavaScript object notation.
 * *How?* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the
-manipulations.
+manipulations. This test should be done lightly to make sure the data stream prints out to the console as it should.
 
 #### Data: Text Area Wrapper Test
 
 * *What?* This wrapper is the simulation with the event stream below. There is a limit to the number of events that can
 be displayed below the simulation.
 * *How?* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the
-manipulations.
+manipulations. This test should be a bit more in depth than the colorized and JSON tests. Performance should also be 
+acceptable.
 
 #### Data: Recording Wrapper Test
 
