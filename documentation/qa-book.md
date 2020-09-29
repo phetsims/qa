@@ -675,6 +675,7 @@ that haven’t been instrumented can’t be modified. Make sure the UI functions
   modifications you made are still there using the “Generate HTML” button.
   3. When doing the above, make sure that the resulting sim resets to the state it launched in, rather than the default
   sim's original state, when you hit reset all.
+  4. Check that the changes documented in the Client Request form can be done properly.
  
  One random platform combination should use the `?phetioDebug` query parameter.
 
