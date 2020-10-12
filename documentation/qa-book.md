@@ -1255,8 +1255,8 @@ every 5 hours.
 
 Here is a list of helpful commands:
 
-* `$ pm2 stop index-server.js`
-* `$ pm2 start index-server.js`
+* `$ pm2 stop phettest-server.js`
+* `$ pm2 start phettest-server.js`
 * `$ pm2 logs`
 
 or
