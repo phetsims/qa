@@ -848,7 +848,7 @@ If a simulation includes sound, here are some recommendations of what to test:
 - Verify that none of the sounds produced are disproportionately loud compared to the others, i.e. the balance is good.  Note that the sound designers often use the Reset All button's sound as the volume reference.
 - Play all sounds on multiple platforms and verify that there are no crackles, glitches, or anything that seems broken or significantly different on one platform versus the others.
 - If the simulation supports "Enhanced Sound", test with it on and off and verify that the enhanced sounds play when this is on and don't when it is off.  You may need to consult the sound design document or ask the developer to figure out which sounds are in the "Enhanced" category.
-- The sound design has gone through numerous iterations by the time it is in testing, so the sound design team is past the point of soliciting general feedback at this point, but if a QA tester encounters something with the sound design that truly strikes them as misleading, frustrating, distracting, or otherwise problematic, it is okay to log an issue.
+- The sound design has gone through numerous iterations by the time it is in testing, so the sound design team is past the point of soliciting general feedback, but if a QA tester encounters something with the sound design that truly strikes them as misleading, frustrating, distracting, or otherwise problematic, it is okay to log an issue.
 
 ### 4.5: Online Website Testing
 
