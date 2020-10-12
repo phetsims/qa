@@ -667,7 +667,8 @@ what the issue specifies. A memory test should be included on one platform here.
 * *What?* This wrapper is the simulation alongside a long list of instrumented characteristics. An instrumented
 characteristic is some aspect of the simulation that can be modified by a licensed owner of a PhET-iO simulation, e.g.
 a property. Not all characteristics of the simulation are instrumented so as to retain the functionality of the
-simulation.
+simulation. Using Studio is tested on Mac and Windows Chrome platforms. Other platforms should test html files 
+made in this way.
 * *How?* To test this wrapper, make sure instrumented characteristics can be modified and make sure charac- teristics
 that haven’t been instrumented can’t be modified. Make sure the UI functions as expected. Also, do the following:
   1. Periodically launch the simulation to make sure it works using the “Launch” button.
