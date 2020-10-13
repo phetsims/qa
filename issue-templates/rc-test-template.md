@@ -122,7 +122,8 @@ OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
 
 [Provide further instructions here. If you have any further tests you want done or specific platforms you want tested,
-list them here. Any behaviors you want QA to pay special attention to should be listed here.]
+list them here. Any behaviors you want QA to pay special attention to should be listed here. This includes if any substantial, 
+untested work has been implemented in PhET-iO wrappers or in the PhET-iO Engine since last PhET-iO test.]
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Issues to Verify</h3>
