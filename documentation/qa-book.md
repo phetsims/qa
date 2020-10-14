@@ -745,7 +745,7 @@ uncompressed.
 #### State Wrapper Test
 
 * *What?* This is a wrapper that contains a simulation, a mirror of the simulation that is updated once every second,
-and a condensed list of instrumented characteristics.
+and a condensed list of instrumented characteristics. This maps well to how the state is done in Studio.
 * *How?* To test this wrapper, simply play with the simulation and make sure your actions are mirrored accurately. Note
 that some actions like opening menus aren't transmitted. This applies to studio launches as well. One random platform combo should 
 use the `?phetioDebug` query parameter.
@@ -753,7 +753,7 @@ use the `?phetioDebug` query parameter.
 #### Mirror Inputs Wrapper Test
 
 * *What?* This is a wrapper that contains a simulation and a mirror of the simulation that is updated with every user
-input.
+input. This maps well to what is done in the recording wrapper.
 * *How?* To test this wrapper, make sure your actions are mirrored accurately. Spend plenty of time testing this
 wrapper.
 
