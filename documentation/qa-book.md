@@ -159,7 +159,7 @@ Some repositories contain code for things that aren’t simulations. The followi
 brief descriptions:
 
 * a11y-research: Accessibility Research keeps track of accessibility research.
-* aqua: Automated Quality Assurance (AQuA) holds code for continuous testing. PhETTest uses some code in aqua.
+* aqua: Automated Quality Assurance (AQuA) holds code for continuous testing. [PhETTest](https://bayes.colorado.edu/dev/phettest) uses some code in aqua.
 * assert: Assert holds code for handling assertions.
 * axon: Axon is sort of like the nerve system. Axon holds code for things related to properties, e.g. the value of a
 speedometer.
@@ -257,8 +257,8 @@ correct terms. (Some terms are intuitive while others are counterintuitive, henc
 * “using the dots to navigate between pages” = dot navigation
 * “clicking and holding” = fire on hold
 
-Check out the [Scenery-PhET demo](http://phettest.colorado.edu/scenery-phet/scenery-phet_en.html?brand=phet&ea) and the
-[Sun demo](http://phettest.colorado.edu/sun/sun_en.html?brand=phet&ea) for more terminology.
+Check out the [Scenery-PhET demo](https://bayes.colorado.edu/dev/phettest/scenery-phet/scenery-phet_en.html?brand=phet&ea) and the
+[Sun demo](https://bayes.colorado.edu/dev/phettest/sun/sun_en.html?brand=phet&ea) for more terminology.
 
 ### 3.3: Issues
 
@@ -732,7 +732,7 @@ either the back arrow or close the tab. You should be prompted to stay while the
 Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show the dialog if you use the back arrow.)
   * Wait for thirty minutes before moving to the next step. 
   * Use this
-[link](http://phettest.colorado.edu/phet-io-website/root/metacog/request-data.html) or [link](https://phet-io.colorado.edu/metacog/request-data.html) to retrieve the data. Paste the
+[link](https://bayes.colorado.edu/dev/phettest/phet-io-website/root/metacog/request-data.html) or [link](https://phet-io.colorado.edu/metacog/request-data.html) to retrieve the data. Paste the
 provided URL (just the query parameter part) into the URL box, the ID into the Application ID (this will not be given
 in the issue, but @katieWoe will have it), and the email you want to receive the logs in into the email box. Nothing else needs to be entered. If you have the console open when you hit submit you will get an ID number you can
 use if something goes wrong with the retrieval. 
@@ -1016,15 +1016,14 @@ sims currently in RC testing may need special attention.
 
 ### 4.10: PhETTest
 
-[PhETTest](phettest.colorado.edu) contains up-to-date versions of the sim with latest code changes made by the
+[PhETTest](https://bayes.colorado.edu/dev/phettest/) contains up-to-date versions of the sim with latest code changes made by the
 developers. When a developer asks for something to be checked on master, this is where you will go to do that for the
 most part. PhETMarks serves a similar purpose with more options in case you need to test something more involved like
 PhET-iO. When you open the website, do so in incognito mode to ensure you aren’t looking at an old version of a sim.
-Make sure all of the common code repos are up to date, as well as the sim you want to look at. You can press the pull
-button to update one repo, or the Pull All button at the top to update everything. To quickly check a sim, click the
-link with the sim in the title. To check on IE or make a longer lasting version, click build, and then click Built
-Version when the process finishes. For IE you will need to do this in a different browser and copy the resulting URL
-into IE.
+Make sure all of the common code repos are up to date, as well as the sim you want to look at. You can press the "pull"
+button to update one repo, or the "Pull All" button at the top to update everything. To quickly check a sim, click the
+link with the sim in the title. To build a version of the simulation, click "build", and then click "Built
+Version" when the process finishes.
 
 ### 4.11: App Testing
 
@@ -1251,26 +1250,17 @@ tab).
 
 ### 6.2: PhET Test Maintenance
 
-PhET Test is a computer with files on it. As of 2018-05-10, the computer is Turing, a MacBook Pro. Turing is connected
-to the internet via an ethernet cable. You must be connected to the internet via UCB Wireless or via a virtual private
-network (VPN) to connect to Turing. The sticky note on Turing has its internet protocol (IP) address and its media
-access control (MAC) address. PhET Test is used to check master. (Master is the main branch of the software development
-tree.) PhET Test has caching issues, so always use a private window when accessing PhET Test. If you see something like
-”failed to pull,” then look through Turing’s terminal to see if you can find the culprit. Every time a new repository
+PhETTest runs on bayes, see https://github.com/phetsims/phetmarks/blob/master/phettest/README.md for notes about maintaining the associated processes. This
+requires the ability to ssh into bayes with the `phet-admin` account. If you see something like 
+”failed to pull,” then look through bayes logs to see if you can find the culprit. Every time a new repository
 is made, press the “Refresh Perennial” button. (Perennial is the list of simulations.) Press the ”Pull All” button
 every 5 hours.
 
 Here is a list of helpful commands:
 
-* `$ pm2 stop phettest-server.js`
-* `$ pm2 start phettest-server.js`
-* `$ pm2 logs`
-
-or
-
-* `$ pm2 stop index-server`
-* `$ pm2 start index-server`
-* `$ pm2 logs`
+* `$ pm2 stop phettest-server`
+* `$ pm2 start phettest-server`
+* `$ pm2 logs phettest-server`
 
 ### 6.3: Website Administration
 
