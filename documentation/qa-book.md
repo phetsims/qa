@@ -1262,6 +1262,9 @@ Here is a list of helpful commands:
 * `$ pm2 start phettest-server`
 * `$ pm2 logs phettest-server`
 
+Since phettest now runs on bayes, rather than the Turing computer, you are generally better off asking a developer 
+for help in using these commands and/or troubleshooting.
+
 ### 6.3: Website Administration
 
 Do not delete English versions of simulations!
