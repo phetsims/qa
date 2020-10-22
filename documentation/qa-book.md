@@ -430,7 +430,7 @@ the query parameter `?fuzz`.
 
 #### RC Test Types
 
-There are three types of rc test types. The firs is a full RC, which will not have any extra labels and should follow all instructions. 
+There are three types of rc test types. The first is a full RC, which will not have any extra labels and should follow all instructions. 
 Second is the RC-Lite which will have fewer devices/platforms for a faster test. Third is a Spot Check which focuses mostly on 
 issue confirmations.
 
