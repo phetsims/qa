@@ -744,11 +744,14 @@ uncompressed.
 
 #### State Wrapper Test
 
-* *What?* This is a wrapper that contains a simulation, a mirror of the simulation that is updated once every second,
-and a condensed list of instrumented characteristics. This maps well to how the state is done in Studio.
+* *What?* This is a wrapper that contains a simulation, a mirror of the simulation that is updated once every given amount of time
+(which is determined by a slider). The slider can also be set to 0 and the state set with a particular button. The bottom sim will 
+interact and play forward until the next state update, at which point it should match the top sim and this behavior repeats.
+There is also a condensed list of instrumented characteristics. This maps well to how the state is done in Studio.
 * *How?* To test this wrapper, simply play with the simulation and make sure your actions are mirrored accurately. Note
 that some actions like opening menus aren't transmitted. This applies to studio launches as well. One random platform combo should 
-use the `?phetioDebug` query parameter.
+use the `?phetioDebug` query parameter. Check particular states by setting the state update rate to 0 and setting the state manually. 
+You can further control behavior by making it so the sims are not active during the update.
 
 #### Mirror Inputs Wrapper Test
 
