@@ -89,6 +89,7 @@ As of 2020-09-10 the operating systems we officially support are:
 * iOS 12+
 * iPadOS 13+
 * macOS 10.12+
+* macOS 11+
 * Windows 10
 
 ### 1.3: Web Browsers
