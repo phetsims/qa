@@ -478,6 +478,7 @@ To do the query parameters test, append the URL with the following query paramet
 ##### Other Useful Query Parameters
 
 * `?fuzz`: makes random clicks and touches
+* `?fuzzBoard`: fuzz for keyboard nav inputs
 * `?profiler`: shows frame rate of the sim
 * `?screens=#`: only shows screens indicated by the number sign
 * `?ea`: enables assertions but doesn't work on RC’s
