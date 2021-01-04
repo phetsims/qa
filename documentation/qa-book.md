@@ -659,6 +659,16 @@ it is minified.
 * Once on the record wrapper, type `window.sessionStorage` into the console, and make sure the key
 `phet.metacog.learner_id` has a value of the login ID you provided it.
 
+#### Offline Test
+
+Test that the sim works offline:
+* Go to https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/{{sim}}-{{version}}.zip
+* Download it
+* Unzip it to a spot locally
+* Open `index.html` by double clicking it on your desktop or in a finder-view.
+* It should look like the standalone version of the sim in PhET-iO brand.
+
+
 #### Simulation Wrapper Test
 
 * *What?* This wrapper is the simulation.
