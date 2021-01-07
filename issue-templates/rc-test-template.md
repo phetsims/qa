@@ -116,6 +116,7 @@ sure the simulation loads without crashing or throwing errors.
 - Conduct a recording test to Metacog, further instructions in the QA Book. Do this for iPadOS + Safari and one other random platform.
 - Conduct a memory test on the stand alone sim wrapper (rc.1).
 - Test one platform combination with `?phetioDebug` on the Studio and State wrapper.
+- If Pan/Zoom is supported, make sure that it works when set with PhET-iO State
 - Test that the sim works offline:
   * Go to https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/{{sim}}-{{version}}.zip
   * download it
