@@ -75,8 +75,11 @@ So empty. Much goodness.
   Help button in the navigation bar. See https://github.com/phetsims/ohms-law/issues/114.
 * When using VoiceOver and the “Increment” feature on a slider (ctrl+option+spacebar), VoiceOver will sometimes read the
   previous aria-valuetext instead of the new one. See https://github.com/phetsims/a11y-research/issues/36.
-* VoiceOver doesn’t interrupt alerts as aggressively as some other AT, so older alerts might queue and be read read one
-  after the other.
+* VoiceOver doesn’t interrupt alerts as aggressively as some other AT, so older alerts might queue and be read one after
+  the other.
+* In iOS 14, VoiceOver has a setting to describe images, which is on by default, and it is really bad at doing it for
+  PhET Sims! To turn off this setting (as of 1/19/21), Settings -> Accessibility -> VoiceOver -> Verbosity -> Scene
+  Descriptions -> switch off. See https://github.com/phetsims/ratio-and-proportion/issues/256 for more details.
 
 #### 1.4.2: Mobile Safari Bugs
 
