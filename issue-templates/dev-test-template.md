@@ -15,7 +15,7 @@ Notes and Instructions for Developers:
 this will be shared with a client.] Document issues in https://github.com/phetsims/{{REPO}}/issues and link to this
 issue. [If the test is delayed until QA is more open, state that here.]
 
-Assigning @ariel-phet for prioritization.
+Assigning @kathy-phet and @KatieWoe for prioritization.
 
 
 <!---
