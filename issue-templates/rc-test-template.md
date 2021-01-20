@@ -17,7 +17,7 @@ issue. [If this rc is delayed until QA is more open, state that here.]
 
 [If this test is a spot check or RC Lite please indicate this here and note any platforms that need specific testing.]
 
-Assigning to @ariel-phet for prioritization.
+Assigning to @kathy-phet and @KatieWoe for prioritization.
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
