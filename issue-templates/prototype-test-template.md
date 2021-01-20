@@ -15,7 +15,7 @@ Notes and Instructions for Developers:
 put on the website as a prototype and will likely have more bugs than a publication-ready simulation. Document issues in 
 https://github.com/phetsims/{{REPO}}/issues and link to this issue. **Issues should focus on base usability and pedagogy.**
 
-Assigning to @ariel-phet for prioritization.
+Assigning to @kathy-phet and @KatieWoe for prioritization.
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
