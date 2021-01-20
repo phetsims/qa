@@ -136,6 +136,10 @@ These issues should have the "status:ready-for-qa" label. Check these issues off
 Otherwise, post a comment in the issue saying that it wasn't fixed and link back to this issue. If the label is
 "status:ready-for-review" or "status:fixed-pending-deploy" then assign back to the developer when done, even if fixed.
 
+<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
+<h3>Additional checks</h3>
+- [ ] Please use the diff wrapper to compare against prior version: `{{URL_TO_OLD_VERSION_ROOT}}`
+
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
 
