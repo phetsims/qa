@@ -171,7 +171,13 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
 <h3>What to Test</h3>
 
 - Specific instructions can be found below.
-- Make sure the a11y feature doesn't negatively affect the sim in any way.
+- Make sure the accessibility-related feature that is being tested doesn't negatively affect the sim in any way. Here is a list of features to supported in this test: <!--- PRUNE THIS LIST AS APPROPRIATE -->
+  - Alternative Input
+  - Interactive Description
+  - Sound and Sonification
+  - Pan and Zoom
+  - Mobile Description
+  - Self Voicing
 - Test all possible forms of input.
   - Test all mouse/trackpad inputs.
   - Test all touchscreen inputs.
