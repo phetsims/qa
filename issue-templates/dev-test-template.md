@@ -142,9 +142,14 @@ then close the issue if fixed. If ready for review then leave open and assign ba
 <h3>What to Test</h3>
 
 - Specific instructions can be found below.
-- Make sure the a11y feature testing doesn't negatively affect the sim in any way.
-- Load the a11y view and make sure that interacting with all elements in the simulation updates the appropriate
-descriptions in the PDOM.
+- Make sure the accessibility-related feature that is being tested doesn't negatively affect the sim in any way. Here is a list of features to supported in this test: <!--- PRUNE THIS LIST AS APPROPRIATE -->
+  - Alternative Input
+  - Interactive Description
+  - Sound and Sonification
+  - Pan and Zoom
+  - Mobile Description
+  - Self Voicing
+- Load the a11y view and make sure that interacting with all elements in the simulation updates the appropriate descriptions in the PDOM.
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
