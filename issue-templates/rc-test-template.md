@@ -247,7 +247,7 @@ work while using a screen reader so there is no need to test this case.
 
 <h3>Final Requests</h3>
 
-- [ ] If this sim is in [this list](https://github.com/phetsims/perennial/blob/master/data/accessibility), make an
+- [ ] If this sim is not in [this list](https://phet.colorado.edu/en/accessibility/prototypes) or up to date there, make an
 issue in [website](https://github.com/phetsims/website) to ask if PhET research page links need updating. Please assign
 to @terracoda and @emily-phet.
 
