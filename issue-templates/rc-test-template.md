@@ -80,7 +80,6 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
 - **[iFrame](all_iframe_link)**
 - **[XHTML](link)**
 - **[Test Matrix](link)**
-- **[Legends of Learning Harness](https://developers.legendsoflearning.com/public-harness/index.html?startPayload=%7B%22languageCode%22%3A%22en%22%7D)**
 
 <hr>
 
