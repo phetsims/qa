@@ -77,6 +77,11 @@ Check out the
 for a comprehensive list of the devices we own. The "QA Simplified Inventory" is a list of the devices in Ariel's
 office (F925) in Gamow Tower.
 
+#### Note on Tablets
+
+If you are testing on a tablet, you might encounter bugs that occur when you use a stylus, but not when you only
+use your fingers. Be cognizant of this.
+
 ### 1.2: Operating Systems
 
 For a comprehensive list of operating systems (OS's) we support, check out the
