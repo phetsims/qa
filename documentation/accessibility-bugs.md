@@ -65,7 +65,7 @@ So empty. Much goodness.
 
 #### 1.3.1: Firefox Bugs
 
-So empty. Much goodness.
+* When changing screens from the Home Screen, NVDA may read the page title several times and then the first line in the new screen before the first item in the new screen. See https://github.com/phetsims/ratio-and-proportion/issues/321
 
 ### 1.4: VoiceOver
 
