@@ -667,7 +667,7 @@ it is minified.
 #### Offline Test
 
 Test that the sim works offline:
-* Go to https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/{{sim}}-{{version}}.zip
+* Go to https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/{{sim}}-phet-io-{{version}}.zip
 * Download it
 * Unzip it to a spot locally
 * Open `index.html` by double clicking it on your desktop or in a finder-view.
