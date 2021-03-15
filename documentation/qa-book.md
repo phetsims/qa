@@ -442,6 +442,12 @@ Second is the RC-Lite which will have fewer devices/platforms for a faster test.
 issue confirmations. Forth is Research, which focuses on the needs and features of a specific research study. Those needs will be
 elaborated on in the created issue.
 
+1. Dev: Deep testing on limited platforms
+2. RC-full: Deeper testing across more platforms 
+3. RC-lite: Less testing, due to time constraints or just less need for testing.
+4. RC-research: Light testing. The QA issue will be specific about what to focus on. Focus will be tailored to the needs of the research study. (Specific features, PhET-iO data stream, specific screens,...)
+5. RC-spot check: Limited testing on targeted issue fix verification 
+
 #### Full Screen Test
 
 To do the full screen test, do the following:
