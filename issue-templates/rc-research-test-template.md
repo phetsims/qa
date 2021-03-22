@@ -33,9 +33,9 @@ Assigning to @kathy-phet and @KatieWoe for prioritization.
 <!--- [DO NOT OMIT, SHOULD BE EDITED] -->
 <h3>What to Test</h3>
 
-[specify a bullet list for things that are relevant for the research study]
+[Specify a bullet list for things that are relevant for the research study.]
 
-[list any query parameters that will be used in the research]
+[Identify query parameters that will be used in the research.]
 
 - Click every single button.
 - Test all possible forms of input.
@@ -102,8 +102,8 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>What to Test</h3>
 
-[specify what wrappers to test]
-[specify if links should be public if they are normally private]
+[Specify which wrappers to test.]
+[Specify if links should be public if they are normally private.]
 [Often PhET-iO research studies involve Metacog recording, use this bullet if applicable: Conduct a recording test to Metacog, further instructions in the QA Book.]
 
 - Make sure standalone sim is working properly.
