@@ -28,7 +28,7 @@ Assigning to @kathy-phet and @KatieWoe for prioritization.
 -->
 
 <details>
-<summary><b>General RC Test</b></summary>
+<summary><b>General RC-research Test</b></summary>
 
 <!--- [DO NOT OMIT, SHOULD BE EDITED] -->
 <h3>What to Test</h3>
@@ -97,7 +97,7 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
 -->
 
 <details>
-<summary><b>PhET-iO RC Test</b></summary>
+<summary><b>PhET-iO RC-research Test</b></summary>
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>What to Test</h3>
@@ -145,7 +145,7 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
 -->
 
 <details>
-<summary><b>Accessibility (a11y) RC Test</b></summary>
+<summary><b>Accessibility (a11y) RC-research Test</b></summary>
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>What to Test</h3>
