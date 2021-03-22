@@ -30,8 +30,12 @@ Assigning to @kathy-phet and @KatieWoe for prioritization.
 <details>
 <summary><b>General RC Test</b></summary>
 
-<!--- [DO NOT OMIT, CAN BE EDITED] -->
+<!--- [DO NOT OMIT, SHOULD BE EDITED] -->
 <h3>What to Test</h3>
+
+[specify a bullet list for things that are relevant for the research study]
+
+[list any query parameters that will be used in the research]
 
 - Click every single button.
 - Test all possible forms of input.
@@ -41,17 +45,6 @@ Assigning to @kathy-phet and @KatieWoe for prioritization.
 - Make sure you can't lose anything.
 - Play with the sim normally.
 - Try to break the sim.
-- Test all query parameters on all platforms. (See [QA Book](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md)
-for a list of query parameters.)
-- Download HTML on Chrome and iOS.
-- Make sure the iFrame version of the simulation is working as intended on all platforms.
-- Make sure the XHTML version of the simulation is working as intended on all platforms.
-- Complete the test matrix.
-- Don't forget to make sure the sim works with Legends of Learning.
-- Test the Game Up harness on at least one platform.
-- Check [this](https://docs.google.com/spreadsheets/d/1umIAmhn89WN1nzcHKhYJcv-n3Oj6ps1wITc-CjWYytE/edit#gid=0) LoL
-spreadsheet and notify AR or AM if it not there.
-- If this is rc.1 please do a memory test.
 - When making an issue, check to see if it was in a previously published version
 - Try to include version numbers for browsers
 - If there is a console available, check for errors and include them in the Problem Description.
@@ -78,6 +71,7 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Platforms and Browsers to Be Tested</h3>
 
+[ideally test the platforms that are relevant to the research study, otherwise use this default list]
 - [ ] Windows 10 + Latest Chrome
 - [ ] Windows 10 + Latest Firefox
 - [ ] macOS + Safari
@@ -108,32 +102,12 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>What to Test</h3>
 
-- Make sure that public files do not have password protection. Use a private browser for this.
-- Make sure that private files do have password protection. Use a private browser for this.
+[specify what wrappers to test]
+[specify if links should be public if they are normally private]
+[Often PhET-iO research studies involve Metacog recording, use this bullet if applicable: Conduct a recording test to Metacog, further instructions in the QA Book.]
+
 - Make sure standalone sim is working properly.
 - Make sure the wrapper index is working properly.
-- Make sure each wrapper is working properly.
-- Launch the simulation in Studio with ?stringTest=xss and make sure the sim doesn't navigate to youtube
-- For newer PhET-iO wrapper indices, save the "basic example of a functional wrapper" as a .html file and open it. Make
-sure the simulation loads without crashing or throwing errors.
-- For an update or maintenance release please check the backwards compatibility of the playback wrapper.
-[Here's the link to the previous wrapper.](link)
-- Load the login wrapper just to make sure it works. Do so by adding this link from the sim deployed root: 
-  ```
-  /wrappers/login/?wrapper=record&validationRule=validateDigits&&numberOfDigits=5&promptText=ENTER_A_5_DIGIT_NUMBER
-  ```   
-  Further instructions in QA Book
-- Conduct a recording test to Metacog, further instructions in the QA Book. Do this for iPadOS + Safari and one other random platform.
-- Conduct a memory test on the stand alone sim wrapper (rc.1).
-- Test one platform combination with `?phetioDebug` on the Studio and State wrapper.
-- If Pan/Zoom is supported, make sure that it works when set with PhET-iO State.
-- If filled in by issue creator, please test the diff wrapper against {{URL_TO_OLD_VERSION_ROOT}}.
-- Test that the sim works offline:
-  * Go to https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/{{sim}}-{{version}}.zip
-  * download it
-  * unzip it to a spot locally
-  * Open `index.html` by double clicking it on your desktop or in a finder-view.
-  * It should look like the standalone version of the sim in PhET-iO brand.
 
 <!--- [CAN BE
 OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
@@ -154,15 +128,11 @@ These issues should have the "status:ready-for-qa" label. Check these issues off
 Otherwise, post a comment in the issue saying that it wasn't fixed and link back to this issue. If the label is
 "status:ready-for-review" or "status:fixed-pending-deploy" then assign back to the developer when done, even if fixed.
 
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Additional checks</h3>
-- [ ] Please use the diff wrapper to compare against prior version: `{{URL_TO_OLD_VERSION_ROOT}}`
-
-<!--- [DO NOT OMIT, CAN BE EDITED] -->
+<!--- [DO NOT OMIT, SHOULD BE EDITED] -->
 <h3>Link(s)</h3>
 
 - **[Wrapper Index](link)**
-- **[Test Matrix](link)**
+[Insert study links here]
 
 <hr>
 
