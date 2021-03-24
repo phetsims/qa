@@ -743,6 +743,7 @@ acceptable.
   those input events work as well.
   8. Not supported on iPad or IE.
   9. This should not be done in a private window (won't work in some browsers.)
+  10. Make sure that you are in the "top" context rather than the "sim" context in the console.
   
 #### Data: Metacog Cycle Test
   
