@@ -290,27 +290,27 @@ might be able to figure it out by reading the
 #### Issue Template
 
 ```
-<b>Test Device</b>
+### Test Device
 
 blah
 
-<b>Operating System</b>
+### Operating System
 
 blah
 
-<b>Browser</b>
+### Browser
 
 blah
 
-<b>Problem Description</b>
+### Problem Description
 
 blah
 
-<b>Steps to Reproduce</b>
+### Steps to Reproduce
 
 blah
 
-<b>Visuals</b>
+### Visuals
 
 blah
 
