@@ -50,9 +50,11 @@ list them here. Any behaviors you want QA to pay special attention to should be 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>General Dev Test Platforms</h3>
 
-- [ ] Latest macOS, Chrome and Safari (Time = )
+- [ ] Latest macOS, Chrome (Time = )
+- [ ] Latest macOS, Safari (Time = )
 - [ ] Latest iOS, Safari (Time = )
-- [ ] Windows 10, all browsers (IE dropped) (Time = )
+- [ ] Windows 10, Chrome (Time = )
+- [ ] Windows 10, Firefox (Time = )
 - [ ] Latest Chrome OS, Chrome (Time = )
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
@@ -98,10 +100,11 @@ sure the simulation loads without crashing or throwing errors.
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>General Dev Test Platforms</h3>
 
-- [ ] Latest macOS, all browsers
-- [ ] Latest iOS, Safari
-- [ ] Windows 10, all browsers (IE dropped)
-- [ ] Latest Chrome OS, Chrome
+- [ ] Latest macOS, Safari (Time = )
+- [ ] Latest iOS, Safari (Time = )
+- [ ] Windows 10, Chrome (Time = )
+- [ ] Windows 10, Firefox (Time = )
+- [ ] Latest Chrome OS, Chrome (Time = )
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
