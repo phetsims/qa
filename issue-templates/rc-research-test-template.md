@@ -72,12 +72,12 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
 <h3>Platforms and Browsers to Be Tested</h3>
 
 [ideally test the platforms that are relevant to the research study, otherwise use this default list]
-- [ ] Windows 10 + Latest Chrome
-- [ ] Windows 10 + Latest Firefox
-- [ ] macOS + Safari
-- [ ] macOS + Chrome
-- [ ] iOS + Safari
-- [ ] ChromeOS + Chrome
+- [ ] Windows 10 + Latest Chrome (Time = )
+- [ ] Windows 10 + Latest Firefox (Time = )
+- [ ] macOS + Safari (Time = )
+- [ ] macOS + Chrome (Time = )
+- [ ] iOS + Safari (Time = )
+- [ ] ChromeOS + Chrome (Time = )
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
