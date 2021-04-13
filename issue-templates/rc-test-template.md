@@ -118,7 +118,7 @@ sure the simulation loads without crashing or throwing errors.
 - If Pan/Zoom is supported, make sure that it works when set with PhET-iO State.
 - If filled in by issue creator, please test the diff wrapper against {{URL_TO_OLD_VERSION_ROOT}}.
 - Test that the sim works offline:
-  * Go to https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/{{sim}}-{{version}}.zip
+  * Go to https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/{{sim}}-phet-io-{{version}}.zip
   * download it
   * unzip it to a spot locally
   * Open `index.html` by double clicking it on your desktop or in a finder-view.
