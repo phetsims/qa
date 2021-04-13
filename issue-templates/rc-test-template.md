@@ -145,7 +145,7 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Additional checks</h3>
-- [ ] Please use the diff wrapper to compare against prior version: `{{URL_TO_OLD_VERSION_ROOT}}`
+- [ ] Please use the diff wrapper to compare against prior version: `{{URL_FOR_PRIOR_WRAPPER_INDEX}}`
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
