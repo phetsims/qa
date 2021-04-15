@@ -50,11 +50,13 @@ list them here. Any behaviors you want QA to pay special attention to should be 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>General Dev Test Platforms</h3>
 
-- [ ] Latest macOS, Chrome (Time = )
 - [ ] Latest macOS, Safari (Time = )
-- [ ] Latest iOS, Safari (Time = )
 - [ ] Windows 10, Chrome (Time = )
 - [ ] Windows 10, Firefox (Time = )
+- [ ] Latest iOS, Safari (Time = )
+
+Light testing, or optionally skip if time crunch: 
+- [ ] Latest macOS, Chrome (Time = )
 - [ ] Latest Chrome OS, Chrome (Time = )
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
