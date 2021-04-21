@@ -284,7 +284,7 @@ issue. Search all repositories on GitHub for the issue.
 9. Assign the appropriate PhET employee(s) and use relevant labels. This is often the developer who made the test
 issue. Design questions go to Amy if they are science, or Amanda if they are math. If you are unsure who to assign, you
 might be able to figure it out by reading the 
-[Responsible Dev Document](https://github.com/phetsims/phet-info/blob/master/sim-info/responsible_dev.md) on GitHub.
+[Responsible Dev Document](https://github.com/phetsims/phet-info/blob/master/sim-info/responsible_dev.json) on GitHub.
 10. Click the “Submit New Issue” button.
 
 #### Issue Template
