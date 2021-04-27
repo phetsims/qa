@@ -870,6 +870,62 @@ To test a screen reader, do the following:
 9. Make sure all possible descriptions match the state of the simulation.
 10. Make sure the alerts and descriptions make sense.
 
+#### Voicing and Interactive Highlights
+##### What is "Voicing"?
+Voicing is a new accessibility feature developed by PhET. The feature produces speech that comes directly from the
+simulation instead of using third party screen reading software.  The speech can describe objects within the simulation,
+contextual changes while the simulation changes, and hints that guide the user. Speech is driven by user interaction
+and you will hear spoken content as you focus and activate UI components with mouse and keyboard. By default,
+Voicing will be disabled but it can be enabled from the Preferences dialog.
+
+Voicing is independent from screen reader descriptions, and we expect that a user will not be using a screen reader
+while Voicing is enabled. Voicing and screen reader do not need to work well together in combination.
+
+##### What are "Reading Blocks"
+Reading Blocks are a sub-set of the Voicing feature. When Voicing is enabled Reading Blocks are added to the sim
+around elements that are not usually interactive or focusable. Reading Blocks usually surround Text, but can surround
+other graphical objects. Reading blocks are added to the focus order. When the mouse is over a Reading Block a highlight
+should surround the content. Clicking on the Reading Block with mouse, touch, or keyboard will activate it and
+start speech for the content. While speaking, a yellow highlight should appear in the Reading Block highlight.
+
+![Reading Blocks](https://github.com/phetsims/QA/blob/master/documentation/images/reading-block.png "Reading Block")
+
+##### What are "Interactive Highlights"
+Interactive Highlights are another new accessibility feature. They are highlights (like focus highlights) that surround
+interactive components in the sim while the mouse is over them. They serve to assist the user by clearly indicating
+what is important and interactive on the screen. Voicing and Interactive Highlights are totally independent, each 
+should work on their own without the other. They are disabled by default, but can be enabled from the Preferences
+dialog.
+
+![Interactive Highlights](https://github.com/phetsims/QA/blob/master/documentation/images/interactive-highlights.png "Interactive Highlights")
+
+##### Sim Voicing Options
+The Voicing feature is layerable in that the user can select what categories of speech they want to hear. These
+settings should **only** apply to components within the simulation Screens. All Voicing content within Dialogs,
+toolbar, navigation bar, and PhET menu should not be changed by these settings.
+
+![Sim Voicing Options](https://github.com/phetsims/QA/blob/master/documentation/images/sim-voicing-options.png "Sim Voicing Options")
+
+- Voice Direct object details and changes
+    - This checkbox enables/disables hearing interactive object names and details when they receive focus or activation from mouse/keyboard.
+- Voice other sim changes as objects change
+    - This checkbox enables/disables hearing contextual changes as you interact with components in the simulation screen.
+- Voice helpful hints on sim interactions
+    - This checkbox will enable or disable hearing about hints for particular interactions on focus or input with mouse/keyboard.
+
+##### Voicing Toolbar
+When Voicing is enabled, the sim can include a Toolbar that should appear on the left side of the screen. It can be 
+enabled and disabled separately from Voicing from the Preferences Dialog, but it should always be disabled when
+Voicing is disabled.
+
+![Voicing Toolbar](https://github.com/phetsims/QA/blob/master/documentation/images/voicing-toolbar.png "Voicing Toolbar")
+
+- Sim Voicing
+    - The "Sim Voicing" toggle is a control that quickly enables/disables Voicing without going through the Preferences
+dialog. When "Sim Voicing" is off, no Voicing content should be heard and you should not be able to find or use
+any Reading Blocks. The only exception is the "Quick Info" buttons in the Toolbar. Clicking these while "Sim Voicing"
+is off should still produce voicing content.
+
 #### Sound Test
 
 If a simulation includes sound, here are some recommendations of what to test:
