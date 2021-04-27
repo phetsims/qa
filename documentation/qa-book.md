@@ -888,7 +888,7 @@ other graphical objects. Reading blocks are added to the focus order. When the m
 should surround the content. Clicking on the Reading Block with mouse, touch, or keyboard will activate it and
 start speech for the content. While speaking, a yellow highlight should appear in the Reading Block highlight.
 
-![Reading Blocks](https://github.com/phetsims/QA/blob/master/documentation/images/reading-block.png "Reading Block")
+![Reading Block](https://github.com/phetsims/QA/blob/master/documentation/images/reading-block.png "Reading Block")
 
 ##### What are "Interactive Highlights"
 Interactive Highlights are another new accessibility feature. They are highlights (like focus highlights) that surround
