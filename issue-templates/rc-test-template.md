@@ -76,9 +76,9 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
 
-- **[Simulation](all_phet_link)**
-- **[iFrame](all_iframe_link)**
-- **[XHTML](link)**
+- **[Simulation](link to _all_phet.html)**
+- **[iFrame](link to _all_iframe_phet.html)**
+- **[XHTML](link to _all.xhtml)**
 - **[Test Matrix](link)**
 
 <hr>
@@ -150,7 +150,7 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>Link(s)</h3>
 
-- **[Wrapper Index](link)**
+- **[Wrapper Index](link to phet-io/ root directory)**
 - **[Test Matrix](link)**
 
 <hr>
