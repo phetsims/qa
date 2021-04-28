@@ -880,7 +880,7 @@ and you will hear spoken content as you focus and activate UI components with mo
 Voicing is independent from screen reader descriptions, and we expect that a user will not be using a screen reader
 while Voicing is enabled. Voicing and screen reader do not need to work well together in combination.
 
-##### What are "Reading Blocks"
+##### What are "Reading Blocks"?
 Reading Blocks are a sub-set of the Voicing feature. When Voicing is enabled Reading Blocks are added to the sim
 around elements that are not usually interactive or focusable. Reading Blocks usually surround Text, but can surround
 other graphical objects. Reading blocks are added to the focus order. When the mouse is over a Reading Block a highlight
@@ -888,7 +888,7 @@ should surround the content. Moving focus to a Reading Block with keyboard or ge
 
 ![Reading Block](https://github.com/phetsims/QA/blob/master/documentation/images/reading-block.png "Reading Block")
 
-##### What are "Interactive Highlights"
+##### What are "Interactive Highlights"?
 Interactive Highlights are another new accessibility feature. They are highlights (like focus highlights) that surround
 interactive components in the sim while the mouse is over them. They serve to assist the user by clearly indicating
 what is important and interactive on the screen. Voicing and Interactive Highlights are totally independent, each 
