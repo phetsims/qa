@@ -875,8 +875,7 @@ To test a screen reader, do the following:
 Voicing is a new accessibility feature developed by PhET. The feature produces speech that comes directly from the
 simulation instead of using third party screen reading software.  The speech can describe objects within the simulation,
 contextual changes while the simulation changes, and hints that guide the user. Speech is driven by user interaction
-and you will hear spoken content as you focus and activate UI components with mouse and keyboard. By default,
-Voicing will be disabled but it can be enabled from the Preferences dialog.
+and you will hear spoken content as you focus and activate UI components with mouse and keyboard. Because the speech only happens on interaction, the type of input (mouse/touch or keyboard/gesture) can determine what content is voiced and when it is voiced. For example, for keyoard users names of UI components (sliders, checkboxes, buttons, etc.) are delivered upon focus. For mouse and touch input you won't hear content voiced until you directly take an action by clicking or tapping the UI component. Mouse hover events never voice sim content. By default Voicing will be disabled but it can be enabled from the Preferences dialog.
 
 Voicing is independent from screen reader descriptions, and we expect that a user will not be using a screen reader
 while Voicing is enabled. Voicing and screen reader do not need to work well together in combination.
@@ -899,9 +898,9 @@ dialog.
 ![Interactive Highlights](https://github.com/phetsims/QA/blob/master/documentation/images/interactive-highlights.png "Interactive Highlights")
 
 ##### Sim Voicing Options
-The Voicing feature is layerable in that the user can select what categories of speech they want to hear. These
-settings should **only** apply to components within the simulation Screens. All Voicing content within Dialogs,
-toolbar, navigation bar, and PhET menu should not be changed by these settings.
+The Voicing feature is layerable in that the user can select what categories of content they want to hear (or have voiced out loud). These
+settings should **only** apply to components within the simulation Screens. All Voicing content within dialogs,
+toolbar, navigation bar, and the PhET menu should not be changed by these settings.
 
 ![Sim Voicing Options](https://github.com/phetsims/QA/blob/master/documentation/images/sim-voicing-options.png "Sim Voicing Options")
 
@@ -910,7 +909,9 @@ toolbar, navigation bar, and PhET menu should not be changed by these settings.
 - Voice other sim changes as objects change
     - This checkbox enables/disables hearing contextual changes as you interact with components in the simulation screen.
 - Voice helpful hints on sim interactions
-    - This checkbox will enable or disable hearing about hints for particular interactions on focus or input with mouse/keyboard.
+    - This checkbox will enable or disable hearing about hints for particular interactions on focus or input with mouse/keyboard. Note that not all interactions will have a hint. For example, the Reset All button does not have a hint. 
+
+The words and phrases that are describe by the above categories are strung together and then voiced (i.e., spoken out loud) through interaction. The more checkboxes that are checked, the more a user will hear.
 
 ##### Voicing Toolbar
 When Voicing is enabled, the sim can include a Toolbar that should appear on the left side of the screen. It can be 
