@@ -4,5 +4,5 @@ Assigning @kathy-phet and @KatieWoe for prioritization.
 
 This test is for (select all that apply) [general, a11y, and phet-io]. Platform coverage is not important for this test. Testing should be around 4 hours max.
 
-- [] Tester 1 (Tester = , Platform = , Time = {max 2 hours}
-- [] Tester 2 (Tester = , Platform = , Time = {max 2 hours}
+- [ ] Tester 1 (Tester = , Platform = , Time = {max 2 hours}
+- [ ] Tester 2 (Tester = , Platform = , Time = {max 2 hours}
