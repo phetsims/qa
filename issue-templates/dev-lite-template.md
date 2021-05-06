@@ -1,5 +1,7 @@
 @relevantPerson1, @relevantPerson2, simulation-name/#.#.#-dev.# is ready for light dev testing. Document issues in https://github.com/phetsims/{{REPO}}/issues and link to this issue. [If the test is delayed until QA is more open, state that here.]
 
+[Add any special instructions or tests here.]
+
 [Link](linkhere)
 
 Assigning @kathy-phet and @KatieWoe for prioritization.
