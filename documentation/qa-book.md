@@ -853,7 +853,9 @@ To test the accessibility features of a simulation, follow the steps below:
 
 #### Keyboard Navigation Test
 
-To test keyboard navigation, make sure keyboard navigation functions as described in the “Keyboard Shortcuts” dialogue.
+To test keyboard navigation, make sure keyboard navigation functions as described in the “Keyboard Shortcuts” dialogue. 
+If keyboard navigation does not seem to work on Mac Safari, it is likely that you will need to change the settings 
+to have Full Keyboard Access.
 
 #### Screen Reader Test
 
