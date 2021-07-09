@@ -504,7 +504,7 @@ To do the query parameters test, append the URL with the following query paramet
 
 Some Query Parameters may only be used by members of the PhET team. The method of viewing them should not be disclosed.
 See [Private Features for PhET Team Members](https://github.com/phetsims/special-ops/blob/master/doc/phetTeamMember.md)
-for instructions on how to enable private query parameters.
+for instructions on how to enable private query parameters. `?showAnswers` is an example of this.
 
 ##### Syntax for Multiple Query Parameters
 
