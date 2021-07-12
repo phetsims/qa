@@ -366,6 +366,7 @@ necessarily done with this issues, we just need some QA feedback.)
 * type:multitouch - For issues that require multiple inputs.
 * type:performance - For performance issues, e.g. low frame rate, lag, etc.
 * type:question - For questions.
+* type:suggestion - To make a suggestion for improvements.
 
 ### 3.4 QA Pipline
 
