@@ -1,4 +1,4 @@
-# Known AT Bugs
+# Known Accessibility Bugs
 
 Please document all known AT bugs in this document.
 
@@ -18,6 +18,7 @@ Please document all known AT bugs in this document.
     * [2.1: General Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#21-general-bugs)
     * [2.2: Firefox Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#22-firefox-bugs)
     * [2.3: Safari Bugs](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#23-safari-bugs)
+* [2: Voicing](https://github.com/phetsims/QA/blob/master/doc/at-bugs.md#3-voicing)
 
 ## 1: Screen Readers
 
@@ -105,3 +106,10 @@ So empty. Much goodness.
 
 * To get keyboard navigation to work properly in Safari:
   `Safari -> Preferences -> Advanced -> Press Tab to highlight each item on a webpage`.
+  
+## 3: Voicing
+
+### 3.1 General Bugs
+
+### 3.2 Chrome Bugs
+* Voicing will not be muted when the tab is muted with the "Right click -> mute site" feature.
