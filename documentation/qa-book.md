@@ -878,7 +878,7 @@ To test a screen reader, do the following:
 Voicing is a new accessibility feature developed by PhET. The feature produces speech that comes directly from the
 simulation instead of using third party screen reading software. The speech can describe objects within the simulation,
 contextual changes while the simulation changes, and hints that guide the user. Speech is driven by user interaction
-and you will hear spoken content as you focus and activate UI components with mouse and keyboard. Because the speech only happens on interaction, the type of input (mouse/touch or keyboard/gesture) can determine what content is voiced and when it is voiced. For example, the information you hear upon keyboard focus is different from what you will hear upon a mouse click. What you hear upon activation of a button, however, should be the same whether you do it by pressing the space key or clicking with a mouse. Note that because exploring with the mouse is less intentional than exploring with the keyboard, you never hear content spoken with mouse over. The Voicing feature is disabled by default, and it can be enabled from the Preferences dialog.
+and you will hear spoken content as you focus and activate UI components with mouse and keyboard. Because the speech only happens on interaction, the type of input (mouse/touch or keyboard/gesture) can determine what content is voiced and when it is voiced. The Voicing feature is disabled by default, and it can be enabled from the Preferences dialog.
 
 Voicing is independent from screen reader descriptions, and we expect that a user will not be using a screen reader
 while Voicing is enabled. Voicing and screen reader do not need to work well together in combination.
@@ -928,6 +928,10 @@ Voicing is disabled.
 dialog. When "Sim Voicing" is off, no Voicing content should be heard and you should not be able to find or use
 any Reading Blocks. The only exception is the "Quick Info" buttons in the Toolbar. Clicking these while "Sim Voicing"
 is off should still produce voicing content.
+
+#### Additional Notes about Voicing:
+- Voicing should only be available in the "en" locale. It should not be possible to enable Voicing in any other locale from Preferences.
+- Voicing does not work in the Android App. In this platform, it should not be possible to enable Voicing form Preferences.
 
 #### Sound Test
 
