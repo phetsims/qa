@@ -81,6 +81,8 @@ So empty. Much goodness.
 * In iOS 14, VoiceOver has a setting to describe images, which is on by default, and it is really bad at doing it for
   PhET Sims! To turn off this setting (as of 1/19/21), Settings -> Accessibility -> VoiceOver -> Verbosity -> Scene
   Descriptions -> switch off. See https://github.com/phetsims/ratio-and-proportion/issues/256 for more details.
+* After a bit of use, VoiceOver may simply stop speaking alerts related to the slider value (aria-valuetext). Tabbing away
+  from the component then returning to it will cause VoiceOver to speak its content again.
 
 #### 1.4.2: Mobile Safari Bugs
 
