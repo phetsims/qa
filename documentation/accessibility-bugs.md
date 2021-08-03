@@ -112,6 +112,9 @@ So empty. Much goodness.
 ## 3: Voicing
 
 ### 3.1 General Bugs
+* For some of the non-default Voices, it takes some time to render the information and performance of the sim may be reduced.
+At this time this is acceptable and there is nothing we can do to improve this. Acceptable performance is subjective, in general
+please create an issue if there are any questions about performance.
 
 ### 3.2 Chrome Bugs
 * Voicing will not be muted when the tab is muted with the "Right click -> mute site" feature.
