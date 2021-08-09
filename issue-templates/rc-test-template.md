@@ -39,8 +39,7 @@ Assigning to @kathy-phet and @KatieWoe for prioritization.
 - Make sure you can't lose anything.
 - Play with the sim normally.
 - Try to break the sim.
-- Test all query parameters on all platforms. (See [QA Book](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md)
-for a list of query parameters.)
+- Test all query parameters on all platforms. (See [QA Book](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md) for a list of query parameters.)
 - Download HTML on Chrome and iOS.
 - Make sure the iFrame version of the simulation is working as intended on all platforms.
 - Make sure the XHTML version of the simulation is working as intended on all platforms.
@@ -50,11 +49,10 @@ for a list of query parameters.)
 - Check [this](https://docs.google.com/spreadsheets/d/1umIAmhn89WN1nzcHKhYJcv-n3Oj6ps1wITc-CjWYytE/edit#gid=0) LoL
 spreadsheet and notify AR or AM if it not there.
 - If this is rc.1 please do a memory test.
-- When making an issue, check to see if it was in a previously published version
-- Try to include version numbers for browsers
+- When making an issue, check to see if it was in a previously published version.
+- Try to include version numbers for browsers.
 - If there is a console available, check for errors and include them in the Problem Description.
-- As an RC begins and ends, check the sim repo. If there is a maintenance issue, check it and notify developers if
-there is a problem.
+- As an RC begins and ends, check the sim repo. If there is a maintenance issue, check it and notify developers if there is a problem.
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
@@ -103,8 +101,7 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
 - Make sure the wrapper index is working properly.
 - Make sure each wrapper is working properly.
 - Launch the simulation in Studio with ?stringTest=xss and make sure the sim doesn't navigate to youtube
-- For newer PhET-iO wrapper indices, save the "basic example of a functional wrapper" as a .html file and open it. Make
-sure the simulation loads without crashing or throwing errors.
+- For newer PhET-iO wrapper indices, save the "basic example of a functional wrapper" as a .html file and open it. Make sure the simulation loads without crashing or throwing errors.
 - For an update or maintenance release please check the backwards compatibility of the playback wrapper.
 [Here's the link to the previous wrapper.](link)
 - Load the login wrapper just to make sure it works. Do so by adding this link from the sim deployed root: 
