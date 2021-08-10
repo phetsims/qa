@@ -948,7 +948,7 @@ If a simulation includes sound, here are some recommendations of what to test:
 The developers may occasionally ask you to test various parts of the website. They should provide details.
 Theoretically, all of the steps you follow to test the offline website could be followed for the online website.
 (Obviously, some things would be different, as the website would be online instead of offline.) The
-[section on website administration](https://github.com/phetsims/QA/blob/master/doc/qa-book.md#63-website-administration)
+[section on website administration](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#63-website-administration)
 may contain pertinent information.
 
 Much of this testing may be done on the ox-dev website. This way new features or large changes can be tested before
