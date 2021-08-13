@@ -520,7 +520,24 @@ To test a simulation in the Legends of Learning (LoL) harness, do the following:
 1. Go to https://app.legendsoflearning.com/developers/signin.
 2. Use the email and password provided by Katie to sign in.
 3. Go to the Harness section on the left side of the screen.
-4. Upload the dummy language file provided by Katie.
+4. Upload a dummy language json file like:
+
+```json
+{
+   "_meta":{
+      "maxChars":{
+         "welcome":50
+      }
+   },
+   "en":{
+      "welcome":"Welcome"
+   },
+   "es":{
+      "welcome":"Bienvenido"
+   }
+}
+```
+
 5. Add `?legendsOfLearning` to the end of the sim url and add it to the test harness.
 6. Above the sim frame, verify that you can use "|| Pause" and "|▷ Resume" to pause and play the sim.
 
