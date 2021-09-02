@@ -1221,7 +1221,7 @@ I've noticed that you recently started a Divehi (dv) translation of our website 
 if you have any questions about the process. Please let me know if you have any questions about how this works and of
 course please read the full instructions page prior to starting your translation:
 
-http://phet.colorado.edu/en/for-translators/website
+https://phet.colorado.edu/en/for-translators/website
 
 As I'm sure you've realized at this point translating the website is not a small task. We estimate it will probably
 take about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one
@@ -1252,7 +1252,7 @@ I've noticed that you recently started a Gujarati (gu) translation of our websit
 see if you have any questions about the process. Please let me know if you have any questions about how this works and
 of course please read the full instructions page prior to starting your translation:
 
-http://phet.colorado.edu/en/for-translators/website
+https://phet.colorado.edu/en/for-translators/website
 
 As I'm sure you've realized at this point translating the website is not a small task. We estimate it will probably
 take about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one
@@ -1283,7 +1283,7 @@ I noticed that you recently started an English (en) translation of our website. 
 English, we will delete this translation. If you meant to create a translation in another language, please see here for
 instructions:
 
-http://phet.colorado.edu/en/for-translators/website
+https://phet.colorado.edu/en/for-translators/website
 
 Best,
 
@@ -1301,7 +1301,7 @@ I've noticed that you recently started an Arabic (ar) translation of our website
 if you have any questions about the process.  Please let me know if you have any questions about how this works and of
 course please read the full instructions page prior to starting your translation:
 
-http://phet.colorado.edu/en/for-translators/website
+https://phet.colorado.edu/en/for-translators/website
 
 As I'm sure you've realized at this point translating the website is not a small task. We estimate it will probably
 take about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one
