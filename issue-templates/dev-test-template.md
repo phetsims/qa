@@ -153,7 +153,7 @@ then close the issue if fixed. If ready for review then leave open and assign ba
   - Sound and Sonification
   - Pan and Zoom
   - Mobile Description
-  - Self Voicing
+  - Voicing
 - Load the a11y view and make sure that interacting with all elements in the simulation updates the appropriate descriptions in the PDOM.
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->

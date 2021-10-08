@@ -157,7 +157,7 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
   - Sound and Sonification
   - Pan and Zoom
   - Mobile Description
-  - Self Voicing
+  - Voicing
 - Test all possible forms of input.
   - Test all mouse/trackpad inputs.
   - Test all touchscreen inputs.
