@@ -17,4 +17,4 @@ What to Test
 - Make sure you can't lose anything.
 - Play with the sim normally.
 - Try to break the sim.
-- Try to include browser version numbers
+- Include OS + browser version numbers in issues.
