@@ -797,7 +797,7 @@ that some actions like opening menus aren't transmitted. This applies to studio 
 use the `?phetioDebug` query parameter. Check particular states by setting the state update rate to 0 and setting the state manually. 
 You can further control behavior by making it so the sims are not active during the update.
 
-#### Mirror Inputs Wrapper Test
+#### Input Record and Playback Wrapper Test
 
 * *What?* This is a wrapper that contains a simulation and a mirror of the simulation that is updated with every user
 input. This maps well to what is done in the recording wrapper.
