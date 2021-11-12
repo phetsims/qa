@@ -83,6 +83,8 @@ So empty. Much goodness.
   Descriptions -> switch off. See https://github.com/phetsims/ratio-and-proportion/issues/256 for more details.
 * After a bit of use, VoiceOver may simply stop speaking alerts related to the slider value (aria-valuetext). Tabbing away
   from the component then returning to it will cause VoiceOver to speak its content again.
+* When using a slider, "Home" and "End" keys will both change the value AND move the cursor to a different place in the
+  document. See https://github.com/phetsims/a11y-research/issues/164.
 
 #### 1.4.2: Mobile Safari Bugs
 
