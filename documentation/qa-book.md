@@ -88,14 +88,16 @@ For a comprehensive list of operating systems (OS's) we support, check out the
 [the PhET Help Center](https://phet.colorado.edu/en/help-center/running-sims). (Open the "What are the System
 Requirements for running PhET simulations?" details.)
 
-As of 2020-09-10 the operating systems we officially support are:
+As of 2021-12-16 the operating systems we officially support are:
 
 * Chrome OS
-* iOS 12+
+* iOS 13+
 * iPadOS 13+
 * macOS 10.12+
 * macOS 11+
+* macOS 12+
 * Windows 10
+* Windows 11
 
 ### 1.3: Web Browsers
 
@@ -552,7 +554,7 @@ To test the Game Up harness, do the following:
 5. The number of checks should be low. If over 5 there is likely an issue.
 6. Make sure you can press the capture button and get a screenshot. The console should say `Sent image`.
 
-#### Zoom in/out testing
+#### Pan and Zoom testing
 
 You should be able to zoom in and out using the same sorts of methods you would expect for most web pages.
 
@@ -560,7 +562,13 @@ You should be able to zoom in and out using the same sorts of methods you would 
 2. Ctrl + scrolling
 3. Pinch to zoom
 
-Make sure that all UI components behave normally while zooming in. Dragable objects should behave as expected and not move the screen.
+You should be able to pan (move the zoomed in screen) by:
+
+1. Dragging the screen with mouse or finger
+2. Arrow keys (when not focused on another object)
+3. Scrolling (up and down and left and right)
+
+Make sure that all UI components behave normally while zooming in. Dragable objects should behave as expected and not move the screen unless at the edge of the screen.
 
 #### HTML Download Test
 
