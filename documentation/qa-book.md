@@ -231,13 +231,32 @@ correct terms. (Some terms are intuitive while others are counterintuitive, henc
 * “PhET logo that opens a menu when clicked” = PhET menu
 * “box in which items that can be dragged and interacted with are stored” = toolbox
 * “item that exists in a toolbox” = tool
-* “button that resets everything in the simulation” = reset all button
+* “button that resets everything in the simulation” = reset all button 
+
+![reset all button](https://user-images.githubusercontent.com/85511101/146598927-9b443cb5-14e3-4424-bbd2-75bd9e349a7c.jpg)
+
 * “button that resets some things in the simulation” = reset button
+
+![reset button white](https://user-images.githubusercontent.com/85511101/146601028-fec2a211-15d0-4868-9536-a06a0e1fe3ff.jpg)
+![reset button yellow](https://user-images.githubusercontent.com/85511101/146599830-2e1eae8f-e47c-45ab-aa93-e23ac8558916.jpg)
+
 * “button in a browser that reloads the page” = refresh button
 * “button with a right pointing triangle” = play button
+
+![play button](https://user-images.githubusercontent.com/85511101/146599190-9abf1a22-200a-41a6-9c60-1ca7c1b87365.jpg)
+
 * “button with two bars” = pause button
+
+![pause button](https://user-images.githubusercontent.com/85511101/146599558-780b7302-d0c5-4017-948b-82eedbe6f52f.jpg)
+
 * “button with a bar and a right pointing triangle” = step forward button
+
+![step forward button](https://user-images.githubusercontent.com/85511101/146599578-1b528a92-ff03-4583-8a44-40003e6f0a1a.jpg)
+
 * “button with a square” = stop button
+
+![stop button](https://user-images.githubusercontent.com/85511101/146599592-d372f47c-e194-426b-8edc-f4f65af4e30a.jpg)
+
 * “boxed off area that contains information” = panel
 * “red button with minus sign” = collapse button
 * “green button with plus sign” = expand button
