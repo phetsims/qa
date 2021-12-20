@@ -359,6 +359,19 @@ make sure that the sim is doing what it should be. To access the console, right 
 says “Inspect”, or “Inspect Element”. Then click the console button. The hotkey for macOS is `command + option + i` and
 for Windows is `control + shift + i`.
 
+#### When an issue is fixed
+
+When a developer has fixed a bug they will assign it back to QA to ensure that the bug is fixed and that no new bugs 
+have arrisen. How this is done depends on the bug and where the simulation is in terms of development. When a bug is 
+found during a dev test, the developer will assign the issue to QA (typically the tester the who found and reporeted the bug) 
+and put it in the "Issues to Verify" collumn of the QA pipeline. When the issue is confirmed or found off on master, this should be noted 
+and the issue assigned back to the developer. When an issue is found during an RC the developer will put in the "Issues to Verify" 
+section of the next RC. If it is found to be fixed in that RC it can generally be closed. If it is not fixed it is assigned back.
+
+The labels `status:ready-for-qa` and `status:ready-for-review` should ideally be used as described below, but follow any instructions 
+as to whether to close an issue or reassign it. If it is part of an RC it can usually be closed. Otherwise it is usually reassigned. 
+It is usually better to reassign if in doubt, and the developer can close the issue if appropriate.
+
 #### A List of Labels and Their Descriptions
 
 * design:a11y - For issues with the design of accessibility-related features, e.g. keyboard navigation, sonification,
