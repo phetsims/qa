@@ -1020,6 +1020,18 @@ they go live on the main website. There are also three test accounts made with e
 website if seperate accounts are needed. These are available on the credentials sheet. Ask Katie if you need access to
 these accounts.
 
+Things to include in website testing:
+* Existing test accounts and where to get their credentials.
+* Using temporary emails to test making an account.
+* Ox-dev is typically used as the testing platform.
+* Changes (such as submitted activities and changed/created accounts) on ox-dev do not carry over to the main site.
+* Test multiple platforms and window sizes. Note the differences between mobile site layout and standard site layout.
+* Test navigation using the supported screen readers and keyboard navigation.
+* Make sure links work and lead to the right location.
+* Make sure the animations associated with buttons, dropdown menus, and other animating features are correct.
+* Make sure to test in at least 3 different languages. English, another ltr language, and an rtl language.
+
+
 ### 4.6: Offline Website (Installer) Testing
 
 The offline website installers are (typically) built every Sunday morning. Test the offline website every Monday. To
