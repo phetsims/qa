@@ -407,8 +407,15 @@ necessarily done with this issues, we just need some QA feedback.)
 In the QA repo, there is a project called the QA Pipeline. The pipeline contains cards that either correspond to issues 
 in the QA repo for tests and sims, or to sims that will soon enter QA. The placement of these cards indicates where in testing 
 that particular sim/issue is. It also indicates priority. If a test is in the active tests column then, the higher it is, the 
-higher its priority. The pipline is edited primarily by Ariel and Katie. When tests are done, they will be moved to their 
+higher its priority. The pipline is edited primarily by Katie, Mark, and Kathy. When tests are done, they will be moved to their 
 appropriate column.
+
+Tests that are in the repo but not high priority, are being created in repo, or are expected to come in soon are kept in the 
+section "Upcoming Tests (by priority)" and should be ordered roughly by how urgent they will be when the enter the main testing phase. 
+"Issues to Verify" contains issues that were found by QA during testing that have been fixed. They should be checked on master and the 
+results of those checks should be added to the issue. The issue should then be assigned back to the developer. "Active Tests" should have 
+a max of 5 tests in it and they are ordered by priority. When testing is done the test is dragged to "Ready for Next Steps" and 
+eventually "Done."
 
 ***
 
