@@ -1201,16 +1201,30 @@ PhET has an iOS app, and as of 2020-07-01, we're developing an Android app.
 
 #### iOS App Testing
 
-There isn't a rigorous process for testing the app. We try to manually test each feature and look for anything out of
+You will need an iOS device with TestFlight on it. You may also need to coordinate with a developer to get access to the beta version of the app. The beta version replaces the published version on your device (if you have the published version) and each beta version lasts 90 days from when the developer publishes it. Testing should include: search functions, the info dialogs, Voice Over support, filtering, locale changes, and a random selection of sims. Try to manually test each feature and look for anything out of
 ordinary, kind of like a dev test for a simulation.
 
 ##### App Translation Testing
 
-Add steps for translating the app here!
+Test 1: device 1 (check that English isn't having to download Spanish translation updates)
+
+- Choose a sim and locale to test and look at what it looks like now. Friction, spanish “Fisica”
+- Set device back to English
+- Ask a translator to make a small change "Fisica" changed to "fisica"
+- Wait 24 hrs--Open app in English, then close
+- Set in airplane mode and change language spanish
+- Check translated app and see if new translation is there (it shouldn't be) (worked - still showed "Fisica")
+
+
+Test 2: device 2(check that a device in Spanish gets the latest translation updates):
+
+- Choose a sim and locale to test and look at what it looks like now. Friction, spanish “Fisica”
+- Ask a translator to make a small change "Fisica" changed to "fisica"
+- Wait 24 hrs--Open app in Spanish, to make sure that update is pulled when in the right language.
 
 #### Android App Testing
 
-We haven't had to test the Android app yet, but the process will probably be similar to the process for testing the iOS
+The process will be similar to the process for testing the iOS
 
 ***
 
