@@ -1032,7 +1032,9 @@ Things to include in website testing:
 * Make sure to test in at least 3 different languages. English, another ltr language, and an rtl language.
 
 
-### 4.6: Offline Website (Installer) Testing
+### 4.6: Offline Website (Installer) Testing (OUTDATED)
+
+*The material bellow is being retained for potential use in the future, but is not relevant at this time.*
 
 The offline website installers are (typically) built every Sunday morning. Test the offline website every Monday. To
 test the offline website, follow the steps below:
