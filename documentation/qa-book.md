@@ -44,7 +44,7 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
   * [4.3: PhET-iO Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#43-phet-io-testing)
   * [4.4: Accessibility (a11y) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#44-accessibility-a11y-testing)
   * [4.5: Online Website Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#45-online-website-testing)
-  * [4.6: Offline Website (Installer) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#46-offline-website-installer-testing)
+  * [4.6: Offline Website (Installer) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#46-offline-website-installer-testing-outdated)
   * [4.7: Automated (Continuous) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#47-automated-continuous-testing)
   * [4.8: Memory Leak Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#48-memory-leak-testing)
   * [4.9: Maintenance Release Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#49-maintenance-release-testing)
