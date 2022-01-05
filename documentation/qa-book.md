@@ -50,6 +50,7 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
   * [4.9: Maintenance Release Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#49-maintenance-release-testing)
   * [4.10: PhETTest](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#410-phettest)
   * [4.11: App Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#411-app-testing)
+  * [4.12: Sim Testing Tips](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#412-sim-testing-tips)
 
 **[Section 5: Translations](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-5-translations)**
 
@@ -1192,11 +1193,6 @@ test. They should also be done for any rc.1 testing. To do a memory leak test, f
    -  If it is obvious that there is a memory leak, open an issue instead of including the information as a comment.
 ![memoryleaksnapshots](https://user-images.githubusercontent.com/87318828/148275666-9a9af71c-55b5-4a02-bcfd-d02b4ba3fe7f.jpg)
 
-
-
-
-
-
 ### 4.9: Maintenance Release Testing
 
 This type of test is done when a relatively small change needs to be made to multiple sims. What needs to be tested will
@@ -1250,6 +1246,18 @@ Test 2: device 2(check that a device in Spanish gets the latest translation upda
 
 The process will be similar to the process for testing the iOS
 
+### 4.12:  Sim Testing Tips
+
+Aside from playing with the sim, here is a list of documents/places that may help with testing:
+   -  The Published Sim: If you aren’t sure whether something is a bug, see if it happens here too (if it doesn’t, it’s probably a bug)
+   -  Issues in Github for that sim: Click on the link provided by the developer in the issue. 
+      -  Read though open issues to make sure you don’t add a duplicate issue
+      -  Search open and closed issues by keyword
+   -  HTML5 design doc, sound design doc (if applicable) & interactive description doc (if applicable): Found in Drive > PhET Files > PhET sim design
+   -  Teacher Tips: If this sim has already been published, they will be found on the website
+   -  repo/doc/model.md: found in the repo for that sim, in the doc folder
+ 
+ 
 ***
 
 ## Section 5: Translations
