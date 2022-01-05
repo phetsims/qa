@@ -1246,7 +1246,7 @@ Test 2: device 2(check that a device in Spanish gets the latest translation upda
 
 The process will be similar to the process for testing the iOS
 
-### 4.12:  Sim Testing Tips
+### 4.12: Sim Testing Tips
 
 Aside from playing with the sim, here is a list of documents/places that may help with testing:
    -  The Published Sim: If you aren’t sure whether something is a bug, see if it happens here too (if it doesn’t, it’s probably a bug)
