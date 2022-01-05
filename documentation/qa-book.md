@@ -1187,6 +1187,15 @@ test. They should also be done for any rc.1 testing. To do a memory leak test, f
 12. After you’ve taken 11 heap snapshots, start taking heap snapshots every 10 to 20 minutes.
 13. Stop taking heap snapshots when you feel you have collected sufficient data.
 
+   -  If a sim is leaking memory, the memory snapshot values will continue to increase with each heap snapshot taken and never plateau. The memory values may far exceed 100MB and eventually the computer will no longer be able to take snapshots (ex. For Macs, either the console will close on its own or an error message will appear).
+   -  Ideally, the snapshot values won’t exceed 100 MB, but for larger sims they may. But even then, they should still level off. A small memory leak may grow by 1 MB per minute, rather than a runaway effect. In these cases it will be up to the developer whether to address the potential problems.
+   -  If it is obvious that there is a memory leak, open an issue instead of including the information as a comment.
+![memoryleaksnapshots](https://user-images.githubusercontent.com/87318828/148272594-9477ef41-d5ec-479d-8572-7fcdb8675a97.jpg)
+
+
+
+
+
 ### 4.9: Maintenance Release Testing
 
 This type of test is done when a relatively small change needs to be made to multiple sims. What needs to be tested will
