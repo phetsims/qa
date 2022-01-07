@@ -1188,10 +1188,23 @@ test. They should also be done for any rc.1 testing. To do a memory leak test, f
 12. After you’ve taken 11 heap snapshots, start taking heap snapshots every 10 to 20 minutes.
 13. Stop taking heap snapshots when you feel you have collected sufficient data.
 
-   -  If a sim is leaking memory, the memory snapshot values will continue to increase with each heap snapshot taken and never plateau. The memory values may far exceed 100MB and eventually the computer will no longer be able to take snapshots (ex. For Macs, either the console will close on its own or an error message will appear).
-   -  Ideally, the snapshot values won’t exceed 100 MB, but for larger sims they may. But even then, they should still level off. A small memory leak may grow by 1 MB per minute, rather than a runaway effect. In these cases it will be up to the developer whether to address the potential problems.
-   -  If it is obvious that there is a memory leak, open an issue instead of including the information as a comment.
+
+<table>
+<tr>
+<td width="50%">
+<ul> 
+<li>If a sim is leaking memory, the memory snapshot values will continue to increase with each heap snapshot taken and never plateau. The memory values may far exceed 100MB and eventually the computer will no longer be able to take snapshots (ex. For Macs, either the console will close on its own or an error message will appear).</li>
+<li>Ideally, the snapshot values won’t exceed 100 MB, but for larger sims they may. But even then, they should still level off. A small memory leak may grow by 1 MB per minute, rather than a runaway effect. In these cases it will be up to the developer whether to address the potential problems.</li>
+<li>If it is obvious that there is a memory leak, open an issue instead of including the information as a comment.</li>
+</td>
+<td width="50%">
+ 
 ![memoryleaksnapshots](https://user-images.githubusercontent.com/87318828/148275666-9a9af71c-55b5-4a02-bcfd-d02b4ba3fe7f.jpg)
+ 
+</td>
+</tr>
+</table>
+
 
 ### 4.9: Maintenance Release Testing
 
