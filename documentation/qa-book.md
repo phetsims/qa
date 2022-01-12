@@ -994,6 +994,13 @@ show no differences. The second URL will be provided in the issue (and it should
 be /simulation/version/phet-io) and should show some difference. The simulation HTML file or phet-io.js lib file should
 also work.
 
+| Current URL        | Old URL            |
+|--------------------|--------------------|
+|<ol> <li> Copy the wrapper index URL and paste it into the box that says ‘Old Version’ </li> <li> Leave username and password blank </li> <li> Hit ‘Compare’ </li> </ol> <br/> <br/> It should say: APIs are identical. <br/> <br/> | <ol> <li> Ask Dev for a URL if not provided in issue OR change RC version in current url   <ul>  *ex.*  <li> Change:   phet-dev.colorado.edu/html/simname/1.4.0-rc.1/phet-io  </li> <li>  To:  phet-dev.colorado.edu/html/simname/1.3.0-rc.1/phet-io </li> </ul> <li>  Paste URL into the box that says ‘Old Version’ </li> <li>  Sign in with PhET username and password </li> <li>  Hit ‘Compare’ </li> </ol>  It should list all the changes. |
+
+     
+
+
 ##### Michael Kauzmann's Detailed Diff Wrapper Instructions
 
 1. Make sure it says the APIs are the same when comparing to itself, type
