@@ -720,8 +720,8 @@ link to the developer if the issue is in a public GitHub repository.
 *Test Matrix says:* /doc and doc in the root. Do they exist? Is formatting OK?  
 
 *How?*
-* Add `/doc` to the end of the wrapper index url.
-* Open folders/files to make sure items are there.
+ 1. Add `/doc` to the end of the wrapper index url.
+ 2. Open folders/files to make sure items are there.
  
 #### Test 2: Login Wrapper Test
 
@@ -742,9 +742,9 @@ link to the developer if the issue is in a public GitHub repository.
 *Test Matrix says:* Wrappers/Is it password protected? Does the password work?
 
 *How?*
-* Open the wrapper index link in a private tab. Make sure it asks for username and password.
-* Check each page in a new private tab so that caching does not save the password.
-* Make sure wrappers are password protected. The following wrappers are not password protected: 
+ 1. Open the wrapper index link in a private tab. Make sure it asks for username and password.
+ 2. Check each page in a new private tab so that caching does not save the password.
+ 3. Make sure wrappers are password protected. The following wrappers are not password protected: 
     * The simulation
     * Data: Colorized
     * Data: JSON
@@ -755,10 +755,10 @@ link to the developer if the issue is in a public GitHub repository.
 *Test Matrix says:* Is phet-io.js in lib? Is it minified and not behind a password? 
  
 *How?*
-* Add `/lib` to the end of the wrapper URL. 
-* Make sure the file `phet-io.js` is there.
-   * It should NOT be password protected.
-   * Make sure it is *minified* (spaces have been removed so the code takes up the whole screen).
+ 1. Add `/lib` to the end of the wrapper URL. 
+ 2. Make sure the file `phet-io.js` is there.
+    * It should NOT be password protected.
+    * Make sure it is *minified* (spaces have been removed so the code takes up the whole screen).
 
 #### Test 5: Offline Test
   
@@ -766,11 +766,11 @@ link to the developer if the issue is in a public GitHub repository.
   
 *How?*  
 Test that the sim works offline:
-* Go to https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/{{sim}}-phet-io-{{version}}.zip
-* Download it.
-* Unzip it to a spot locally.
-* Open `index.html` by double clicking it on your desktop or in a finder-view.
-* It should look like the standalone version of the sim in PhET-iO brand.
+ 1. Go to https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/{{sim}}-phet-io-{{version}}.zip
+ 2. Download it.
+ 3. Unzip it to a spot locally.
+ 4. Open `index.html` by double clicking it on your desktop or in a finder-view.
+ 5. It should look like the standalone version of the sim in PhET-iO brand.
 
 #### Test 6: Wrapper Index Test
 
@@ -820,12 +820,13 @@ This test is done continuously and in conjunction with Column 2.
 
 *Column 3 says:* ?phetioDebug  
 *How?*  
-* One random platform combination should use the `?phetioDebug` query parameter.
-  * Open the console.
-  * Manipulate the sim and see if any errors come up.
-  * Hit "Preview Sim" button.
-  * Open the console in the launched sim.
-  * Play with the launched sim and see if any errors come up.
+On one random platform combination: 
+ 1. Add the `?phetioDebug` query parameter.
+ 2. Open the console.
+ 3. Manipulate the sim and see if any errors come up.
+ 4. Hit "Preview Sim" button.
+ 5. Open the console in the launched sim.
+ 6. Play with the launched sim and see if any errors come up.
  
 #### Test 9: Client Requests
 
@@ -836,10 +837,10 @@ This test is done continuously and in conjunction with Column 2.
 
 *How?*  
 Using the Studio Wrapper:
-* Under “PhET-iO Elements” select the “All” radio button.
-* Copy and paste the tandem ID for each request into the search bar. 
-* Make sure by manipulating that item, the request is accomplished.
-* Launch the sim after manipulating to make sure the desired state is maintained.
+ 1. Under “PhET-iO Elements” select the “All” radio button.
+ 2. Copy and paste the tandem ID for each request into the search bar.
+ 3. Make sure by manipulating that item, the request is accomplished.
+ 4. Launch the sim after manipulating to make sure the desired state is maintained.
 
 #### Test 10: Data: Colorized Wrapper Test
 
@@ -878,10 +879,15 @@ Using the Studio Wrapper:
 * This test should be a bit more in depth than the colorized and JSON tests. 
 * Performance should also be acceptable.
 
-#### Data: Recording Wrapper Test
+#### Test 13: Data: Recording Wrapper Test
 
-* *What?* This wrapper allows you to record your actions in the simulation.
-* *How?* To test this wrapper, do the following:
+*Approximate time:* 10 minutes  
+*Test Matrix says:* Events: record. Replace &console with &localFile  
+
+*What?*  
+* This wrapper allows you to record your actions in the simulation.  
+
+*How?*  
   1. Open the console. (This is an important step! If you don't open the console prior to recording,
   `window.saveLogToFile` will not work!)
   2. In the URL, replace `&console` with `&localFile`. (If `&console` doesn’t exist, then you should still add
@@ -893,16 +899,20 @@ Using the Studio Wrapper:
   playback method.
   7. If this sim is outfitted with alternative input (such as keyboard navigation), then also test it to make sure
   those input events work as well.
-  8. Not supported on iPad or IE.
-  9. This should not be done in a private window (won't work in some browsers.)
-  10. Make sure that you are in the "top" context rather than the "sim" context in the console.
+  * Not supported on iPad or IE.
+  * This should not be done in a private window (won't work in some browsers.)
+  * Make sure that you are in the "top" context rather than the "sim" context in the console.
   
-#### Data: Metacog Cycle Test
+#### Test 14: Data: Metacog Cycle Test
+
+*Approximate time:* 30-40 minutes (due to wait times)  
+*Test Matrix doesn’t have a column for this. For the iPad, add results in Events: record. Replace &console with &localFile*  
   
-* *What?* This test exercises the full recording and playback process used for PhET studies. This includes recording
-data to and retrieving data from our data back end partner, Metacog.
-* *How?* 
-  1. First generate the link for testing. 
+*What?* 
+* This test exercises the full recording and playback process used for PhET studies. This includes recording data to and retrieving data from our data back end partner, Metacog.
+
+*How?* 
+ 1. First generate the link for testing. 
      - Copy and paste the wrapper index URL into a Google Doc
      - Add this to the end of the url:
     `/wrappers/login/?wrapper=record&validationRule=validateDigits&numberOfDigits=5&promptText=Enter%20a%205%20Digit%20ID&publisher_id={{PUBLISHER_ID}}&key_name=testing&widget_id={{SIM}}-{{VERSION}}-qaTest&metacog` 
@@ -910,16 +920,16 @@ data to and retrieving data from our data back end partner, Metacog.
          - Replace {{SIM}}-{{VERSION}} with actual sim and version 
              - Ex. id=graphing-quadratics-120rc1
      - Go to the end of the URL and press space bar to make it an active link
-   2. Open this link on iPad in Safari. This should also be done on at least one other random platform.
+  2. Open this link on iPad in Safari. This should also be done on at least one other random platform.
       - Sign in with a 5 digit #
          - You need to remember this number, so add it to the Google doc you were in earlier
       - Make changes as you normally would with the Recording wrapper
       - Make sure you are recording to Metacog by looking in the console. You should see the following: `Recorder initialized, sending data to: ["metacog"]`
-   3. When you are done, press either the back arrow or close the tab. You should be prompted to stay while the process finishes. Do not leave!
+  3. When you are done, press either the back arrow or close the tab. You should be prompted to stay while the process finishes. Do not leave!
 Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show the dialog if you use the back arrow.)
 
-   4. Wait thirty minutes before moving to the next step. 
-   5. Retrieving data
+  4. Wait thirty minutes before moving to the next step. 
+  5. Retrieving data
       - Use this
 [link](https://bayes.colorado.edu/dev/phettest/phet-io-website/root/metacog/request-data.html) or [link](https://phet-io.colorado.edu/metacog/request-data.html) 
       - In the URL Box: paste ONLY the query parameter portion of the provided URL (?wrapper=record&validationRule=validateDigits&numberOfDigits=5&promptText=Enter%20a%205%20Digit%20ID&publisher_id={{PUBLISHER_ID}}&key_name=testing&widget_id={{SIM}}-{{VERSION}}-qaTest&metacog) 
@@ -929,7 +939,7 @@ Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show 
       - If you have the console open when you hit submit, you will get an ID number you can use if something goes wrong with the retrieval.
       - Press Submit
       - The email may take up to 20 minutes
-   6. Open File
+  6. Open File
       - On Windows: Unzip .gz file (may need to download 7zip at 7zip.org). Load the .log file into the playback wrapper as you would in the recording wrapper.
       - On Mac: Copy and paste .log file into the playback wrapper
       - [This](https://github.com/phetsims/phet-io/blob/master/doc/metacog.md) may be helpful.
