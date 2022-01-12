@@ -955,6 +955,17 @@ that some actions like opening menus aren't transmitted. This applies to studio 
 use the `?phetioDebug` query parameter. Check particular states by setting the state update rate to 0 and setting the state manually. 
 You can further control behavior by making it so the sims are not active during the update.
 
+
+| Action | Outcome |
+|--------|---------|
+| Play with the upstream sim. | The downstream sim should mirror your actions. </br> Note: The opening of a menu/combobox will not be mirrored |
+| Change the “set state rate” equal to zero. Make changes in the upstream sim.| Nothing should happen in the downstream sim.|
+| Click “Set State Now” button. | The downstream sim should now match the upstream sim. | 
+| Uncheck the “Upstream Active” button. | You shouldn’t be able to manipulate anything in the upstream sim, but you can now manipulate items in the downstream sim. |
+| Press the “Launch” button at the bottom of the wrapper. | It should load a version of the sim starting in the current state of the upstream sim (similar to launching in Studio wrapper). |
+
+
+
 #### Input Record and Playback Wrapper Test
 
 * *What?* This is a wrapper that contains a simulation and a mirror of the simulation that is updated with every user
