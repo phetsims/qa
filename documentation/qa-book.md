@@ -922,7 +922,7 @@ Using the Studio Wrapper:
      - Go to the end of the URL and press space bar to make it an active link
   2. Open this link on iPad in Safari. This should also be done on at least one other random platform.
       - Sign in with a 5 digit #
-         - You need to remember this number, so add it to the Google doc you were in earlier
+       - You need to remember this number, so add it to the Google doc you were in earlier
       - Make changes as you normally would with the Recording wrapper
       - Make sure you are recording to Metacog by looking in the console. You should see the following: `Recorder initialized, sending data to: ["metacog"]`
   3. When you are done, press either the back arrow or close the tab. You should be prompted to stay while the process finishes. Do not leave!
@@ -944,16 +944,16 @@ Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show 
       - On Mac: Copy and paste .log file into the playback wrapper
       - [This](https://github.com/phetsims/phet-io/blob/master/doc/metacog.md) may be helpful.
 
-#### State Wrapper Test
+#### Test 15: State Wrapper Test
+*Approximate Time:* 30-60 minutes  
 
-* *What?* This is a wrapper that contains a simulation, a mirror of the simulation that is updated once every given amount of time
-(which is determined by a slider). The slider can also be set to 0 and the state set with a particular button. The bottom sim will 
-interact and play forward until the next state update, at which point it should match the top sim and this behavior repeats.
-There is also a condensed list of instrumented characteristics. This maps well to how the state is done in Studio.
-* *How?* To test this wrapper, simply play with the simulation and make sure your actions are mirrored accurately. Note
-that some actions like opening menus aren't transmitted. This applies to studio launches as well. One random platform combo should 
-use the `?phetioDebug` query parameter. Check particular states by setting the state update rate to 0 and setting the state manually. 
-You can further control behavior by making it so the sims are not active during the update.
+*What?*  
+* This is a wrapper that contains a simulation, a mirror of the simulation that is updated once every given amount of time (which is determined by a slider). The slider can also be set to 0 and the state set with a particular button. The bottom sim will interact and play forward until the next state update, at which point it should match the top sim and this behavior repeats. There is also a condensed list of instrumented characteristics. This maps well to how the state is done in Studio.  
+
+**_There are 2 columns in the test matrix for this wrapper_**  
+
+*Column 1 says:* State  
+*How?*  
 
 
 | Action | Outcome |
@@ -964,59 +964,77 @@ You can further control behavior by making it so the sims are not active during 
 | Uncheck the “Upstream Active” button. | You shouldn’t be able to manipulate anything in the upstream sim, but you can now manipulate items in the downstream sim. |
 | Press the “Launch” button at the bottom of the wrapper. | It should load a version of the sim starting in the current state of the upstream sim (similar to launching in Studio wrapper). |
 
+*Column 2 says:* State ?phetioDebug  
+*How?*  
+On one random platform combination: 
+ 1. Add the `?phetioDebug` query parameter.
+ 2. Open the console.
+ 3. Play with the upstream sim and see if any errors come up.
 
 
-#### Input Record and Playback Wrapper Test
+#### Test 16: Input Record and Playback Wrapper Test
 
-* *What?* This is a wrapper that contains a simulation and a mirror of the simulation that is updated with every user
-input. This maps well to what is done in the recording wrapper.
-* *How?* To test this wrapper, make sure your actions are mirrored accurately. Spend plenty of time testing this
-wrapper.
+*Approximate time:* 20-30 minutes  
+*Test Matrix says:* Mirror Inputs
 
-#### Screenshot Wrapper Test
+*What?*  
+* This is a wrapper that contains a simulation and a mirror of the simulation that is updated with every user input. This maps well to what is done in the recording wrapper.  
 
-* *What?* This is a wrapper in which you can take a screenshot of the simulation.
-* *How?* To test this wrapper, test screenshots as you normally would by pressing the “Take Screenshot”
-button in the wrapper, not the “Screenshot” button in the simulation.
+*How?*  
+* To test this wrapper, make sure your actions are mirrored accurately.  
+* Press the “Playback Events Now” button to repeat the actions taken in the top sim. Go a few actions at a time and make sure events are repeated accurately. 
+* Spend plenty of time testing this wrapper.
 
-#### Active Wrapper Test
+#### Test #17: Screenshot Wrapper Test
 
-* *What?* This is a wrapper that allows you to toggle between an active simulation and an inactive simulation.
-* *How?* To test this wrapper, simply make sure you can interact with the simulation when it is active and
-cannot interact with the simulation when it is inactive. Animations should resume without “jumping.”
+*Approximate time:* 5 minutes  
 
-#### Diff Wrapper Test
+*What?*  
+* This is a wrapper in which you can take a screenshot of the simulation.  
 
-* *What?* This is a wrapper that allows you to compare the differences between a previous build and the current build.
-* *How?* To test this wrapper you will need to test two different cases by entering a URL into the box. The first URL
-should be the wrapper index URL, which should be /simulation/version/phet-io/ currently being tested, and it should
-show no differences. The second URL will be provided in the issue (and it should be the wrapper index URL, which should
-be /simulation/version/phet-io) and should show some difference. The simulation HTML file or phet-io.js lib file should
-also work.
+*How?*   
+* To test this wrapper, test screenshots as you normally would by pressing the “Take Screenshot” button in the wrapper, not the “Screenshot” button in the simulation. 
+* Be sure to take at least one screenshot per screen
+ 
+#### Test #18: Active Wrapper Test
+
+*Approximate time:* 5 minutes  
+
+*What?*  
+* This is a wrapper that allows you to toggle between an active simulation and an inactive simulation.
+
+*How?*  
+* To test this wrapper, simply make sure you can interact with the simulation when it is active and cannot interact with the simulation when it is inactive.
+*  Animations should resume without “jumping.”
+
+#### Test #19: Diff Wrapper Test
+
+*Approximate time:* 10 minutes, Only on one random platform  
+
+*What?*  
+* This is a wrapper that allows you to compare the differences between a previous build and the current build.
+
+**_There are 2 columns in the test matrix for this wrapper_**  
+*How?*   
+To test this wrapper you will need to test two different cases by entering a URL into the box. 
+* The first URL to be tested is the wrapper index URL.
+* The second URL to be tested is the “old URL” and should be provided in the issue https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io   
+   * The “old URL” can be the published version or a previous rc/dev version for phet-io that you can compare to. It will likely have lots of changes in it, and that's OK! It is expected that each phet-io version being published has been thoroughly designed, and that it is as expected (including prior use of the diff wrapper by designers to see if anything suspicious has changed between versions).
 
 | Current URL        | Old URL            |
 |--------------------|--------------------|
 |<ol> <li> Copy the wrapper index URL and paste it into the box that says ‘Old Version’ </li> <li> Leave username and password blank </li> <li> Hit ‘Compare’ </li> </ol> <br/> <br/> It should say: APIs are identical. <br/> <br/> | <ol> <li> Ask Dev for a URL if not provided in issue OR change RC version in current url   <ul>  *ex.*  <li> Change:   phet-dev.colorado.edu/html/simname/1.4.0-rc.1/phet-io  </li> <li>  To:  phet-dev.colorado.edu/html/simname/1.3.0-rc.1/phet-io </li> </ul> <li>  Paste URL into the box that says ‘Old Version’ </li> <li>  Sign in with PhET username and password </li> <li>  Hit ‘Compare’ </li> </ol>  It should list all the changes. |
 
-     
+#### Test #20: Multi Wrapper Test
 
+*Approximate time:* 5 minutes, Only on one random platform  
 
-##### Michael Kauzmann's Detailed Diff Wrapper Instructions
+*What?*  
+* This wrapper demonstrates how to embed multiple PhET-iO simulations in the same page.
 
-1. Make sure it says the APIs are the same when comparing to itself, type
-https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/ into the comparison input text.
-2. If the sim has been published before on phet-io.colorado.edu, compare the most recent version there. Ask the dev to
-run (or run yourself) `cd perennial; grunt print-phet-io-links` to see if the sim is in the list.
-3. If not, see if there is a previous dev version for phet-io that you can compare to. It will likely have lots of changes
-in it, and that's OK! It is expected that each phet-io version being published has been thoroughly designed, and that it
-is as expected (including prior use of the diff wrapper by designers to see if anything suspicious has changed between
-versions).
+*How?*   
+* To test this wrapper, make sure the active toggle works on both sims. Make sure to property toggle has the expected effect based on its language for each. If the sim is not active, property changes will not appear until the sim is active again.
 
-#### Multi Wrapper Test
-
-* *What?* This wrapper demonstrates how to embed multiple PhET-iO simulations in the same page.
-* *How?* To test this wrapper, make sure the active toggle works on both sims. Make sure to property toggle has the
-expected effect based on its language for each. If the sim is not active, property changes will not appear until the sim is active again.
 
 ### 4.4: Accessibility (a11y) Testing
 
