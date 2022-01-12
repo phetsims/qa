@@ -985,7 +985,7 @@ On one random platform combination:
 * Press the “Playback Events Now” button to repeat the actions taken in the top sim. Go a few actions at a time and make sure events are repeated accurately. 
 * Spend plenty of time testing this wrapper.
 
-#### Test #17: Screenshot Wrapper Test
+#### Test 17: Screenshot Wrapper Test
 
 *Approximate time:* 5 minutes  
 
@@ -996,7 +996,7 @@ On one random platform combination:
 * To test this wrapper, test screenshots as you normally would by pressing the “Take Screenshot” button in the wrapper, not the “Screenshot” button in the simulation. 
 * Be sure to take at least one screenshot per screen
  
-#### Test #18: Active Wrapper Test
+#### Test 18: Active Wrapper Test
 
 *Approximate time:* 5 minutes  
 
@@ -1007,7 +1007,7 @@ On one random platform combination:
 * To test this wrapper, simply make sure you can interact with the simulation when it is active and cannot interact with the simulation when it is inactive.
 *  Animations should resume without “jumping.”
 
-#### Test #19: Diff Wrapper Test
+#### Test 19: Diff Wrapper Test
 
 *Approximate time:* 10 minutes, Only on one random platform  
 
@@ -1025,7 +1025,7 @@ To test this wrapper you will need to test two different cases by entering a URL
 |--------------------|--------------------|
 |<ol> <li> Copy the wrapper index URL and paste it into the box that says ‘Old Version’ </li> <li> Leave username and password blank </li> <li> Hit ‘Compare’ </li> </ol> <br/> <br/> It should say: APIs are identical. <br/> <br/> | <ol> <li> Ask Dev for a URL if not provided in issue OR change RC version in current url   <ul>  *ex.*  <li> Change:   phet-dev.colorado.edu/html/simname/1.4.0-rc.1/phet-io  </li> <li>  To:  phet-dev.colorado.edu/html/simname/1.3.0-rc.1/phet-io </li> </ul> <li>  Paste URL into the box that says ‘Old Version’ </li> <li>  Sign in with PhET username and password </li> <li>  Hit ‘Compare’ </li> </ol>  It should list all the changes. |
 
-#### Test #20: Multi Wrapper Test
+#### Test 20: Multi Wrapper Test
 
 *Approximate time:* 5 minutes, Only on one random platform  
 
