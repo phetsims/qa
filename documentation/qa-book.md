@@ -786,7 +786,7 @@ the resulting html file runs properly.
 *Approximate time:* 15-20 minutes
 
 *What?*   
-This wrapper is the simulation.  
+* This wrapper is the simulation.  
 
 *How?* 
 * To test this wrapper, follow the steps for a development test or a release candidate test depending on
@@ -797,13 +797,14 @@ what the issue specifies. A memory test should be included on one platform here.
 *Approximate time:* 2hrs for first platform tested, 1 hr for subsequent platforms
 
 *What?*   
-This wrapper is the simulation alongside a long list of instrumented characteristics. An instrumented
+* This wrapper is the simulation alongside a long list of instrumented characteristics. An instrumented
 characteristic is some aspect of the simulation that can be modified by a licensed owner of a PhET-iO simulation, e.g.
 a property. Not all characteristics of the simulation are instrumented so as to retain the functionality of the
 simulation. Using Studio is tested on Mac and Windows Chrome platforms. Other platforms should test html files 
 made in this way.
 
-*There are 3 columns in the test matrix for this wrapper*.  
+**_There are 3 columns in the test matrix for this wrapper:_**   
+
 *Column 1 says:* Launch Sim/Generate HTML  
 *How?*  
 This test is done continuously and in conjunction with Column 2.  
@@ -826,29 +827,56 @@ This test is done continuously and in conjunction with Column 2.
   * Open the console in the launched sim.
   * Play with the launched sim and see if any errors come up.
  
-  
+#### Test 9: Client Requests
 
+*Approximate time:* varies depending on the number of requests, Only on one random platform  
 
-#### Data: Colorized Wrapper Test
+*What?*  
+* Guide found in the Wrapper Index.  
 
-* *What?* This wrapper is the simulation, but when you open the console, you are able to view a colorized event stream.
-* *How?* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the
-manipulations. This test should be done lightly to make sure the data stream prints out to the console as it should.
+*How?*  
+Using the Studio Wrapper:
+* Under “PhET-iO Elements” select the “All” radio button.
+* Copy and paste the tandem ID for each request into the search bar. 
+* Make sure by manipulating that item, the request is accomplished.
+* Launch the sim after manipulating to make sure the desired state is maintained.
 
-#### Data: JSON Wrapper Test
+#### Test 10: Data: Colorized Wrapper Test
 
-* *What?* This wrapper is the simulation, but when you open the console, you are able to view the event stream in
-JavaScript object notation.
-* *How?* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the
-manipulations. This test should be done lightly to make sure the data stream prints out to the console as it should.
+*Approximate time:* <5 minutes, Only on one random platform     
+*Test Matrix says:* Events: Colorized
 
-#### Data: Text Area Wrapper Test
+*What?*    
+* This wrapper is the simulation, but when you open the console, you are able to view a colorized event stream.
 
-* *What?* This wrapper is the simulation with the event stream below. There is a limit to the number of events that can
-be displayed below the simulation.
-* *How?* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the
-manipulations. This test should be a bit more in depth than the colorized and JSON tests. Performance should also be 
-acceptable.
+*How?*   
+* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the manipulations. 
+* This test should be done lightly to make sure the data stream prints out to the console as it should.
+
+#### Test 11: Data: JSON Wrapper Test
+
+*Approximate time:* <5 minutes, Only on one random platform     
+*Test Matrix says:* Events: JSON
+
+*What?*  
+* This wrapper is the simulation, but when you open the console, you are able to view the event stream in JavaScript object notation.
+
+*How?*   
+* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the manipulations. 
+* This test should be done lightly to make sure the data stream prints out to the console as it should.
+
+#### Test 12: Data: Text Area Wrapper Test
+
+*Approximate time:* <5 minutes  
+*Test Matrix says:* Events: textarea  
+
+*What?* 
+* This wrapper is the simulation with the event stream below. There is a limit to the number of events that can be displayed below the simulation.  
+
+*How?*   
+* To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the manipulations. 
+* This test should be a bit more in depth than the colorized and JSON tests. 
+* Performance should also be acceptable.
 
 #### Data: Recording Wrapper Test
 
