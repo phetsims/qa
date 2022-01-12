@@ -711,24 +711,23 @@ rules, (4) magnet indicates that the magnet is what is being modeled, and (5) po
 position of the magnet. For a more comprehensive treatment of tandem IDs, read
 [this](https://docs.google.com/document/d/1Fr-B66SD-6Xt7egNv9ZeSXdcsK6k8Lkc0nqR853_eJ4/edit?pli=1#heading=h.oz7vdnbiq4ni).
 
-The wrapper index is password protected! The Simulation, phet-io.js, Events:colorized, and Events:json are not password
-protected.
-
 When making issues, try to include the specific link you were using when you found the problem. You need to Slack the
 link to the developer if the issue is in a public GitHub repository.
 
-There will be links to guides in the wrapper index. One of these guides will include client requests. Make sure to check these 
-requests during testing.
+#### Test 1: Doc Files
 
-#### Wrapper Index Test
+*Approximate time:* 5 minutes, Only on one random platform  
+*Test Matrix says:* /doc and doc in the root. Do they exist? Is formatting OK?  
 
-* In the Wrapper Index there should be some example code. Copy and paste it into a text editor, save it, and make sure
-the resulting html file runs properly.
-* Add `/lib` to the end of the wrapper URL. Make sure a file called `phet-io.js` is there. If it is, make sure
-it is minified.
+*How?*
+* Add `/doc` to the end of the wrapper index url.
+* Open folders/files to make sure items are there.
+ 
+#### Test 2: Login Wrapper Test
 
-#### Login Wrapper Test
-
+*Approximate time:* 5 minutes, Only on one random platform
+ 
+*How?*
 * Add this to the end of the link to test:
 `/wrappers/login/?wrapper=record&validationRule=validateDigits&&numberOfDigits=5&promptText=ENTER_A_5_DIGIT_NUMBER`.
 * Successful login should take you to the record wrapper.
@@ -737,39 +736,98 @@ it is minified.
 * Once on the record wrapper, type `window.sessionStorage` into the console, and make sure the key
 `phet.metacog.learner_id` has a value of the login ID you provided it.
 
-#### Offline Test
+#### Test 3: Password Protection
 
+*Approximate time:* 10 minutes  
+*Test Matrix says:* Wrappers/Is it password protected? Does the password work?
+
+*How?*
+* Open the wrapper index link in a private tab. Make sure it asks for username and password.
+* Check each page in a new private tab so that caching does not save the password.
+* Make sure wrappers are password protected. The following wrappers are not password protected: 
+    * The simulation
+    * Data: Colorized
+    * Data: JSON
+ 
+#### Test 4: Library Test
+ 
+*Approximate time:* <5 minutes, Only on one random platform  
+*Test Matrix says:* Is phet-io.js in lib? Is it minified and not behind a password? 
+ 
+*How?*
+* Add `/lib` to the end of the wrapper URL. 
+* Make sure the file `phet-io.js` is there.
+   * It should NOT be password protected.
+   * Make sure it is *minified* (spaces have been removed so the code takes up the whole screen).
+
+#### Test 5: Offline Test
+  
+*Approximate time:* <5 minutes, Only on one random platform. 
+  
+*How?*  
 Test that the sim works offline:
 * Go to https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/{{sim}}-phet-io-{{version}}.zip
-* Download it
-* Unzip it to a spot locally
+* Download it.
+* Unzip it to a spot locally.
 * Open `index.html` by double clicking it on your desktop or in a finder-view.
 * It should look like the standalone version of the sim in PhET-iO brand.
 
+#### Test 6: Wrapper Index Test
 
-#### Simulation Wrapper Test
+*Approximate time:* 5 minutes  
+*Test Matrix says:* Does the example html open and function properly?  
 
-* *What?* This wrapper is the simulation.
-* *How?* To test this wrapper, follow the steps for a development test or a release candidate test depending on
+*How?* 
+* In the Wrapper Index there should be some example code. Copy and paste it into a text editor (ex. Atom), save it, and make sure
+the resulting html file runs properly.
+
+#### Test 7: Simulation Wrapper Test
+
+*Approximate time:* 15-20 minutes
+
+*What?*   
+This wrapper is the simulation.  
+
+*How?* 
+* To test this wrapper, follow the steps for a development test or a release candidate test depending on
 what the issue specifies. A memory test should be included on one platform here.
 
-#### Studio Wrapper Test
+#### Test 8: Studio Wrapper Test
 
-* *What?* This wrapper is the simulation alongside a long list of instrumented characteristics. An instrumented
+*Approximate time:* 2hrs for first platform tested, 1 hr for subsequent platforms
+
+*What?*   
+This wrapper is the simulation alongside a long list of instrumented characteristics. An instrumented
 characteristic is some aspect of the simulation that can be modified by a licensed owner of a PhET-iO simulation, e.g.
 a property. Not all characteristics of the simulation are instrumented so as to retain the functionality of the
 simulation. Using Studio is tested on Mac and Windows Chrome platforms. Other platforms should test html files 
 made in this way.
-* *How?* To test this wrapper, make sure instrumented characteristics can be modified and make sure charac- teristics
-that haven’t been instrumented can’t be modified. Make sure the UI functions as expected. Also, do the following:
-  1. Periodically launch the simulation to make sure it works using the “Launch” button.
-  2. Periodically copy and paste the HTML into a text editor, save the file, and open it in a browser to make sure the
-  modifications you made are still there using the “Generate HTML” button.
-  3. When doing the above, make sure that the resulting sim resets to the state it launched in, rather than the default
-  sim's original state, when you hit reset all.
-  4. Check that the changes documented in the Client Request form can be done properly.
+
+*There are 3 columns in the test matrix for this wrapper*.  
+*Column 1 says:* Launch Sim/Generate HTML  
+*How?*  
+This test is done continuously and in conjunction with Column 2.  
+* Periodically launch the simulation to make sure it works using the “Launch” button. 
+* Periodically copy and paste the HTML into a text editor (ex. Atom), save the file, and open it in a browser to make sure the modifications you made are still there using the “Generate HTML” button.  
+* When doing the above, make sure that the resulting sim resets to the state it launched in, rather than the default sim's original state, when you hit reset all.
+* Test both the “Production” and “Development” radio buttons. A sim launched with Development will have more info in the console.
+
+*Column 2 says:* Play around with the studio  
+*How?* 
+* To test this wrapper, make sure instrumented characteristics can be modified and make sure characteristics that haven’t been instrumented can’t be modified.
+* Make sure the UI functions as expected. 
+
+*Column 3 says:* ?phetioDebug  
+*How?*  
+* One random platform combination should use the `?phetioDebug` query parameter.
+  * Open the console.
+  * Manipulate the sim and see if any errors come up.
+  * Hit "Preview Sim" button.
+  * Open the console in the launched sim.
+  * Play with the launched sim and see if any errors come up.
  
- One random platform combination should use the `?phetioDebug` query parameter.
+  
+
 
 #### Data: Colorized Wrapper Test
 
