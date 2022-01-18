@@ -445,9 +445,9 @@ Here's a list of platforms we like to do development tests on:
 * iOS + Safari
 * macOS + Safari
 * macOS + Chrome
-* Windows + Microsoft Edge
-* Windows + Firefox
 * Windows + Chrome
+* Windows + Firefox
+* Windows + Microsoft Edge
 
 It’s a good idea to make sure the sim loads and doesn't break on Internet Explorer.
 
@@ -646,8 +646,8 @@ website. Usually you have one main screenshot and two to three alt screenshots.
 
 ##### Screenshots on Chrome
 
-1. Download Window Resizer.
-2. Download Screenshot Capture.
+1. Download [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh).
+2. Download [Screenshot Capture](https://chrome.google.com/webstore/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc?hl=en).
 3. In Window Resizer set preset to 1536x1008. In Screenshot Capture set "Adjust to actual size" preset.
 4. Resize the viewport.
 5. Right click screenshot capture icon, go to options, and make sure the capture method is set to capture viewport.
@@ -661,8 +661,8 @@ previous screenshots is gone.)
 
 ##### Screenshots on Firefox
 
-1. Download ResizeIT.
-2. Download Easy Screenshot.
+1. Download [ResizeIT](https://addons.mozilla.org/en-US/firefox/addon/resizeit).
+2. Download [Easy Screenshot](https://addons.mozilla.org/en-US/firefox/addon/easyscreenshot).
 3. In ResizeIT set the dimension to 1548x1089.
 4. Set up the screenshot.
 5. Make sure there are enough pixels. The extension should give a warning if it can't resize properly.
