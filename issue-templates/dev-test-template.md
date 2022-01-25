@@ -49,11 +49,14 @@ list them here. Any behaviors you want QA to pay special attention to should be 
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>General Dev Test Platforms</h3>
+  
+  Please include (non-screen reader) a11y testing in these records if applicable.
 
 - [ ] Latest macOS, Safari (Time = )
 - [ ] Windows 10, Chrome (Time = )
 - [ ] Windows 10, Firefox (Time = )
 - [ ] Latest iOS, Safari (Time = )
+- [ ] Windows 11, Chrome (Time = )
 
 Light testing, or optionally skip if time crunch: 
 - [ ] Latest macOS, Chrome (Time = )
@@ -106,6 +109,7 @@ sure the simulation loads without crashing or throwing errors.
 - [ ] Latest iOS, Safari (Time = )
 - [ ] Windows 10, Chrome (Time = )
 - [ ] Windows 10, Firefox (Time = )
+- [ ] Windows 11, Chrome (Time = )
 - [ ] Latest Chrome OS, Chrome (Time = )
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
@@ -146,7 +150,7 @@ then close the issue if fixed. If ready for review then leave open and assign ba
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>What to Test</h3>
 
-- Specific instructions can be found below.
+- Specific instructions can be found below. Please include time in the general section and check those off when a11y testing has also been done.
 - Make sure the accessibility-related feature that is being tested doesn't negatively affect the sim in any way. Here is a list of features to supported in this test: <!--- PRUNE THIS LIST AS APPROPRIATE -->
   - Alternative Input
   - Interactive Description
@@ -154,7 +158,7 @@ then close the issue if fixed. If ready for review then leave open and assign ba
   - Pan and Zoom
   - Mobile Description
   - Voicing
-- Load the a11y view and make sure that interacting with all elements in the simulation updates the appropriate descriptions in the PDOM.
+  - Load the a11y view and make sure that interacting with all elements in the simulation updates the appropriate descriptions in the PDOM.
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Focus and Special Instructions</h3>
@@ -191,10 +195,10 @@ intended.
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Platforms and Screen Readers to Be Tested</h3>
 
-- [ ] Windows 10 + Latest Chrome + Latest JAWS
-- [ ] Windows 10 + Latest Firefox + Latest NVDA
-- [ ] macOS + Safari + VoiceOver
-- [ ] iOS + Safari + VoiceOver (only if specified in testing issue)
+- [ ] Windows 10 + Latest Chrome + Latest JAWS (Time = )
+- [ ] Windows 10 + Latest Firefox + Latest NVDA (Time = )
+- [ ] macOS + Safari + VoiceOver (Time = )
+- [ ] iOS + Safari + VoiceOver (May or may not be supported) (Time = )
 
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Critical Screen Reader Information</h3>
