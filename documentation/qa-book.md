@@ -279,12 +279,22 @@ correct terms. (Some terms are intuitive while others are counterintuitive, henc
 
 ![Number Spinner](https://github.com/phetsims/QA/blob/master/documentation/images/number-spinner.png "Number Spinner")
 
+* "show/hide button" = eye toggle button
+
+![eyetoggle](https://user-images.githubusercontent.com/87318828/152155674-df55b6fa-4310-4fde-9041-5757798dda07.jpg)
+
 * “slightly different simulation within a screen” = scene
 * “toolbox that has multiple pages” = carousel
 * “different pages in carousel” = pages
 * “dots that exist under a carousel” = dots
-* “using the dots to navigate between pages” = dot navigation
+* “using the dots to navigate between pages” = dot navigation  
 * “clicking and holding” = fire on hold
+* "remnant" = artifact  
+  * For an example see https://github.com/phetsims/normal-modes/issues/73 
+* "object A is in front of object b" = rendering order
+  * For an example see https://github.com/phetsims/normal-modes/issues/74   
+* "focus order/PDOM order/tab order" = traversal order
+
 
 Check out the [Scenery-PhET demo](https://bayes.colorado.edu/dev/phettest/scenery-phet/scenery-phet_en.html?brand=phet&ea) and the
 [Sun demo](https://bayes.colorado.edu/dev/phettest/sun/sun_en.html?brand=phet&ea) for more terminology.
