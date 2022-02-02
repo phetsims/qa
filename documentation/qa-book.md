@@ -385,15 +385,19 @@ It is usually better to reassign if in doubt, and the developer can close the is
 
 #### A List of Labels and Their Descriptions
 
-* design:a11y - For issues with the design of accessibility-related features, e.g. keyboard navigation, sonification,
-etc.
+* design:alt-input - For issues related to keyboard navigation design *(includes focus highlights/order).*
 * design:artwork - For issues with the design of artwork.
+* design:description - For issues related to interactive description design.
 * design:general - For general design issues.
 * design:phet-io - For issues with PhET-iO simulations.
-* dev:a11y - For issues related to accessibility development.
+* design:sound - For issues related to sound design.
+* design:voicing - For issues related to voicing description design.
+* dev:alt-input - For issues related to keyboard navigation development *(includes focus highlights/order).*
+* dev:description - For issues related to description development and screen readers *(includes a11y view and PDOM).*
 * dev:enhancement - For issues related to development improvements.
 * dev:phet-io - For PhET-iO development issues.
-* dev:sonification - For issues related to sound.
+* dev:sound - For issues related to sound effects related to accessibility.
+* dev:voicing - For issues related to voicing development built into the simulation.
 * phet-io:event-stream - For issues related to event wrappers in PhET-iO simulations.
 * phet-io:studio - For issues related to studio in PhET-iO branded sims.
 * phet-io:record-and-playback - For issues relating to record and playback in PhET-iO simulations.
