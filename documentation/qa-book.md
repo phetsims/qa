@@ -50,7 +50,8 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
   * [4.9: Maintenance Release Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#49-maintenance-release-testing)
   * [4.10: PhETTest](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#410-phettest)
   * [4.11: App Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#411-app-testing)
-  * [4.12: Sim Testing Tips](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#412-sim-testing-tips)
+  * [4.12: Metadata Service Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#412-metadata-service-testing)
+  * [4.13: Sim Testing Tips](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#413-sim-testing-tips)
 
 **[Section 5: Translations](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-5-translations)**
 
@@ -1408,7 +1409,47 @@ Test 2: device 2(check that a device in Spanish gets the latest translation upda
 
 The process will be similar to the process for testing the iOS
 
-### 4.12: Sim Testing Tips
+### 4.12: Metadata Service Testing
+
+Clients and partners have access to some of the API data for PhET sims. There have been reports of some of the data being incorrect, inaccessible, or otherwise
+bugged from clients, so testing data retrieval is sometimes necessary. In addition, the guide is written by hand rather than generated, so it is important to 
+make sure it is accurate to the data involved.
+
+The instructions for retrieving different types of data and domain to retrieve them from are on PhET’s Partner API Guide. Ask Katie or Matt how to reach this 
+site. Each type of request is a different “endpoint” and you will need to append the given URL slice to the domain when you request the information. 
+You can also narrow down your results by appending given query parameters.
+
+As of 1/19/21 there are five endpoints. All Simulations will get a list of all simulations, including basic summary data about each simulation and its 
+translations. 
+   * *Simulation* requires a simulation id and will get the information of that simulation. 
+   * *Education Standards* gets the educational standards information. 
+   * *Keywords* gets keyword information used for sims. 
+   * *Categories* gets subject, grade level, and other sorting categories.
+
+The instructions for testing will use a program called Postman, however other methods and text editors can be used. If using another method you may need 
+guidance from a developer. 
+
+To test:
+1. Go to the PhET API Testing Workspace.
+2. Open the Partner Services Metadata API folder.
+3. Either select the endpoint from the available options or create a new document by clicking a plus tab.
+   a. If making a new endpoint test: In the URL bar, paste the domain, followed by the endpoint URL. Make sure the URL bar is set to GET.
+   b. Add any query parameters in the table below the URL bar. In the key section add the query parameter. In the value section, add a value if the 
+      query parameter has to equal something.
+   c. Save the test in the folder.  
+ 4. Check any parameter needed for the test and click Send.
+ 5. Compare the results to the table of expected responses. In the Partner API guide, click on the response link in the endpoint to see what is expected. 
+    Nested results will have further links describing what is expected.
+
+
+
+
+
+
+
+
+
+### 4.13: Sim Testing Tips
 
 Aside from playing with the sim, here is a list of documents/places that may help with testing:
    -  The Published Sim: If you aren’t sure whether something is a bug, see if it happens here too (if it doesn’t, it’s probably a bug)
