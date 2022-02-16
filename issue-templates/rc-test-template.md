@@ -15,7 +15,7 @@ Notes and Instructions for Developers:
 this will be shared with a client.] Document issues in https://github.com/phetsims/{{REPO}}/issues and link to this
 issue. [If this rc is delayed until QA is more open, state that here.]
 
-[If this test is a spot check or RC Lite please indicate this here and note any platforms that need specific testing.]
+[If this test is an RC Lite or other special test, please indicate this here and note any platforms that need specific testing.]
 
 Assigning to @kathy-phet and @KatieWoe for prioritization.
 

@@ -44,12 +44,12 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
   * [4.3: PhET-iO Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#43-phet-io-testing)
   * [4.4: Accessibility (a11y) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#44-accessibility-a11y-testing)
   * [4.5: Online Website Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#45-online-website-testing)
-  * [4.6: Offline Website (Installer) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#46-offline-website-installer-testing-outdated)
-  * [4.7: Automated (Continuous) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#47-automated-continuous-testing)
-  * [4.8: Memory Leak Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#48-memory-leak-testing)
-  * [4.9: Maintenance Release Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#49-maintenance-release-testing)
-  * [4.10: PhETTest](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#410-phettest)
-  * [4.11: App Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#411-app-testing)
+  * [4.6: Automated (Continuous) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#46-automated-continuous-testing)
+  * [4.7: Memory Leak Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#47-memory-leak-testing)
+  * [4.8: Maintenance Release Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#48-maintenance-release-testing)
+  * [4.9: PhETTest](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#49-phettest)
+  * [4.10: App Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#410-app-testing)
+  * [4.11: Metadata Service Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#411-metadata-service-testing)
   * [4.12: Sim Testing Tips](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#412-sim-testing-tips)
 
 **[Section 5: Translations](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-5-translations)**
@@ -279,12 +279,22 @@ correct terms. (Some terms are intuitive while others are counterintuitive, henc
 
 ![Number Spinner](https://github.com/phetsims/QA/blob/master/documentation/images/number-spinner.png "Number Spinner")
 
+* "show/hide button" = eye toggle button
+
+![eyetoggle](https://user-images.githubusercontent.com/87318828/152155674-df55b6fa-4310-4fde-9041-5757798dda07.jpg)
+
 * “slightly different simulation within a screen” = scene
 * “toolbox that has multiple pages” = carousel
 * “different pages in carousel” = pages
 * “dots that exist under a carousel” = dots
-* “using the dots to navigate between pages” = dot navigation
+* “using the dots to navigate between pages” = dot navigation  
 * “clicking and holding” = fire on hold
+* "remnant" = artifact  
+  * For an example see https://github.com/phetsims/normal-modes/issues/73 
+* "object A is in front of object b" = rendering order
+  * For an example see https://github.com/phetsims/normal-modes/issues/74   
+* "focus order/PDOM order/tab order" = traversal order
+
 
 Check out the [Scenery-PhET demo](https://bayes.colorado.edu/dev/phettest/scenery-phet/scenery-phet_en.html?brand=phet&ea) and the
 [Sun demo](https://bayes.colorado.edu/dev/phettest/sun/sun_en.html?brand=phet&ea) for more terminology.
@@ -375,15 +385,19 @@ It is usually better to reassign if in doubt, and the developer can close the is
 
 #### A List of Labels and Their Descriptions
 
-* design:a11y - For issues with the design of accessibility-related features, e.g. keyboard navigation, sonification,
-etc.
+* design:alt-input - For issues related to keyboard navigation design *(includes focus highlights/order).*
 * design:artwork - For issues with the design of artwork.
+* design:description - For issues related to interactive description design.
 * design:general - For general design issues.
 * design:phet-io - For issues with PhET-iO simulations.
-* dev:a11y - For issues related to accessibility development.
+* design:sound - For issues related to sound design.
+* design:voicing - For issues related to voicing description design.
+* dev:alt-input - For issues related to keyboard navigation development *(includes focus highlights/order).*
+* dev:description - For issues related to description development and screen readers *(includes a11y view and PDOM).*
 * dev:enhancement - For issues related to development improvements.
 * dev:phet-io - For PhET-iO development issues.
-* dev:sonification - For issues related to sound.
+* dev:sound - For issues related to sound effects related to accessibility.
+* dev:voicing - For issues related to voicing development built into the simulation.
 * phet-io:event-stream - For issues related to event wrappers in PhET-iO simulations.
 * phet-io:studio - For issues related to studio in PhET-iO branded sims.
 * phet-io:record-and-playback - For issues relating to record and playback in PhET-iO simulations.
@@ -828,7 +842,7 @@ On one random platform combination:
  5. Open the console in the launched sim.
  6. Play with the launched sim and see if any errors come up.
  
-#### Test 9: Client Requests
+#### Test 9: Examples
 
 *Approximate time:* varies depending on the number of requests, Only on one random platform  
 
@@ -1179,72 +1193,7 @@ Things to include in website testing:
 * Make sure to test in at least 3 different languages. English, another ltr language, and an rtl language.
 
 
-### 4.6: Offline Website (Installer) Testing (OUTDATED)
-
-*The material bellow is being retained for potential use in the future, but is not relevant at this time.*
-
-The offline website installers are (typically) built every Sunday morning. Test the offline website every Monday. To
-test the offline website, follow the steps below:
-
-1. Go to whichever of the following links is appropriate for the test being done.
-  * https://phet.colorado.edu/installer/PhET-Installer_windows.exe
-  * https://phet.colorado.edu/installer/PhET-Installer_osx.zip
-  * https://phet.colorado.edu/installer/PhET-Installer_linux.bin
-  * https://phet.colorado.edu/installer/PhET-Installer-with-activities_windows.exe
-  * https://phet.colorado.edu/installer/PhET-Installer-with-activities_osx.zip
-  * https://phet.colorado.edu/installer/PhET-Installer-with-activities_linux.bin
-  * https://phet.colorado.edu/installer/PhET-Installer_cdrom.zip
-  * https://phet.colorado.edu/installer/PhET-Installer_dvdrom.zip
-2. Make sure the date on which the installer was built is correct, e.g. if you’re testing the simulation on a Monday,
-and the installer builder was built on Sunday morning, then the date should be Monday’s date minus one day.
-3. If this is not the case, then stop testing and inform the developer.
-4. Otherwise, make sure the file sizes aren’t too large or too small. As of 2019-05-05, the installer without activities
-is approximately 484 MB and the installer with activities is approximately 1700 MB. If these numbers are drastically
-different, then stop testing and inform the developer.
-  * You should alternate between Windows and macOS on a weekly basis.
-  * You should alternate between browsers on a weekly basis.
-  * You should alternate between the installer without activities and the installer with activities on a weekly basis.
-  That is, you should not test both in one week.
-  * If you download the installer with activities, index.html should exist in the `PhET` folder and in the `en` folder.
-  * If you download the installer without activities, index.html should exist in the `PhET` folder and not in the `en`
-  folder.
-  * If you are testing the website while disconnected from the internet, the offline website should not be trying to
-  connect to the internet. (There are some exceptions to this.)
-  * You should have one offline website for every month of the year.
-  * If you want to get rid of an offline website, delete it. Do not use the uninstaller.
-5. Download the installer builder. (This is why it’s called installer testing.)
-6. Install the offline website. During installation, append the file name with `_YYYY-MM-DD`
-(the [correct numeric date format](https://xkcd.com/1179/)).
-7. Open the offline website every way you can. (On a Windows device, the installer will create a desktop shortcut and an
-application shortcut. This does not occur on macOS.)
-8. Make sure the update date on the offline website matches the update date on the online website.
-9. If this is not the case, then stop testing and inform the developer.
-10. Otherwise, disconnect from the internet and test applicable items in the below list. (Translated Java simulations
-will redirect to the website.)
-  * For all versions of the installer, make sure two HTML5 simulations open.
-  * For all versions of the installer, make sure two translated HTML5 simulations open.
-  * For all versions of the installer, make sure two Flash simulations open.
-  * For all versions of the installer, make sure two Java sims open.
-  * For all versions of the installer, make sure two translated Flash sims open.
-  * For all versions of the installer, make sure two translated Java sims direct to the website if you are connected to
-  the internet.
-  * For the installer without activities, make sure that activity links redirect you to the website if you are
-  connected to the internet.
-  * For the installer with activities, make sure two activities open.
-  * For the installer with activities, make sure two translated activities open.
-  * For the installer with activities, make sure one teacher tip opens.
-11. Reconnect to the internet and test applicable items in the above list again.
-
-You might encounter issues with Java simulations. If you are having issues with a `.jlnp` file and the developer asks
-you to check the permissions of the file, then open the file with a text editor and check the permissions. If you are
-having issues with a `.jar` file and the developer asks you to check the permissions, then use 
-`7-Zip > Open archive > META > MANIFEST > Check permissions` to check the permissions.
-
-If you encounter problems installing a linux installer, it is possible that it is due to the installer being 32-bit and
-the computer being 64-bit. If so, follow documentation found in
-[this issue](https://github.com/phetsims/installer-builder/issues/197).
-
-### 4.7: Automated (Continuous) Testing
+### 4.6: Automated (Continuous) Testing
 
 Open [this](https://bayes.colorado.edu/continuous-testing/aqua/html/continuous-report.html) in a private window. (You
 should always use a private window when viewing automated testing results because of caching issues.) Read the
@@ -1301,7 +1250,7 @@ In this case, they will show up one at a time.
 
 If you see an error, check GitHub to see who has been comitting to that repository. Notify the developer.
 
-### 4.8: Memory Leak Testing
+### 4.7: Memory Leak Testing
 
 Memory leak testing is sometimes performed on simulations that are undergoing a development test or a release candidate
 test. They should also be done for any rc.1 testing. To do a memory leak test, follow these steps:
@@ -1341,7 +1290,7 @@ test. They should also be done for any rc.1 testing. To do a memory leak test, f
 </table>
 
 
-### 4.9: Maintenance Release Testing
+### 4.8: Maintenance Release Testing
 
 This type of test is done when a relatively small change needs to be made to multiple sims. What needs to be tested will
 vary depending on the change, and is determined by the developer in charge of the release. Generally, there will be a
@@ -1352,7 +1301,7 @@ particularly when looking at the “launch” button. Exploring changes to the s
 Be aware of what sims are being tested. If anything looks out of place, be sure to notify the developers. In particular,
 sims currently in RC testing may need special attention.
 
-### 4.10: PhETTest
+### 4.9: PhETTest
 
 [PhETTest](https://bayes.colorado.edu/dev/phettest/) contains up-to-date versions of the sim with latest code changes made by the
 developers. When a developer asks for something to be checked on master, this is where you will go to do that for the
@@ -1363,9 +1312,9 @@ button to update one repo, or the "Pull All" button at the top to update everyth
 link with the sim in the title. To build a version of the simulation, click "build", and then click "Built
 Version" when the process finishes.
 
-### 4.11: App Testing
+### 4.10: App Testing
 
-PhET has an iOS app, and as of 2020-07-01, we're developing an Android app.
+PhET has an iOS app, Android app, and a desktop app.
 
 #### iOS App Testing
 
@@ -1393,6 +1342,57 @@ Test 2: device 2(check that a device in Spanish gets the latest translation upda
 #### Android App Testing
 
 The process will be similar to the process for testing the iOS
+
+#### Desktop App Testing
+
+* A link to download the app is in the issue. Make sure you use the correct one for the device you are using. Make sure all links tested work properly (Mac and Windows typically).
+  * If you have tested the desktop app before, delete the old version first.
+* Be sure to read the issue thoroughly. It usually lists updates and specific features to test.  
+
+*To test:*
+1. Make sure you can: 
+   * search the three types of indexes– HTML, Java and All.
+   * view in list and icon forms. 
+   * change the locale.
+      * Please note that not all sims have been translated. There should be a section titled “Simulations not yet Translated” that appears after translated sims.  
+2. Make sure newly published sims have been added to the app.
+3. For sims, make sure
+   * both types (HTML and Java) open and work –try a few of each type. 
+   * each item in the PhET menu works.                   
+      * If an update is available, make sure it is possible to access that update.  
+   * that translated sims open in that language.
+
+### 4.11: Metadata Service Testing
+
+Clients and partners have access to some of the API data for PhET sims. There have been reports of some of the data being incorrect, inaccessible, or otherwise
+bugged from clients, so testing data retrieval is sometimes necessary. In addition, the guide is written by hand rather than generated, so it is important to 
+make sure it is accurate to the data involved.
+
+The instructions for retrieving different types of data and domain to retrieve them from are on PhET’s Partner API Guide. Ask Katie or Matt how to reach this 
+site. Each type of request is a different “endpoint” and you will need to append the given URL slice to the domain when you request the information. 
+You can also narrow down your results by appending given query parameters.
+
+As of 1/19/21 there are five endpoints. All Simulations will get a list of all simulations, including basic summary data about each simulation and its 
+translations. 
+   * *Simulation* requires a simulation id and will get the information of that simulation. 
+   * *Education Standards* gets the educational standards information. 
+   * *Keywords* gets keyword information used for sims. 
+   * *Categories* gets subject, grade level, and other sorting categories.
+
+The instructions for testing will use a program called Postman, however other methods and text editors can be used. If using another method you may need 
+guidance from a developer. 
+
+To test:
+1. Go to the PhET API Testing Workspace.
+2. Open the Partner Services Metadata API folder.
+3. Either select the endpoint from the available options or create a new document by clicking a plus tab.
+   a. If making a new endpoint test: In the URL bar, paste the domain, followed by the endpoint URL. Make sure the URL bar is set to GET.
+   b. Add any query parameters in the table below the URL bar. In the key section add the query parameter. In the value section, add a value if the 
+      query parameter has to equal something.
+   c. Save the test in the folder.  
+ 4. Check any parameter needed for the test and click Send.
+ 5. Compare the results to the table of expected responses. In the Partner API guide, click on the response link in the endpoint to see what is expected. 
+    Nested results will have further links describing what is expected.
 
 ### 4.12: Sim Testing Tips
 
