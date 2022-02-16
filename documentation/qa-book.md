@@ -1631,20 +1631,14 @@ for help in using these commands and/or troubleshooting.
 
 ### 6.3: Website Administration
 
-Do not delete English versions of simulations!
+IMPORTANT: Do not delete English versions of simulations!
 
-There are three servers:
-
-1. [Ox-Dev](https://ox-dev.colorado.edu/): This is the development server. It’s kind of like a playground. You can do
-whatever you want to the website on this server.
-  * Ox-Dev has to be manually synced with the website. (This is not something that you will have to do.)
+1. [Ox-Dev](https://ox-dev.colorado.edu/admin/main) - the test environment.  Changes you make here are transient and will not be saved permanently.  
+  * Ox-Dev has to be manually synced with the website. Ping Matt Pennington or the current website development lead if you need this to happen.
   * Because Ox-Dev has to be manually synced with the website, it might be missing certain things.
   * Accounts created on Ox-Dev are deleted when Ox-Dev gets synced with the website, so make as many accounts as you’d
   like.
-2. [Bayes](https://bayes.colorado.edu/): This server has multiple functions. It is the disaster recovery server and it
-does automated testing, among other things.
-3. [Figaro](https://phet.colorado.edu/): This server is also known as phet-server. This is the server on which
-https://phet.colorado.edu runs.
+2. [PhET](https://phet.colorado.edu/admin/main) - the production environment.  Changes here are permanent and in general an undo is not possible. Please be careful and deliberate when making changes here.
 
 To get to the administrative page of the website, sign in and click the “Administration” button in the upper-right
 corner.
