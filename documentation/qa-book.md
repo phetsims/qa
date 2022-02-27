@@ -1077,13 +1077,22 @@ To test the accessibility features of a simulation, follow the steps below:
 3. If the developer wants you to test previous issues, then test those first.
 4. Perform the below tests.
 
-#### Keyboard Navigation Test
+#### Keyboard Navigation 
 
-To test keyboard navigation, make sure keyboard navigation functions as described in the “Keyboard Shortcuts” dialogue. 
-If keyboard navigation does not seem to work on Mac Safari, it is likely that you will need to change the settings 
-to have Full Keyboard Access.
+##### *What is keyboard navigation?* 
 
-#### Screen Reader Test
+* Keyboard navigation allows the user to play with the simulation using the keyboard instead of mouse.
+* A pink highlight box (called a focus highlight) will indicate which object has focus as you tab around the sim.
+* Keyboard navigation can be tested on any device with a physical keyboard and in any browser. 
+
+##### *To test:*
+
+* Make sure keyboard navigation functions as described in the “Keyboard Shortcuts” dialog. 
+* Make sure focus highlights appear and move through the sim as you press the tab key. 
+* When switching from the mouse to keyboard navigation, the focus highlights should begin at the first object in the sim and not where the interactive (mouse) highlight just was. 
+* If keyboard navigation does not seem to work on Mac Safari, it is likely that you will need to change the settings to have Full Keyboard Access.
+
+#### Screen Readers
 
 To test a screen reader, do the following:
 
@@ -1098,55 +1107,46 @@ To test a screen reader, do the following:
 9. Make sure all possible descriptions match the state of the simulation.
 10. Make sure the alerts and descriptions make sense.
 
-#### Voicing and Interactive Highlights
-##### What is "Voicing"?
+#### Voicing 
+##### *What is "Voicing"?*  
+
 Voicing is a new accessibility feature developed by PhET. The feature produces speech that comes directly from the
 simulation instead of using third party screen reading software. The speech can describe objects within the simulation,
 contextual changes while the simulation changes, and hints that guide the user. Speech is driven by user interaction
-and you will hear spoken content as you focus and activate UI components with mouse and keyboard. Because the speech only happens on interaction, the type of input (mouse/touch or keyboard/gesture) can determine what content is voiced and when it is voiced. The Voicing feature is disabled by default, and it can be enabled from the Preferences dialog.
+and you will hear spoken content as you focus and activate UI components with mouse and keyboard. Because the speech only happens on interaction, the type of input (mouse/touch or keyboard/gesture) can determine what content is voiced and when it is voiced. 
 
-Voicing is independent from screen reader descriptions, and we expect that a user will not be using a screen reader
-while Voicing is enabled. Voicing and screen reader do not need to work well together in combination.
+* The Voicing feature is disabled by default, and it can be enabled in the Auditory Tab of the Preferences Dialog. 
+* Once enabled, there are 3 additional options:  
+![Sim Voicing Options](https://github.com/phetsims/QA/blob/master/documentation/images/sim-voicing-options.png "Sim Voicing Options")  
+     * *Voice Direct object details and changes*  
+       This checkbox enables/disables hearing interactive object names and details when they receive focus or activation from mouse/keyboard.
+     * *Voice other sim changes as objects change*  
+       This checkbox enables/disables hearing contextual changes as you interact with components in the simulation screen.
+     * *Voice helpful hints on sim interactions*  
+       This checkbox will enable or disable hearing about hints for particular interactions on focus or input with mouse/keyboard. Note that not all interactions will have a hint. For example, the Reset All button does not have a hint. 
+       
+     * The words and phrases that are described by the above categories are strung together and then voiced (i.e., spoken out loud) through interaction. The more checkboxes that are checked, the more a user will hear.
+     * These settings should ***only*** apply to components within the simulation Screens. All Voicing content within dialogs, toolbar, navigation bar, and the PhET menu should not be changed by these settings.
+   
+* Change the rate, pitch, or voice under “Customized Voice”.
 
-##### What are "Reading Blocks"?
+
+##### *What are "Reading Blocks"?*  
+
 Reading Blocks are a sub-set of the Voicing feature. When Voicing is enabled Reading Blocks are added to the sim
 around elements that are not usually interactive or focusable. Reading Blocks usually surround Text, but can surround
 other graphical objects. Reading blocks are added to the focus order. When the mouse is over a Reading Block a highlight
-should surround the content. Moving focus to a Reading Block with keyboard or gesture or clicking on the Reading Block with mouse or touch will activate it and start speech for the content. While speaking, a yellow highlight should appear in the Reading Block highlight.
+should surround the content. 
 
-![Reading Block](https://github.com/phetsims/QA/blob/master/documentation/images/reading-block.png "Reading Block")
 
-##### What are "Interactive Highlights"?
-Interactive Highlights are another new accessibility feature. They are highlights (like focus highlights) that surround
-interactive components in the sim while the mouse is over them. They serve to assist the user by clearly indicating
-what is important and interactive on the screen. Voicing and Interactive Highlights are totally independent, each 
-should work on their own without the other. They are disabled by default, but can be enabled from the Preferences
-dialog.
+##### *What is the "Voicing Toolbar?"*
 
-![Interactive Highlights](https://github.com/phetsims/QA/blob/master/documentation/images/interactive-highlights.png "Interactive Highlights")
-
-##### Sim Voicing Options
-The Voicing feature is layerable in that the user can select what categories of content they want to hear (or have voiced out loud). These
-settings should **only** apply to components within the simulation Screens. All Voicing content within dialogs,
-toolbar, navigation bar, and the PhET menu should not be changed by these settings.
-
-![Sim Voicing Options](https://github.com/phetsims/QA/blob/master/documentation/images/sim-voicing-options.png "Sim Voicing Options")
-
-- Voice Direct object details and changes
-    - This checkbox enables/disables hearing interactive object names and details when they receive focus or activation from mouse/keyboard.
-- Voice other sim changes as objects change
-    - This checkbox enables/disables hearing contextual changes as you interact with components in the simulation screen.
-- Voice helpful hints on sim interactions
-    - This checkbox will enable or disable hearing about hints for particular interactions on focus or input with mouse/keyboard. Note that not all interactions will have a hint. For example, the Reset All button does not have a hint. 
-
-The words and phrases that are describe by the above categories are strung together and then voiced (i.e., spoken out loud) through interaction. The more checkboxes that are checked, the more a user will hear.
-
-##### Voicing Toolbar
 When Voicing is enabled, the sim can include a Toolbar that should appear on the left side of the screen. It can be 
 enabled and disabled separately from Voicing from the Preferences Dialog, but it should always be disabled when
 Voicing is disabled.
 
 ![Voicing Toolbar](https://github.com/phetsims/QA/blob/master/documentation/images/voicing-toolbar.png "Voicing Toolbar")
+
 
 - Sim Voicing
     - The "Sim Voicing" toggle is a control that quickly enables/disables Voicing without going through the Preferences
@@ -1154,11 +1154,45 @@ dialog. When "Sim Voicing" is off, no Voicing content should be heard and you sh
 any Reading Blocks. The only exception is the "Quick Info" buttons in the Toolbar. Clicking these while "Sim Voicing"
 is off should still produce voicing content.
 
-#### Additional Notes about Voicing:
+##### *To test:*
+
+* Make sure Voicing can be enabled/disabled in the Preferences Dialog.
+* Make sure the Sim Voicing toggle button works in the Voicing Toolbar.
+* Make sure the 3 “Quick Info” buttons in the Voicing Toolbar work and that the content matches the changes made to the sim.
+* Make sure all content in the navbar, dialogs and the PhET Menu is voiced.
+* Go through the sim with only 1 Sim Voicing Option checked at a time. Make sure only those types of details are heard. 
+* Go through the sim with all Sim Voicing Options checked at once. Make sure all details are heard. 
+* When the mouse is over a Reading Block a black highlight should surround the content. 
+* Moving focus to a Reading Block with keyboard or gesture or clicking on the Reading Block with mouse or touch will activate it and start speech for the content. While speaking, a yellow highlight should appear in the Reading Block highlight.
+
+![Reading Block](https://github.com/phetsims/QA/blob/master/documentation/images/reading-block.png "Reading Block")
+
+##### *Additional Notes about Voicing:*
+
+- Voicing should not be used in conjunction with screen readers.  
 - Voicing should only be available in the "en" locale. It should not be possible to enable Voicing in any other locale from Preferences.
 - Voicing does not work in the Android App. In this platform, it should not be possible to enable Voicing form Preferences.
 
-#### Sound Test
+
+#### Interactive Highlights
+##### *What are "Interactive Highlights?*
+
+Interactive Highlights are another new accessibility feature. They are highlights (like focus highlights) that surround
+interactive components in the sim while the mouse is over them. They serve to assist the user by clearly indicating
+what is important and interactive on the screen. 
+
+![Interactive Highlights](https://github.com/phetsims/QA/blob/master/documentation/images/interactive-highlights.png "Interactive Highlights")
+
+* Voicing and Interactive Highlights are totally independent, each should work on their own without the other. 
+* They are disabled by default, but can be enabled from the Preferences dialog.
+
+##### *To test:*
+
+* Make sure they can be enabled from the Preferences Dialog. 
+* Make sure the pink interactive highlight appears when the mouse hovers over an element. 
+* When switching from keyboard navigation to mouse, interactive highlights should appear after a few seconds of moving the mouse. 
+
+#### Sound
 
 If a simulation includes sound, here are some recommendations of what to test:
 - Verify that all basic UI controls create some sort of sound.
