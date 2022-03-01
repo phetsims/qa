@@ -145,8 +145,9 @@ spreadsheet and notify AR or AM if it not there.
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>What to Test</h3>
 
-- Specific instructions can be found below.
-- Make sure the accessibility (a11y) feature that is being tested doesn't negatively affect the sim in any way. Here is a list of features to supported in this test: <!--- PRUNE THIS LIST AS APPROPRIATE -->
+- Specific instructions can be found above.
+- Make sure the accessibility (a11y) feature that is being tested doesn't negatively affect the sim in any way. Here is a list of features that may be supported in this test: 
+  
   - Alternative Input
   - Interactive Description
   - Sound and Sonification
@@ -158,11 +159,14 @@ spreadsheet and notify AR or AM if it not there.
   - Test all touchscreen inputs.
   - Test all keyboard navigation inputs (if applicable).
   - Test all forms of input with a screen reader (if applicable).
+- If this sim is not in [this list](https://phet.colorado.edu/en/accessibility/prototypes) or up to date there, make an
+issue in [website](https://github.com/phetsims/website) to ask if PhET research page links need updating. Please assign
+to @terracoda and @emily-phet.
 
 <!--- [CAN BE OMITTED, DO NOT EDIT] -->
 <h3>Screen Readers</h3>
 
-This sim supports screen readers. If you are unfamiliar with screen readers, please ask Katie to introduce you to
+This sim may support screen readers. If you are unfamiliar with screen readers, please ask Katie to introduce you to
 screen readers. If you simply need a refresher on screen readers, please consult the
 [QA Book](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md), which should have
 all of the information you need as well as a link to a screen reader tutorial made by Jesse. Otherwise, look over the
@@ -172,10 +176,10 @@ descriptions work as intended.
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Platforms and Screen Readers to Be Tested</h3>
 
-- [ ] Windows 10 + Latest Chrome + Latest JAWS
-- [ ] Windows 10 + Latest Firefox + Latest NVDA
-- [ ] macOS + Safari + VoiceOver
-- [ ] iOS + Safari + VoiceOver (only if specified in testing issue)
+- Windows 10 + Latest Chrome + Latest JAWS
+- Windows 10 + Latest Firefox + Latest NVDA
+- macOS + Safari + VoiceOver
+- iOS + Safari + VoiceOver (only if specified in testing issue)
 
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Critical Screen Reader Information</h3>
@@ -195,12 +199,6 @@ screen reader.
 This sim supports magnification with pinch and drag gestures on touch screens, keyboard shortcuts, and mouse/wheel controls. Please test magnfication and make sure
 it is working as intended and well with the use cases of the simulation. Due to the way screen readers handle user input, magnification is NOT expected to
 work while using a screen reader so there is no need to test this case.
-
-<h3>Final Requests</h3>
-
-- [ ] If this sim is not in [this list](https://phet.colorado.edu/en/accessibility/prototypes) or up to date there, make an
-issue in [website](https://github.com/phetsims/website) to ask if PhET research page links need updating. Please assign
-to @terracoda and @emily-phet.
 
 <hr>
 
