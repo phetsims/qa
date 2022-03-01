@@ -1,3 +1,7 @@
+<!---
+DEVELOPERS: Fill in the placeholders that look like {{TOKEN}}.
+-->
+
 <h3>Create issues in this repository</h3>
 
 - [GitHub repository]({{GITHUB_REPOSITORY_LINK}})
