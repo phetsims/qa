@@ -1,6 +1,10 @@
 <!---
-DEVELOPERS: Fill in the placeholders that look like {{TOKEN}}.
+DEVELOPERS: 
+* Fill in the placeholders that look like {{TOKEN}}.
+* Delete things that are not relevant, e.g. PhET-iO links for non-PhET-iO tests.
 -->
+
+<h1>RC Test</h1>
 
 <h3>Create issues in this repository</h3>
 
@@ -47,6 +51,8 @@ Things to include here:
 These issues should have the "status:ready-for-review" label. Unless the issues says to close after verifying, 
 assign the issue back to the developer. 
 
+---
+<h2>For QA...</h2>
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
