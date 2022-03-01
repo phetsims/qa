@@ -379,9 +379,7 @@ and put it in the "Issues to Verify" collumn of the QA pipeline. When the issue 
 and the issue assigned back to the developer. When an issue is found during an RC the developer will put in the "Issues to Verify" 
 section of the next RC. If it is found to be fixed in that RC it can generally be closed. If it is not fixed it is assigned back.
 
-The labels `status:ready-for-qa` and `status:ready-for-review` should ideally be used as described below, but follow any instructions 
-as to whether to close an issue or reassign it. If it is part of an RC it can usually be closed. Otherwise it is usually reassigned. 
-It is usually better to reassign if in doubt, and the developer can close the issue if appropriate.
+The developer will use the label `status:ready-for-review`. Follow any instructions as to whether to close an issue or reassign it. 
 
 #### A List of Labels and Their Descriptions
 
@@ -403,8 +401,6 @@ It is usually better to reassign if in doubt, and the developer can close the is
 * phet-io:record-and-playback - For issues relating to record and playback in PhET-iO simulations.
 * phet-io:save-and-load - For issues related to state wrappers and launching from proxies in PhET-iO branded
 simulations.
-* status:ready-for-qa - For issues ready to be confirmed by QA and then closed. (We're done with this issue, please
-confirm that it is fixed.)
 * status:ready-for-review - For issues that need to be looked over and reassigned to the developer. (We're not
 necessarily done with this issues, we just need some QA feedback.)
 * type:automated-testing - For automated testing issues.
