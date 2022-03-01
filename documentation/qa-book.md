@@ -1137,18 +1137,24 @@ should surround the content.
 
 ##### *What is the "Voicing Toolbar?"*
 
-When Voicing is enabled, the sim can include a Toolbar that should appear on the left side of the screen. It can be 
+<table>
+<tr>
+<td width="60%">
+<ul> 
+<li>When Voicing is enabled, the sim can include a Toolbar that should appear on the left side of the screen. It can be 
 enabled and disabled separately from Voicing from the Preferences Dialog, but it should always be disabled when
-Voicing is disabled.
-
-![Voicing Toolbar](https://github.com/phetsims/QA/blob/master/documentation/images/voicing-toolbar.png "Voicing Toolbar")
-
-
-- Sim Voicing
-    - The "Sim Voicing" toggle is a control that quickly enables/disables Voicing without going through the Preferences
+ Voicing is disabled. </li> <br>
+<li>The "Sim Voicing" toggle is a control that quickly enables/disables Voicing without going through the Preferences
 dialog. When "Sim Voicing" is off, no Voicing content should be heard and you should not be able to find or use
 any Reading Blocks. The only exception is the "Quick Info" buttons in the Toolbar. Clicking these while "Sim Voicing"
-is off should still produce voicing content.
+ is off should still produce voicing content. </li>
+<td width="40%">
+ 
+ ![voicing](https://user-images.githubusercontent.com/87318828/156220219-1c2b941d-c7cc-4de8-9458-52ca2ff66c8e.jpg)
+
+ </table>
+
+
 
 ##### *To test:*
 
@@ -1190,7 +1196,20 @@ what is important and interactive on the screen.
 
 #### Sound
 
-If a simulation includes sound, here are some recommendations of what to test:
+<table>
+<tr>
+<td width="50%">
+<ul> 
+<li>Sounds are enabled by default, but can be disabled from the Audio Tab of the Preferences dialog. </li>
+<li>Some sims have an additional option for Extra Sounds, which is also found in the Audio Tab of the Preferences dialog. </li>
+<li>Sound can be muted from the Nav bar. </li>
+<td width="50%">
+ 
+ ![sounds](https://user-images.githubusercontent.com/87318828/156214981-ebcd4ad6-4396-4007-a498-c4f663b20986.jpg) 
+</table>
+
+##### *To test:* 
+ 
 - Verify that all basic UI controls create some sort of sound.
 - Verify that sound is produced for all the major actions that occur in a sim.  This is unavoidably vague, since sims have so much variation, but the basic idea is to make sure that something major wasn't missed or is malfunctioning in the implementation of the sound design.
 - Verify that none of the sounds produced are disproportionately loud compared to the others, i.e. the balance is good.  Note that the sound designers often use the Reset All button's sound as the volume reference.
@@ -1198,6 +1217,10 @@ If a simulation includes sound, here are some recommendations of what to test:
 - If the simulation supports "Enhanced Sound", test with it on and off and verify that the enhanced sounds play when this is on and don't when it is off.  You may need to consult the sound design document or ask the developer to figure out which sounds are in the "Enhanced" category.
 - The sound design has gone through numerous iterations by the time it is in testing, so the sound design team is past the point of soliciting general feedback, but if a QA tester encounters something with the sound design that truly strikes them as misleading, frustrating, distracting, or otherwise problematic, it is okay to log an issue.
 
+##### *Additional Notes about Sound:*
+
+* PhET-iO: When a sim is launched in Studio using Chrome, you must first interact with the sim before hearing any sound. This is also true for Voicing.  
+ 
 ### 4.5: Online Website Testing
 
 The developers may occasionally ask you to test various parts of the website. They should provide details.
