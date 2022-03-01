@@ -6,7 +6,13 @@
 
 - [phet directory]({{PHET_DIRECTORY_LINK}})
 - [all.html]({{ALL_HTML_LINK}})
+- [phet-io directory]({{PHET_IO_DIRECTORY_LINK}})
 - [Wrapper Index]({{WRAPPER_INDEX_LINK}})
+
+<h3>Test Matricies</h3>
+
+- [General Test Matrix](FILLED_IN_BY_QA)
+- [PhET-iO Test Matrix](FILLED_IN_BY_QA)
 
 <h3>Features included</h3>
 
@@ -25,6 +31,7 @@ Things to include here:
 * specific things to test
 * specific platforms to test
 * instructions for any non-standard tests
+* If you want PhET-iO diff wrapper tested against a prior version, provide details and link to prior version.
 -->
 
 <h3>Issues to Verify</h3>
@@ -39,7 +46,7 @@ assign the issue back to the developer.
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Section 1: General RC Testing [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED]
+// General RC Testing instructions
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
@@ -78,7 +85,7 @@ spreadsheet and notify AR or AM if it not there.
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Section 2: PhET-iO RC Test [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED]
+// PhET-iO RC Test instructions
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
@@ -95,8 +102,6 @@ spreadsheet and notify AR or AM if it not there.
 - Make sure each wrapper is working properly.
 - Launch the simulation in Studio with ?stringTest=xss and make sure the sim doesn't navigate to youtube
 - For newer PhET-iO wrapper indices, save the "basic example of a functional wrapper" as a .html file and open it. Make sure the simulation loads without crashing or throwing errors.
-- For an update or maintenance release please check the backwards compatibility of the playback wrapper.
-[Here's the link to the previous wrapper.](link)
 - Load the login wrapper just to make sure it works. Do so by adding this link from the sim deployed root: 
   ```
   /wrappers/login/?wrapper=record&validationRule=validateDigits&&numberOfDigits=5&promptText=ENTER_A_5_DIGIT_NUMBER
@@ -106,25 +111,11 @@ spreadsheet and notify AR or AM if it not there.
 - Conduct a memory test on the stand alone sim wrapper (rc.1).
 - Test one platform combination with `?phetioDebug` on the Studio and State wrapper.
 - If Pan/Zoom is supported, make sure that it works when set with PhET-iO State.
-- If filled in by issue creator, please test the diff wrapper against {{URL_TO_OLD_VERSION_ROOT}}.
 - Test that the sim works offline:
-  * Go to https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/{{sim}}-phet-io-{{version}}.zip
-  * download it
-  * unzip it to a spot locally
-  * Open `index.html` by double clicking it on your desktop or in a finder-view.
+  * Download the `SIM-phet-io-VERSION.zip` file from `phet-io` directory link above.
+  * Unzip it to a spot locally.
+  * Open `index.html` by double clicking it on your desktop or in a Finder-view.
   * It should look like the standalone version of the sim in PhET-iO brand.
-
-
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Additional checks</h3>
-- [ ] Please use the diff wrapper to compare against prior version: `{{URL_FOR_PRIOR_WRAPPER_INDEX}}`
-
-<!--- [DO NOT OMIT, CAN BE EDITED] -->
-<h3>Link(s)</h3>
-
-- **[Wrapper Index](link to phet-io/ root directory)**
-- **[Test Matrix](link)**
 
 <hr>
 
@@ -155,30 +146,6 @@ spreadsheet and notify AR or AM if it not there.
   - Test all touchscreen inputs.
   - Test all keyboard navigation inputs (if applicable).
   - Test all forms of input with a screen reader (if applicable).
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Focus and Special Instructions</h3>
-
-[Provide further instructions here. If you have any further tests you want done or specific platforms you want tested,
-list them here. Any behaviors you want QA to pay special attention to should be listed here.]
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Issues to Verify</h3>
-
-- [ ] [Issue1](link)
-- [ ] [Issue2](link)
-- [ ] [Issue3](link)
-
-These issues should have the "status:ready-for-qa" label. Check these issues off and close them if they are fixed.
-Otherwise, post a comment in the issue saying that it wasn't fixed and link back to this issue. If the label is
-"status:ready-for-review" or "status:fixed-pending-deploy" then assign back to the developer when done, even if fixed.
-
-<!--- [DO NOT OMIT, CAN BE EDITED] -->
-<h3>Link(s)</h3>
-
-- **[a11y View](link)**
-- **[Simulation](all_phet_link)**
-- **[Test Matrix](link)**
 
 <!--- [CAN BE OMITTED, DO NOT EDIT] -->
 <h3>Screen Readers</h3>
