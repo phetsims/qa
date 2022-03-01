@@ -6,12 +6,9 @@ DEVELOPERS:
 
 <h1>RC Test</h1>
 
-<h3>Create issues in this repository</h3>
-
-- [GitHub repository]({{GITHUB_REPOSITORY_LINK}})
-
 <h3>Simulation links</h3>
 
+- [GitHub repository for issues]({{GITHUB_REPOSITORY_LINK}})
 - [phet directory]({{PHET_DIRECTORY_LINK}})
 - [all.html]({{ALL_HTML_LINK}})
 - [phet-io directory]({{PHET_IO_DIRECTORY_LINK}})
