@@ -1,23 +1,41 @@
+<h3>Create issues in this repository</h3>
+
+- [GitHub repository]({{GITHUB_REPOSITORY_LINK}})
+
+<h3>Simulation links</h3>
+
+- [phet directory]({{PHET_DIRECTORY_LINK}})
+- [all.html]({{ALL_HTML_LINK}})
+- [Wrapper Index]({{WRAPPER_INDEX_LINK}})
+
+<h3>Features included</h3>
+
+- [ ] PhET-iO
+- [ ] Alternative Input
+- [ ] Sound
+- [ ] Description
+- [ ] Voicing
+
+<h3>Focus and Special Instructions</h3>
+
 <!---
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~ PhET Release Candidate Test Template ~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Notes and Instructions for Developers:
-  1. Comments indicate whether something can be omitted or edited. 
-  2. Please check the comments before trying to omit or edit something.
-  3. Please don't rearrange the sections.
-
+Things to include here:
+* purpose/focus of the test
+* milestones
+* specific things to test
+* specific platforms to test
+* instructions for any non-standard tests
 -->
 
-@relevantPerson1, @relevantPerson2, simulation-name/#.#.#-rc.# is ready for RC testing. [List deadlines and whether
-this will be shared with a client.] Document issues in https://github.com/phetsims/{{REPO}}/issues and link to this
-issue. [If this rc is delayed until QA is more open, state that here.]
+<h3>Issues to Verify</h3>
 
-[If this test is an RC Lite or other special test, please indicate this here and note any platforms that need specific testing.]
+- [ ] [Issue1](link)
+- [ ] [Issue2](link)
+- [ ] [Issue3](link)
 
-Assigning to @kathy-phet and @KatieWoe for prioritization.
+These issues should have the "status:ready-for-review" label. Unless the issues says to close after verifying, 
+assign the issue back to the developer. 
+
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -53,31 +71,6 @@ spreadsheet and notify AR or AM if it not there.
 - Try to include version numbers for browsers.
 - If there is a console available, check for errors and include them in the Problem Description.
 - As an RC begins and ends, check the sim repo. If there is a maintenance issue, check it and notify developers if there is a problem.
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Focus and Special Instructions</h3>
-
-[Provide further instructions here. If you have any further tests you want done or specific platforms you want tested,
-list them here. Any behaviors you want QA to pay special attention to should be listed here.]
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Issues to Verify</h3>
-
-- [ ] [Issue1](link)
-- [ ] [Issue2](link)
-- [ ] [Issue3](link)
-
-These issues should have the "status:ready-for-qa" label. Check these issues off and close them if they are fixed.
-Otherwise, post a comment in the issue saying that it wasn't fixed and link back to this issue. If the label is
-"status:ready-for-review" or "status:fixed-pending-deploy" then assign back to the developer when done, even if fixed.
-
-<!--- [DO NOT OMIT, CAN BE EDITED] -->
-<h3>Link(s)</h3>
-
-- **[Simulation](link to _all_phet.html)**
-- **[iFrame](link to _all_iframe_phet.html)**
-- **[XHTML](link to _all.xhtml)**
-- **[Test Matrix](link)**
 
 <hr>
 
@@ -121,24 +114,7 @@ Otherwise, post a comment in the issue saying that it wasn't fixed and link back
   * Open `index.html` by double clicking it on your desktop or in a finder-view.
   * It should look like the standalone version of the sim in PhET-iO brand.
 
-<!--- [CAN BE
-OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Focus and Special Instructions</h3>
 
-[Provide further instructions here. If you have any further tests you want done or specific platforms you want tested,
-list them here. Any behaviors you want QA to pay special attention to should be listed here. This includes if any substantial, 
-untested work has been implemented in PhET-iO wrappers or in the PhET-iO Engine since last PhET-iO test.]
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Issues to Verify</h3>
-
-- [ ] [Issue1](link)
-- [ ] [Issue2](link)
-- [ ] [Issue3](link)
-
-These issues should have the "status:ready-for-qa" label. Check these issues off and close them if they are fixed.
-Otherwise, post a comment in the issue saying that it wasn't fixed and link back to this issue. If the label is
-"status:ready-for-review" or "status:fixed-pending-deploy" then assign back to the developer when done, even if fixed.
 
 <!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
 <h3>Additional checks</h3>
