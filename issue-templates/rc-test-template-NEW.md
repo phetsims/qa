@@ -58,7 +58,7 @@ assign the issue back to the developer.
 -->
 
 <details>
-<summary><b>General RC Test</b></summary>
+<summary><b>General features</b></summary>
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>What to Test</h3>
@@ -97,7 +97,7 @@ spreadsheet and notify AR or AM if it not there.
 -->
 
 <details>
-<summary><b>PhET-iO RC Test</b></summary>
+<summary><b>PhET-iO features/b></summary>
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>What to Test</h3>
@@ -135,13 +135,13 @@ spreadsheet and notify AR or AM if it not there.
 -->
 
 <details>
-<summary><b>Accessibility (a11y) RC Test</b></summary>
+<summary><b>Accessibility features</b></summary>
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>What to Test</h3>
 
 - Specific instructions can be found below.
-- Make sure the accessibility-related feature that is being tested doesn't negatively affect the sim in any way. Here is a list of features to supported in this test: <!--- PRUNE THIS LIST AS APPROPRIATE -->
+- Make sure the accessibility (a11y) feature that is being tested doesn't negatively affect the sim in any way. Here is a list of features to supported in this test: <!--- PRUNE THIS LIST AS APPROPRIATE -->
   - Alternative Input
   - Interactive Description
   - Sound and Sonification
