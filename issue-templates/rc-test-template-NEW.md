@@ -48,7 +48,7 @@ Things to include here:
 
 - [ ] {{GITHUB_ISSUE_LINK}}
 
-†These issues should have the "status:ready-for-review" label. Unless the issues says to close after verifying, 
+†These issues should have the "status:ready-for-review" label. Unless an issue says to close after verifying, 
 assign the issue back to the developer. 
 
 <!---
