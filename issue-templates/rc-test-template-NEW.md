@@ -16,7 +16,7 @@ DEVELOPERS:
 - [GitHub repository for issues]({{GITHUB_REPOSITORY_LINK}})
 - [phet directory]({{PHET_DIRECTORY_LINK}})
 - [all.html]({{ALL_HTML_LINK}})
-- [phet-io directory]({{PHET_IO_DIRECTORY_LINK}})
+- [link to phet-io zip file]({{PHET_IO_ZIP_LINK}})
 - [Wrapper Index]({{WRAPPER_INDEX_LINK}})
 
 <h3>Test Matricies</h3>
