@@ -3,7 +3,7 @@
 
 DEVELOPERS: 
 
-* Fill in the placeholders that look like {{TOKEN}}.
+* Fill in the {{SIM}}, {{VERSION}}, and {{GITHUB_ISSUE_LINK}} placeholders.
 * Delete things that are not relevant, e.g. PhET-iO links for non-PhET-iO tests.
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -13,11 +13,11 @@ DEVELOPERS:
 
 <h3>Simulation links</h3>
 
-- [GitHub repository for issues]({{GITHUB_REPOSITORY_LINK}})
-- [phet directory]({{PHET_DIRECTORY_LINK}})
-- [all.html]({{ALL_HTML_LINK}})
-- [link to phet-io zip file]({{PHET_IO_ZIP_LINK}})
-- [Wrapper Index]({{WRAPPER_INDEX_LINK}})
+- [GitHub repository for issues](https://github.com/phetsims/{{SIM}}/issues)
+- [phet directory](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}})
+- [all.html](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet/{{SIM}}_all.html)
+- [Wrapper Index](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet-io)
+- [link to phet-io zip file](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet-io/{{SIM}}-phet-io-{{VERSION}}.zip)
 
 <h3>Test Matricies</h3>
 
@@ -46,9 +46,7 @@ Things to include here:
 
 <h3>Issues to Verify†</h3>
 
-- [ ] [Issue1](link)
-- [ ] [Issue2](link)
-- [ ] [Issue3](link)
+- [ ] {{GITHUB_ISSUE_LINK}}
 
 †These issues should have the "status:ready-for-review" label. Unless the issues says to close after verifying, 
 assign the issue back to the developer. 
