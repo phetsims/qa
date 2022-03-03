@@ -128,7 +128,7 @@ spreadsheet and notify AR or AM if it not there.
 - Test one platform combination with `?phetioDebug` on the Studio and State wrapper.
 - If Pan/Zoom is supported, make sure that it works when set with PhET-iO State.
 - Test that the sim works offline:
-  * Download the `SIM-phet-io-VERSION.zip` file from `phet-io` directory link above.
+  * Click the link to the phet-io zip file (at top of issue) to download the zip file.
   * Unzip it to a spot locally.
   * Open `index.html` by double clicking it on your desktop or in a Finder-view.
   * It should look like the standalone version of the sim in PhET-iO brand.
