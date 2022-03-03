@@ -28,7 +28,8 @@ DEVELOPERS:
 
 - [ ] PhET-iO
 - [ ] Alternative Input
-- [ ] Sound
+- [ ] UI Sound
+- [ ] Sonification
 - [ ] Description
 - [ ] Voicing
 
