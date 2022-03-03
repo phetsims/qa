@@ -17,7 +17,7 @@ DEVELOPERS:
 - [phet directory](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}})
 - [all.html](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet/{{SIM}}_all_phet.html)
 - [Wrapper Index](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet-io)
-- [link to phet-io zip file](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet-io/{{SIM}}-phet-io-{{VERSION}}.zip
+- [link to phet-io zip file](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet-io/{{SIM}}-phet-io-{{VERSION}}.zip)
 
 <h3>Test Matricies</h3>
 
