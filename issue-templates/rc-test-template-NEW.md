@@ -13,10 +13,10 @@ DEVELOPERS:
 
 <h3>Simulation links</h3>
 
-- [GitHub repository for issues](https://github.com/phetsims/{{SIM}}/issues)
-- [phet directory](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}})
-- [all_phet.html](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet/{{SIM}}_all_phet.html)
-- [PhET-iO Wrapper Index](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet-io)
+- [github repository for issues](https://github.com/phetsims/{{SIM}}/issues)
+- [phet top level directory](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}})
+- [sim: all_phet.html](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet/{{SIM}}_all_phet.html)
+- [phet-io wrapper index](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet-io)
 - [link to phet-io zip file](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet-io/{{SIM}}-phet-io-{{VERSION}}.zip)
 
 <h3>Test Matricies</h3>
