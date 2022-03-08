@@ -838,7 +838,7 @@ On one random platform combination:
  5. Open the console in the launched sim.
  6. Play with the launched sim and see if any errors come up.
  
-#### Test 9: Examples
+#### Test 9: Examples (Client Requests)
 
 *Approximate time:* varies depending on the number of requests, Only on one random platform  
 
