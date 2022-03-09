@@ -18,7 +18,7 @@ DEVELOPERS:
 - [sim: all_phet.html](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet/{{SIM}}_all_phet.html)
 - [phet-io wrapper index](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet-io)
 
-<h3>Test Matricies</h3>
+<h3>Test Matrix</h3>
 
 Please include (non-screen reader) a11y testing in these records if applicable.
 
