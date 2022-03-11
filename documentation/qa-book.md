@@ -1049,19 +1049,7 @@ To test this wrapper you will need to test two different cases by entering a URL
 ### 4.4: Accessibility (a11y) Testing
 
 One of PhET’s goals is to make our simulations available to everyone. This, of course, includes people with
-disabilities. There are three features to unique to accessibility testing: keyboard navigation compatibility, screen
-reader compatibility, and sound effects (sonification). Keyboard navigation compatibility allows the user to play with
-the simulation using the keyboard, i.e. they don’t have to use the mouse. Keyboard navigation can be tested on any
-device with a physical keyboard and in any browser. Screen reader compatibility allows the user to hear a description
-of what is happening in the simulation. On Windows devices, we test the NVDA and JAWS screen readers. On macOS devices,
-we test the VoiceOver screen reader, which is installed by default. JAWS is tested on Chrome, NVDA is tested on Firefox,
-and VoiceOver is tested on Safari. To familiarize yourself with a screen reader, use the screen reader to read
-[this](http://htmlpreview.github.io/?https://github.com/phetsims/a11y-research/blob/master/reader-intro.html). In an
-issue for a test of a simulation with accessibility feature(s) you will find, among other things, a link to the
-simulation, perhaps a link to a testing matrix (if the test is an RC test), and a link to the a11y view. The a11y view,
-is a page with the simulation on the left and the description of the simulation in plain text (the parallel document
-object model or PDOM) on the right. Below the simulation are real-time alerts that will be announced by the screen
-reader.
+disabilities. There are several features unique to accessibility testing: keyboard navigation, screen reader compatibility, voicing, interactive highlights, and sound effects (sonification). 
 
 Please read through this
 [list of known a11y bugs](https://drive.google.com/open?id=12kTs-g-iKEIH1dyG7Q41_W_oNL4gUKbkW-IQgZjMUBw) before doing
@@ -1090,18 +1078,64 @@ To test the accessibility features of a simulation, follow the steps below:
 
 #### Screen Readers
 
-To test a screen reader, do the following:
+##### *What are screen readers?*
+
+Screen reader compatibility allows the user to hear a description
+of what is happening in the simulation. On Windows devices, we test the NVDA and JAWS screen readers. On macOS devices,
+we test the VoiceOver screen reader, which is installed by default. JAWS is tested on Chrome, NVDA is tested on Firefox,
+and VoiceOver is tested on Safari. 
+
+* Tips for each of the three types of screen readers can be found here:
+    * [Tip sheet VoiceOver](https://docs.google.com/document/d/1qz0Dm2lA67tRhgw1GaHVeOSnldBoMj7AT5UE_UaXz1U/edit)
+    * [Tip sheet NVDA](https://docs.google.com/document/d/1pgfyEER7ZlpJlXSwvSCbNBuoCa5oOexc7QvTuFZu-Mo/edit)
+    * [Tip sheet JAWS](https://docs.google.com/document/d/1aggemqGsb2CdR7PxgLG50kOg4ZwBPM2M3eI3okyZHJ8/edit)
+* Additional tips can also be found here: [More tips](http://htmlpreview.github.io/?https://github.com/phetsims/a11y-research/blob/master/reader-intro.html)
+* In an issue for a test of a simulation with accessibility feature(s) you will find, among other things, a link to the simulation, perhaps a link to a testing matrix (if the test is an RC test), and a link to the a11y view.
+* The a11y view,
+is a page with the simulation on the left and the description of the simulation in plain text (the parallel document
+object model or PDOM) on the right. Below the simulation are real-time alerts that will be announced by the screen
+reader.
+ 
+
+##### *To test:*
 
 1. Make sure you know how to use screen readers. (If you don't, ask Katie.)
-2. Carefully read the a11y view.
-3. Quit your browser.
-4. Start your screen reader.
-5. Make sure "audio ducking" is off in screen reader settings.
-6. Open the sim.
-7. Read everything in the simulation with the screen reader using keyboard nav.
-8. Make sure all possible alerts are given.
-9. Make sure all possible descriptions match the state of the simulation.
-10. Make sure the alerts and descriptions make sense.
+2. Using a11y view:
+     * Make sure the proper interactive alerts occur (yellow box) as you make changes in the sim.
+     * Make sure the description is constantly being updated (blue box) and that the updates are correct.
+     * This tool can be used to regularly check the scene description and make sure everything changes correctly when the sim is updated.
+     * This tool can also be used to find subtle errors and typos.
+     * If you find a bug and aren’t sure if it is specific to a particular screen reader, or general to all of them, look for the bug in a11y view. If seen there it is likely a general issue.
+3. The simulation:
+     * Quit your browser.
+     * Start your screen reader.
+     * Make sure "audio ducking" is off in screen reader settings.
+     * Open the sim.
+       *Note:* VoiceOver can be turned on after the sim is opened
+     * Read everything in the simulation with the screen reader using keyboard nav.
+       *To read dialogs with VoiceOver, use VO keys + arrows*
+     * Make sure all possible alerts are given.
+     * Make sure all possible descriptions match the state of the simulation.
+     * Make sure the alerts and descriptions make sense.
+     * Make sure descriptions and alerts remain available/attainable throughout the session
+     * Make sure to check all of the dialogs from the PhET Menu.
+4. Using VoiceOver on the iPad:
+     * Open the sim on the iPad.
+     * To turn on VO, press the Home button three times or access through the settings menu.
+     * Read through the entire sim without making any changes by swiping up with two fingers  or by continuously swiping through with one finger. Swiping up/down generally controls sliders and double tapping clicks buttons and checkboxes.
+     * As you make changes and play with the sim, be sure that alerts are happening and that they are correct.
+     * Periodically read through the descriptions by swiping up with two fingers to make sure they match the new state of the sim.
+
+* *Website testing with screen readers:*
+     * To familiarize yourself with a screen reader, use the screen reader to read
+[this](http://htmlpreview.github.io/?https://github.com/phetsims/a11y-research/blob/master/reader-intro.html). 
+     * Tips for each of the three types of screen readers can be found here:
+          * [Tip sheet VoiceOver](https://docs.google.com/document/d/1qz0Dm2lA67tRhgw1GaHVeOSnldBoMj7AT5UE_UaXz1U/edit)
+          * [Tip sheet NVDA](https://docs.google.com/document/d/1pgfyEER7ZlpJlXSwvSCbNBuoCa5oOexc7QvTuFZu-Mo/edit)
+          * [Tip sheet JAWS](https://docs.google.com/document/d/1aggemqGsb2CdR7PxgLG50kOg4ZwBPM2M3eI3okyZHJ8/edit)
+     * Make sure that image descriptions match the image, and that link descriptions match the link
+     * Make sure you can get to (and select) different areas of the page such as filter checkboxes, dropdown menu, different parts of sim pages etc
+     * Make sure that any information attainable by sight is attainable by screen reader
 
 #### Voicing 
 ##### *What is "Voicing"?*  
