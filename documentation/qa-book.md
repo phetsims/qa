@@ -615,7 +615,9 @@ You should be able to zoom in and out using the same sorts of methods you would 
 5. Pinch gestures on touch screens and on trackpads will zoom in and out of the page
 
 The only method of zooming in that does **not** work is controlling zoom from the browser user interface, such as the
-magnifier buttons in Chrome: (https://user-images.githubusercontent.com/6396244/158482195-a7495be3-3917-415d-9bc8-df13d2267d61.png)
+magnifier buttons in Chrome: 
+
+![zoom](https://user-images.githubusercontent.com/6396244/158482195-a7495be3-3917-415d-9bc8-df13d2267d61.png)
 
 
 When zoomed in, you should be able to pan (move the zoomed in screen) with typical input methods you would expect for most webpages:
