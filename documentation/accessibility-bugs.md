@@ -118,5 +118,7 @@ So empty. Much goodness.
 At this time this is acceptable and there is nothing we can do to improve this. Acceptable performance is subjective, in general
 please create an issue if there are any questions about performance.
 
-### 3.2 Chrome Bugs
-* Voicing will not be muted when the tab is muted with the "Right click -> mute site" feature.
+### 3.2 ChromeOS Bugs
+* Voicing and SpeechSynthesis can be slower to start on ChromeOS. Especially when switching tabs or turning it on 
+for the first time. If Voicing doesn't start for ~8 seconds after you enable it or play with the sim that is expected.
+If it takes longer to start or never starts that is probably an issue. See https://github.com/phetsims/number-play/issues/138
