@@ -608,17 +608,36 @@ To test the Game Up harness, do the following:
 
 You should be able to zoom in and out using the same sorts of methods you would expect for most web pages.
 
-1. Ctrl + +/-/0
-2. Ctrl + scrolling
-3. Pinch to zoom
+1. `Ctrl` + `+` zooms into the page.
+2. `Ctrl` + `-` zooms out of the page.
+3. `Ctrl` + `0` returns to default (zoomed out) view.
+4. `Ctrl` + mouse scrolling will zoom in and out of the page
+5. Pinch gestures on touch screens and on trackpads will zoom in and out of the page
 
-You should be able to pan (move the zoomed in screen) by:
+The only method of zooming in that does **not** work is controlling zoom from the browser user interface, such as the
+magnifier buttons in Chrome:
+**put image**
 
-1. Dragging the screen with mouse or finger
-2. Arrow keys (when not focused on another object)
-3. Scrolling (up and down and left and right)
+When zoomed in, you should be able to pan (move the zoomed in screen) with typical input methods you would expect for most webpages:
 
-Make sure that all UI components behave normally while zooming in. Dragable objects should behave as expected and not move the screen unless at the edge of the screen.
+1. Dragging the screen with mouse or finger pans the screen under the pointer.
+2. Arrow keys move the screen in the direction of motion of the arrow key.
+3. Mouse wheel scrolling will pan in the direction of scroll.
+ 
+While zoomed in, interaction with draggable object should not pan the screen. For example, dragging a slider thumb
+should move the thumb and not the screen. However, the screen **should** pan while you drag if you attempt to drag
+the object off-screen. The only exception to this is if the object is wider or taller than the screen itself. It is
+awkward to try to keep something in view if it won't fit on screen anyway.
+
+While zoomed in, if you click and then drag on an object that is interactive but not clickable, input with that
+object should interrupt and the screen should pan under the mouse instead. While keyboard focus is on an object that
+is not draggable, the screen should pan with arrow keys.
+
+Otherwise, all UI components should behave normally while zoomed in.
+
+If the sim supports alternative input, the sim should pan to whatever has focus during tab navigation.
+
+When switching screns, the zoom level should reset to its default zoomed out view.
 
 #### HTML Download Test
 
