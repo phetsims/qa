@@ -1104,7 +1104,11 @@ To test the accessibility features of a simulation, follow the steps below:
 Screen reader compatibility allows the user to hear a description
 of what is happening in the simulation. On Windows devices, we test the NVDA and JAWS screen readers. On macOS devices,
 we test the VoiceOver screen reader, which is installed by default. JAWS is tested on Chrome, NVDA is tested on Firefox,
-and VoiceOver is tested on Safari. 
+and VoiceOver is tested on Safari.
+
+See the Tip sheets below for download links for NVDA and JAWS. JAWS is not free but you can either run it in a 40 minute
+trial mode or get a free license through a CU email account. To register for a license go to https://portal.freedomscientific.com/Home/SponsoredSoftware
+and follow the registration steps to add JAWS to your computer. 
 
 * Tips for each of the three types of screen readers can be found here:
     * [Tip sheet VoiceOver](https://docs.google.com/document/d/1qz0Dm2lA67tRhgw1GaHVeOSnldBoMj7AT5UE_UaXz1U/edit)
