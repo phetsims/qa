@@ -57,12 +57,12 @@ Things to include here:
 * If you want PhET-iO diff wrapper tested against a prior version, provide details and link to prior version.
 -->
 
-<h3>Issues to Verify†</h3>
+<h3>Issues to Verify</h3>
+
+These issues should have the "status:ready-for-review" label. Unless an issue says to close after verifying, 
+assign the issue back to the developer. 
 
 - [ ] {{GITHUB_ISSUE_LINK}}
-
-†These issues should have the "status:ready-for-review" label. Unless an issue says to close after verifying, 
-assign the issue back to the developer. 
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
