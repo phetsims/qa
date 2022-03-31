@@ -625,21 +625,23 @@ When zoomed in, you should be able to pan (move the zoomed in screen) with typic
 1. Dragging the screen with mouse or finger pans the screen under the pointer.
 2. Arrow keys move the screen in the direction of motion of the arrow key.
 3. Mouse wheel scrolling will pan in the direction of scroll.
- 
-While zoomed in, interaction with draggable object should not pan the screen. For example, dragging a slider thumb
-should move the thumb and not the screen. However, the screen **should** pan while you drag if you attempt to drag
-the object off-screen. The only exception to this is if the object is wider or taller than the screen itself. It is
-awkward to try to keep something in view if it won't fit on screen anyway.
 
-While zoomed in, if you click and then drag on an object that is interactive but not clickable, input with that
-object should interrupt and the screen should pan under the mouse instead. While keyboard focus is on an object that
+If you try to drag an object while zoomed-in, generally the screen should not pan and the object should be dragged instead.
+However, please note that:
+  - If you drag an object with a mouse or finger:
+    - If the object is dragged off-screen, the screen should pan to keep the element in view. The only exception to this is if the element is wider or taller than the screen. In this case it doesn't make sense to keep something larger than the screen in view.
+  - If you drag an object with the keyboard:
+    - While dragging the object the screen should pan to the center of the object. This motion is too much when dragging with a mouse but is a better UX when controlling with a keyboard.
+
+While zoomed in, if you click and then drag on an object that is interactive but not *draggable*, input with that
+object should be interrupted and the screen should pan under the mouse instead. While keyboard focus is on an object that
 is not draggable, the screen should pan with arrow keys.
 
 Otherwise, all UI components should behave normally while zoomed in.
 
 If the sim supports alternative input, the sim should pan to whatever has focus during tab navigation.
 
-When switching screns, the zoom level should reset to its default zoomed out view.
+When switching screens, the zoom level should reset to its default zoomed out view.
 
 #### HTML Download Test
 
