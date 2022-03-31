@@ -1097,6 +1097,11 @@ To test the accessibility features of a simulation, follow the steps below:
 * When switching from the mouse to keyboard navigation, the focus highlights should begin at the first object in the sim and not where the interactive (mouse) highlight just was. 
 * If keyboard navigation does not seem to work on Mac Safari, it is likely that you will need to change the settings to have Full Keyboard Access.
 
+##### *Special Notes*
+Please be aware that an object may have focus while you are using your mouse. The highlight may become visible as soon
+as you interact with a keyboard. It should become invisible again when you continue to press down with a mouse or
+finger.
+
 #### Screen Readers
 
 ##### *What are screen readers?*
