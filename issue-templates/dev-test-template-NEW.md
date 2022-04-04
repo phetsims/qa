@@ -20,7 +20,7 @@ DEVELOPERS:
 
 <h3>Test Matrix</h3>
 
-Please include (non-screen reader) a11y testing in these records if applicable.
+Please include all (non-screen reader) feature testing in these records if applicable.
 
 - [ ] Latest macOS, Safari (Time = )
 - [ ] Windows 10, Chrome (Time = )
