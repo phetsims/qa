@@ -1100,9 +1100,10 @@ To test the accessibility features of a simulation, follow the steps below:
 * If keyboard navigation does not seem to work on Mac Safari, it is likely that you will need to change the settings to have Full Keyboard Access.
 
 ##### *Special Notes*
-Please be aware that an object may have focus while you are using your mouse. The highlight may become visible as soon
+* Please be aware that an object may have focus while you are using your mouse. The highlight may become visible as soon
 as you interact with a keyboard. It should become invisible again when you continue to press down with a mouse or
 finger.
+* If the sim is in full screen mode, pressing the escape key will exit full screen mode and will not trigger the simulation behavior that may have been assigned to the escape key.
 
 #### Screen Readers
 
