@@ -31,7 +31,7 @@ PhET-iO Test:
 - [ ] Tester = , Platform = , Time =
 - [ ] Tester = , Platform = , Time =
 
-Accessibility Test:
+Additional Features Test:
 
 - [ ] Tester = , Platform = , Time =
 - [ ] Tester = , Platform = , Time =
