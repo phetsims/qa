@@ -21,7 +21,9 @@ DEVELOPERS:
 
 <h3>Test Matricies</h3>
 
-Ideally test the platforms that are relevant to the research study, otherwise use this default list.
+Ideally test the platforms that are relevant to the research study, otherwise use this default list. 
+Please include all feature testing in these records if applicable.
+
 - [ ] Windows 10 + Latest Chrome (Time = )
 - [ ] Windows 10 + Latest Firefox (Time = )
 - [ ] Windows 11 + Chrome (Time = )
@@ -29,6 +31,7 @@ Ideally test the platforms that are relevant to the research study, otherwise us
 - [ ] macOS + Chrome (Time = )
 - [ ] iOS + Safari (Time = )
 - [ ] ChromeOS + Chrome (Time = )
+
 <h3>Features included</h3>
 
 - [ ] PhET-iO
