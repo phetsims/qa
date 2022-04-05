@@ -3,14 +3,14 @@
 
 DEVELOPERS: 
 
-* title for this issue = RC-Rearch Test: {{SIM}} {{VERSION}}
+* title for this issue = RC Rearch Test: {{SIM}} {{VERSION}}
 * Fill in the {{SIM}}, {{VERSION}}, and {{GITHUB_ISSUE_LINK}} placeholders.
 * Delete things that are not relevant, e.g. PhET-iO links for non-PhET-iO tests.
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
-<h1>RC-Research Test</h1>
+<h1>RC Research Test</h1>
 
 <h3>Simulation links</h3>
 
