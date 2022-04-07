@@ -630,6 +630,7 @@ If you try to drag an object while zoomed-in, generally the screen should not pa
 However, please note that:
   - If you drag an object with a mouse or finger:
     - If the object is dragged off-screen, the screen should pan to keep the element in view. The only exception to this is if the element is wider or taller than the screen. In this case it doesn't make sense to keep something larger than the screen in view.
+    - If you start a drag while the object is partially off-screen, the screen will NOT pan while pulling the object into view. If panning begins immediately it may pan in the opposite direction you are trying to drag and that feels disorienting.
   - If you drag an object with the keyboard:
     - While dragging the object the screen should pan to the center of the object. This motion is too much when dragging with a mouse but is a better UX when controlling with a keyboard.
 
