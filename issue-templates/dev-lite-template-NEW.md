@@ -14,7 +14,7 @@ DEVELOPERS:
 
 <h1>Dev-Lite Test</h1>
 
-FYI {{MENTIONS}}
+**Mentions**: {{MENTIONS}}
 
 <h3>Simulation links</h3>
 
