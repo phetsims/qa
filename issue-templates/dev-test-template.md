@@ -1,31 +1,103 @@
 <!---
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~ PhET Development Test Template ~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DEVELOPERS: 
 
-Notes and Instructions for Developers:
-  1. Comments indicate whether something can be omitted or edited.
-  2. Please check the comments before trying to omit or edit something.
-  3. Please don't rearrange the sections.
+* title for this issue = Dev Test: {{SIM}} {{VERSION}}
+* replace {{MENTIONS}} with @mentions for team members who should received GitHub notifications about this issue
+* Fill in the {{SIM}}, {{VERSION}}, and {{GITHUB_ISSUE_LINK}} placeholders.
+* Delete things that are not relevant, e.g. PhET-iO links for non-PhET-iO tests.
+* assign the issue to @KatieWoe and @kathy-phet
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
-@relevantPerson1, @relevantPerson2, simulation-name/#.#.#-dev.# is ready for dev testing. [List deadlines and whether
-this will be shared with a client.] Document issues in https://github.com/phetsims/{{REPO}}/issues and link to this
-issue. [If the test is delayed until QA is more open, state that here.]
+<h1>Dev Test</h1>
 
-Assigning @kathy-phet and @KatieWoe for prioritization.
+**Mentions**: {{MENTIONS}}
 
+<h3>Simulation links</h3>
+
+- [github repository for issues](https://github.com/phetsims/{{SIM}}/issues)
+- [phet top level directory](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}})
+- [sim: all_phet.html](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet/{{SIM}}_all_phet.html)
+- [phet-io wrapper index](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet-io)
+
+<h3>Test Matrix</h3>
+
+Please include all (non-screen reader) feature testing in these records if applicable.
+
+- [ ] Latest macOS, Safari (Time = )
+- [ ] Windows 10, Chrome (Time = )
+- [ ] Windows 10, Firefox (Time = )
+- [ ] Latest iOS, Safari (Time = )
+- [ ] Windows 11, Chrome (Time = )
+
+Light testing, or optionally skip if time crunch:
+
+- [ ] Latest macOS, Chrome (Time = )
+- [ ] Latest Chrome OS, Chrome (Time = )
+
+If PhET-iO is being tested:
+
+- [ ] Latest macOS, Safari (Time = )
+- [ ] Windows 10, Chrome (Time = )
+- [ ] Windows 10, Firefox (Time = )
+- [ ] Latest iOS, Safari (Time = )
+- [ ] Windows 11, Chrome (Time = )
+
+If screen readers are being tested:
+
+- [ ] Win 10/11 Chrome + Jaws (Time = )
+- [ ] Win 10/11 Firefox + NVDA (Time = )
+- [ ] MacOS Safari + VO (Time = )
+- [ ] iPadOS Mobile VO (Time = )
+
+<h3>Features included</h3>
+
+- [ ] PhET-iO
+- [ ] Alternative Input
+- [ ] UI Sound
+- [ ] Sonification
+- [ ] Description
+- [ ] Voicing
+
+<h3>Focus and Special Instructions</h3>
+
+<!---
+Things to include here:
+* purpose/focus of the test
+* milestones
+* specific things to test
+* specific platforms to test
+* instructions for any non-standard tests
+* If you want PhET-iO diff wrapper tested against a prior version, provide details and link to prior version.
+-->
+
+<h3>Issues to Verify</h3>
+
+These issues should have the "status:ready-for-review" label. Unless an issue says to close after verifying, assign the
+issue back to the developer.
+
+- [ ] {{GITHUB_ISSUE_LINK}}
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Section 1: General Dev Testing [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED]
+// QA only below here
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+---
+<h2>For QA...</h2>
+
+<!---
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// General features
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
 <details>
-<summary><b>General Dev Test</b></summary>
+<summary><b>General features</b></summary>
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>What to Test</h3>
@@ -40,55 +112,18 @@ Assigning @kathy-phet and @KatieWoe for prioritization.
 - Run through the string tests on at least one platform, especially if it is about to go to rc.
 - Check the Game Up harness on one platform.
 
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Focus and Special Instructions</h3>
-
-[Provide further instructions here. If you have any further tests you want done or specific platforms you want tested,
-list them here. Any behaviors you want QA to pay special attention to should be listed here.]
-
-<!--- [DO NOT OMIT, CAN BE EDITED] -->
-<h3>General Dev Test Platforms</h3>
-  
-  Please include (non-screen reader) a11y testing in these records if applicable.
-
-- [ ] Latest macOS, Safari (Time = )
-- [ ] Windows 10, Chrome (Time = )
-- [ ] Windows 10, Firefox (Time = )
-- [ ] Latest iOS, Safari (Time = )
-- [ ] Windows 11, Chrome (Time = )
-
-Light testing, or optionally skip if time crunch: 
-- [ ] Latest macOS, Chrome (Time = )
-- [ ] Latest Chrome OS, Chrome (Time = )
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Issues to Verify</h3>
-
-- [ ] [Issue1](link)
-- [ ] [Issue2](link)
-- [ ] [Issue3](link)
-
-These issues should have either use the labels "status:ready-for-qa" or "status:ready-for-review." If it is ready for
-QA then close the issue if fixed. If ready for review then leave open and assign back to the developer.
-
-<!--- [DO NOT OMIT, CAN BE EDITED] -->
-<h3>Link(s)</h3>
-
-- **[Simulation](all_phet_link)**
-
 <hr>
 
 </details>
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Section 2: PhET-iO Dev Test [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED]
+// PhET-iO RC features
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
 <details>
-<summary><b>PhET-iO Dev Test</b></summary>
+<summary><b>PhET-iO features</b></summary>
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>What to Test</h3>
@@ -100,39 +135,7 @@ QA then close the issue if fixed. If ready for review then leave open and assign
 - Make sure each wrapper is working properly.
 - Launch the simulation in Studio with ?stringTest=xss and make sure the sim doesn't navigate to youtube
 - For newer PhET-iO wrapper indices, save the "basic example of a functional wrapper" as a .html file and open it. Make
-sure the simulation loads without crashing or throwing errors.
-
-<!--- [DO NOT OMIT, CAN BE EDITED] -->
-<h3>General Dev Test Platforms</h3>
-
-- [ ] Latest macOS, Safari (Time = )
-- [ ] Latest iOS, Safari (Time = )
-- [ ] Windows 10, Chrome (Time = )
-- [ ] Windows 10, Firefox (Time = )
-- [ ] Windows 11, Chrome (Time = )
-- [ ] Latest Chrome OS, Chrome (Time = )
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Focus and Special Instructions</h3>
-
-[Provide further instructions here. If you have any further tests you want done or specific platforms you want tested,
-list them here. Any behaviors you want QA to pay special attention to should be listed here. This includes if any substantial, 
-untested work has been implemented in PhET-iO wrappers or in the PhET-iO Engine since last PhET-iO test.]
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Issues to Verify</h3>
-
-- [ ] [Issue1](link)
-- [ ] [Issue2](link)
-- [ ] [Issue3](link)
-
-These issues should have either use the labels "status:ready-for-qa" or "status:ready-for-review." If it is ready for QA
-then close the issue if fixed. If ready for review then leave open and assign back to the developer.
-
-<!--- [DO NOT OMIT, CAN BE EDITED] -->
-<h3>Link(s)</h3>
-
-- **[Wrapper Index](link)**
+  sure the simulation loads without crashing or throwing errors.
 
 <hr>
 
@@ -140,65 +143,48 @@ then close the issue if fixed. If ready for review then leave open and assign ba
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Section 3: For Accessibility (a11y) Dev Test [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED]
+// Accessibility features
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
 <details>
-<summary><b>Accessibility (a11y) Dev Test</b></summary>
+<summary><b>Accessibility features</b></summary>
 
 <!--- [DO NOT OMIT, CAN BE EDITED] -->
 <h3>What to Test</h3>
 
-- Specific instructions can be found below. Please include time in the general section and check those off when a11y testing has also been done.
-- Make sure the accessibility-related feature that is being tested doesn't negatively affect the sim in any way. Here is a list of features to supported in this test: <!--- PRUNE THIS LIST AS APPROPRIATE -->
+- Specific instructions can be found above.
+- Make sure the accessibility (a11y) feature that is being tested doesn't negatively affect the sim in any way. Here is
+  a list of features that may be supported in this test:
+
   - Alternative Input
   - Interactive Description
   - Sound and Sonification
   - Pan and Zoom
   - Mobile Description
   - Voicing
-  - Load the a11y view and make sure that interacting with all elements in the simulation updates the appropriate descriptions in the PDOM.
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Focus and Special Instructions</h3>
-
-[Provide further instructions here. If you have any further tests you want done or specific platforms you want tested,
-list them here. Any behaviors you want QA to pay special attention to should be listed here.]
-
-<!--- [CAN BE OMITTED, SHOULD BE EDITED IF NOT OMITTED] -->
-<h3>Issues to Verify</h3>
-
-- [ ] [Issue1](link)
-- [ ] [Issue2](link)
-- [ ] [Issue3](link)
-
-These issues should have either use the labels "status:ready-for-qa" or "status:ready-for-review." If it is ready for
-QA then close the issue if fixed. If ready for review then leave open and assign back to the developer.
-
-<!--- [DO NOT OMIT, SHOULD BE EDITED] -->
-<h3>Link(s)</h3>
-
-- **[a11y View](link)**
-- **[Simulation](all_phet_link)**
+- Test all possible forms of input.
+  - Test all mouse/trackpad inputs.
+  - Test all touchscreen inputs.
+  - Test all keyboard navigation inputs (if applicable).
+  - Test all forms of input with a screen reader (if applicable).
 
 <!--- [CAN BE OMITTED, DO NOT EDIT] -->
 <h3>Screen Readers</h3>
 
-This sim supports screen readers. If you are unfamiliar with screen readers, please ask Katie to introduce you to screen
-readers. If you simply need a refresher on screen readers, please consult the
-[QA Book](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md), which should have all of
-the information you need as well as a link to a screen reader tutorial made by Jesse. Otherwise, look over the a11y view
-before opening the simulation. Once you've done that, open the simulation and make sure alerts and descriptions work as
-intended.
+This sim may support screen readers. If you are unfamiliar with screen readers, please ask Katie to introduce you to
+screen readers. If you simply need a refresher on screen readers, please consult the
+[QA Book](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md), which should have all of the information
+you need as well as a link to a screen reader tutorial made by Jesse. Otherwise, look over the a11y view before opening
+the simulation. Once you've done that, open the simulation and make sure alerts and descriptions work as intended.
 
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Platforms and Screen Readers to Be Tested</h3>
 
-- [ ] Windows 10 + Latest Chrome + Latest JAWS (Time = )
-- [ ] Windows 10 + Latest Firefox + Latest NVDA (Time = )
-- [ ] macOS + Safari + VoiceOver (Time = )
-- [ ] iOS + Safari + VoiceOver (May or may not be supported) (Time = )
+- Windows 10 + Latest Chrome + Latest JAWS
+- Windows 10 + Latest Firefox + Latest NVDA
+- macOS + Safari + VoiceOver
+- iOS + Safari + VoiceOver (only if specified in testing issue)
 
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Critical Screen Reader Information</h3>
@@ -219,19 +205,13 @@ This sim supports magnification with pinch and drag gestures on touch screens, k
 it is working as intended and well with the use cases of the simulation. Due to the way screen readers handle user input, magnification is NOT expected to
 work while using a screen reader so there is no need to test this case.
 
-<h3>Final Requests</h3>
-
-- [ ] If this sim is being tested for a11y we may want to do some testing on Talkback to check on latest behavior of
-that screen reader. Please comment in the issue asking if Talkback should be tested. See
-https://github.com/phetsims/a11y-research/issues/144.
-
 <hr>
 
 </details>
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Section 4: FAQs for QA Members [DO NOT OMIT, DO NOT EDIT]
+// FAQs for QA Members [DO NOT OMIT, DO NOT EDIT]
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
@@ -243,9 +223,9 @@ https://github.com/phetsims/a11y-research/issues/144.
   <!--- [DO NOT OMIT, DO NOT EDIT] -->
 
   <details>
-  <summary><i>There are multiple tests in this issue... Which test should I do first?</i></summary>
+  <summary><i>There are multiple tests in this issue... Which test should I do first?</i></summary> 
 
-  Test in order! Test the first thing first, the second thing second, and so on.
+Test in order! Test the first thing first, the second thing second, and so on.
 
   </details>
 
@@ -256,7 +236,7 @@ https://github.com/phetsims/a11y-research/issues/144.
   <details>
   <summary><i>How should I format my issue?</i></summary>
 
-  Here's a template for making issues:
+Here's a template for making issues:
 
       <b>Test Device</b>
 
@@ -298,7 +278,7 @@ https://github.com/phetsims/a11y-research/issues/144.
   <details>
   <summary><i>Who should I assign?</i></summary>
 
-  We typically assign the developer who opened the issue in the QA repository.
+We typically assign the developer who opened the issue in the QA repository.
 
   </details>
 
@@ -309,14 +289,14 @@ https://github.com/phetsims/a11y-research/issues/144.
   <details>
   <summary><i>My question isn't in here... What should I do?</i></summary>
 
-  You should:
+You should:
 
-  1. Consult the [QA Book](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md).
-  2. Google it.
-  3. Ask Katie.
-  4. Ask a developer.
-  5. Google it again.
-  6. Cry.
+1. Consult the [QA Book](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md).
+2. Google it.
+3. Ask Katie.
+4. Ask a developer.
+5. Google it again.
+6. Cry.
 
   </details>
 
