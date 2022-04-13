@@ -100,6 +100,7 @@ issue back to the developer.
 - Try to include version numbers for browsers.
 - If there is a console available, check for errors and include them in the Problem Description.
 - As an RC begins and ends, check the sim repo. If there is a maintenance issue, check it and notify developers if there is a problem.
+- As the RC ends, notify the developer of any new QA credits that need to be added.
 
 <hr>
 
