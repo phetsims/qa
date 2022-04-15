@@ -3,9 +3,9 @@
 
 DEVELOPERS: 
 
-* title for this issue = Dev Test: {{SIM}} {{VERSION}}
+* title for this issue = Dev Test: {{SIM_TITLE}} {{VERSION}}
 * replace {{MENTIONS}} with @mentions for team members who should received GitHub notifications about this issue
-* Fill in the {{SIM}}, {{VERSION}}, and {{GITHUB_ISSUE_LINK}} placeholders.
+* Fill in the {{REPO}}, {{VERSION}}, and {{GITHUB_ISSUE_LINK}} placeholders.
 * Delete things that are not relevant, e.g. PhET-iO links for non-PhET-iO tests.
 * assign the issue to @KatieWoe and @kathy-phet
 
@@ -18,10 +18,10 @@ DEVELOPERS:
 
 <h3>Simulation links</h3>
 
-- [github repository for issues](https://github.com/phetsims/{{SIM}}/issues)
-- [phet top level directory](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}})
-- [sim: all_phet.html](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet/{{SIM}}_all_phet.html)
-- [phet-io wrapper index](https://phet-dev.colorado.edu/html/{{SIM}}/{{VERSION}}/phet-io)
+- [github repository for issues](https://github.com/phetsims/{{REPO}}/issues)
+- [phet top level directory](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}})
+- [sim: all_phet.html](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet/{{REPO}}_all_phet.html)
+- [phet-io wrapper index](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet-io)
 
 <h3>Test Matrix</h3>
 
