@@ -3,9 +3,9 @@
 
 DEVELOPERS: 
 
-* title for this issue = Dev-Lite Test: {{SIM}} {{VERSION}}
+* title for this issue = Dev-Lite Test: {{SIM_TITLE}} {{VERSION}}
 * replace {{MENTIONS}} with @mentions for team members who should received GitHub notifications about this issue
-* Fill in the {{SIM}}, {{VERSION}}, and {{GITHUB_ISSUE_LINK}} placeholders.
+* Fill in the {{REPO}}, {{VERSION}}, and {{GITHUB_ISSUE_LINK}} placeholders.
 * Delete things that are not relevant, e.g. PhET-iO links for non-PhET-iO tests.
 * assign the issue to @KatieWoe and @kathy-phet
 
