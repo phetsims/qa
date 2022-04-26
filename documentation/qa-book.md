@@ -982,7 +982,7 @@ Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show 
 *Approximate Time:* 30-60 minutes  
 
 *What?*  
-* This is a wrapper that contains a simulation, a mirror of the simulation that is updated once every given amount of time (which is determined by a slider). The slider can also be set to 0 and the state set with a particular button. The bottom sim will interact and play forward until the next state update, at which point it should match the top sim and this behavior repeats. There is also a condensed list of instrumented characteristics. This maps well to how the state is done in Studio.  
+* This is a wrapper that contains a simulation, a mirror of the simulation that is updated once every given amount of time (which is determined by a slider). The slider can also be set to 0 and the state set with a particular button. The bottom sim will interact and play forward until the next state update, at which point it should match the top sim and this behavior repeats. There is also a condensed list of instrumented characteristics. This maps well to how the state is done in Studio. On iPad make sure the "set state rate" is only ever 0 or >3000, this will help prevent lag.
 
 **_There are 2 columns in the test matrix for this wrapper_**  
 
