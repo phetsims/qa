@@ -6,7 +6,6 @@ find this obscure corner of GitHub, and (3) feel free to read on and learn how w
 everything you need to know to test PhET simulations is in this book.
 
 ![Cover Comic](https://github.com/phetsims/QA/blob/master/documentation/images/cover-comic.jpg "Funny Comic")
-
 Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
 [humorous comic](https://www.monkeyuser.com/2018/the-struggle/) that Megan "PhETified."
 
@@ -851,6 +850,8 @@ This test is done continuously and in conjunction with Column 2.
 *How?* 
 * To test this wrapper, make sure instrumented characteristics can be modified and make sure characteristics that haven’t been instrumented can’t be modified.
 * Make sure the UI functions as expected. 
+* Note that a certain subset of PhET-iO elements are "PhET-iO Featured" and the studio tree can be filtered to show only these elements.
+* Use the "autoselect" feature by hovering over instrumented elements while holding `Opt/Alt`. This should select the hovered element in the Studio tree. You can also select the linked/model element with `Ctrl`. If doing this while filtering on PhET-iO featured, unfeatured elements won't be selected. Please note weirdness here as these two parts of studio intersect. 
 
 *Column 3 says:* ?phetioDebug  
 *How?*  
