@@ -550,7 +550,7 @@ To do the query parameters test, append the URL with the following query paramet
 * `?dev`: shows bounds of the sim
 * `?colorProfile=projector`: starts sim in projector mode if available
 * `?a11y`: activates any a11y features that are available but not visible
-* `?phetioDebug`: adds and checks for assertions in PhET-iO sims
+* `?phetioDebug=true`: adds and checks for assertions in PhET-iO sims
 
 ##### Private Query Parameters
 
@@ -853,10 +853,10 @@ This test is done continuously and in conjunction with Column 2.
 * Note that a certain subset of PhET-iO elements are "PhET-iO Featured" and the studio tree can be filtered to show only these elements.
 * Use the "autoselect" feature by hovering over instrumented elements while holding `Opt/Alt`. This should select the hovered element in the Studio tree. You can also select the linked/model element with `Ctrl`. If doing this while filtering on PhET-iO featured, unfeatured elements won't be selected. Please note weirdness here as these two parts of studio intersect. 
 
-*Column 3 says:* ?phetioDebug  
+*Column 3 says:* ?phetioDebug=true  
 *How?*  
 On one random platform combination: 
- 1. Add the `?phetioDebug` query parameter.
+ 1. Add the `?phetioDebug=true` query parameter.
  2. Open the console.
  3. Manipulate the sim and see if any errors come up.
  4. Hit "Preview Sim" button.
@@ -999,10 +999,10 @@ Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show 
 | Uncheck the “Upstream Active” button. | You shouldn’t be able to manipulate anything in the upstream sim, but you can now manipulate items in the downstream sim. |
 | Press the “Launch” button at the bottom of the wrapper. | It should load a version of the sim starting in the current state of the upstream sim (similar to launching in Studio wrapper). |
 
-*Column 2 says:* State ?phetioDebug  
+*Column 2 says:* State ?phetioDebug=true  
 *How?*  
 On one random platform combination: 
- 1. Add the `?phetioDebug` query parameter.
+ 1. Add the `?phetioDebug=true` query parameter.
  2. Open the console.
  3. Play with the upstream sim and see if any errors come up.
 

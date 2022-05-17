@@ -134,7 +134,7 @@ spreadsheet and notify AR or AM if it not there.
   Further instructions in QA Book
 - Conduct a recording test to Metacog, further instructions in the QA Book. Do this for iPadOS + Safari and one other random platform.
 - Conduct a memory test on the stand alone sim wrapper (rc.1).
-- Test one platform combination with `?phetioDebug` on the Studio and State wrapper.
+- Test one platform combination with `?phetioDebug=true` on the Studio and State wrapper.
 - If Pan/Zoom is supported, make sure that it works when set with PhET-iO State.
 - Test that the sim works offline:
   * Click the link to the phet-io zip file (at top of issue) to download the zip file.
