@@ -101,11 +101,8 @@ Testing this use case is very similar to testing a play store update (see above)
 </details>
 
 
-<details>
-  
-<summary>
-<h2>Common Procedures</h2>
-</summary>
+## Common Procedures
+
 
 <details>
 <summary>
@@ -149,5 +146,3 @@ This should allow you to instantly switch to your selected track for your Play S
 8. Verify that the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering an upgrade to the latest version and click Upgrade.
 9. Open the app again and conduct upgrade specific testing.
 </details> 
-
-</details>
