@@ -21,7 +21,7 @@
 
 Only necessary if the test includes user interface features.
 
-- [ ] Android Phone, landscape and portrait (Time = )
+- [ ] Android Phone or Tablet, landscape and portrait (Time = )
 - [ ] Chromebook, touchscreen (Time = )
 - [ ] Chromebook, no touchscreen (Time = )
 
