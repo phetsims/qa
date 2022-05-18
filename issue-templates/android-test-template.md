@@ -3,7 +3,8 @@
 ## Links and dates
 
 - Sim-cache Build Date: {{ App Developer provides this info }}
-- Sim release for testing the update system: {{ App Developer provides this info }}
+- Sim release for testing the online update system: {{ App Developer provides this info }}
+- Sim release for testing the offline update system: {{ App Developer provides this info }}
 - App Previous Version: {{ App Developer provides this info }}
 - App Test Version: {{ App Developer provides this info }}
 - Play Store: https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp
@@ -26,7 +27,7 @@ Only necessary if the test includes user interface features.
 
 ## Specific Test Cases
 
-{{ Provide details on what has changed and needs testing. }}
+{{ The App Developer provides details on what has changed and needs testing. }}
 
 
 ## Simulation Update Test Cases
