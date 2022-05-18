@@ -41,9 +41,9 @@ These should be tested for every update.
 <h3>New releases are fetched.</h3>
 </summary>
 
-1. Follow the steps for Testing an initial Play Store installation
+1. Follow the steps for <a href="#testing-an-initial-play-store-installation">Testing an initial Play Store installation</a>
 2. Open the app, making sure that internet access is enabled on the device.
-3. Within 2 hours, the app should have the new sim release identified in <a href="#links-and-dates">Links and dates</a>.
+3. Within 2 hours, the app should have the *Sim release for testing the online update system* in <a href="#links-and-dates">Links and dates</a>.
 </details>
 
 
@@ -53,7 +53,7 @@ These should be tested for every update.
 </summary>
 
 1. Switch the device to a non-English locale - preferably a language that uses upper/lower case
-2. Follow the steps for Testing an initial Play Store installation
+2. Follow the steps for <a href="#testing-an-initial-play-store-installation">Testing an initial Play Store installation</a>
 3. Open the app, making sure that internet access is enabled on the device.
 4. Identify a word that can change from upper to lower case and publish a translation with rosetta.
 5. Wait 24 hours at least.
@@ -67,7 +67,7 @@ These should be tested for every update.
 </summary>
 
 1. Switch the device to the English locale.
-2. Follow the steps for Testing an initial Play Store installation
+2. Follow the steps for <a href="#testing-an-initial-play-store-installation">Testing an initial Play Store installation</a>.
 3. Open the app, making sure that internet access is enabled on the device.
 4. Identify a word that can change from upper to lower case and publish a translation with rosetta.
 5. Wait 24 hours at least, DO NOT open the app during this period.
@@ -88,17 +88,17 @@ Testing this use case is very similar to testing a play store update (see above)
 
 1. Uninstall the PhET Android App.
 2. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the google account you use on the Play Store. If there is a button called "Leave Program" then click it.
-3. Clear the Play Store cache.
-4. Verify the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering the old previous version of the app install it.
+3. <a href="#clear-the-play-store-cache">Clear the Play Store cache</a>.
+4. Verify the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering the <a href="#links-and-dates">previous version</a> of the app install it.
 5. Put the device in airplane mode.
 6. Open the app (important!).
 7. Force stop the app.
 8. Take the device out of airplane mode.
 9. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the google account you use on the Play Store. Click Accept Invite.
 10. Clear the Play Store cache.
-11. Verify that the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering an upgrade to the latest version and click Upgrade.
+11. Verify that the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering an *upgrade* (not installation) to the <a href="#links-and-dates">latest version</a> and click Upgrade.
 12. Put the device in airplane mode.
-13. Open the app again, it should have the sim identified in <a href="#links-and-dates">Links and dates</a>.
+13. Open the app again, it should have the *Sim release for testing the offline update system* in <a href="#links-and-dates">Links and dates</a>.
 </details>
 
 
@@ -127,7 +127,7 @@ This should allow you to instantly switch to your selected track for your Play S
 
 1. Uninstall the PhET Android App.
 2. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the Google account you use on the Play Store. If there is a button called "Accept Invite" then click it.
-3. Clear the Play Store cache.
+3. <a href="#clear-the-play-store-cache">Clear the Play Store cache</a>.
 4. Visit the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) and verify that it is offering the latest version, then click Install.
 </details>
 
@@ -139,11 +139,11 @@ This should allow you to instantly switch to your selected track for your Play S
 
 1. Uninstall the PhET Android App.
 2. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the google account you use on the Play Store. If there is a button called "Leave Program" then click it.
-3. Clear the Play Store cache.
+3. <a href="#clear-the-play-store-cache">Clear the Play Store cache</a>.
 4. Verify the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering the old previous version of the app install it.
 5. Open the app (important!).
 6. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the google account you use on the Play Store. Click Accept Invite.
-7. Clear the Play Store cache.
+7. <a href="#clear-the-play-store-cache">Clear the Play Store cache</a>.
 8. Verify that the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering an upgrade to the latest version and click Upgrade.
 9. Open the app again and conduct upgrade specific testing.
 </details> 
