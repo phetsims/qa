@@ -102,9 +102,12 @@ This should allow you to instantly switch to your selected track for your Play S
 
 <details>
 <summary>
-<h3>If the sim is never opened when internet access is present, a Play Store update will cause the app to use the cached sims.</h3>
+<h3>A Play Store update triggers simulation updates in offline contexts</h3>
 </summary>
-This is very similar to testing a play store update (see above), except whenever the app is open the device should be in airplane mode.
+
+One use case for our app is offline use.  The typical story here is a rural school with no internet access in the class room.  An IT support person regularly takes a teacher's classroom devices somewhere there is internet and runs play store updates, without running the PhET App itself.  In this situation the app is only opened in the absence of an internet connection, so the online sim update system never has a chance to work.  Thus, when a Play Store update happens, the app should use the sims packaged with the app.
+  
+Testing this use case is very similar to testing a play store update (see above), except whenever the app is open the device should be in airplane mode.
 
 1. Uninstall the PhET Android App.
 2. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the google account you use on the Play Store. If there is a button called "Leave Program" then click it.
