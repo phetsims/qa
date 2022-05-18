@@ -3,11 +3,10 @@
 ## Links and dates
 
 Sim-cache Build Date:
-
+Sim release for testing the update system:
 App Previous Version:
-
+App Test Version:
 Play Store: https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp
-
 Internal Test Page: https://play.google.com/apps/internaltest/4697762600441754675/
 
 ## Common Procedures
@@ -56,6 +55,8 @@ This should allow you to instantly switch to your selected track for your Play S
 </details> 
 
 ## Simulation Update Use Cases
+
+These should be tested for every update.
 
 
 <details>
@@ -123,3 +124,18 @@ Testing this use case is very similar to testing a play store update (see above)
 12. Put the device in airplane mode.
 13. Open the app again, it should have the sims that are available in the sim-cache.
 </details>
+
+## OS versions to test
+
+- [ ] Latest Android, Version 12 (Time = )
+- [ ] Earliest Android, 5.0 Lollipop (Time = )
+    - test the earliest version for the devices we have available, note the version you test
+- [ ] Chrome OS, Latest (Time = )
+
+## Form Factors to test
+
+Only necessary if the test includes user interface features.
+
+- [ ] Android Phone (Time = )
+- [ ] Chromebook, touchscreen (Time = )
+- [ ] Chromebook, no touchscreen (Time = )
