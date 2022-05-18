@@ -12,9 +12,10 @@
 
 ## OS versions to test
 
-- [ ] Latest Android, Version 12 (Time = )
-- [ ] Earliest Android, 5.0 Lollipop (Time = )
-    - test the earliest version for the devices we have available, note the version you test
+For Android, test the earliest and latest versions of the OS that are in the QA arsenal, and not the version you test if it is different from the one mentioned.
+
+- [ ] Latest Android, Version 12 (Time = ) (Actual Version tested = )
+- [ ] Earliest Android, 5.0 Lollipop (Time = ) (Actual Version tested = )
 - [ ] Chrome OS, Latest (Time = )
 
 ## Form Factors to test
