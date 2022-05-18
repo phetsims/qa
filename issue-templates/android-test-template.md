@@ -2,59 +2,34 @@
 
 ## Links and dates
 
-- Sim-cache Build Date:
-- Sim release for testing the update system:
-- App Previous Version:
-- App Test Version:
+- Sim-cache Build Date: {{ App Developer provides this info }}
+- Sim release for testing the update system: {{ App Developer provides this info }}
+- App Previous Version: {{ App Developer provides this info }}
+- App Test Version: {{ App Developer provides this info }}
 - Play Store: https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp
 - Internal Test Page: https://play.google.com/apps/internaltest/4697762600441754675/
 
-## Common Procedures
+## OS versions to test
 
-<details>
-<summary>
-<h3>Clear the Play Store cache</h3>
-</summary>
+- [ ] Latest Android, Version 12 (Time = )
+- [ ] Earliest Android, 5.0 Lollipop (Time = )
+    - test the earliest version for the devices we have available, note the version you test
+- [ ] Chrome OS, Latest (Time = )
 
-This should allow you to instantly switch to your selected track for your Play Store user.
+## Form Factors to test
 
-1. On your Android device go to Settings > Apps > Google Play Store. (Shortcut: long tap on the play store and click App Info)
-2. Click Force Stop.
-3. Click Storage and click Clear Cache (no need to click Clear Data)
-4. Open https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp in the Play Store on your device.
-</details>
+Only necessary if the test includes user interface features.
 
+- [ ] Android Phone, landscape and portrait (Time = )
+- [ ] Chromebook, touchscreen (Time = )
+- [ ] Chromebook, no touchscreen (Time = )
 
+## Specific Test Cases
 
-<details>
-<summary>
-<h3>Testing an initial Play Store installation</h3>
-</summary>
-
-1. Uninstall the PhET Android App.
-2. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the Google account you use on the Play Store. If there is a button called "Accept Invite" then click it.
-3. Clear the Play Store cache.
-4. Visit the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) and verify that it is offering the latest version, then click Install.
-</details>
+{{ Provide details on what has changed and needs testing. }}
 
 
-<details>
-<summary>
-<h3>Testing a Play Store Update</h3>
-</summary>
-
-1. Uninstall the PhET Android App.
-2. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the google account you use on the Play Store. If there is a button called "Leave Program" then click it.
-3. Clear the Play Store cache.
-4. Verify the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering the old previous version of the app install it.
-5. Open the app (important!).
-6. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the google account you use on the Play Store. Click Accept Invite.
-7. Clear the Play Store cache.
-8. Verify that the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering an upgrade to the latest version and click Upgrade.
-9. Open the app again and conduct upgrade specific testing.
-</details> 
-
-## Simulation Update Use Cases
+## Simulation Update Test Cases
 
 These should be tested for every update.
 
@@ -125,17 +100,54 @@ Testing this use case is very similar to testing a play store update (see above)
 13. Open the app again, it should have the sims that are available in the sim-cache.
 </details>
 
-## OS versions to test
 
-- [ ] Latest Android, Version 12 (Time = )
-- [ ] Earliest Android, 5.0 Lollipop (Time = )
-    - test the earliest version for the devices we have available, note the version you test
-- [ ] Chrome OS, Latest (Time = )
+<details>
+  
+<summary>
+<h2>Common Procedures</h2>
+</summary>
 
-## Form Factors to test
+<details>
+<summary>
+<h3>Clear the Play Store cache</h3>
+</summary>
 
-Only necessary if the test includes user interface features.
+This should allow you to instantly switch to your selected track for your Play Store user.
 
-- [ ] Android Phone, landscape and portrait (Time = )
-- [ ] Chromebook, touchscreen (Time = )
-- [ ] Chromebook, no touchscreen (Time = )
+1. On your Android device go to Settings > Apps > Google Play Store. (Shortcut: long tap on the play store and click App Info)
+2. Click Force Stop.
+3. Click Storage and click Clear Cache (no need to click Clear Data)
+4. Open https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp in the Play Store on your device.
+</details>
+
+
+
+<details>
+<summary>
+<h3>Testing an initial Play Store installation</h3>
+</summary>
+
+1. Uninstall the PhET Android App.
+2. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the Google account you use on the Play Store. If there is a button called "Accept Invite" then click it.
+3. Clear the Play Store cache.
+4. Visit the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) and verify that it is offering the latest version, then click Install.
+</details>
+
+
+<details>
+<summary>
+<h3>Testing a Play Store Update</h3>
+</summary>
+
+1. Uninstall the PhET Android App.
+2. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the google account you use on the Play Store. If there is a button called "Leave Program" then click it.
+3. Clear the Play Store cache.
+4. Verify the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering the old previous version of the app install it.
+5. Open the app (important!).
+6. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the google account you use on the Play Store. Click Accept Invite.
+7. Clear the Play Store cache.
+8. Verify that the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering an upgrade to the latest version and click Upgrade.
+9. Open the app again and conduct upgrade specific testing.
+</details> 
+
+</details>
