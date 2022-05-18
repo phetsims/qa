@@ -136,6 +136,6 @@ Testing this use case is very similar to testing a play store update (see above)
 
 Only necessary if the test includes user interface features.
 
-- [ ] Android Phone (Time = )
+- [ ] Android Phone, landscape and portrait (Time = )
 - [ ] Chromebook, touchscreen (Time = )
 - [ ] Chromebook, no touchscreen (Time = )
