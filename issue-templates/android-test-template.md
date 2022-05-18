@@ -41,10 +41,9 @@ These should be tested for every update.
 <h3>New releases are fetched.</h3>
 </summary>
 
-1. Identify a sim release that occurred after the last sim-cache build date.
-2. Follow the steps for Testing an initial Play Store installation
-3. Open the app, making sure that internet access is enabled on the device.
-4. Within 2 hours, the app should have the new sim release identified in step 1.
+1. Follow the steps for Testing an initial Play Store installation
+2. Open the app, making sure that internet access is enabled on the device.
+3. Within 2 hours, the app should have the new sim release identified in (Links and Dates)[#Links_and_Dates].
 </details>
 
 
