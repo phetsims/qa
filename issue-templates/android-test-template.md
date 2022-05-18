@@ -95,7 +95,7 @@ Testing this use case is very similar to testing a play store update (see above)
 8. Take the device out of airplane mode.
 9. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the google account you use on the Play Store. Click Accept Invite.
 10. Clear the Play Store cache.
-11. Verify that the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering an *upgrade* (not installation) to the <a href="#links-and-dates">latest version</a> and click Upgrade.
+11. Verify that the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering an *upgrade* (not installation) to the <a href="#links-and-dates">test version</a> and click Upgrade.
 12. Put the device in airplane mode.
 13. Open the app again, it should have the *Sim release for testing the offline update system* in <a href="#links-and-dates">Links and dates</a>.
 </details>
@@ -127,7 +127,7 @@ This should allow you to instantly switch to your selected track for your Play S
 1. Uninstall the PhET Android App.
 2. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the Google account you use on the Play Store. If there is a button called "Accept Invite" then click it.
 3. <a href="#clear-the-play-store-cache">Clear the Play Store cache</a>.
-4. Visit the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) and verify that it is offering the latest version, then click Install.
+4. Visit the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) and verify that it is offering the <a href="#links-and-dates">test version</a>, then click Install.
 </details>
 
 
@@ -139,10 +139,10 @@ This should allow you to instantly switch to your selected track for your Play S
 1. Uninstall the PhET Android App.
 2. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the google account you use on the Play Store. If there is a button called "Leave Program" then click it.
 3. <a href="#clear-the-play-store-cache">Clear the Play Store cache</a>.
-4. Verify the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering the old previous version of the app install it.
+4. Verify the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering the <a href="#links-and-dates">previous version</a> of the app install it.
 5. Open the app (important!).
 6. Visit https://play.google.com/apps/internaltest/4697762600441754675/ and switch to the google account you use on the Play Store. Click Accept Invite.
 7. <a href="#clear-the-play-store-cache">Clear the Play Store cache</a>.
-8. Verify that the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering an upgrade to the latest version and click Upgrade.
+8. Verify that the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering an upgrade to the <a href="#links-and-dates">test version</a> and click Upgrade.
 9. Open the app again and conduct upgrade specific testing.
 </details> 
