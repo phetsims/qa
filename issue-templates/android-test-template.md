@@ -12,7 +12,7 @@
 
 ## OS versions to test
 
-For Android, test the earliest and latest versions of the OS that are in the QA arsenal, and not the version you test if it is different from the one mentioned.
+For Android, test the earliest and latest versions of the OS that are in the QA arsenal, and make a note of the version you test if it is different from the one mentioned.
 
 - [ ] Latest Android, Version 12 (Time = ) (Actual Version tested = )
 - [ ] Earliest Android, 5.0 Lollipop (Time = ) (Actual Version tested = )
