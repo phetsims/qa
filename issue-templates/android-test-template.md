@@ -43,7 +43,7 @@ These should be tested for every update.
 
 1. Follow the steps for Testing an initial Play Store installation
 2. Open the app, making sure that internet access is enabled on the device.
-3. Within 2 hours, the app should have the new sim release identified in (Links and Dates)[#Links_and_Dates].
+3. Within 2 hours, the app should have the new sim release identified in <a href="#links-and-dates">Links and dates</a>.
 </details>
 
 
@@ -98,7 +98,7 @@ Testing this use case is very similar to testing a play store update (see above)
 10. Clear the Play Store cache.
 11. Verify that the [Play Store](https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp) is offering an upgrade to the latest version and click Upgrade.
 12. Put the device in airplane mode.
-13. Open the app again, it should have the sims that are available in the sim-cache.
+13. Open the app again, it should have the sim identified in <a href="#links-and-dates">Links and dates</a>.
 </details>
 
 
