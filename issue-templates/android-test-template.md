@@ -2,7 +2,6 @@
 
 ## Links and dates
 
-- Sim-cache Build Date: {{ App Developer provides this info }}
 - Sim release for testing the online update system: {{ App Developer provides this info }}
 - Sim release for testing the offline update system: {{ App Developer provides this info }}
 - App Previous Version: {{ App Developer provides this info }}
