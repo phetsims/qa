@@ -2,12 +2,12 @@
 
 ## Links and dates
 
-Sim-cache Build Date:
-Sim release for testing the update system:
-App Previous Version:
-App Test Version:
-Play Store: https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp
-Internal Test Page: https://play.google.com/apps/internaltest/4697762600441754675/
+- Sim-cache Build Date:
+- Sim release for testing the update system:
+- App Previous Version:
+- App Test Version:
+- Play Store: https://play.google.com/store/apps/details?id=edu.colorado.phet.androidApp
+- Internal Test Page: https://play.google.com/apps/internaltest/4697762600441754675/
 
 ## Common Procedures
 
