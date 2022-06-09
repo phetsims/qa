@@ -854,10 +854,10 @@ This test is done continuously and in conjunction with Column 2.
 * Note that a certain subset of PhET-iO elements are "PhET-iO Featured" and the studio tree can be filtered to show only these elements.
 * Use the "autoselect" feature by hovering over instrumented elements while holding `Opt/Alt`. This should select the hovered element in the Studio tree. You can also select the linked/model element with `Ctrl`. If doing this while filtering on PhET-iO featured, unfeatured elements won't be selected. Please note weirdness here as these two parts of studio intersect. 
 
-*Column 3 says:* ?phetioDebug=true  
+*Column 3 says:* ?phetioDebug=false  
 *How?*  
 On one random platform combination: 
- 1. Add the `?phetioDebug=true` query parameter.
+ 1. Add the `?phetioDebug=false` query parameter.
  2. Open the console.
  3. Manipulate the sim and see if any errors come up.
  4. Hit "Preview Sim" button.
