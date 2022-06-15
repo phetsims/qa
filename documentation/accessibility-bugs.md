@@ -28,6 +28,8 @@ Please document all known AT bugs in this document.
   https://github.com/phetsims/a11y-research/issues/90.
 * The screen reader might focus the last user interface component that had focus on sim load, typically on refresh. This
   is a "feature". For example, see https://github.com/phetsims/resistance-in-a-wire/issues/139.
+* If the sim contains abbreviations (chemical formulas or other) the screen reader may try to read phonetically.
+We decided to accept this. See https://github.com/phetsims/molarity/issues/215.
 
 ### 1.2: JAWS
 
@@ -67,6 +69,7 @@ So empty. Much goodness.
 #### 1.3.1: Firefox Bugs
 
 * When changing screens from the Home Screen, NVDA may read the page title several times and then the first line in the new screen before the first item in the new screen. See https://github.com/phetsims/ratio-and-proportion/issues/321
+* When the values of sliders are read out sometime NVDA will read out the wrong value.  Adjusting those sliders seems to fix the issue.  Likely an “AT caching” issue.  https://github.com/phetsims/resistance-in-a-wire/issues/202
 
 ### 1.4: VoiceOver
 
@@ -81,8 +84,9 @@ So empty. Much goodness.
 * In iOS 14, VoiceOver has a setting to describe images, which is on by default, and it is really bad at doing it for
   PhET Sims! To turn off this setting (as of 1/19/21), Settings -> Accessibility -> VoiceOver -> Verbosity -> Scene
   Descriptions -> switch off. See https://github.com/phetsims/ratio-and-proportion/issues/256 for more details.
-* After a bit of use, VoiceOver may simply stop speaking alerts related to the slider value (aria-valuetext). Tabbing away
+* After a bit of use, VoiceOver may stop speaking alerts related to the slider value (aria-valuetext). Tabbing away
   from the component then returning to it will cause VoiceOver to speak its content again.
+  See https://github.com/phetsims/sun/issues/508 and https://github.com/phetsims/ohms-law/issues/141
 * When using a slider, "Home" and "End" keys will both change the value AND move the cursor to a different place in the
   document. See https://github.com/phetsims/a11y-research/issues/164.
 
