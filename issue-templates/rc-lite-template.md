@@ -198,7 +198,7 @@ descriptions work as intended.
 <h3>Critical Screen Reader Information</h3>
 
 We are tracking known screen reader bugs in
-[this Google Document](https://drive.google.com/open?id=12kTs-g-iKEIH1dyG7Q41_W_oNL4gUKbkW-IQgZjMUBw). If you find a
+[here](https://github.com/phetsims/qa/blob/master/documentation/accessibility-bugs.md). If you find a
 screen reader bug, please check it against this list.
 
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
