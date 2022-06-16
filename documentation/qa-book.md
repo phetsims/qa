@@ -1078,7 +1078,7 @@ One of PhET’s goals is to make our simulations available to everyone. This, of
 disabilities. There are several features unique to accessibility testing: keyboard navigation, screen reader compatibility, voicing, interactive highlights, and sound effects (sonification). 
 
 Please read through this
-[list of known a11y bugs](https://drive.google.com/open?id=12kTs-g-iKEIH1dyG7Q41_W_oNL4gUKbkW-IQgZjMUBw) before doing
+[list of known a11y bugs](https://github.com/phetsims/qa/blob/master/documentation/accessibility-bugs.md) before doing
 any testing.
 
 To test the accessibility features of a simulation, follow the steps below:
