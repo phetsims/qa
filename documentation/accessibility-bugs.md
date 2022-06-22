@@ -89,6 +89,7 @@ So empty. Much goodness.
   See https://github.com/phetsims/sun/issues/508 and https://github.com/phetsims/ohms-law/issues/141
 * When using a slider, "Home" and "End" keys will both change the value AND move the cursor to a different place in the
   document. See https://github.com/phetsims/a11y-research/issues/164.
+* When using a combo box, Safari may say "Text" after reading each item in the combo box list. See https://github.com/phetsims/greenhouse-effect/issues/178.
 
 #### 1.4.2: Mobile Safari Bugs
 
