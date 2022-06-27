@@ -550,7 +550,8 @@ To do the query parameters test, append the URL with the following query paramet
 * `?dev`: shows bounds of the sim
 * `?colorProfile=projector`: starts sim in projector mode if available
 * `?a11y`: activates any a11y features that are available but not visible
-* `?phetioDebug=true`: adds and checks for assertions in PhET-iO sims (passes ?ea to the PhET-iO sim from the wrapper)
+* `?phetioDebug=true`: adds and checks for assertions in PhET-iO sims (passes ?ea to the PhET-iO sim from the wrapper). In studio, 
+this is true by default, and will show a red line under the phet menu.
 * `?phetioWrapperDebug=true`: adds and checks for assertions in PhET-iO wrappers themselves (this is like `?ea` for the wrapper code)
 
 ##### Private Query Parameters
