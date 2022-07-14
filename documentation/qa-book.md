@@ -840,7 +840,7 @@ made in this way.
 
 **_There are 3 columns in the test matrix for this wrapper:_**   
 
-*Column 1 says:* Launch Sim/Generate HTML  
+*Column 1 says:* Launch Sim/Generate HTML/Save Load  
 *How?*  
 This test is done continuously and in conjunction with Column 2.  
 * Periodically launch the simulation to make sure it works using the “Launch” button. 
@@ -855,15 +855,12 @@ This test is done continuously and in conjunction with Column 2.
 * Note that a certain subset of PhET-iO elements are "PhET-iO Featured" and the studio tree can be filtered to show only these elements.
 * Use the "autoselect" feature by hovering over instrumented elements while holding `Opt/Alt`. This should select the hovered element in the Studio tree. You can also select the linked/model element with `Ctrl`. If doing this while filtering on PhET-iO featured, unfeatured elements won't be selected. Please note weirdness here as these two parts of studio intersect. 
 
-*Column 3 says:* ?phetioDebug=false  
+*Column 3 says:* Save/Load Old Version  
 *How?*  
-On one random platform combination: 
- 1. Add the `?phetioDebug=false` query parameter.
- 2. Open the console.
- 3. Manipulate the sim and see if any errors come up.
- 4. Hit "Preview Sim" button.
- 5. Open the console in the launched sim.
- 6. Play with the launched sim and see if any errors come up.
+* Open older version of sim in studio (if available), make some changes to the sim, and save.
+* Load saved file into current studio version.
+   * *Note: An error message 401 (credentials needed) should appear in console--which is expected. A pop-up will then ask for username/password.
+   * Upon loading, any changes between the 2 versions should appear in console.
  
 #### Test 9: Examples (Client Requests)
 
