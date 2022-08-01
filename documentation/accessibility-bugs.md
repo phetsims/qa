@@ -95,6 +95,8 @@ So empty. Much goodness.
 
 * Sometimes when using VoiceOver, Safari buttons (like “reload” and “new tab” are not clickable by double tapping the
   screen. Restarting Safari fixes the problem.
+  
+* iOS VoiceOver may skip over dynamic content in the PDOM when reading with swipe gestures. See https://github.com/phetsims/a11y-research/issues/175
 
 ## 2: Keyboard Navigation
 
