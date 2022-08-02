@@ -1464,6 +1464,13 @@ Test 2: device 2(check that a device in Spanish gets the latest translation upda
 
 The process will be similar to the process for testing the iOS
 
+To properly test on Chromebooks, Android System Webview must be up to date. To update:
+ 1. Open the Play Store
+ 2. Click the Profile icon in the upper right corner
+ 3. Click "Manage Apps & Device"
+ 4. On the Manage tab, click the Updates Available button (or "Check for Updates")
+ 5. Search for Android System Webview and update it
+
 #### Desktop App Testing
 
 * A link to download the app is in the issue. Make sure you use the correct one for the device you are using. Make sure all links tested work properly (Mac and Windows typically).
