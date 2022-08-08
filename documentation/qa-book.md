@@ -412,12 +412,12 @@ necessarily done with this issues, we just need some QA feedback.)
 * type:question - For questions.
 * type:suggestion - To make a suggestion for improvements.
 
-### 3.4 QA Pipline
+### 3.4 QA Pipeline
 
 In the QA repo, there is a project called the QA Pipeline. The pipeline contains cards that either correspond to issues 
 in the QA repo for tests and sims, or to sims that will soon enter QA. The placement of these cards indicates where in testing 
 that particular sim/issue is. It also indicates priority. If a test is in the active tests column then, the higher it is, the 
-higher its priority. The pipline is edited primarily by Katie, Mark, and Kathy. When tests are done, they will be moved to their 
+higher its priority. The pipeline is edited primarily by Katie and Kathy. When tests are done, they will be moved to their 
 appropriate column.
 
 Tests that are in the repo but not high priority, are being created in repo, or are expected to come in soon are kept in the 
@@ -444,9 +444,7 @@ The template should specify what exactly needs to be tested. The steps you need 
 test for a development test can be found in the template. There should be a link to the simulation in the issue, but if
 there isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/).
 
-If the developer has issues they want tested they will either use the labels `status:ready-for-qa` or
-`status:ready-for-review`. If it is ready for QA then close the issue if fixed. If ready for review then leave open and
-assign back to the developer.
+If the developer has issues they want tested they will use the label `status:ready-for-review`. Comment on whether or not the issue is fixed and assign back to the developer. Only close the issue if the developer has indicated that you may do so. 
 
 Here's a list of platforms we like to do development tests on:
 
@@ -478,7 +476,7 @@ steps you need to follow for a release candidate test:
 
 1. Familiarize yourself with the simulation.
 2. If the developer wants you to test previous issues, then test those first. They should be marked with
-`status:ready-for-qa` and, if they are fixed, should be checked off and closed.
+`status:ready-for-review` and, if they are fixed, should be checked off and closed.
 3. Open the testing matrix.
 4. Choose a device and browser combination that hasn’t been tested. Add your initials to indicate that you are testing
 that platform.
