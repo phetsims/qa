@@ -924,16 +924,9 @@ Using the Studio Wrapper:
   `window.saveLogToFile` will not work!)
   2. In the URL, replace `&console` with `&localFile`. (If `&console` doesn’t exist, then you should still add
   `&localFile`.)
-  3. Record your actions in the simulation. (Remember what you did.)
+  3. Play with the sim for 1-2 minutes.
   4. Follow the directions in the console to download a copy of the recording.
-  5. View the recording in the Events: Playback wrapper and make sure your actions were recorded accurately.
-  6. If a previous recording wrapper exists and is provided, make a recording in that wrapper and test with the current
-  playback method.
-  7. If this sim is outfitted with alternative input (such as keyboard navigation), then also test it to make sure
-  those input events work as well.
-  * Not supported on iPad or IE.
-  * This should not be done in a private window (won't work in some browsers.)
-  * Make sure that you are in the "top" context rather than the "sim" context in the console.
+  5. Make sure the file size isn't empty. 
   
 #### Test 14: Data: Metacog Cycle Test
 
@@ -971,10 +964,7 @@ Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show 
       - If you have the console open when you hit submit, you will get an ID number you can use if something goes wrong with the retrieval.
       - Press Submit
       - The email may take up to 20 minutes
-  6. Open File
-      - On Windows: Unzip .gz file (may need to download 7zip at 7zip.org). Load the .log file into the playback wrapper as you would in the recording wrapper.
-      - On Mac: Copy and paste .log file into the playback wrapper
-      - [This](https://github.com/phetsims/phet-io/blob/master/doc/metacog.md) may be helpful.
+  6. Make sure file size isn't empty.
 
 #### Test 15: State Wrapper Test
 *Approximate Time:* 30-60 minutes  
@@ -1004,20 +994,8 @@ On one random platform combination:
  3. Play with the upstream sim and see if any errors come up.
 
 
-#### Test 16: Input Record and Playback Wrapper Test
 
-*Approximate time:* 20-30 minutes  
-*Test Matrix says:* Mirror Inputs
-
-*What?*  
-* This is a wrapper that contains a simulation and a mirror of the simulation that is updated with every user input. This maps well to what is done in the recording wrapper.  
-
-*How?*  
-* To test this wrapper, make sure your actions are mirrored accurately.  
-* Press the “Playback Events Now” button to repeat the actions taken in the top sim. Go a few actions at a time and make sure events are repeated accurately. 
-* Spend plenty of time testing this wrapper.
-
-#### Test 17: Screenshot Wrapper Test
+#### Test 16: Screenshot Wrapper Test
 
 *Approximate time:* 5 minutes  
 
@@ -1028,7 +1006,7 @@ On one random platform combination:
 * To test this wrapper, test screenshots as you normally would by pressing the “Take Screenshot” button in the wrapper, not the “Screenshot” button in the simulation. 
 * Be sure to take at least one screenshot per screen
  
-#### Test 18: Active Wrapper Test
+#### Test 17: Active Wrapper Test
 
 *Approximate time:* 5 minutes  
 
@@ -1039,7 +1017,7 @@ On one random platform combination:
 * To test this wrapper, simply make sure you can interact with the simulation when it is active and cannot interact with the simulation when it is inactive.
 *  Animations should resume without “jumping.”
 
-#### Test 19: Diff Wrapper Test
+#### Test 18: Diff Wrapper Test
 
 *Approximate time:* 10 minutes, Only on one random platform  
 
@@ -1057,7 +1035,7 @@ To test this wrapper you will need to test two different cases by entering a URL
 |--------------------|--------------------|
 |<ol> <li> Copy the wrapper index URL and paste it into the box that says ‘Old Version’ </li> <li> Leave username and password blank </li> <li> Hit ‘Compare’ </li> </ol> <br/> <br/> It should say: APIs are identical. <br/> <br/> | <ol> <li> Ask Dev for a URL if not provided in issue OR change RC version in current url   <ul>  *ex.*  <li> Change:   phet-dev.colorado.edu/html/simname/1.4.0-rc.1/phet-io  </li> <li>  To:  phet-dev.colorado.edu/html/simname/1.3.0-rc.1/phet-io </li> </ul> <li>  Paste URL into the box that says ‘Old Version’ </li> <li>  Sign in with PhET username and password </li> <li>  Hit ‘Compare’ </li> </ol>  It should list all the changes. |
 
-#### Test 20: Multi Wrapper Test
+#### Test 19: Multi Wrapper Test
 
 *Approximate time:* 5 minutes, Only on one random platform  
 
