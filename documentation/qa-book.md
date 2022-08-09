@@ -1623,6 +1623,11 @@ than 1000 strings translated.
 
 If it has more than 1000, make the translation visible. Make sure no one else is working on the translation. It would
 likely be better if approaches 2000.
+ 
+Instructions to make a previously non-public translation public
+1. Go to "Create a new version of an existing translation", choose the translation you want to make a visible copy of, and click "create".
+2. Make note of the new translation id number, and go back to the main translation page
+3. Find the translation with the new id, click on "toggle" for the editable and hidden/visible columns. The translation should now be publicly visible.
 
 Otherwise tell the translator we don’t normally publish incomplete translations and to submit once they have translated
 more than 1000 strings:
