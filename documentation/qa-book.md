@@ -1026,14 +1026,14 @@ On one random platform combination:
 
 **_There are 2 columns in the test matrix for this wrapper_**  
 *How?*   
-To test this wrapper you will need to test two different cases by entering a URL into the box. 
-* The first URL to be tested is the wrapper index URL.
-* The second URL to be tested is the “old URL” and should be provided in the issue https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io   
-   * The “old URL” can be the published version or a previous rc/dev version for phet-io that you can compare to. It will likely have lots of changes in it, and that's OK! It is expected that each phet-io version being published has been thoroughly designed, and that it is as expected (including prior use of the diff wrapper by designers to see if anything suspicious has changed between versions).
+To test this wrapper you will need to test two different cases by entering a version into the box. 
+* The first version to be tested is the current version.
+* The second version to be tested is an older version and should be provided in the issue https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io   
+   * The “old version” can be the published version or a previous rc/dev version for phet-io that you can compare to. It will likely have lots of changes in it, and that's OK! It is expected that each phet-io version being published has been thoroughly designed, and that it is as expected (including prior use of the diff wrapper by designers to see if anything suspicious has changed between versions).
 
-| Current URL        | Old URL            |
+| Current Version       | Old Version            |
 |--------------------|--------------------|
-|<ol> <li> Copy the wrapper index URL and paste it into the box that says ‘Old Version’ </li> <li> Leave username and password blank </li> <li> Hit ‘Compare’ </li> </ol> <br/> <br/> It should say: APIs are identical. <br/> <br/> | <ol> <li> Ask Dev for a URL if not provided in issue OR change RC version in current url   <ul>  *ex.*  <li> Change:   phet-dev.colorado.edu/html/simname/1.4.0-rc.1/phet-io  </li> <li>  To:  phet-dev.colorado.edu/html/simname/1.3.0-rc.1/phet-io </li> </ul> <li>  Paste URL into the box that says ‘Old Version’ </li> <li>  Sign in with PhET username and password </li> <li>  Hit ‘Compare’ </li> </ol>  It should list all the changes. |
+|<ol> <li> Type the current version, including the RC/Dev portion into the box that says ‘Old Version.' For example: 1.2.0-dev.3 </li> <li> Hit ‘Compare’ </li> </ol> <br/> <br/> It should say: APIs are identical. <br/> <br/> | <ol> <li>  Type old version into the box that says ‘Old Version.’ For example, 1.2 or 1.2.1 </li> <li> Ask Dev for an old version if not provided in issue <li>  Sign in with PhET username and password </li> <li>  Hit ‘Compare’ </li> </ol>  It should list all the changes. |
 
 #### Test 19: Multi Wrapper Test
 
