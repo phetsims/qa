@@ -1017,25 +1017,7 @@ On one random platform combination:
 * To test this wrapper, simply make sure you can interact with the simulation when it is active and cannot interact with the simulation when it is inactive.
 *  Animations should resume without “jumping.”
 
-#### Test 18: Diff Wrapper Test
-
-*Approximate time:* 10 minutes, Only on one random platform  
-
-*What?*  
-* This is a wrapper that allows you to compare the differences between a previous build and the current build.
-
-**_There are 2 columns in the test matrix for this wrapper_**  
-*How?*   
-To test this wrapper you will need to test two different cases by entering a version into the box. 
-* The first version to be tested is the current version.
-* The second version to be tested is an older version and should be provided in the issue https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io   
-   * The “old version” can be the published version or a previous rc/dev version for phet-io that you can compare to. It will likely have lots of changes in it, and that's OK! It is expected that each phet-io version being published has been thoroughly designed, and that it is as expected (including prior use of the diff wrapper by designers to see if anything suspicious has changed between versions).
-
-| Current Version       | Old Version            |
-|--------------------|--------------------|
-|<ol> <li> Type the current version, including the RC/Dev portion into the box that says ‘Old Version.' For example: 1.2.0-dev.3 </li> <li> Hit ‘Compare’ </li> </ol> <br/> <br/> It should say: APIs are identical. <br/> <br/> | <ol> <li>  Type old version into the box that says ‘Old Version.’ For example, 1.2 or 1.2.1 </li> <li> Ask Dev for an old version if not provided in issue <li>  Sign in with PhET username and password </li> <li>  Hit ‘Compare’ </li> </ol>  It should list all the changes. |
-
-#### Test 19: Multi Wrapper Test
+#### Test 18: Multi Wrapper Test
 
 *Approximate time:* 5 minutes, Only on one random platform  
 
