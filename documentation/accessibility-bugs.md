@@ -90,6 +90,7 @@ So empty. Much goodness.
 * When using a slider, "Home" and "End" keys will both change the value AND move the cursor to a different place in the
   document. See https://github.com/phetsims/a11y-research/issues/164.
 * When using a combo box, Safari may say "Text" after reading each item in the combo box list. See https://github.com/phetsims/greenhouse-effect/issues/178.
+* Safari will duplicate alerts when the sim is embedded in an iFrame. See https://github.com/phetsims/friction/issues/286
 
 #### 1.4.2: Mobile Safari Bugs
 
