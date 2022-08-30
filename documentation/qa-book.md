@@ -1197,6 +1197,7 @@ any Reading Blocks. The only exception is the "Quick Info" buttons in the Toolba
 
 ##### *Additional Notes about Voicing:*
 
+- Issues can be voice specific. Be sure to include which voice was used when making issues. 
 - Voicing should not be used in conjunction with screen readers.  
 - Voicing should only be available in the "en" locale. It should not be possible to enable Voicing in any other locale from Preferences.
 - Voicing does not work in the Android App. In this platform, it should not be possible to enable Voicing form Preferences.
