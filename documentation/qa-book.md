@@ -536,6 +536,7 @@ To do the query parameters test, append the URL with the following query paramet
     * This query parameter puts JavaScript into every string. The page should not redirect.
     * If the simulation does not redirect to another website, the simulation passes this test.
     * If the simulation crashes or fails to load, the simulation still passes this test.
+    * This test should be paired with `&fuzz` since some of the RichText is not created on start up.
     
 ##### Other Useful Query Parameters
 
