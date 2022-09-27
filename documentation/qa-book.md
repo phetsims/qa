@@ -489,7 +489,7 @@ the query parameter `?fuzz`.
 
 There are four types of rc test types. The first is a full RC, which will not have any extra labels and should follow all instructions. 
 Second is the RC-Lite which will have fewer devices/platforms for a faster test. Third is a Spot Check which focuses mostly on 
-issue confirmations. Forth is Research, which focuses on the needs and features of a specific research study. Those needs will be
+issue confirmations. Fourth is Research, which focuses on the needs and features of a specific research study. Those needs will be
 elaborated on in the created issue.
 
 1. Dev: Deep testing on limited platforms
