@@ -800,7 +800,7 @@ link to the developer if the issue is in a public GitHub repository.
   
 *How?*  
 Test that the sim works offline:
- 1. Go to https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/{{sim}}-phet-io-{{version}}.zip
+ 1. Go to https://phet-dev.colorado.edu/html/{{sim}}/{{version}}/phet-io/{{sim}}-phet-io-{{version}}.zip (link usually in issue)
  2. Download it.
  3. Unzip it to a spot locally.
  4. Open `index.html` by double clicking it on your desktop or in a finder-view.
@@ -839,13 +839,13 @@ made in this way.
 
 **_There are 3 columns in the test matrix for this wrapper:_**   
 
-*Column 1 says:* Launch Sim/Generate HTML/Save Load  
+*Column 1 says:* Standard PhET-iO Wrapper  
 *How?*  
-This test is done continuously and in conjunction with Column 2.  
-* Periodically launch the simulation to make sure it works using the “Launch” button. 
-* Periodically copy and paste the HTML into a text editor (ex. Atom), save the file, and open it in a browser to make sure the modifications you made are still there using the “Generate HTML” button.  
+This test focuses on the buttons found under the 'Standard PhET-iO Wrapper' section of Studio and is done continuously and in conjunction with Column 2.  
+* Periodically launch the simulation to make sure it works using the Test button. 
+* Periodically press the Preview HTML button. Copy and paste the HTML into a text editor (ex. Atom), save the file as a .html, and open it in a browser to make sure the modifications you made are still there.  
 * When doing the above, make sure that the resulting sim resets to the state it launched in, rather than the default sim's original state, when you hit reset all.
-* Test both the “Production” and “Development” radio buttons. A sim launched with Development will have more info in the console.
+* Periodically, press the Download File button, after making changes to the sim. Refresh Studio, press the Load File button, and select the downloaded file. Studio should open to reflect the state it was downloaded in.
 
 *Column 2 says:* Play around with the studio  
 *How?* 
@@ -863,10 +863,10 @@ This test is done continuously and in conjunction with Column 2.
  
 #### Test 9: Examples (Client Requests)
 
-*Approximate time:* varies depending on the number of requests, Only on one random platform  
+*Approximate time:* Varies depending on the number of requests, Only on one random platform  
 
 *What?*  
-* Guide found in the Wrapper Index.  
+* Examples link is in the Wrapper Index.  
 
 *How?*  
 Using the Studio Wrapper:
