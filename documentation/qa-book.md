@@ -847,6 +847,12 @@ This test focuses on the buttons found under the 'Standard PhET-iO Wrapper' sect
 * When doing the above, make sure that the resulting sim resets to the state it launched in, rather than the default sim's original state, when you hit reset all.
 * Periodically, press the Download File button, after making changes to the sim. Refresh Studio, press the Load File button, and select the downloaded file. Studio should open to reflect the state it was downloaded in.
 
+* *Note: The following items in the Preferences menu are stateful (changes should carry over to launched/saved sim):*
+    * anything in the Simulation tab 
+    * locale
+    * projector mode
+    * audio features toggle (and sound button in nav bar)
+
 *Column 2 says:* Play around with the studio  
 *How?* 
 * To test this wrapper, make sure instrumented characteristics can be modified and make sure characteristics that haven’t been instrumented can’t be modified.
@@ -858,7 +864,7 @@ This test focuses on the buttons found under the 'Standard PhET-iO Wrapper' sect
 *How?*  
 * Open older version of sim in studio (if available), make some changes to the sim, and save.
 * Load saved file into current studio version.
-   * *Note: An error message 401 (credentials needed) should appear in console--which is expected. A pop-up will then ask for username/password.
+   * *Note*: An error message 401 (credentials needed) should appear in console--which is expected. A pop-up will then ask for username/password.
    * Upon loading, any changes between the 2 versions should appear in console.
  
 #### Test 9: Examples (Client Requests)
@@ -987,6 +993,12 @@ Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show 
 | Uncheck the “Upstream Active” button. | You shouldn’t be able to manipulate anything in the upstream sim, but you can now manipulate items in the downstream sim. |
 | Press the “Launch” button at the bottom of the wrapper. | It should load a version of the sim starting in the current state of the upstream sim (similar to launching in Studio wrapper). |
 
+* *Note: The following items in the Preferences menu are stateful (changes should carry over to the downstream sim):*
+    * anything in the Simulation tab 
+    * locale
+    * projector mode
+    * audio features toggle (and sound button in nav bar)
+    
 *Column 2 says:* State ?phetioDebug=true  
 *How?*  
 On one random platform combination: 
