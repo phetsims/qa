@@ -552,6 +552,7 @@ To do the query parameters test, append the URL with the following query paramet
 * `?phetioDebug=true`: adds and checks for assertions in PhET-iO sims (passes ?ea to the PhET-iO sim from the wrapper). In studio, 
 this is true by default, and will show a red line under the phet menu.
 * `?phetioWrapperDebug=true`: adds and checks for assertions in PhET-iO wrappers themselves (this is like `?ea` for the wrapper code)
+* `?printVoicingResponses`: prints strings read by voicing to the console
 
 ##### Private Query Parameters
 
