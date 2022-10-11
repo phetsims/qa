@@ -848,7 +848,7 @@ This test focuses on the buttons found under the 'Standard PhET-iO Wrapper' sect
 * When doing the above, make sure that the resulting sim resets to the state it launched in, rather than the default sim's original state, when you hit reset all.
 * Periodically, press the Download File button, after making changes to the sim. Refresh Studio, press the Load File button, and select the downloaded file. Studio should open to reflect the state it was downloaded in.
 
-* *Note: The following items in the Preferences menu are stateful (changes should carry over to launched/saved sim):*
+* *Note: The following items in the Preferences dialog are stateful (changes should carry over to launched/saved sim):*
     * anything in the Simulation tab 
     * locale
     * projector mode
@@ -994,7 +994,7 @@ Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show 
 | Uncheck the “Upstream Active” button. | You shouldn’t be able to manipulate anything in the upstream sim, but you can now manipulate items in the downstream sim. |
 | Press the “Launch” button at the bottom of the wrapper. | It should load a version of the sim starting in the current state of the upstream sim (similar to launching in Studio wrapper). |
 
-* *Note: The following items in the Preferences menu are stateful (changes should carry over to the downstream sim):*
+* *Note: The following items in the Preferences dialog are stateful (changes should carry over to the downstream sim):*
     * anything in the Simulation tab 
     * locale
     * projector mode
