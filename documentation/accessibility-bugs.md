@@ -130,3 +130,6 @@ please create an issue if there are any questions about performance.
 * Voicing and SpeechSynthesis can be slower to start on ChromeOS. Especially when switching tabs or turning it on 
 for the first time. If Voicing doesn't start for ~8 seconds after you enable it or play with the sim that is expected.
 If it takes longer to start or never starts that is probably an issue. See https://github.com/phetsims/number-play/issues/138
+
+### 3.3 iOS Safari Bugs
+* Changing voices on iOS Safari is broken. The control for selecting voices have been removed on this platform. See https://github.com/phetsims/utterance-queue/issues/74. 
