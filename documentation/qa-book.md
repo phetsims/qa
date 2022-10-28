@@ -1041,6 +1041,24 @@ On one random platform combination:
 *How?*   
 * To test this wrapper, make sure the active toggle works on both sims. Make sure to property toggle has the expected effect based on its language for each. If the sim is not active, property changes will not appear until the sim is active again.
 
+#### Test 19: Testing Batch Forward Migration
+
+*Approximate time:* 10 minutes, Only on one random platform
+
+*What?*
+* Tests the process clients can use to migrate (upgrade) multiple Standard PhET-iO Wrappers from a prior version.
+
+*How?*
+1. For each prior supported major.minor version that we want to support upgrading to the new version:
+2. Open the prior version in studio
+3. Set up an easily recognizable state in the sim and/or using customization in Studio
+4. Save the file
+5. Open the client guide and find the script in the area "Updating Many Standard PhET-iO Wrappers Programmatically". Save the script to a file on your local machine.
+6. Adjust the loop in the script so it will fetch the filenames you downloaded in the prior step
+7. Run a localhost http server on your machine
+8. Open the script in the browser using http://localhost
+9. Confirm that it outputs (saves) migrated versions of each file you customized, without prompting any dialogs
+10. Open each upgraded html file in the browser and confirm it has the correct customizations.  These should not prompt dialogs or report that a "migration" happened.
 
 ### 4.4: Accessibility (a11y) Testing
 
