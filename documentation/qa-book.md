@@ -93,9 +93,10 @@ As of 2021-12-16 the operating systems we officially support are:
 * Chrome OS
 * iOS 13+
 * iPadOS 13+
-* macOS 10.12+
+* macOS 10.14+
 * macOS 11+
 * macOS 12+
+* macOS 13+
 * Windows 10
 * Windows 11
 
