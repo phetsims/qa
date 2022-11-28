@@ -1047,20 +1047,55 @@ On one random platform combination:
 *Approximate time:* 10 minutes, Only on one random platform
 
 *What?*
-* Tests the process clients can use to migrate (upgrade) multiple Standard PhET-iO Wrappers from a prior version.
+* Tests the process clients can use to migrate (upgrade) multiple Standard PhET-iO Wrappers from a prior version. The issue should indicate whether this test should be performed, but you can also check the PhET-iO Simulations spreadsheet in Drive. 
 
 *How?*
-1. For each prior supported major.minor version that we want to support upgrading to the new version:
-2. Open the prior version in studio
-3. Set up an easily recognizable state in the sim and/or using customization in Studio
-4. Save the file
-5. Open the client guide and find the script in the area "Updating Many Standard PhET-iO Wrappers Programmatically". Save the script to a file on your local machine.
-6. Adjust the loop in the script so it will fetch the filenames you downloaded in the prior step
-7. Adjust the http URL in the script so it will point to the version on phet-dev.colorado.edu
-8. Run a localhost http server on your machine
-9. Open the script in the browser using http://localhost
-10. Confirm that it outputs (saves) migrated versions of each file you customized, without prompting any dialogs
-11. Open each upgraded html file in the browser and confirm it has the correct customizations.  These should not prompt dialogs or report that a "migration" happened.
+For each prior supported major.minor version that we want to support upgrading to the new version:
+1. Open the prior version of studio–this should be given in the github issue, but if it isn’t you can follow step 5a-d below.
+2. Set up an easily recognizable state in the sim and/or using customization in Studio.
+3. Save the file.
+4. Repeat steps 2-3.
+5. Open the client guide and go to the section, "Updating Many Standard PhET-iO Wrappers Programmatically". Expand ‘details.’ Copy and paste the code into atom.
+*Note: If you aren’t given a copy of the client guide, follow these steps:* 
+
+    a. Go to https://phet-dev.colorado.edu/html/sim-name.   
+    b. Open the folder for the most recent version.   
+    c. Click on the phet folder.   
+    d. In the url, add ‘-io’ after ‘phet’.   
+    e. Go to the client guide. 
+
+6. Once the code is pasted in atom, make these changes:
+
+* On the line AFTER: *Point this to the phet-io.js lib for that sim*, delete what is in quotes and replace it with a lib.js file. To get that file:
+    * Go to the index wrapper page, and add ‘lib’ to the end
+    * Click on the .js file
+    * Copy and paste that url into atom. For example:
+  ![Screenshot 2022-11-28 at 3 15 26 PM](https://user-images.githubusercontent.com/87318828/204372954-f5ebaf33-e616-4e78-ac5f-faa873952619.jpg)
+
+
+* Adjust the loop in the script so it will fetch the file names you downloaded in step 4.
+    * Look at the file names (ex .gravity-and-orbits-custom-wrapper (7).html, gravity-and-orbits-custom-wrapper (8).html) and use the numbers in parentheses to make these changes on the line AFTER: ( async ( ) => {
+
+             let i  =  7 ; i <= 8    (aside from the numbers, you need to add the equals sign)
+
+
+![Screenshot 2](https://user-images.githubusercontent.com/87318828/204373771-d219a6d8-347c-4321-840b-7fbaf74fee39.jpg)
+
+* On the line AFTER: *load the text*, replace everything in between the tick marks with: 
+             ./sim-name-custom-wrapper (${i}).html
+  * For example:
+![Screenshot 3](https://user-images.githubusercontent.com/87318828/204374595-9296277f-2f61-4ee0-b2b5-5694a7216d6f.jpg)
+
+7. Save the file as an .html (ex. GaOmigration.html)
+8. Run a localhost http server on your machine by following these instructions:
+* In terminal:
+    * Type: cd Downloads (or whatever folder you are going to save files to)
+    * Type: http-server -p 80 -c --silent
+* In browser window type: localhost
+
+9. In localhost, find the file you saved in step 6 (it should ask you for credentials)
+10. Confirm that it outputs (saves) migrated versions of each file you customized, without prompting any dialogs.
+11. Open each upgraded html file in the browser and confirm it has the correct customizations.  These should not prompt dialogs (not asked for credentials when opening migrated versions) or report that a "migration" happened.
 
 ### 4.4: Accessibility (a11y) Testing
 
