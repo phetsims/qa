@@ -1137,6 +1137,7 @@ as you interact with a keyboard. It should become invisible again when you conti
 finger.
 * If the sim is in full screen mode, pressing the escape key will exit full screen mode and will not trigger the simulation behavior that may have been assigned to the escape key.
 * For discrete sliders (those with tick marks), the "adjust in smaller steps" keyboard shortcut does not apply 
+* Pressing and holding down `space bar` will only fire the button once. Pressing and holding down `return/enter` results in continuous firing. 
 
 #### Screen Readers
 
