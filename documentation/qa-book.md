@@ -1136,6 +1136,7 @@ To test the accessibility features of a simulation, follow the steps below:
 as you interact with a keyboard. It should become invisible again when you continue to press down with a mouse or
 finger.
 * If the sim is in full screen mode, pressing the escape key will exit full screen mode and will not trigger the simulation behavior that may have been assigned to the escape key.
+* For discrete sliders (those with tick marks), the "adjust in smaller steps" keyboard shortcut does not apply 
 
 #### Screen Readers
 
