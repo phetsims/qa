@@ -24,7 +24,7 @@ DEVELOPERS:
 - [phet-io wrapper index](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet-io)
 - [link to phet-io zip file](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet-io/{{REPO}}-phet-io-{{VERSION}}.zip)
 
-<h3>Test Matricies</h3>
+<h3>Test Matrices</h3>
 
 Matrices will be paired down to fit scope of Lite test.
 
