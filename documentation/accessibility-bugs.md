@@ -69,7 +69,9 @@ So empty. Much goodness.
 #### 1.3.1: Firefox Bugs
 
 * When changing screens from the Home Screen, NVDA may read the page title several times and then the first line in the new screen before the first item in the new screen. See https://github.com/phetsims/ratio-and-proportion/issues/321
-* When the values of sliders are read out sometime NVDA will read out the wrong value.  Adjusting those sliders seems to fix the issue.  Likely an “AT caching” issue.  https://github.com/phetsims/resistance-in-a-wire/issues/202
+* When the values of sliders are read out sometimes NVDA will read out the wrong value.  Adjusting those sliders seems to fix the issue.  Likely an “AT caching” issue.  https://github.com/phetsims/resistance-in-a-wire/issues/202
+* NVDA will read through the Sim Screen Overview when exiting a dialog
+* NVDA may say name of WASD keys when pressed
 
 ### 1.4: VoiceOver
 
