@@ -61,6 +61,8 @@ We decided to accept this. See https://github.com/phetsims/molarity/issues/215.
   release the arrow key. See https://github.com/phetsims/john-travoltage/issues/227.
 * When using a slider and holding down an arrow key, you might see the thumb move slowly while holding the key down,
   then move rapidly in one direction when you release a key, see https://github.com/phetsims/john-travoltage/issues/242.
+* If there is a list in a dialog, when the dialog is first opened JAWS will read the list items as "bullet, bullet, ..."
+  instead of reading the names of the items. See https://github.com/phetsims/a11y-research/issues/185.  
 
 ### 1.3: NVDA
 
