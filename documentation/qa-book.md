@@ -858,6 +858,7 @@ This test focuses on the buttons found under the 'Standard PhET-iO Wrapper' sect
     * locale
     * projector mode
     * audio features toggle (and sound button in nav bar)
+    * Every dialog's isShowingProperty is stateful
 
 *Column 2 says:* Play around with the studio  
 *How?* 
@@ -1004,6 +1005,7 @@ Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show 
     * locale
     * projector mode
     * audio features toggle (and sound button in nav bar)
+    * Every dialog's isShowingProperty is stateful
     
 *Column 2 says:* State ?phetioDebug=true  
 *How?*  
