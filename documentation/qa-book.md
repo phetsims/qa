@@ -957,7 +957,7 @@ Using the Studio Wrapper:
     `/wrappers/login/?wrapper=record&validationRule=validateDigits&numberOfDigits=5&promptText=Enter%20a%205%20Digit%20ID&publisher_id={{PUBLISHER_ID}}&key_name=testing&widget_id={{SIM}}-{{VERSION}}-qaTest&metacog` 
          - Replace {{PUBLISHER_ID}}with actual ID–	ASK @KatieWoe for ID
          - Replace {{SIM}}-{{VERSION}} with actual sim and version 
-             - Ex. id=graphing-quadratics-120rc1
+             - Ex. id=graphing-quadratics-1.2.0-rc.1
      - Go to the end of the URL and press space bar to make it an active link
   2. Open this link on iPad in Safari. This should also be done on at least one other random platform.
       - Sign in with a 5 digit #
