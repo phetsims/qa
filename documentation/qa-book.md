@@ -951,11 +951,14 @@ Using the Studio Wrapper:
 * This test exercises the full recording and playback process used for PhET studies. This includes recording data to and retrieving data from our data back end partner, Metacog.
 
 *How?* 
- 1. First generate the link for testing. 
+
+Note: This test may not work in some private browsers. 
+
+ 1. Generate the link for testing. 
      - Copy and paste the wrapper index URL into a Google Doc
      - Add this to the end of the url:
     `/wrappers/login/?wrapper=record&validationRule=validateDigits&numberOfDigits=5&promptText=Enter%20a%205%20Digit%20ID&publisher_id={{PUBLISHER_ID}}&key_name=testing&widget_id={{SIM}}-{{VERSION}}-qaTest&metacog` 
-         - Replace {{PUBLISHER_ID}}with actual ID–	ASK @KatieWoe for ID
+         - Replace {{PUBLISHER_ID}} with actual ID. This can be found in the PhET Credentials Level 3 (QA PhEt-iO publisher ID) or ask @KatieWoe. 
          - Replace {{SIM}}-{{VERSION}} with actual sim and version 
              - Ex. id=graphing-quadratics-1.2.0-rc.1
      - Go to the end of the URL and press space bar to make it an active link
@@ -965,7 +968,7 @@ Using the Studio Wrapper:
       - Make changes as you normally would with the Recording wrapper
       - Make sure you are recording to Metacog by looking in the console. You should see the following: `Recorder initialized, sending data to: ["metacog"]`
   3. When you are done, press either the back arrow or close the tab. You should be prompted to stay while the process finishes. Do not leave!
-Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show the dialog if you use the back arrow.)
+Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show the dialog if you use the back arrow. You may not see the dialog on the iPad with either action.)
 
   4. Wait thirty minutes before moving to the next step. 
   5. Retrieving data
@@ -973,9 +976,10 @@ Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show 
 [link](https://bayes.colorado.edu/dev/phettest/phet-io-website/root/metacog/request-data.html) or [link](https://phet-io.colorado.edu/metacog/request-data.html) 
       - In the URL Box: paste ONLY the query parameter portion of the provided URL (?wrapper=record&validationRule=validateDigits&numberOfDigits=5&promptText=Enter%20a%205%20Digit%20ID&publisher_id={{PUBLISHER_ID}}&key_name=testing&widget_id={{SIM}}-{{VERSION}}-qaTest&metacog) 
       - Leave learner ID and dates blank
-      - Enter ID (given by Katie) into Application ID box
+      - Enter the application ID. This is found in the PhET Credentials Level 3 (QA application ID) or ask @KatieWoe. 
       - Enter email
-      - If you have the console open when you hit submit, you will get an ID number you can use if something goes wrong with the retrieval.
+      - If you have the console open when you hit submit, you will get an ID number you can use if something goes wrong with the retrieval.  
+                  *  This number will also be in the subject line when you receive the email. 
       - Press Submit
       - The email may take up to 20 minutes
   6. Make sure file size isn't empty.
