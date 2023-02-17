@@ -26,7 +26,7 @@ DEVELOPERS:
 
 <h3>Test Matrices</h3>
 
-Matrices will be paired down to fit scope of Lite test.
+Matrices will be pared down to fit scope of Lite test.
 
 - [General Test Matrix](FILLED_IN_BY_QA)
 - [PhET-iO Test Matrix](FILLED_IN_BY_QA)
