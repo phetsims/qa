@@ -888,6 +888,9 @@ Using the Studio Wrapper:
  3. Make sure by manipulating that item, the request is accomplished.
  4. Launch the sim after manipulating to make sure the desired state is maintained.
 
+*Note:*
+Some sims may include examples where you are able to preload a set state into a Standard Wrapper. In these instances, set your console to "top" in order to use commands (there is a dropdown menu at the top of the console in Chrome, or at the bottom if in Safari). As an example, see 'Load premade circuits into a wrapper' in the CCK-DC examples doc.
+
 #### Test 10: Data: Colorized Wrapper Test
 
 *Approximate time:* <5 minutes, Only on one random platform     
