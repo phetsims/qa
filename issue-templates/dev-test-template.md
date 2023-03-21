@@ -29,7 +29,7 @@ Please include all (non-screen reader) feature testing in these records if appli
 
 - [ ] Latest macOS, Safari (Time = )
 - [ ] Windows 10, Chrome (Time = )
-- [ ] Windows 10, Firefox (Time = )
+- [ ] Windows 10/11, Firefox (Time = )
 - [ ] Latest iOS, Safari (Time = )
 - [ ] Windows 11, Chrome (Time = )
 
