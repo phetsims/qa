@@ -945,7 +945,7 @@ Some sims may include examples where you are able to preload a set state into a 
   4. Follow the directions in the console to download a copy of the recording.
   5. Make sure the file size isn't empty. 
   
-#### Test 14: Data: Metacog Cycle Test
+<s> #### Test 14: Data: Metacog Cycle Test
 
 *Approximate time:* 30-40 minutes (due to wait times)  
 *Test Matrix doesn’t have a column for this. For the iPad, add results in Events: record. Replace &console with &localFile*  
@@ -985,7 +985,7 @@ Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show 
                   *  This number will also be in the subject line when you receive the email. 
       - Press Submit
       - The email may take up to 20 minutes
-  6. Make sure file size isn't empty.
+  6. Make sure file size isn't empty. </s>
 
 #### Test 15: State Wrapper Test
 *Approximate Time:* 30-60 minutes  
