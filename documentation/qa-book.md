@@ -1286,6 +1286,7 @@ any Reading Blocks. The only exception is the "Quick Info" buttons in the Toolba
 - Voicing should not be used in conjunction with screen readers.  
 - Voicing should only be available in the "en" locale. It should not be possible to enable Voicing in any other locale from Preferences.
 - Voicing does not work in the Android App. In this platform, it should not be possible to enable Voicing form Preferences.
+- Only English voices may be present with Win + Firefox. To add more voices to your device, go to Settings > Speech Settings > Manage Voices. Click on Add Voices Button.
 
 
 #### Interactive Highlights
