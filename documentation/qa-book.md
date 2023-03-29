@@ -374,7 +374,7 @@ for Windows is `control + shift + i`.
 
 When a developer has fixed a bug they will assign it back to QA to ensure that the bug is fixed and that no new bugs 
 have arrisen. How this is done depends on the bug and where the simulation is in terms of development. When a bug is 
-found during a dev test, the developer will assign the issue to QA (typically the tester the who found and reporeted the bug) 
+found during a dev test, the developer will assign the issue to QA (typically the tester the who found and reported the bug) 
 and put it in the "Issues to Verify" collumn of the QA pipeline. When the issue is confirmed or found off on master, this should be noted 
 and the issue assigned back to the developer. When an issue is found during an RC the developer will put in the "Issues to Verify" 
 section of the next RC. If it is found to be fixed in that RC it can generally be closed. If it is not fixed it is assigned back.
