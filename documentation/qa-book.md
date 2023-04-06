@@ -687,24 +687,27 @@ website. Usually you have one main screenshot and two to three alt screenshots.
 ##### Screenshots on Chrome
 
 1. Download [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh).
-2. Download [Screenshot Capture](https://chrome.google.com/webstore/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc?hl=en).
-3. In Window Resizer set preset to 1536x1008. In Screenshot Capture set "Adjust to actual size" preset.
-4. Resize the viewport.
-5. Right click screenshot capture icon, go to options, and make sure the capture method is set to capture viewport.
-6. Set up the screenshot.
-7. Make sure there are enough pixels. The extension should give a warning if it can't resize properly.
-8. Press `alt + s` (this is the default keyboard shortcut) to take the screenshot. (Make sure the download bar from any
-previous screenshots is gone.)
-9. Check the image to make sure it has the right dimensions (1536x1008).
-10. Rename screenshots `sim-name-screenshot.png` or `sim-name-screenshot-alt#.png`.
-11. Upload the screenshots to the sim repo's assets folder in GitHub.
+2.
+Download [Screenshot Capture](https://chrome.google.com/webstore/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc?hl=en).
+3. For `Window Resizer` extension, set preset to 1536x1008 and select "viewport". Resize the viewport by pressing the
+   large right-arrow.
+4. For the `Screenshot Capture` extension, Right click its icon, go to options
+   -The option for *Capture Method* should be be set to "Capture Viewport".
+   -The options for *Screenshot Size* should be set to "Adjust to actual size" preset.
+5. Set up the screenshot for the PhET sim. Do not use the queryParameter `screens`.
+6. Make sure there are enough pixels. The extension should give a warning if it can't resize properly.
+7. Press `alt + s` (this is the default keyboard shortcut for the `Screenshot Capture` extension) to take the
+   screenshot. (Make sure the download bar from any previous screenshots is gone.)
+8. Check the image to make sure it has the right dimensions (1536x1008).
+9. Rename screenshots `sim-name-screenshot.png` or `sim-name-screenshot-alt#.png`.
+10. Upload the screenshots to the sim repo's assets folder in GitHub.
 
 ##### Screenshots on Firefox
 
 1. Download [ResizeIT](https://addons.mozilla.org/en-US/firefox/addon/resizeit).
 2. Download [Easy Screenshot](https://addons.mozilla.org/en-US/firefox/addon/easyscreenshot).
 3. In ResizeIT set the dimension to 1548x1089.
-4. Set up the screenshot.
+4. Set up the screenshot for the PhET sim. Do not use the queryParameter `screens`.
 5. Make sure there are enough pixels. The extension should give a warning if it can't resize properly.
 6. Click on the screenshot extension. (Make sure the download bar from any previous screenshots is gone.)
 7. Select "capture visible web content".
@@ -1856,4 +1859,3 @@ Use this [Markdown File](https://github.com/phetsims/QA/blob/master/doc/qa-book-
 need to be added and to view dates for scheduled maintenance.
 
 ***
-
