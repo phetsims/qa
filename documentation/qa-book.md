@@ -862,6 +862,8 @@ This test focuses on the buttons found under the 'Standard PhET-iO Wrapper' sect
     * audio features toggle (and sound button in nav bar)
     * Every dialog's isShowingProperty is stateful
 
+* *Things that don't carry over include voicing and interactive highlights being on.*
+
 *Column 2 says:* Play around with the studio  
 *How?* 
 * To test this wrapper, make sure instrumented characteristics can be modified and make sure characteristics that haven’t been instrumented can’t be modified.
