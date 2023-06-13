@@ -1365,7 +1365,7 @@ Things to include in website testing:
 
 ### 4.6: Automated (Continuous) Testing
 
-Open [this](https://bayes.colorado.edu/continuous-testing/aqua/html/continuous-report.html) in a private window. (You
+Open [this](https://sparky.colorado.edu/continuous-testing/aqua/html/continuous-report.html) in a private window. (You
 should always use a private window when viewing automated testing results because of caching issues.) Read the
 description at the top of the page. (The test number can increase because tests aren’t counted until the simulation
 is built.)
