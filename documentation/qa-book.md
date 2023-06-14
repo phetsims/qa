@@ -1038,6 +1038,7 @@ On one random platform combination:
 *How?*   
 * To test this wrapper, test screenshots as you normally would by pressing the “Take Screenshot” button in the wrapper, not the “Screenshot” button in the simulation. 
 * Be sure to take at least one screenshot per screen
+* Some blurriness of the screenshot is acceptable.
  
 #### Test 17: Active Wrapper Test
 
