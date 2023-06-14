@@ -871,12 +871,13 @@ This test focuses on the buttons found under the 'Standard PhET-iO Wrapper' sect
 * Note that a certain subset of PhET-iO elements are "PhET-iO Featured" and the studio tree can be filtered to show only these elements.
 * Use the "autoselect" feature by hovering over instrumented elements while holding `Opt/Alt`. This should select the hovered element in the Studio tree. You can also select the linked/model element with `Ctrl`. If doing this while filtering on PhET-iO featured, unfeatured elements won't be selected. Please note weirdness here as these two parts of studio intersect. 
 
-*Column 3 says:* Save/Load Old Version  
+*Column 3 says:* Save/Load Old Version/Migration Wrapper  
 *How?*  
 * Open older version of sim in studio (if available), make some changes to the sim, and save.
 * Load saved file into current studio version.
    * *Note*: An error message 401 (credentials needed) should appear in console--which is expected. A pop-up will then ask for username/password.
    * Upon loading, any changes between the 2 versions should appear in console.
+* This can be done faster with the migration wrapper if it is available. Add "wrappers/migration" to the end of the index wrapper URL. The top sim will be the old version. When changes in the top sim are ready to be migrated, simply pres the "Migrate Now" button and check that the bottom sim matches the top and no errors appeared in the console.
  
 #### Test 9: Examples (Client Requests)
 
