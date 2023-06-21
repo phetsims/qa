@@ -845,7 +845,7 @@ a property. Not all characteristics of the simulation are instrumented so as to 
 simulation. Using Studio is tested on Mac and Windows Chrome platforms. Other platforms should test html files 
 made in this way.
 
-**_There are 3 columns in the test matrix for this wrapper:_**   
+**_There are 2 columns in the test matrix for this wrapper:_**   
 
 *Column 1 says:* Standard PhET-iO Wrapper  
 *How?*  
@@ -869,17 +869,31 @@ This test focuses on the buttons found under the 'Standard PhET-iO Wrapper' sect
 * To test this wrapper, make sure instrumented characteristics can be modified and make sure characteristics that haven’t been instrumented can’t be modified.
 * Make sure the UI functions as expected. 
 * Note that a certain subset of PhET-iO elements are "PhET-iO Featured" and the studio tree can be filtered to show only these elements.
-* Use the "autoselect" feature by hovering over instrumented elements while holding `Opt/Alt`. This should select the hovered element in the Studio tree. You can also select the linked/model element with `Ctrl`. If doing this while filtering on PhET-iO featured, unfeatured elements won't be selected. Please note weirdness here as these two parts of studio intersect. 
+* Test the **autoselect features** by hovering over instrumented elements while holding the appropriate button:
+  
+   * `Opt/Alt`: allows you to view that element in the Studio tree. This Option should NEVER go to a stringProperty.
+   * `Shift` + `Opt/Alt`: while hovering over text goes to that stringProperty. This option should ONLY go to stringProperty.
+   * `Ctrl`: selects the linked/model element. This option can go to a stringProperty if it was a linked element. 
+   * *Note: If doing this while filtering on PhET-iO featured, unfeatured elements won't be selected.*
 
-*Column 3 says:* Save/Load Old Version/Migration Wrapper  
-*How?*  
-* Open older version of sim in studio (if available), make some changes to the sim, and save.
-* Load saved file into current studio version.
-   * *Note*: An error message 401 (credentials needed) should appear in console--which is expected. A pop-up will then ask for username/password.
-   * Upon loading, any changes between the 2 versions should appear in console.
-* This can be done faster with the migration wrapper if it is available. Add "wrappers/migration" to the end of the index wrapper URL. The top sim will be the old version. When changes in the top sim are ready to be migrated, simply pres the "Migrate Now" button and check that the bottom sim matches the top and no errors appeared in the console.
- 
-#### Test 9: Examples (Client Requests)
+#### Test 9: Migration Wrapper Test
+
+*Approximate time:* 1 hour (per device type)
+
+*Test matrix says:* Save/Load Old Version/Migration Wrapper  
+
+*What?* 
+* This wrapper contains 2 versions of Studio. The top is the Old Version and the bottom is the New Version.
+
+*How?* 
+* Add "wrappers/migration" to the end of the index wrapper URL.
+1. Make changes to the top version and then press the "Migrate Now" button.
+2. Check that the bottom version matches the top and no errors (ex. "Can't set id." or "Can't read ...") appeared in the console.
+3. Add ?fuzz to the end of the URL. Increase the Migration rate a little to turn on automatic migration. Check console for errors.
+
+* To test with the migration wrapper in master, it is necessary to add the old version as a query parameter(?oldVersion=). 
+
+#### Test 10: Examples (Client Requests)
 
 *Approximate time:* Varies depending on the number of requests, Only on one random platform  
 
@@ -896,7 +910,7 @@ Using the Studio Wrapper:
 *Note:*
 Some sims may include examples where you are able to preload a set state into a Standard PhET-iO Wrapper. In these instances, set your console to "top" in order to use commands (there is a dropdown menu at the top of the console in Chrome, or at the bottom if in Safari). As an example, see 'Load premade circuits into a wrapper' in the CCK-DC examples doc.
 
-#### Test 10: Data: Colorized Wrapper Test
+#### Test 11: Data: Colorized Wrapper Test
 
 *Approximate time:* <5 minutes, Only on one random platform     
 *Test Matrix says:* Events: Colorized
@@ -908,7 +922,7 @@ Some sims may include examples where you are able to preload a set state into a 
 * To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the manipulations. 
 * This test should be done lightly to make sure the data stream prints out to the console as it should.
 
-#### Test 11: Data: JSON Wrapper Test
+#### Test 12: Data: JSON Wrapper Test
 
 *Approximate time:* <5 minutes, Only on one random platform     
 *Test Matrix says:* Events: JSON
@@ -920,7 +934,7 @@ Some sims may include examples where you are able to preload a set state into a 
 * To test this wrapper, manipulate the simulation and make sure the events you see in the event stream match the manipulations. 
 * This test should be done lightly to make sure the data stream prints out to the console as it should.
 
-#### Test 12: Data: Text Area Wrapper Test
+#### Test 13: Data: Text Area Wrapper Test
 
 *Approximate time:* <5 minutes  
 *Test Matrix says:* Events: textarea  
@@ -933,7 +947,7 @@ Some sims may include examples where you are able to preload a set state into a 
 * This test should be a bit more in depth than the colorized and JSON tests. 
 * Performance should also be acceptable.
 
-#### Test 13: Data: Recording Wrapper Test
+#### Test 14: Data: Recording Wrapper Test
 
 *Approximate time:* 10 minutes  
 *Test Matrix says:* Events: record. Replace &console with &localFile  
@@ -950,47 +964,6 @@ Some sims may include examples where you are able to preload a set state into a 
   4. Follow the directions in the console to download a copy of the recording.
   5. Make sure the file size isn't empty. 
   
-<s> #### Test 14: Data: Metacog Cycle Test
-
-*Approximate time:* 30-40 minutes (due to wait times)  
-*Test Matrix doesn’t have a column for this. For the iPad, add results in Events: record. Replace &console with &localFile*  
-  
-*What?* 
-* This test exercises the full recording and playback process used for PhET studies. This includes recording data to and retrieving data from our data back end partner, Metacog.
-
-*How?* 
-
-Note: This test may not work in some private browsers. 
-
- 1. Generate the link for testing. 
-     - Copy and paste the wrapper index URL into a Google Doc
-     - Add this to the end of the url:
-    `/wrappers/login/?wrapper=record&validationRule=validateDigits&numberOfDigits=5&promptText=Enter%20a%205%20Digit%20ID&publisher_id={{PUBLISHER_ID}}&key_name=testing&widget_id={{SIM}}-{{VERSION}}-qaTest&metacog` 
-         - Replace {{PUBLISHER_ID}} with actual ID. This can be found in the PhET Credentials Level 3 (QA PhEt-iO publisher ID) or ask @KatieWoe. 
-         - Replace {{SIM}}-{{VERSION}} with actual sim and version 
-             - Ex. id=graphing-quadratics-1.2.0-rc.1
-     - Go to the end of the URL and press space bar to make it an active link
-  2. Open this link on iPad in Safari. This should also be done on at least one other random platform.
-      - Sign in with a 5 digit #
-       - You need to remember this number, so add it to the Google doc you were in earlier
-      - Make changes as you normally would with the Recording wrapper
-      - Make sure you are recording to Metacog by looking in the console. You should see the following: `Recorder initialized, sending data to: ["metacog"]`
-  3. When you are done, press either the back arrow or close the tab. You should be prompted to stay while the process finishes. Do not leave!
-Instead, press cancel and wait for the go-ahead to leave. (Firefox may not show the dialog if you use the back arrow. You may not see the dialog on the iPad with either action.)
-
-  4. Wait thirty minutes before moving to the next step. 
-  5. Retrieving data
-      - Use this
-[link](https://bayes.colorado.edu/dev/phettest/phet-io-website/root/metacog/request-data.html) or [link](https://phet-io.colorado.edu/metacog/request-data.html) 
-      - In the URL Box: paste ONLY the query parameter portion of the provided URL (?wrapper=record&validationRule=validateDigits&numberOfDigits=5&promptText=Enter%20a%205%20Digit%20ID&publisher_id={{PUBLISHER_ID}}&key_name=testing&widget_id={{SIM}}-{{VERSION}}-qaTest&metacog) 
-      - Leave learner ID and dates blank
-      - Enter the application ID. This is found in the PhET Credentials Level 3 (QA application ID) or ask @KatieWoe. 
-      - Enter email
-      - If you have the console open when you hit submit, you will get an ID number you can use if something goes wrong with the retrieval.  
-                  *  This number will also be in the subject line when you receive the email. 
-      - Press Submit
-      - The email may take up to 20 minutes
-  6. Make sure file size isn't empty. </s>
 
 #### Test 15: State Wrapper Test
 *Approximate Time:* 30-60 minutes  
