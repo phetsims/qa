@@ -1122,7 +1122,7 @@ To test the accessibility features of a simulation, follow the steps below:
 
 * If the sim has a Preferences dialog, the dialog should be screen reader accessible. It should be possible to find the
   dialog and interact with all of its components, even if the simulation does not fully support Interactive Description.
-  See the following section on Screen Readers for more information.
+  See the following section on screen readers for more information.
 
 ##### *Special Notes*
 * If keyboard navigation does not work on Safari, you likely need to enable it in user settings. See https://www.seanmcp.com/articles/tab-focus-not-working-in-safari/
