@@ -1120,7 +1120,7 @@ To test the accessibility features of a simulation, follow the steps below:
 
 ##### *Preferences*
 
-* If the sim has a Preferences dialog, the dialog should be screen reader accessible. It should be possible to find the
+* If the sim has a Preferences dialog as well as alt input, the dialog should be screen reader accessible. It should be possible to find the
   dialog and interact with all of its components, even if the simulation does not fully support Interactive Description.
   See the following section on screen readers for more information.
 
