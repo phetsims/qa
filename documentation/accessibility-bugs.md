@@ -74,6 +74,7 @@ So empty. Much goodness.
 * When the values of sliders are read out sometimes NVDA will read out the wrong value.  Adjusting those sliders seems to fix the issue.  Likely an “AT caching” issue.  https://github.com/phetsims/resistance-in-a-wire/issues/202
 * NVDA will read through the Sim Screen Overview when exiting a dialog
 * NVDA may say name of WASD keys when pressed
+* NVDA might get "stuck" on the heading of a dialog. You have to press "tab" to get out of it. See https://github.com/phetsims/quadrilateral/issues/452
 
 ### 1.4: VoiceOver
 
