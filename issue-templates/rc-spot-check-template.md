@@ -98,7 +98,7 @@ issue back to the developer.
 - Make sure you can't lose anything.
 - Play with the sim normally.
 - Try to break the sim.
-- Test some query parameters. (See [QA Book](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md) for a list of query parameters.)
+- Test some query parameters. (See [QA Book](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md) for a list of query parameters.)
 - When making an issue, check to see if it was in a previously published version.
 - Try to include version numbers for browsers.
 - If there is a console available, check for errors and include them in the Problem Description.
@@ -185,7 +185,7 @@ issue back to the developer.
 
 This sim may support screen readers. If you are unfamiliar with screen readers, please ask Katie to introduce you to
 screen readers. If you simply need a refresher on screen readers, please consult the
-[QA Book](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md), which should have all of the information
+[QA Book](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md), which should have all of the information
 you need as well as a link to a screen reader tutorial made by Jesse. Otherwise, look over the a11y view before opening
 the simulation. Once you've done that, open the simulation and make sure alerts and descriptions work as intended.
 
@@ -201,7 +201,7 @@ the simulation. Once you've done that, open the simulation and make sure alerts 
 <h3>Critical Screen Reader Information</h3>
 
 We are tracking known screen reader bugs in
-[here](https://github.com/phetsims/qa/blob/master/documentation/accessibility-bugs.md). If you find a
+[here](https://github.com/phetsims/qa/blob/main/documentation/accessibility-bugs.md). If you find a
 screen reader bug, please check it against this list.
 
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
@@ -302,7 +302,7 @@ We typically assign the developer who opened the issue in the QA repository.
 
 You should:
 
-1. Consult the [QA Book](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md).
+1. Consult the [QA Book](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md).
 2. Google it.
 3. Ask Katie.
 4. Ask a developer.

@@ -1,6 +1,6 @@
 # QA Book Maintenance
 
-Add any items that need to be added to the [QA Book](https://github.com/phetsims/QA/blob/master/doc/qa-book.md) to this
+Add any items that need to be added to the [QA Book](https://github.com/phetsims/QA/blob/main/doc/qa-book.md) to this
 markdown file.
 
 ## Small Things

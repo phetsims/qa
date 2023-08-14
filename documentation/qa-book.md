@@ -5,7 +5,7 @@ so, welcome! If you're not a PhET employee, (1) thank you for reading this, (2) 
 find this obscure corner of GitHub, and (3) feel free to read on and learn how we test our simulations. Just about
 everything you need to know to test PhET simulations is in this book.
 
-![Cover Comic](https://github.com/phetsims/QA/blob/master/documentation/images/cover-comic.jpg "Funny Comic")
+![Cover Comic](https://github.com/phetsims/QA/blob/main/documentation/images/cover-comic.jpg "Funny Comic")
 Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
 [humorous comic](https://www.monkeyuser.com/2018/the-struggle/) that Megan "PhETified."
 
@@ -13,56 +13,56 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
 
 ## Contents
 
-**[Section 1: Hardware & Software](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-1-hardware--software)**
+**[Section 1: Hardware & Software](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#section-1-hardware--software)**
 
-  * [1.1: Devices](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#11-devices)
-  * [1.2: Operating Systems](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#12-operating-systems)
-  * [1.3: Web Browsers](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#13-web-browsers)
-  * [1.4: Updates](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#14-updates)
+  * [1.1: Devices](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#11-devices)
+  * [1.2: Operating Systems](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#12-operating-systems)
+  * [1.3: Web Browsers](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#13-web-browsers)
+  * [1.4: Updates](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#14-updates)
 
-**[Section 2: Communication & Coordination](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-2-communication--coordination)**
+**[Section 2: Communication & Coordination](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#section-2-communication--coordination)**
 
-  * [2.1: Email](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#21-email)
-  * [2.2: Google Groups](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#22-google-groups)
-  * [2.3: Google Calendar](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#23-google-calendar)
-  * [2.4: Google Drive](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#24-google-drive)
-  * [2.5: Slack](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#25-slack)
-  * [2.6: Zoom](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#26-zoom)
+  * [2.1: Email](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#21-email)
+  * [2.2: Google Groups](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#22-google-groups)
+  * [2.3: Google Calendar](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#23-google-calendar)
+  * [2.4: Google Drive](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#24-google-drive)
+  * [2.5: Slack](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#25-slack)
+  * [2.6: Zoom](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#26-zoom)
 
-**[Section 3: GitHub](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-3-github)**
+**[Section 3: GitHub](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#section-3-github)**
 
-  * [3.1: Repositories](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#31-repositories)
-  * [3.2: Terminology](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#32-terminology)
-  * [3.3: Issues](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#33-issues)
-  * [3.4: QA Pipeline](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#34-qa-pipline)
+  * [3.1: Repositories](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#31-repositories)
+  * [3.2: Terminology](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#32-terminology)
+  * [3.3: Issues](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#33-issues)
+  * [3.4: QA Pipeline](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#34-qa-pipline)
 
-**[Section 4: Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-4-testing)**
+**[Section 4: Testing](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#section-4-testing)**
 
-  * [4.1: Development (Dev) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#41-development-dev-testing)
-  * [4.2: Release Candidate (RC) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#42-release-candidate-rc-testing)
-  * [4.3: PhET-iO Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#43-phet-io-testing)
-  * [4.4: Accessibility (a11y) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#44-accessibility-a11y-testing)
-  * [4.5: Online Website Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#45-online-website-testing)
-  * [4.6: Automated (Continuous) Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#46-automated-continuous-testing)
-  * [4.7: Memory Leak Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#47-memory-leak-testing)
-  * [4.8: Maintenance Release Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#48-maintenance-release-testing)
-  * [4.9: PhETTest](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#49-phettest)
-  * [4.10: App Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#410-app-testing)
-  * [4.11: Metadata Service Testing](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#411-metadata-service-testing)
-  * [4.12: Sim Testing Tips](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#412-sim-testing-tips)
+  * [4.1: Development (Dev) Testing](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#41-development-dev-testing)
+  * [4.2: Release Candidate (RC) Testing](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#42-release-candidate-rc-testing)
+  * [4.3: PhET-iO Testing](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#43-phet-io-testing)
+  * [4.4: Accessibility (a11y) Testing](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#44-accessibility-a11y-testing)
+  * [4.5: Online Website Testing](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#45-online-website-testing)
+  * [4.6: Automated (Continuous) Testing](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#46-automated-continuous-testing)
+  * [4.7: Memory Leak Testing](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#47-memory-leak-testing)
+  * [4.8: Maintenance Release Testing](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#48-maintenance-release-testing)
+  * [4.9: PhETTest](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#49-phettest)
+  * [4.10: App Testing](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#410-app-testing)
+  * [4.11: Metadata Service Testing](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#411-metadata-service-testing)
+  * [4.12: Sim Testing Tips](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#412-sim-testing-tips)
 
-**[Section 5: Translations](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-5-translations)**
+**[Section 5: Translations](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#section-5-translations)**
 
-  * [5.1: Legacy Simulation Translations](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#51-legacy-simulation-translations)
-  * [5.2: HTML5 Simulation Translations](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#52-html5-simulation-translations)
-  * [5.3: Website Translations](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#53-website-translations)
+  * [5.1: Legacy Simulation Translations](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#51-legacy-simulation-translations)
+  * [5.2: HTML5 Simulation Translations](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#52-html5-simulation-translations)
+  * [5.3: Website Translations](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#53-website-translations)
 
-**[Section 6: Maintenance & Management](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#section-6-maintenance--management)**
+**[Section 6: Maintenance & Management](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#section-6-maintenance--management)**
 
-  * [6.1: Testing Matrix Management](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#61-testing-matrix-management)
-  * [6.2: PhET Test Maintenance](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#62-phet-test-maintenance)
-  * [6.3: Website Administration](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#63-website-administration)
-  * [6.4: QA Book Maintenance](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#64-qa-book-maintenance)
+  * [6.1: Testing Matrix Management](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#61-testing-matrix-management)
+  * [6.2: PhET Test Maintenance](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#62-phet-test-maintenance)
+  * [6.3: Website Administration](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#63-website-administration)
+  * [6.4: QA Book Maintenance](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#64-qa-book-maintenance)
 
 ***
 
@@ -273,11 +273,11 @@ correct terms. (Some terms are intuitive while others are counterintuitive, henc
 * “drop down menu” = combo box
 * “number adjuster that looks like a spinner”/has floating arrows = number picker
 
-![Number Picker](https://github.com/phetsims/QA/blob/master/documentation/images/number-picker.png "Number Picker")
+![Number Picker](https://github.com/phetsims/QA/blob/main/documentation/images/number-picker.png "Number Picker")
 
 * “number adjuster that looks like a picker”/has buttons = number spinner
 
-![Number Spinner](https://github.com/phetsims/QA/blob/master/documentation/images/number-spinner.png "Number Spinner")
+![Number Spinner](https://github.com/phetsims/QA/blob/main/documentation/images/number-spinner.png "Number Spinner")
 
 * "show/hide button" = eye toggle button
 
@@ -316,7 +316,7 @@ issue. Search all repositories on GitHub for the issue.
 9. Assign the appropriate PhET employee(s) and use relevant labels. This is often the developer who made the test
 issue. Design questions go to Amy if they are science, or Amanda if they are math. If you are unsure who to assign, you
 might be able to figure it out by reading the 
-[Responsible Dev Document](https://github.com/phetsims/phet-info/blob/master/sim-info/responsible_dev.json) on GitHub.
+[Responsible Dev Document](https://github.com/phetsims/phet-info/blob/main/sim-info/responsible_dev.json) on GitHub.
 10. Click the “Submit New Issue” button.
 
 #### Issue Template
@@ -375,7 +375,7 @@ for Windows is `control + shift + i`.
 When a developer has fixed a bug they will assign it back to QA to ensure that the bug is fixed and that no new bugs 
 have arrisen. How this is done depends on the bug and where the simulation is in terms of development. When a bug is 
 found during a dev test, the developer will assign the issue to QA (typically the tester the who found and reported the bug) 
-and put it in the "Issues to Verify" collumn of the QA pipeline. When the issue is confirmed or found off on master, this should be noted 
+and put it in the "Issues to Verify" collumn of the QA pipeline. When the issue is confirmed or found off on main, this should be noted 
 and the issue assigned back to the developer. When an issue is found during an RC the developer will put in the "Issues to Verify" 
 section of the next RC. If it is found to be fixed in that RC it can generally be closed. If it is not fixed it is assigned back.
 
@@ -423,7 +423,7 @@ appropriate column.
 
 Tests that are in the repo but not high priority, are being created in repo, or are expected to come in soon are kept in the 
 section "Upcoming Tests (by priority)" and should be ordered roughly by how urgent they will be when the enter the main testing phase. 
-"Issues to Verify" contains issues that were found by QA during testing that have been fixed. They should be checked on master and the 
+"Issues to Verify" contains issues that were found by QA during testing that have been fixed. They should be checked on main and the 
 results of those checks should be added to the issue. The issue should then be assigned back to the developer. "Active Tests" should have 
 a max of 5 tests in it and they are ordered by priority. When testing is done the test is dragged to "Ready for Next Steps" and 
 eventually "Done."
@@ -440,7 +440,7 @@ Development testing is whatever the developer wants it to be. Generally speaking
 sure the simulation behaves as intended. The GitHub issue for a development test will specify what needs to be tested.
 
 When a simulation needs to be tested, a developer will open an issue in the QA repository and they should use
-[the template for development tests](https://github.com/phetsims/QA/blob/master/issue-templates/dev-test-template.md).
+[the template for development tests](https://github.com/phetsims/QA/blob/main/issue-templates/dev-test-template.md).
 The template should specify what exactly needs to be tested. The steps you need to follow and the platforms you need to
 test for a development test can be found in the template. There should be a link to the simulation in the issue, but if
 there isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/).
@@ -470,7 +470,7 @@ Release candidate testing is more thorough than development testing because the 
 RC test.
 
 When a simulation needs to be tested, a developer will open an issue in the QA repository. They should use
-[the new template for release candidate tests](https://github.com/phetsims/QA/blob/master/issue-templates/rc-test-template.md).
+[the new template for release candidate tests](https://github.com/phetsims/QA/blob/main/issue-templates/rc-test-template.md).
 There should be a link to the simulation in the issue, but if there isn’t, then you can find it
 [here](https://phet-dev.colorado.edu/html/). The template should specify what exactly needs to be tested. Here are the
 steps you need to follow for a release candidate test:
@@ -562,7 +562,7 @@ this is true by default, and will show a red line under the phet menu.
 ##### Private Query Parameters
 
 Some Query Parameters may only be used by members of the PhET team. The method of viewing them should not be disclosed.
-See [Private Features for PhET Team Members](https://github.com/phetsims/special-ops/blob/master/doc/phetTeamMember.md)
+See [Private Features for PhET Team Members](https://github.com/phetsims/special-ops/blob/main/doc/phetTeamMember.md)
 for instructions on how to enable private query parameters. `?showAnswers` is an example of this.
 
 ##### Syntax for Multiple Query Parameters
@@ -891,7 +891,7 @@ This test focuses on the buttons found under the 'Standard PhET-iO Wrapper' sect
 2. Check that the bottom version matches the top and no errors (ex. "Can't set id." or "Can't read ...") appeared in the console.
 3. Add ?fuzz to the end of the URL. Increase the Migration rate a little to turn on automatic migration. Check console for errors.
 
-* To test with the migration wrapper in master, it is necessary to add the old version as a query parameter(?oldVersion=). 
+* To test with the migration wrapper in main, it is necessary to add the old version as a query parameter(?oldVersion=). 
 
 #### Test 10: Examples (Client Requests)
 
@@ -1095,7 +1095,7 @@ One of PhET’s goals is to make our simulations available to everyone. This, of
 disabilities. There are several features unique to accessibility testing: keyboard navigation, screen reader compatibility, voicing, interactive highlights, and sound effects (sonification). 
 
 Please read through this
-[list of known a11y bugs](https://github.com/phetsims/qa/blob/master/documentation/accessibility-bugs.md) before doing
+[list of known a11y bugs](https://github.com/phetsims/qa/blob/main/documentation/accessibility-bugs.md) before doing
 any testing.
 
 To test the accessibility features of a simulation, follow the steps below:
@@ -1150,7 +1150,7 @@ and follow the registration steps to add JAWS to your computer.
     * [Tip sheet VoiceOver](https://docs.google.com/document/d/1qz0Dm2lA67tRhgw1GaHVeOSnldBoMj7AT5UE_UaXz1U/edit)
     * [Tip sheet NVDA](https://docs.google.com/document/d/1pgfyEER7ZlpJlXSwvSCbNBuoCa5oOexc7QvTuFZu-Mo/edit)
     * [Tip sheet JAWS](https://docs.google.com/document/d/1aggemqGsb2CdR7PxgLG50kOg4ZwBPM2M3eI3okyZHJ8/edit)
-* Additional tips can also be found here: [More tips](http://htmlpreview.github.io/?https://github.com/phetsims/a11y-research/blob/master/reader-intro.html)
+* Additional tips can also be found here: [More tips](http://htmlpreview.github.io/?https://github.com/phetsims/a11y-research/blob/main/reader-intro.html)
 * In an issue for a test of a simulation with accessibility feature(s) you will find, among other things, a link to the simulation, perhaps a link to a testing matrix (if the test is an RC test), and a link to the a11y view.
 * The a11y view,
 is a page with the simulation on the left and the description of the simulation in plain text (the parallel document
@@ -1189,7 +1189,7 @@ reader.
 
 * *Website testing with screen readers:*
      * To familiarize yourself with a screen reader, use the screen reader to read
-[this](http://htmlpreview.github.io/?https://github.com/phetsims/a11y-research/blob/master/reader-intro.html). 
+[this](http://htmlpreview.github.io/?https://github.com/phetsims/a11y-research/blob/main/reader-intro.html). 
      * Tips for each of the three types of screen readers can be found here:
           * [Tip sheet VoiceOver](https://docs.google.com/document/d/1qz0Dm2lA67tRhgw1GaHVeOSnldBoMj7AT5UE_UaXz1U/edit)
           * [Tip sheet NVDA](https://docs.google.com/document/d/1pgfyEER7ZlpJlXSwvSCbNBuoCa5oOexc7QvTuFZu-Mo/edit)
@@ -1208,7 +1208,7 @@ and you will hear spoken content as you focus and activate UI components with mo
 
 * The Voicing feature is disabled by default, and it can be enabled in the Auditory Tab of the Preferences Dialog. 
 * Once enabled, there are 3 additional options:  
-![Sim Voicing Options](https://github.com/phetsims/QA/blob/master/documentation/images/sim-voicing-options.png "Sim Voicing Options")  
+![Sim Voicing Options](https://github.com/phetsims/QA/blob/main/documentation/images/sim-voicing-options.png "Sim Voicing Options")  
      * *Voice Direct object details and changes*  
        This checkbox enables/disables hearing interactive object names and details when they receive focus or activation from mouse/keyboard.
      * *Voice other sim changes as objects change*  
@@ -1262,7 +1262,7 @@ any Reading Blocks. The only exception is the "Quick Info" buttons in the Toolba
 * When the mouse is over a Reading Block a black highlight should surround the content. 
 * Moving focus to a Reading Block with keyboard or gesture or clicking on the Reading Block with mouse or touch will activate it and start speech for the content. While speaking, a yellow highlight should appear in the Reading Block highlight.
 
-![Reading Block](https://github.com/phetsims/QA/blob/master/documentation/images/reading-block.png "Reading Block")
+![Reading Block](https://github.com/phetsims/QA/blob/main/documentation/images/reading-block.png "Reading Block")
 
 ##### *Additional Notes about Voicing:*
 
@@ -1281,7 +1281,7 @@ Interactive Highlights are another new accessibility feature. They are highlight
 interactive components in the sim while the mouse is over them. They serve to assist the user by clearly indicating
 what is important and interactive on the screen. 
 
-![Interactive Highlights](https://github.com/phetsims/QA/blob/master/documentation/images/interactive-highlights.png "Interactive Highlights")
+![Interactive Highlights](https://github.com/phetsims/QA/blob/main/documentation/images/interactive-highlights.png "Interactive Highlights")
 
 * Voicing and Interactive Highlights are totally independent, each should work on their own without the other. 
 * They are disabled by default, but can be enabled from the Preferences dialog.
@@ -1324,7 +1324,7 @@ what is important and interactive on the screen.
 The developers may occasionally ask you to test various parts of the website. They should provide details.
 Theoretically, all of the steps you follow to test the offline website could be followed for the online website.
 (Obviously, some things would be different, as the website would be online instead of offline.) The
-[section on website administration](https://github.com/phetsims/QA/blob/master/documentation/qa-book.md#63-website-administration)
+[section on website administration](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#63-website-administration)
 may contain pertinent information.
 
 Much of this testing may be done on the ox-dev website. This way new features or large changes can be tested before
@@ -1455,7 +1455,7 @@ sims currently in RC testing may need special attention.
 ### 4.9: PhETTest
 
 [PhETTest](https://bayes.colorado.edu/dev/phettest/) contains up-to-date versions of the sim with latest code changes made by the
-developers. When a developer asks for something to be checked on master, this is where you will go to do that for the
+developers. When a developer asks for something to be checked on main, this is where you will go to do that for the
 most part. PhETMarks serves a similar purpose with more options in case you need to test something more involved like
 PhET-iO. When you open the website, do so in incognito mode to ensure you aren’t looking at an old version of a sim.
 Make sure all of the common code repos are up to date, as well as the sim you want to look at. You can press the "pull"
@@ -1639,7 +1639,7 @@ https://phet.colorado.edu/en/for-translators/website
 As I'm sure you've realized at this point translating the website is not a small task. We estimate it will probably
 take about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one
 public translation per language, we encourage translators to collaborate on a translation for their language. We want
-translators to work together to move any partial translations to one "master" translation as only one translation will
+translators to work together to move any partial translations to one "main" translation as only one translation will
 go public.
 
 Thank you for your efforts to make PhET sims available worldwide.
@@ -1675,7 +1675,7 @@ https://phet.colorado.edu/en/for-translators/website
 As I'm sure you've realized at this point translating the website is not a small task. We estimate it will probably
 take about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one
 public translation per language, we encourage translators to collaborate on a translation for their language. We want
-translators to work together to move any partial translations to one "master" translation as only one translation will
+translators to work together to move any partial translations to one "main" translation as only one translation will
 go public.
 
 Also, we typically only publish translations once they reach at least 1000 strings because before that point they
@@ -1724,7 +1724,7 @@ https://phet.colorado.edu/en/for-translators/website
 As I'm sure you've realized at this point translating the website is not a small task. We estimate it will probably
 take about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one
 public translation per language, we encourage translators to collaborate on a translation for their language. We want 
-translators to work together to move any partial translations to one "master" translation as only one translation will
+translators to work together to move any partial translations to one "main" translation as only one translation will
 go public.
 
 Since there are already multiple Arabic (ar) translations being worked on, I would encourage you to send a request to
@@ -1777,7 +1777,7 @@ tab).
 
 ### 6.2: PhET Test Maintenance
 
-PhETTest runs on bayes, see https://github.com/phetsims/phetmarks/blob/master/phettest/README.md for notes about maintaining the associated processes. This
+PhETTest runs on bayes, see https://github.com/phetsims/phetmarks/blob/main/phettest/README.md for notes about maintaining the associated processes. This
 requires the ability to ssh into bayes with the `phet-admin` account. If you see something like 
 ”failed to pull,” then look through bayes logs to see if you can find the culprit. Every time a new repository
 is made, press the “Refresh Perennial” button. (Perennial is the list of simulations.) Press the ”Pull All” button
@@ -1837,7 +1837,7 @@ testing “Activities” and you are not logged in, you should not see the red b
 
 Please keep this book up-to-date so that it can be a useful resource!
 
-Use this [Markdown File](https://github.com/phetsims/QA/blob/master/doc/qa-book-maintenance.md) to record things that
+Use this [Markdown File](https://github.com/phetsims/QA/blob/main/doc/qa-book-maintenance.md) to record things that
 need to be added and to view dates for scheduled maintenance.
 
 ***
