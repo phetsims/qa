@@ -209,8 +209,10 @@ screen reader.
 
 <h3>Magnification</h3>
 
-This sim supports magnification with pinch and drag gestures on touch screens, keyboard shortcuts, and mouse/wheel controls. Please test magnfication and make sure
-it is working as intended and well with the use cases of the simulation. Due to the way screen readers handle user input, magnification is NOT expected to
+This sim supports magnification with pinch and drag gestures on touch screens, keyboard shortcuts, and mouse/wheel
+controls. Please test magnfication and make sure
+it is working as intended and well with the use cases of the simulation. Due to the way screen readers handle user
+input, magnification is NOT expected to
 work while using a screen reader so there is no need to test this case.
 
 <hr>

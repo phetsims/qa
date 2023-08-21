@@ -86,7 +86,8 @@ issue back to the developer.
 - Make sure you can't lose anything.
 - Play with the sim normally.
 - Try to break the sim.
-- Test all query parameters on all platforms. (See [QA Book](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md) for a list of query parameters.)
+- Test all query parameters on all platforms. (
+  See [QA Book](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md) for a list of query parameters.)
 - Download HTML on Chrome and iOS.
 - Make sure the iFrame version of the simulation is working as intended on all platforms.
 - Make sure the XHTML version of the simulation is working as intended on all platforms.
@@ -99,8 +100,11 @@ issue back to the developer.
 - When making an issue, check to see if it was in a previously published version.
 - Try to include version numbers for browsers.
 - If there is a console available, check for errors and include them in the Problem Description.
-- As an RC begins and ends, check the sim repo. If there is a maintenance issue, check it and notify developers if there is a problem.
-- As the RC ends, please review the QA credits in the about dialog.  If the QA credits are complete and correct, please add a comment in the RC test issue indicating so.  If not, please open a new issue and specify what changes should be made.
+- As an RC begins and ends, check the sim repo. If there is a maintenance issue, check it and notify developers if there
+  is a problem.
+- As the RC ends, please review the QA credits in the about dialog. If the QA credits are complete and correct, please
+  add a comment in the RC test issue indicating so. If not, please open a new issue and specify what changes should be
+  made.
 
 <hr>
 
@@ -209,8 +213,10 @@ screen reader.
 
 <h3>Magnification</h3>
 
-This sim supports magnification with pinch and drag gestures on touch screens, keyboard shortcuts, and mouse/wheel controls. Please test magnfication and make sure
-it is working as intended and well with the use cases of the simulation. Due to the way screen readers handle user input, magnification is NOT expected to
+This sim supports magnification with pinch and drag gestures on touch screens, keyboard shortcuts, and mouse/wheel
+controls. Please test magnfication and make sure
+it is working as intended and well with the use cases of the simulation. Due to the way screen readers handle user
+input, magnification is NOT expected to
 work while using a screen reader so there is no need to test this case.
 
 <hr>

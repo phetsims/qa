@@ -5,19 +5,19 @@ Please document all known AT bugs in this document.
 **Contents**
 
 * [1: Screen Readers](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#1-screen-readers)
-    * [1.1: General Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#11-general-bugs)
-    * [1.2: JAWS](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#12-jaws)
-        * [1.2.1: Firefox Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#121-firefox-bugs)
-        * [1.2.2: Chrome Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#122-chrome-bugs)
-    * [1.3: NVDA](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#13-nvda)
-        * [1.3.1: Firefox Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#131-firefox-bugs)
-    * [1.4: VoiceOver](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#14-voiceover)
-        * [1.4.1: Safari Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#141-safari-bugs)
-        * [1.4.2: Mobile Safari Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#142-mobile-safari-bugs)
+  * [1.1: General Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#11-general-bugs)
+  * [1.2: JAWS](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#12-jaws)
+    * [1.2.1: Firefox Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#121-firefox-bugs)
+    * [1.2.2: Chrome Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#122-chrome-bugs)
+  * [1.3: NVDA](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#13-nvda)
+    * [1.3.1: Firefox Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#131-firefox-bugs)
+  * [1.4: VoiceOver](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#14-voiceover)
+    * [1.4.1: Safari Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#141-safari-bugs)
+    * [1.4.2: Mobile Safari Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#142-mobile-safari-bugs)
 * [2: Keyboard Navigation](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#2-keyboard-navigation)
-    * [2.1: General Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#21-general-bugs)
-    * [2.2: Firefox Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#22-firefox-bugs)
-    * [2.3: Safari Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#23-safari-bugs)
+  * [2.1: General Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#21-general-bugs)
+  * [2.2: Firefox Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#22-firefox-bugs)
+  * [2.3: Safari Bugs](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#23-safari-bugs)
 * [2: Voicing](https://github.com/phetsims/QA/blob/main/doc/accessibility-bugs.md#3-voicing)
 
 ## 1: Screen Readers
@@ -29,7 +29,7 @@ Please document all known AT bugs in this document.
 * The screen reader might focus the last user interface component that had focus on sim load, typically on refresh. This
   is a "feature". For example, see https://github.com/phetsims/resistance-in-a-wire/issues/139.
 * If the sim contains abbreviations (chemical formulas or other) the screen reader may try to read phonetically.
-We decided to accept this. See https://github.com/phetsims/molarity/issues/215.
+  We decided to accept this. See https://github.com/phetsims/molarity/issues/215.
 
 ### 1.2: JAWS
 
@@ -62,7 +62,7 @@ We decided to accept this. See https://github.com/phetsims/molarity/issues/215.
 * When using a slider and holding down an arrow key, you might see the thumb move slowly while holding the key down,
   then move rapidly in one direction when you release a key, see https://github.com/phetsims/john-travoltage/issues/242.
 * If there is a list in a dialog, when the dialog is first opened JAWS will read the list items as "bullet, bullet, ..."
-  instead of reading the names of the items. See https://github.com/phetsims/a11y-research/issues/185.  
+  instead of reading the names of the items. See https://github.com/phetsims/a11y-research/issues/185.
 
 ### 1.3: NVDA
 
@@ -70,11 +70,14 @@ So empty. Much goodness.
 
 #### 1.3.1: Firefox Bugs
 
-* When changing screens from the Home Screen, NVDA may read the page title several times and then the first line in the new screen before the first item in the new screen. See https://github.com/phetsims/ratio-and-proportion/issues/321
-* When the values of sliders are read out sometimes NVDA will read out the wrong value.  Adjusting those sliders seems to fix the issue.  Likely an “AT caching” issue.  https://github.com/phetsims/resistance-in-a-wire/issues/202
+* When changing screens from the Home Screen, NVDA may read the page title several times and then the first line in the
+  new screen before the first item in the new screen. See https://github.com/phetsims/ratio-and-proportion/issues/321
+* When the values of sliders are read out sometimes NVDA will read out the wrong value. Adjusting those sliders seems to
+  fix the issue. Likely an “AT caching” issue.  https://github.com/phetsims/resistance-in-a-wire/issues/202
 * NVDA will read through the Sim Screen Overview when exiting a dialog
 * NVDA may say name of WASD keys when pressed
-* NVDA might get "stuck" on the heading of a dialog. You have to press "tab" to get out of it. See https://github.com/phetsims/quadrilateral/issues/452
+* NVDA might get "stuck" on the heading of a dialog. You have to press "tab" to get out of it.
+  See https://github.com/phetsims/quadrilateral/issues/452
 
 ### 1.4: VoiceOver
 
@@ -94,15 +97,18 @@ So empty. Much goodness.
   See https://github.com/phetsims/sun/issues/508 and https://github.com/phetsims/ohms-law/issues/141
 * When using a slider, "Home" and "End" keys will both change the value AND move the cursor to a different place in the
   document. See https://github.com/phetsims/a11y-research/issues/164.
-* When using a combo box, Safari may say "Text" after reading each item in the combo box list. See https://github.com/phetsims/greenhouse-effect/issues/178.
-* Safari will duplicate alerts when the sim is embedded in an iFrame. See https://github.com/phetsims/friction/issues/286
+* When using a combo box, Safari may say "Text" after reading each item in the combo box list.
+  See https://github.com/phetsims/greenhouse-effect/issues/178.
+* Safari will duplicate alerts when the sim is embedded in an iFrame.
+  See https://github.com/phetsims/friction/issues/286
 
 #### 1.4.2: Mobile Safari Bugs
 
 * Sometimes when using VoiceOver, Safari buttons (like “reload” and “new tab” are not clickable by double tapping the
   screen. Restarting Safari fixes the problem.
-  
-* iOS VoiceOver may skip over dynamic content in the PDOM when reading with swipe gestures. See https://github.com/phetsims/a11y-research/issues/175
+
+* iOS VoiceOver may skip over dynamic content in the PDOM when reading with swipe gestures.
+  See https://github.com/phetsims/a11y-research/issues/175
 
 ## 2: Keyboard Navigation
 
@@ -123,18 +129,25 @@ So empty. Much goodness.
 
 * To get keyboard navigation to work properly in Safari:
   `Safari -> Preferences -> Advanced -> Press Tab to highlight each item on a webpage`.
-  
+
 ## 3: Voicing
 
 ### 3.1 General Bugs
-* For some of the non-default Voices, it takes some time to render the information and performance of the sim may be reduced.
-At this time this is acceptable and there is nothing we can do to improve this. Acceptable performance is subjective, in general
-please create an issue if there are any questions about performance.
+
+* For some of the non-default Voices, it takes some time to render the information and performance of the sim may be
+  reduced.
+  At this time this is acceptable and there is nothing we can do to improve this. Acceptable performance is subjective,
+  in general
+  please create an issue if there are any questions about performance.
 
 ### 3.2 ChromeOS Bugs
-* Voicing and SpeechSynthesis can be slower to start on ChromeOS. Especially when switching tabs or turning it on 
-for the first time. If Voicing doesn't start for ~8 seconds after you enable it or play with the sim that is expected.
-If it takes longer to start or never starts that is probably an issue. See https://github.com/phetsims/number-play/issues/138
+
+* Voicing and SpeechSynthesis can be slower to start on ChromeOS. Especially when switching tabs or turning it on
+  for the first time. If Voicing doesn't start for ~8 seconds after you enable it or play with the sim that is expected.
+  If it takes longer to start or never starts that is probably an issue.
+  See https://github.com/phetsims/number-play/issues/138
 
 ### 3.3 iOS Safari Bugs
-* Changing voices on iOS Safari is broken. The control for selecting voices have been removed on this platform. See https://github.com/phetsims/utterance-queue/issues/74. 
+
+* Changing voices on iOS Safari is broken. The control for selecting voices have been removed on this platform.
+  See https://github.com/phetsims/utterance-queue/issues/74. 

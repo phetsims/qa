@@ -54,10 +54,10 @@ Things to include here:
 
 <h3>Issues to Verify</h3>
 
-These issues should have the "status:ready-for-review" label. Unless an issue says to close after verifying, 
+These issues should have the "status:ready-for-review" label. Unless an issue says to close after verifying,
 assign the issue back to the developer.
 
-- [ ] {{GITHUB_ISSUE_LINK}} 
+- [ ] {{GITHUB_ISSUE_LINK}}
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -88,7 +88,8 @@ assign the issue back to the developer.
 - Make sure you can't lose anything.
 - Play with the sim normally.
 - Try to break the sim.
-- Test all query parameters on all platforms. (See [QA Book](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md) for a list of query parameters.)
+- Test all query parameters on all platforms. (
+  See [QA Book](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md) for a list of query parameters.)
 - Download HTML on Chrome and iOS.
 - Make sure the iFrame version of the simulation is working as intended on all platforms.
 - Make sure the XHTML version of the simulation is working as intended on all platforms.
@@ -96,12 +97,13 @@ assign the issue back to the developer.
 - Don't forget to make sure the sim works with Legends of Learning.
 - Test the Game Up harness on at least one platform.
 - Check [this](https://docs.google.com/spreadsheets/d/1umIAmhn89WN1nzcHKhYJcv-n3Oj6ps1wITc-CjWYytE/edit#gid=0) LoL
-spreadsheet and notify AR or AM if it not there.
+  spreadsheet and notify AR or AM if it not there.
 - If this is rc.1 please do a memory test.
 - When making an issue, check to see if it was in a previously published version.
 - Try to include version numbers for browsers.
 - If there is a console available, check for errors and include them in the Problem Description.
-- As an RC begins and ends, check the sim repo. If there is a maintenance issue, check it and notify developers if there is a problem.
+- As an RC begins and ends, check the sim repo. If there is a maintenance issue, check it and notify developers if there
+  is a problem.
 - As the RC ends, notify the developer of any new QA credits that need to be added.
 
 <hr>
@@ -126,13 +128,15 @@ spreadsheet and notify AR or AM if it not there.
 - Make sure the wrapper index is working properly.
 - Make sure each wrapper is working properly.
 - Launch the simulation in Studio with ?stringTest=xss and make sure the sim doesn't navigate to youtube
-- For newer PhET-iO wrapper indices, save the "basic example of a functional wrapper" as a .html file and open it. Make sure the simulation loads without crashing or throwing errors.
-- Load the login wrapper just to make sure it works. Do so by adding this link from the sim deployed root: 
+- For newer PhET-iO wrapper indices, save the "basic example of a functional wrapper" as a .html file and open it. Make
+  sure the simulation loads without crashing or throwing errors.
+- Load the login wrapper just to make sure it works. Do so by adding this link from the sim deployed root:
   ```
   /wrappers/login/?wrapper=record&validationRule=validateDigits&&numberOfDigits=5&promptText=ENTER_A_5_DIGIT_NUMBER
   ```   
   Further instructions in QA Book
-- Conduct a recording test to Metacog, further instructions in the QA Book. Do this for iPadOS + Safari and one other random platform.
+- Conduct a recording test to Metacog, further instructions in the QA Book. Do this for iPadOS + Safari and one other
+  random platform.
 - Conduct a memory test on the stand alone sim wrapper (rc.1).
 - Test one platform combination with `?phetioDebug=true` on the Studio and State wrapper.
 - If Pan/Zoom is supported, make sure that it works when set with PhET-iO State.
@@ -159,8 +163,9 @@ spreadsheet and notify AR or AM if it not there.
 <h3>What to Test</h3>
 
 - Specific instructions can be found above.
-- Make sure the accessibility (a11y) feature that is being tested doesn't negatively affect the sim in any way. Here is a list of features that may be supported in this test: 
-  
+- Make sure the accessibility (a11y) feature that is being tested doesn't negatively affect the sim in any way. Here is
+  a list of features that may be supported in this test:
+
   - Alternative Input
   - Interactive Description
   - Sound and Sonification
@@ -173,8 +178,9 @@ spreadsheet and notify AR or AM if it not there.
   - Test all keyboard navigation inputs (if applicable).
   - Test all forms of input with a screen reader (if applicable).
 - If this sim is not in [this list](https://phet.colorado.edu/en/accessibility/prototypes) or up to date there, make an
-issue in [website](https://github.com/phetsims/website) to ask if PhET research page links need updating. Please assign
-to @terracoda and @emily-phet.
+  issue in [website](https://github.com/phetsims/website) to ask if PhET research page links need updating. Please
+  assign
+  to @terracoda and @emily-phet.
 
 <!--- [CAN BE OMITTED, DO NOT EDIT] -->
 <h3>Screen Readers</h3>
@@ -209,8 +215,10 @@ screen reader.
 
 <h3>Magnification</h3>
 
-This sim supports magnification with pinch and drag gestures on touch screens, keyboard shortcuts, and mouse/wheel controls. Please test magnfication and make sure
-it is working as intended and well with the use cases of the simulation. Due to the way screen readers handle user input, magnification is NOT expected to
+This sim supports magnification with pinch and drag gestures on touch screens, keyboard shortcuts, and mouse/wheel
+controls. Please test magnfication and make sure
+it is working as intended and well with the use cases of the simulation. Due to the way screen readers handle user
+input, magnification is NOT expected to
 work while using a screen reader so there is no need to test this case.
 
 <hr>
@@ -227,13 +235,13 @@ work while using a screen reader so there is no need to test this case.
 <summary><b>FAQs for QA Members</b></summary>
 
 <br>
-  
+
   <!--- [DO NOT OMIT, DO NOT EDIT] -->
 
   <details>
   <summary><i>There are multiple tests in this issue... Which test should I do first?</i></summary> 
-  
-  Test in order! Test the first thing first, the second thing second, and so on.
+
+Test in order! Test the first thing first, the second thing second, and so on.
 
   </details>
 
@@ -243,8 +251,8 @@ work while using a screen reader so there is no need to test this case.
 
   <details>
   <summary><i>How should I format my issue?</i></summary>
-  
-  Here's a template for making issues:
+
+Here's a template for making issues:
 
       <b>Test Device</b>
 
@@ -285,26 +293,26 @@ work while using a screen reader so there is no need to test this case.
 
   <details>
   <summary><i>Who should I assign?</i></summary>
-  
-  We typically assign the developer who opened the issue in the QA repository.
+
+We typically assign the developer who opened the issue in the QA repository.
 
   </details>
-  
+
   <br>
 
   <!--- [DO NOT OMIT, DO NOT EDIT] -->
 
   <details>
   <summary><i>My question isn't in here... What should I do?</i></summary>
-  
-  You should:
 
-  1. Consult the [QA Book](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md).
-  2. Google it.
-  3. Ask Katie.
-  4. Ask a developer.
-  5. Google it again.
-  6. Cry.
+You should:
+
+1. Consult the [QA Book](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md).
+2. Google it.
+3. Ask Katie.
+4. Ask a developer.
+5. Google it again.
+6. Cry.
 
   </details>
 

@@ -132,17 +132,17 @@ issue back to the developer.
 - Make sure the accessibility (a11y) feature that is being tested doesn't negatively affect the sim in any way. Here is
   a list of features that may be supported in this test:
 
-    - Alternative Input
-    - Interactive Description
-    - Sound and Sonification
-    - Pan and Zoom
-    - Mobile Description
-    - Voicing
+  - Alternative Input
+  - Interactive Description
+  - Sound and Sonification
+  - Pan and Zoom
+  - Mobile Description
+  - Voicing
 - Test all possible forms of input.
-    - Test all mouse/trackpad inputs.
-    - Test all touchscreen inputs.
-    - Test all keyboard navigation inputs (if applicable).
-    - Test all forms of input with a screen reader (if applicable).
+  - Test all mouse/trackpad inputs.
+  - Test all touchscreen inputs.
+  - Test all keyboard navigation inputs (if applicable).
+  - Test all forms of input with a screen reader (if applicable).
 
 <!--- [CAN BE OMITTED, DO NOT EDIT] -->
 <h3>Screen Readers</h3>

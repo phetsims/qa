@@ -98,11 +98,13 @@ issue back to the developer.
 - Make sure you can't lose anything.
 - Play with the sim normally.
 - Try to break the sim.
-- Test some query parameters. (See [QA Book](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md) for a list of query parameters.)
+- Test some query parameters. (See [QA Book](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md) for a
+  list of query parameters.)
 - When making an issue, check to see if it was in a previously published version.
 - Try to include version numbers for browsers.
 - If there is a console available, check for errors and include them in the Problem Description.
-- As an RC begins and ends, check the sim repo. If there is a maintenance issue, check it and notify developers if there is a problem.
+- As an RC begins and ends, check the sim repo. If there is a maintenance issue, check it and notify developers if there
+  is a problem.
 - As the RC ends, notify the developer of any new QA credits that need to be added.
 
 <hr>
@@ -212,8 +214,10 @@ screen reader.
 
 <h3>Magnification</h3>
 
-This sim supports magnification with pinch and drag gestures on touch screens, keyboard shortcuts, and mouse/wheel controls. Please test magnfication and make sure
-it is working as intended and well with the use cases of the simulation. Due to the way screen readers handle user input, magnification is NOT expected to
+This sim supports magnification with pinch and drag gestures on touch screens, keyboard shortcuts, and mouse/wheel
+controls. Please test magnfication and make sure
+it is working as intended and well with the use cases of the simulation. Due to the way screen readers handle user
+input, magnification is NOT expected to
 work while using a screen reader so there is no need to test this case.
 
 <hr>
