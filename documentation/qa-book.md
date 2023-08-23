@@ -567,6 +567,9 @@ To do the query parameters test, append the URL with the following query paramet
   * If the simulation does not redirect to another website, the simulation passes this test.
   * If the simulation crashes or fails to load, the simulation still passes this test.
   * This test should be paired with `&fuzz` since some of the RichText is not created on start up.
+* `?stringTest=xss2`: cross site scripting version 2.
+  * This query parameter puts JavaScript into every string. The page should not have a drop down pop-up.
+  * If the simulation does not have a pop-up, the simulation passes this test.
 * `?stringTest=dynamic`: simulates dynamic locale feature
   * Pressing the left or right arrows will make the strings longer or shorter.
   * Pressing up or down arrows will replace strings with random words of random length.
