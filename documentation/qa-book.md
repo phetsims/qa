@@ -732,8 +732,7 @@ website. Usually you have one main screenshot and two to three alt screenshots.
 ##### Screenshots on Chrome
 
 1. Download [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh).
-2.
-Download [Screenshot Capture](https://chrome.google.com/webstore/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc?hl=en).
+2. Download [Screenshot Capture](https://chrome.google.com/webstore/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc?hl=en).
 3. For `Window Resizer` extension, set preset to 1536x1008 and select "viewport". Resize the viewport by pressing the
    large right-arrow.
 4. For the `Screenshot Capture` extension, Right click its icon, go to options
