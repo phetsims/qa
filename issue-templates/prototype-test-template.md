@@ -4,7 +4,7 @@
 DEVELOPERS: 
 
 * title for this issue = Prototype Test: {{SIM_TITLE}} {{VERSION}}
-* replace {{MENTIONS}} with @mentions for team members who should received GitHub notifications about this issue
+* replace {{MENTIONS}} with @mentions for team members who should receive GitHub notifications about this issue
 * Fill in the {{REPO}}, {{VERSION}}, and {{GITHUB_ISSUE_LINK}} placeholders.
 * Delete things that are not relevant, e.g. PhET-iO links for non-PhET-iO tests.
 * assign the issue to @KatieWoe and @kathy-phet
