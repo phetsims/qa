@@ -145,8 +145,8 @@ the simulation. Once you've done that, open the simulation and make sure alerts 
 <h3>Critical Screen Reader Information</h3>
 
 We are tracking known screen reader bugs in
-[here](https://github.com/phetsims/qa/blob/main/documentation/accessibility-bugs.md). If you find a
-screen reader bug, please check it against this list.
+[here](https://github.com/phetsims/qa/blob/main/documentation/accessibility-bugs.md). If you find a screen reader bug,
+please check it against this list.
 
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Keyboard Navigation</h3>

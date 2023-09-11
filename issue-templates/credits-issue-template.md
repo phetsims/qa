@@ -1,6 +1,6 @@
 If this simulation is new or if there is a new release branch of the simulation, please make a credits issue in the
-simulation's repository. Please only verify the credits at the end of the last round of QA testing before publishing.
-It may be a good idea to send a reminder/heads up to those assigned when the sim will soon be published.
+simulation's repository. Please only verify the credits at the end of the last round of QA testing before publishing. It
+may be a good idea to send a reminder/heads up to those assigned when the sim will soon be published.
 
 ## Credits (These instructions go in their own issue in the repository for the simulation.)
 

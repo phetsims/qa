@@ -28,8 +28,8 @@ Please document all known AT bugs in this document.
   https://github.com/phetsims/a11y-research/issues/90.
 * The screen reader might focus the last user interface component that had focus on sim load, typically on refresh. This
   is a "feature". For example, see https://github.com/phetsims/resistance-in-a-wire/issues/139.
-* If the sim contains abbreviations (chemical formulas or other) the screen reader may try to read phonetically.
-  We decided to accept this. See https://github.com/phetsims/molarity/issues/215.
+* If the sim contains abbreviations (chemical formulas or other) the screen reader may try to read phonetically. We
+  decided to accept this. See https://github.com/phetsims/molarity/issues/215.
 
 ### 1.2: JAWS
 
@@ -92,8 +92,8 @@ So empty. Much goodness.
 * In iOS 14, VoiceOver has a setting to describe images, which is on by default, and it is really bad at doing it for
   PhET Sims! To turn off this setting (as of 1/19/21), Settings -> Accessibility -> VoiceOver -> Verbosity -> Scene
   Descriptions -> switch off. See https://github.com/phetsims/ratio-and-proportion/issues/256 for more details.
-* After a bit of use, VoiceOver may stop speaking alerts related to the slider value (aria-valuetext). Tabbing away
-  from the component then returning to it will cause VoiceOver to speak its content again.
+* After a bit of use, VoiceOver may stop speaking alerts related to the slider value (aria-valuetext). Tabbing away from
+  the component then returning to it will cause VoiceOver to speak its content again.
   See https://github.com/phetsims/sun/issues/508 and https://github.com/phetsims/ohms-law/issues/141
 * When using a slider, "Home" and "End" keys will both change the value AND move the cursor to a different place in the
   document. See https://github.com/phetsims/a11y-research/issues/164.
@@ -135,16 +135,14 @@ So empty. Much goodness.
 ### 3.1 General Bugs
 
 * For some of the non-default Voices, it takes some time to render the information and performance of the sim may be
-  reduced.
-  At this time this is acceptable and there is nothing we can do to improve this. Acceptable performance is subjective,
-  in general
-  please create an issue if there are any questions about performance.
+  reduced. At this time this is acceptable and there is nothing we can do to improve this. Acceptable performance is
+  subjective, in general please create an issue if there are any questions about performance.
 
 ### 3.2 ChromeOS Bugs
 
-* Voicing and SpeechSynthesis can be slower to start on ChromeOS. Especially when switching tabs or turning it on
-  for the first time. If Voicing doesn't start for ~8 seconds after you enable it or play with the sim that is expected.
-  If it takes longer to start or never starts that is probably an issue.
+* Voicing and SpeechSynthesis can be slower to start on ChromeOS. Especially when switching tabs or turning it on for
+  the first time. If Voicing doesn't start for ~8 seconds after you enable it or play with the sim that is expected. If
+  it takes longer to start or never starts that is probably an issue.
   See https://github.com/phetsims/number-play/issues/138
 
 ### 3.3 iOS Safari Bugs

@@ -1638,17 +1638,20 @@ To properly test on Chromebooks, Android System Webview must be up to date. To u
 *To test:*
 
 1. Make sure you can:
-  * search the three types of indexes– HTML, Java and All.
-  * view in list and icon forms.
-  * change the locale.
-    * Please note that not all sims have been translated. There should be a section titled “Simulations not yet
-      Translated” that appears after translated sims.
+
+* search the three types of indexes– HTML, Java and All.
+* view in list and icon forms.
+* change the locale.
+  * Please note that not all sims have been translated. There should be a section titled “Simulations not yet
+    Translated” that appears after translated sims.
+
 2. Make sure newly published sims have been added to the app.
 3. For sims, make sure
-  * both types (HTML and Java) open and work –try a few of each type.
-  * each item in the PhET menu works.
-    * If an update is available, make sure it is possible to access that update.
-  * that translated sims open in that language.
+
+* both types (HTML and Java) open and work –try a few of each type.
+* each item in the PhET menu works.
+  * If an update is available, make sure it is possible to access that update.
+* that translated sims open in that language.
 
 ### 4.11: Metadata Service Testing
 

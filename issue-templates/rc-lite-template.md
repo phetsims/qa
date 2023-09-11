@@ -54,8 +54,8 @@ Things to include here:
 
 <h3>Issues to Verify</h3>
 
-These issues should have the "status:ready-for-review" label. Unless an issue says to close after verifying,
-assign the issue back to the developer.
+These issues should have the "status:ready-for-review" label. Unless an issue says to close after verifying, assign the
+issue back to the developer.
 
 - [ ] {{GITHUB_ISSUE_LINK}}
 
@@ -179,18 +179,16 @@ assign the issue back to the developer.
   - Test all forms of input with a screen reader (if applicable).
 - If this sim is not in [this list](https://phet.colorado.edu/en/accessibility/prototypes) or up to date there, make an
   issue in [website](https://github.com/phetsims/website) to ask if PhET research page links need updating. Please
-  assign
-  to @terracoda and @emily-phet.
+  assign to @terracoda and @emily-phet.
 
 <!--- [CAN BE OMITTED, DO NOT EDIT] -->
 <h3>Screen Readers</h3>
 
 This sim may support screen readers. If you are unfamiliar with screen readers, please ask Katie to introduce you to
 screen readers. If you simply need a refresher on screen readers, please consult the
-[QA Book](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md), which should have
-all of the information you need as well as a link to a screen reader tutorial made by Jesse. Otherwise, look over the
-a11y view before opening the simulation. Once you've done that, open the simulation and make sure alerts and
-descriptions work as intended.
+[QA Book](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md), which should have all of the information
+you need as well as a link to a screen reader tutorial made by Jesse. Otherwise, look over the a11y view before opening
+the simulation. Once you've done that, open the simulation and make sure alerts and descriptions work as intended.
 
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Platforms and Screen Readers to Be Tested</h3>
@@ -204,8 +202,8 @@ descriptions work as intended.
 <h3>Critical Screen Reader Information</h3>
 
 We are tracking known screen reader bugs in
-[here](https://github.com/phetsims/qa/blob/main/documentation/accessibility-bugs.md). If you find a
-screen reader bug, please check it against this list.
+[here](https://github.com/phetsims/qa/blob/main/documentation/accessibility-bugs.md). If you find a screen reader bug,
+please check it against this list.
 
 <!--- [CAN BE OMITTED, CAN BE EDITED] -->
 <h3>Keyboard Navigation</h3>
@@ -216,10 +214,9 @@ screen reader.
 <h3>Magnification</h3>
 
 This sim supports magnification with pinch and drag gestures on touch screens, keyboard shortcuts, and mouse/wheel
-controls. Please test magnfication and make sure
-it is working as intended and well with the use cases of the simulation. Due to the way screen readers handle user
-input, magnification is NOT expected to
-work while using a screen reader so there is no need to test this case.
+controls. Please test magnfication and make sure it is working as intended and well with the use cases of the
+simulation. Due to the way screen readers handle user input, magnification is NOT expected to work while using a screen
+reader so there is no need to test this case.
 
 <hr>
 
