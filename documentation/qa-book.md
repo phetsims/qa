@@ -9,22 +9,20 @@ everything you need to know to test PhET simulations is in this book.
 Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
 [humorous comic](https://www.monkeyuser.com/2018/the-struggle/) that Megan "PhETified."
 
+<!--@formatter:off-->
+
 ***
 
 ## Contents
 
-*
-*[Section 1: Hardware & Software](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#section-1-hardware--software)
-**
+**[Section 1: Hardware & Software](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#section-1-hardware--software)**
 
 * [1.1: Devices](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#11-devices)
 * [1.2: Operating Systems](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#12-operating-systems)
 * [1.3: Web Browsers](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#13-web-browsers)
 * [1.4: Updates](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#14-updates)
 
-*
-*[Section 2: Communication & Coordination](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#section-2-communication--coordination)
-**
+**[Section 2: Communication & Coordination](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#section-2-communication--coordination)**
 
 * [2.1: Email](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#21-email)
 * [2.2: Google Groups](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#22-google-groups)
@@ -61,9 +59,7 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
 * [5.2: HTML5 Simulation Translations](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#52-html5-simulation-translations)
 * [5.3: Website Translations](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#53-website-translations)
 
-*
-*[Section 6: Maintenance & Management](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#section-6-maintenance--management)
-**
+**[Section 6: Maintenance & Management](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#section-6-maintenance--management)**
 
 * [6.1: Testing Matrix Management](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#61-testing-matrix-management)
 * [6.2: PhET Test Maintenance](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#62-phet-test-maintenance)
@@ -71,6 +67,8 @@ Thanks to Cornel Stefanache and Constantin Orasanu of MonkeyUser.com for their
 * [6.4: QA Book Maintenance](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#64-qa-book-maintenance)
 
 ***
+
+<!--@formatter:on-->
 
 ## Section 1: Hardware & Software
 
@@ -85,8 +83,8 @@ office (F925) in Gamow Tower.
 
 #### Note on Tablets
 
-If you are testing on a tablet, you might encounter bugs that occur when you use a stylus, but not when you only
-use your fingers. Be cognizant of this.
+If you are testing on a tablet, you might encounter bugs that occur when you use a stylus, but not when you only use
+your fingers. Be cognizant of this.
 
 ### 1.2: Operating Systems
 
@@ -120,8 +118,8 @@ Browsers probably include:
 
 ### 1.4: Updates
 
-Never update a testing device unless the QA team lead asks you to do so. Be especially careful when dealing with
-devices with older versions of iOS or macOS because Apple doesn't let you "un-upgrade" your iOS or macOS version.
+Never update a testing device unless the QA team lead asks you to do so. Be especially careful when dealing with devices
+with older versions of iOS or macOS because Apple doesn't let you "un-upgrade" your iOS or macOS version.
 
 ***
 
@@ -151,8 +149,8 @@ GitHub issue number in the name of your Google Drive video.
 ### 2.5: Slack
 
 If you're working, you should be on Slack! Please bother the developers with silly gifs. To do so, type `/giphy hello`.
-(Replace "hello" with whatever you want a gif of.) It’s also a good idea to check Slack periodically during the week
-for any updates.
+(Replace "hello" with whatever you want a gif of.) It’s also a good idea to check Slack periodically during the week for
+any updates.
 
 ### 2.6: Zoom
 
@@ -167,8 +165,8 @@ your computer to GitHub. PhET also uses GitHub to document issues with sims.
 
 ### 3.1: Repositories
 
-A GitHub repository is like a folder with the code and issues for a specific simulation. It’s important to
-familiarize yourself with each repository and its contents.
+A GitHub repository is like a folder with the code and issues for a specific simulation. It’s important to familiarize
+yourself with each repository and its contents.
 
 Some repositories contain code for things that aren’t simulations. The following is a list of those repositories with
 brief descriptions:
@@ -189,11 +187,11 @@ brief descriptions:
 * chains: Chains holds code for a simulation that is used to test string translation tools.
 * chipper: Chipper holds code for tools used to develop and build simulations.
 * dot: Dot is a mathematics library.
-* example-sim: Example Simulation holds code for an example simulation. It is used to show interns and new employees
-  how the simulations work.
+* example-sim: Example Simulation holds code for an example simulation. It is used to show interns and new employees how
+  the simulations work.
 * griddle: Griddle is a charting library.
-* joist: Joist holds code for the “framework” of simulations, e.g. the splash screen, home screen, navigation bar,
-  about dialogue, etc.
+* joist: Joist holds code for the “framework” of simulations, e.g. the splash screen, home screen, navigation bar, about
+  dialogue, etc.
 * kite: Kite is a library for 2D shapes.
 * mobius: Mobius is a library for 3D shapes.
 * nitroglycerin: Nitroglycerin holds code for chemistry-related things.
@@ -308,8 +306,8 @@ the [Scenery-PhET demo](https://bayes.colorado.edu/dev/phettest/scenery-phet/sce
 
 ### 3.3: Issues
 
-Most of the issues you’ll create on GitHub will be bug reports. Creating a bug report or general issue is easy. Here
-are the steps you need to follow:
+Most of the issues you’ll create on GitHub will be bug reports. Creating a bug report or general issue is easy. Here are
+the steps you need to follow:
 
 1. Before you even think about creating a new issue, comb through existing issues to see if someone already created the
    issue. Search all repositories on GitHub for the issue.
@@ -320,9 +318,8 @@ are the steps you need to follow:
 6. If the issue is a bug report for a simulation, use the template below.
 7. If the issue is a general issue, simply describe the issue thoroughly and concisely.
 8. Try to include versions of browsers etc. Be thorough.
-9. Assign the appropriate PhET employee(s) and use relevant labels. This is often the developer who made the test
-   issue. Design questions go to Amy if they are science, or Amanda if they are math. If you are unsure who to assign,
-   you
+9. Assign the appropriate PhET employee(s) and use relevant labels. This is often the developer who made the test issue.
+   Design questions go to Amy if they are science, or Amanda if they are math. If you are unsure who to assign, you
    might be able to figure it out by reading the
    [Responsible Dev Document](https://github.com/phetsims/phet-info/blob/main/sim-info/responsible_dev.json) on GitHub.
 10. Click the “Submit New Issue” button.
@@ -369,16 +366,13 @@ blah
   upload a video to your CU Google Drive and then post a link to the video in the GitHub issue.
 * If you make a screen recording using the native iOS or iPadOS screen recording feature, you can use
   [ezgif.com](https://ezgif.com/) to convert your mp4 to a gif.
-* The troubleshooting information for a simulation comes from the “Report a Problem” link in the
-  simulation.
+* The troubleshooting information for a simulation comes from the “Report a Problem” link in the simulation.
 * If your issue is related to another issue, link the related issue.
 * If there is a console available, check for errors and include them in the Problem Description. The console is a tool
   that browsers provide. It shows and allows access to the internal workings of a webpage. It is used often in testing
-  to
-  make sure that the sim is doing what it should be. To access the console, right click and click on the option which
+  to make sure that the sim is doing what it should be. To access the console, right click and click on the option which
   says “Inspect”, or “Inspect Element”. Then click the console button. The hotkey for macOS is `command + option + i`
-  and
-  for Windows is `control + shift + i`.
+  and for Windows is `control + shift + i`.
 
 #### When an issue is fixed
 
@@ -387,9 +381,8 @@ have arrisen. How this is done depends on the bug and where the simulation is in
 found during a dev test, the developer will assign the issue to QA (typically the tester the who found and reported the
 bug)
 and put it in the "Issues to Verify" collumn of the QA pipeline. When the issue is confirmed or found off on main, this
-should be noted
-and the issue assigned back to the developer. When an issue is found during an RC the developer will put in the "Issues
-to Verify"
+should be noted and the issue assigned back to the developer. When an issue is found during an RC the developer will put
+in the "Issues to Verify"
 section of the next RC. If it is found to be fixed in that RC it can generally be closed. If it is not fixed it is
 assigned back.
 
@@ -432,24 +425,17 @@ reassign it.
 
 In the QA repo, there is a project called the QA Pipeline. The pipeline contains cards that either correspond to issues
 in the QA repo for tests and sims, or to sims that will soon enter QA. The placement of these cards indicates where in
-testing
-that particular sim/issue is. It also indicates priority. If a test is in the active tests column then, the higher it
-is, the
-higher its priority. The pipeline is edited primarily by Katie and Kathy. When tests are done, they will be moved to
-their
-appropriate column.
+testing that particular sim/issue is. It also indicates priority. If a test is in the active tests column then, the
+higher it is, the higher its priority. The pipeline is edited primarily by Katie and Kathy. When tests are done, they
+will be moved to their appropriate column.
 
 Tests that are in the repo but not high priority, are being created in repo, or are expected to come in soon are kept in
-the
-section "Upcoming Tests (by priority)" and should be ordered roughly by how urgent they will be when the enter the main
-testing phase.
+the section "Upcoming Tests (by priority)" and should be ordered roughly by how urgent they will be when the enter the
+main testing phase.
 "Issues to Verify" contains issues that were found by QA during testing that have been fixed. They should be checked on
-main and the
-results of those checks should be added to the issue. The issue should then be assigned back to the developer. "Active
-Tests" should have
-a max of 5 tests in it and they are ordered by priority. When testing is done the test is dragged to "Ready for Next
-Steps" and
-eventually "Done."
+main and the results of those checks should be added to the issue. The issue should then be assigned back to the
+developer. "Active Tests" should have a max of 5 tests in it and they are ordered by priority. When testing is done the
+test is dragged to "Ready for Next Steps" and eventually "Done."
 
 ***
 
@@ -459,14 +445,14 @@ If it ain't broke, break it!
 
 ### 4.1: Development (Dev) Testing
 
-Development testing is whatever the developer wants it to be. Generally speaking, a development test entails making
-sure the simulation behaves as intended. The GitHub issue for a development test will specify what needs to be tested.
+Development testing is whatever the developer wants it to be. Generally speaking, a development test entails making sure
+the simulation behaves as intended. The GitHub issue for a development test will specify what needs to be tested.
 
 When a simulation needs to be tested, a developer will open an issue in the QA repository and they should use
-[the template for development tests](https://github.com/phetsims/QA/blob/main/issue-templates/dev-test-template.md).
-The template should specify what exactly needs to be tested. The steps you need to follow and the platforms you need to
-test for a development test can be found in the template. There should be a link to the simulation in the issue, but if
-there isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/).
+[the template for development tests](https://github.com/phetsims/QA/blob/main/issue-templates/dev-test-template.md). The
+template should specify what exactly needs to be tested. The steps you need to follow and the platforms you need to test
+for a development test can be found in the template. There should be a link to the simulation in the issue, but if there
+isn’t, then you can find it [here](https://phet-dev.colorado.edu/html/).
 
 If the developer has issues they want tested they will use the label `status:ready-for-review`. Comment on whether or
 not the issue is fixed and assign back to the developer. Only close the issue if the developer has indicated that you
@@ -491,8 +477,7 @@ WebGL may not run on certain platforms and browsers, such as Chrome on old versi
 ### 4.2: Release Candidate (RC) Testing
 
 Release candidate testing is more thorough than development testing because the simulation undergoing testing is a
-“release candidate.” Theoretically, major issues with the simulation will be fixed by the time it undergoes an
-RC test.
+“release candidate.” Theoretically, major issues with the simulation will be fixed by the time it undergoes an RC test.
 
 When a simulation needs to be tested, a developer will open an issue in the QA repository. They should use
 [the new template for release candidate tests](https://github.com/phetsims/QA/blob/main/issue-templates/rc-test-template.md).
@@ -508,18 +493,15 @@ steps you need to follow for a release candidate test:
    that platform.
 5. Perform the below tests and fill out the testing matrix.
 6. When you find an issue, see if it was in a previously published version if it exists.
-7. On at least one platform, run a fuzz test on the debug version of the RC to look for assertions. To do this, add
-   the query parameter `?fuzz`.
+7. On at least one platform, run a fuzz test on the debug version of the RC to look for assertions. To do this, add the
+   query parameter `?fuzz`.
 
 #### RC Test Types
 
 There are four types of rc test types. The first is a full RC, which will not have any extra labels and should follow
-all instructions.
-Second is the RC-Lite which will have fewer devices/platforms for a faster test. Third is a Spot Check which focuses
-mostly on
-issue confirmations. Fourth is Research, which focuses on the needs and features of a specific research study. Those
-needs will be
-elaborated on in the created issue.
+all instructions. Second is the RC-Lite which will have fewer devices/platforms for a faster test. Third is a Spot Check
+which focuses mostly on issue confirmations. Fourth is Research, which focuses on the needs and features of a specific
+research study. Those needs will be elaborated on in the created issue.
 
 1. Dev: Deep testing on limited platforms
 2. RC-full: Deeper testing across more platforms
@@ -587,8 +569,7 @@ To do the query parameters test, append the URL with the following query paramet
 * `?colorProfile=projector`: starts sim in projector mode if available
 * `?a11y`: activates any a11y features that are available but not visible
 * `?phetioDebug=true`: adds and checks for assertions in PhET-iO sims (passes ?ea to the PhET-iO sim from the wrapper).
-  In studio,
-  this is true by default, and will show a red line under the phet menu.
+  In studio, this is true by default, and will show a red line under the phet menu.
 * `?phetioWrapperDebug=true`: adds and checks for assertions in PhET-iO wrappers themselves (this is like `?ea` for the
   wrapper code)
 * `?printVoicingResponses`: prints strings read by voicing to the console
@@ -670,8 +651,7 @@ most webpages:
 3. Mouse wheel scrolling will pan in the direction of scroll.
 
 If you try to drag an object while zoomed-in, generally the screen should not pan and the object should be dragged
-instead.
-However, please note that:
+instead. However, please note that:
 
 - If you drag an object with a mouse or finger:
   - If the object is dragged off-screen, the screen should pan to keep the element in view. The only exception to this
@@ -684,10 +664,9 @@ However, please note that:
   - While dragging the object the screen should pan to the center of the object. This motion is too much when dragging
     with a mouse but is a better UX when controlling with a keyboard.
 
-While zoomed in, if you click and then drag on an object that is interactive but not *draggable*, input with that
-object should be interrupted and the screen should pan under the mouse instead. While keyboard focus is on an object
-that
-is not draggable, the screen should pan with arrow keys.
+While zoomed in, if you click and then drag on an object that is interactive but not *draggable*, input with that object
+should be interrupted and the screen should pan under the mouse instead. While keyboard focus is on an object that is
+not draggable, the screen should pan with arrow keys.
 
 Otherwise, all UI components should behave normally while zoomed in.
 
@@ -716,8 +695,8 @@ the simulation and make sure the simulation behaves normally.
 
 #### Debug Version
 
-Run the debug version of an RC found [here](https://phet-dev.colorado.edu/html/) with the query parameter `?fuzz` to
-see if errors pop up in the console.
+Run the debug version of an RC found [here](https://phet-dev.colorado.edu/html/) with the query parameter `?fuzz` to see
+if errors pop up in the console.
 
 #### Maintenance Issues
 
@@ -732,12 +711,12 @@ website. Usually you have one main screenshot and two to three alt screenshots.
 ##### Screenshots on Chrome
 
 1. Download [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh).
-2. Download [Screenshot Capture](https://chrome.google.com/webstore/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc?hl=en).
+2. Download
+   [Screenshot Capture](https://chrome.google.com/webstore/detail/screenshot-capture/giabbpobpebjfegnpcclkocepcgockkc?hl=en).
 3. For `Window Resizer` extension, set preset to 1536x1008 and select "viewport". Resize the viewport by pressing the
    large right-arrow.
-4. For the `Screenshot Capture` extension, Right click its icon, go to options
-   -The option for *Capture Method* should be be set to "Capture Viewport".
-   -The options for *Screenshot Size* should be set to "Adjust to actual size" preset.
+4. For the `Screenshot Capture` extension, Right click its icon, go to options -The option for *Capture Method* should
+   be be set to "Capture Viewport". -The options for *Screenshot Size* should be set to "Adjust to actual size" preset.
 5. Set up the screenshot for the PhET sim. Do not use the queryParameter `screens`.
 6. Make sure there are enough pixels. The extension should give a warning if it can't resize properly.
 7. Press `alt + s` (this is the default keyboard shortcut for the `Screenshot Capture` extension) to take the
@@ -835,9 +814,10 @@ link to the developer if the issue is in a public GitHub repository.
 1. Open the wrapper index link in a private tab. Make sure it asks for username and password.
 2. Check each page in a new private tab so that caching does not save the password.
 3. Make sure wrappers are password protected. The following wrappers are not password protected:
-  * The simulation
-  * Data: Colorized
-  * Data: JSON
+
+* The simulation
+* Data: Colorized
+* Data: JSON
 
 #### Test 4: Library Test
 
@@ -848,8 +828,9 @@ link to the developer if the issue is in a public GitHub repository.
 
 1. Add `/lib` to the end of the wrapper URL.
 2. Make sure the file `phet-io.js` is there.
-  * It should NOT be password protected.
-  * Make sure it is *minified* (spaces have been removed so the code takes up the whole screen).
+
+* It should NOT be password protected.
+* Make sure it is *minified* (spaces have been removed so the code takes up the whole screen).
 
 #### Test 5: Offline Test
 
@@ -873,8 +854,7 @@ Test that the sim works offline:
 *How?*
 
 * In the Wrapper Index there should be some example code. Copy and paste it into a text editor (ex. Atom), save it, and
-  make sure
-  the resulting html file runs properly.
+  make sure the resulting html file runs properly.
 
 #### Test 7: Simulation Wrapper Test
 
@@ -886,8 +866,8 @@ Test that the sim works offline:
 
 *How?*
 
-* To test this wrapper, follow the steps for a development test or a release candidate test depending on
-  what the issue specifies. A memory test should be included on one platform here.
+* To test this wrapper, follow the steps for a development test or a release candidate test depending on what the issue
+  specifies. A memory test should be included on one platform here.
 
 #### Test 8: Studio Wrapper Test
 
@@ -895,11 +875,10 @@ Test that the sim works offline:
 
 *What?*
 
-* This wrapper is the simulation alongside a long list of instrumented characteristics. An instrumented
-  characteristic is some aspect of the simulation that can be modified by a licensed owner of a PhET-iO simulation, e.g.
-  a property. Not all characteristics of the simulation are instrumented so as to retain the functionality of the
-  simulation. Using Studio is tested on Mac and Windows Chrome platforms. Other platforms should test html files
-  made in this way.
+* This wrapper is the simulation alongside a long list of instrumented characteristics. An instrumented characteristic
+  is some aspect of the simulation that can be modified by a licensed owner of a PhET-iO simulation, e.g. a property.
+  Not all characteristics of the simulation are instrumented so as to retain the functionality of the simulation. Using
+  Studio is tested on Mac and Windows Chrome platforms. Other platforms should test html files made in this way.
 
 **_There are 2 columns in the test matrix for this wrapper:_**
 
@@ -1206,8 +1185,8 @@ disabilities. There are several features unique to accessibility testing: keyboa
 compatibility, voicing, interactive highlights, and sound effects (sonification).
 
 Please read through this
-[list of known a11y bugs](https://github.com/phetsims/qa/blob/main/documentation/accessibility-bugs.md) before doing
-any testing.
+[list of known a11y bugs](https://github.com/phetsims/qa/blob/main/documentation/accessibility-bugs.md) before doing any
+testing.
 
 To test the accessibility features of a simulation, follow the steps below:
 
@@ -1234,9 +1213,8 @@ To test the accessibility features of a simulation, follow the steps below:
 ##### *Preferences*
 
 * If the sim has a Preferences dialog as well as alt input, the dialog should be screen reader accessible. It should be
-  possible to find the
-  dialog and interact with all of its components, even if the simulation does not fully support Interactive Description.
-  See the following section on screen readers for more information.
+  possible to find the dialog and interact with all of its components, even if the simulation does not fully support
+  Interactive Description. See the following section on screen readers for more information.
 
 ##### *Special Notes*
 
@@ -1255,10 +1233,9 @@ To test the accessibility features of a simulation, follow the steps below:
 
 ##### *What are screen readers?*
 
-Screen reader compatibility allows the user to hear a description
-of what is happening in the simulation. On Windows devices, we test the NVDA and JAWS screen readers. On macOS devices,
-we test the VoiceOver screen reader, which is installed by default. JAWS is tested on Chrome, NVDA is tested on Firefox,
-and VoiceOver is tested on Safari.
+Screen reader compatibility allows the user to hear a description of what is happening in the simulation. On Windows
+devices, we test the NVDA and JAWS screen readers. On macOS devices, we test the VoiceOver screen reader, which is
+installed by default. JAWS is tested on Chrome, NVDA is tested on Firefox, and VoiceOver is tested on Safari.
 
 See the Tip sheets below for download links for NVDA and JAWS. JAWS is not free but you can either run it in a 40 minute
 trial mode or get a free license through a CU email account. To register for a license go
@@ -1273,44 +1250,47 @@ and follow the registration steps to add JAWS to your computer.
   here: [More tips](http://htmlpreview.github.io/?https://github.com/phetsims/a11y-research/blob/main/reader-intro.html)
 * In an issue for a test of a simulation with accessibility feature(s) you will find, among other things, a link to the
   simulation, perhaps a link to a testing matrix (if the test is an RC test), and a link to the a11y view.
-* The a11y view,
-  is a page with the simulation on the left and the description of the simulation in plain text (the parallel document
-  object model or PDOM) on the right. Below the simulation are real-time alerts that will be announced by the screen
-  reader.
+* The a11y view, is a page with the simulation on the left and the description of the simulation in plain text (the
+  parallel document object model or PDOM) on the right. Below the simulation are real-time alerts that will be announced
+  by the screen reader.
 
 ##### *To test:*
 
 1. Make sure you know how to use screen readers. (If you don't, ask Katie.)
 2. Using a11y view:
-  * Make sure the proper interactive alerts occur (yellow box) as you make changes in the sim.
-  * Make sure the description is constantly being updated (blue box) and that the updates are correct.
-  * This tool can be used to regularly check the scene description and make sure everything changes correctly when the
-    sim is updated.
-  * This tool can also be used to find subtle errors and typos.
-  * If you find a bug and aren’t sure if it is specific to a particular screen reader, or general to all of them, look
-    for the bug in a11y view. If seen there it is likely a general issue.
+
+* Make sure the proper interactive alerts occur (yellow box) as you make changes in the sim.
+* Make sure the description is constantly being updated (blue box) and that the updates are correct.
+* This tool can be used to regularly check the scene description and make sure everything changes correctly when the sim
+  is updated.
+* This tool can also be used to find subtle errors and typos.
+* If you find a bug and aren’t sure if it is specific to a particular screen reader, or general to all of them, look for
+  the bug in a11y view. If seen there it is likely a general issue.
+
 3. The simulation:
-  * Quit your browser.
-  * Start your screen reader.
-  * Make sure "audio ducking" is off in screen reader settings.
-  * Open the sim.
-    *Note:* VoiceOver can be turned on after the sim is opened
-  * Read everything in the simulation with the screen reader using keyboard nav.
-    *To read dialogs with VoiceOver, use VO keys + arrows*
-  * Make sure all possible alerts are given.
-  * Make sure all possible descriptions match the state of the simulation.
-  * Make sure the alerts and descriptions make sense.
-  * Make sure descriptions and alerts remain available/attainable throughout the session
-  * Make sure to check all of the dialogs from the PhET Menu.
+
+* Quit your browser.
+* Start your screen reader.
+* Make sure "audio ducking" is off in screen reader settings.
+* Open the sim.
+  *Note:* VoiceOver can be turned on after the sim is opened
+* Read everything in the simulation with the screen reader using keyboard nav.
+  *To read dialogs with VoiceOver, use VO keys + arrows*
+* Make sure all possible alerts are given.
+* Make sure all possible descriptions match the state of the simulation.
+* Make sure the alerts and descriptions make sense.
+* Make sure descriptions and alerts remain available/attainable throughout the session
+* Make sure to check all of the dialogs from the PhET Menu.
+
 4. Using VoiceOver on the iPad:
-  * Open the sim on the iPad.
-  * To turn on VO, press the Home button three times or access through the settings menu.
-  * Read through the entire sim without making any changes by swiping up with two fingers or by continuously swiping
-    through with one finger. Swiping up/down generally controls sliders and double tapping clicks buttons and
-    checkboxes.
-  * As you make changes and play with the sim, be sure that alerts are happening and that they are correct.
-  * Periodically read through the descriptions by swiping up with two fingers to make sure they match the new state of
-    the sim.
+
+* Open the sim on the iPad.
+* To turn on VO, press the Home button three times or access through the settings menu.
+* Read through the entire sim without making any changes by swiping up with two fingers or by continuously swiping
+  through with one finger. Swiping up/down generally controls sliders and double tapping clicks buttons and checkboxes.
+* As you make changes and play with the sim, be sure that alerts are happening and that they are correct.
+* Periodically read through the descriptions by swiping up with two fingers to make sure they match the new state of the
+  sim.
 
 * *Website testing with screen readers:*
   * To familiarize yourself with a screen reader, use the screen reader to read
@@ -1330,10 +1310,10 @@ and follow the registration steps to add JAWS to your computer.
 
 Voicing is a new accessibility feature developed by PhET. The feature produces speech that comes directly from the
 simulation instead of using third party screen reading software. The speech can describe objects within the simulation,
-contextual changes while the simulation changes, and hints that guide the user. Speech is driven by user interaction
-and you will hear spoken content as you focus and activate UI components with mouse and keyboard. Because the speech
-only happens on interaction, the type of input (mouse/touch or keyboard/gesture) can determine what content is voiced
-and when it is voiced.
+contextual changes while the simulation changes, and hints that guide the user. Speech is driven by user interaction and
+you will hear spoken content as you focus and activate UI components with mouse and keyboard. Because the speech only
+happens on interaction, the type of input (mouse/touch or keyboard/gesture) can determine what content is voiced and
+when it is voiced.
 
 * The Voicing feature is disabled by default, and it can be enabled in the Auditory Tab of the Preferences Dialog.
 * Once enabled, there are 3 additional options:  
@@ -1357,29 +1337,28 @@ and when it is voiced.
 
 ##### *What are "Reading Blocks"?*
 
-Reading Blocks are a sub-set of the Voicing feature. When Voicing is enabled Reading Blocks are added to the sim
-around elements that are not usually interactive or focusable. Reading Blocks usually surround Text, but can surround
-other graphical objects. Reading blocks are added to the focus order. When the mouse is over a Reading Block a highlight
+Reading Blocks are a sub-set of the Voicing feature. When Voicing is enabled Reading Blocks are added to the sim around
+elements that are not usually interactive or focusable. Reading Blocks usually surround Text, but can surround other
+graphical objects. Reading blocks are added to the focus order. When the mouse is over a Reading Block a highlight
 should surround the content.
 
 ##### *What is the "Voicing Toolbar?"*
 
 <table>
-<tr>
-<td width="60%">
-<ul> 
-<li>When Voicing is enabled, the sim can include a Toolbar that should appear on the left side of the screen. It can be 
-enabled and disabled separately from Voicing from the Preferences Dialog, but it should always be disabled when
- Voicing is disabled. </li> <br>
-<li>The "Sim Voicing" toggle is a control that quickly enables/disables Voicing without going through the Preferences
-dialog. When "Sim Voicing" is off, no Voicing content should be heard and you should not be able to find or use
-any Reading Blocks. The only exception is the "Quick Info" buttons in the Toolbar. Clicking these while "Sim Voicing"
- is off should still produce voicing content. </li>
-<td width="40%">
-
-![voicing](https://user-images.githubusercontent.com/87318828/156220219-1c2b941d-c7cc-4de8-9458-52ca2ff66c8e.jpg)
-
- </table>
+  <tr>
+  <td width="60%">
+  <ul> 
+  <li>When Voicing is enabled, the sim can include a Toolbar that should appear on the left side of the screen. It can be 
+  enabled and disabled separately from Voicing from the Preferences Dialog, but it should always be disabled when
+   Voicing is disabled. </li> <br>
+  <li>The "Sim Voicing" toggle is a control that quickly enables/disables Voicing without going through the Preferences
+  dialog. When "Sim Voicing" is off, no Voicing content should be heard and you should not be able to find or use
+  any Reading Blocks. The only exception is the "Quick Info" buttons in the Toolbar. Clicking these while "Sim Voicing"
+   is off should still produce voicing content. </li></ul></td>
+  <td width="40%">
+  ![voicing](https://user-images.githubusercontent.com/87318828/156220219-1c2b941d-c7cc-4de8-9458-52ca2ff66c8e.jpg)
+  </td>
+</table>
 
 ##### *To test:*
 
@@ -1414,8 +1393,8 @@ any Reading Blocks. The only exception is the "Quick Info" buttons in the Toolba
 ##### *What are "Interactive Highlights?*
 
 Interactive Highlights are another new accessibility feature. They are highlights (like focus highlights) that surround
-interactive components in the sim while the mouse is over them. They serve to assist the user by clearly indicating
-what is important and interactive on the screen.
+interactive components in the sim while the mouse is over them. They serve to assist the user by clearly indicating what
+is important and interactive on the screen.
 
 ![Interactive Highlights](https://github.com/phetsims/QA/blob/main/documentation/images/interactive-highlights.png "Interactive Highlights")
 
@@ -1432,15 +1411,15 @@ what is important and interactive on the screen.
 #### Sound
 
 <table>
-<tr>
-<td width="50%">
-<ul> 
-<li>Sounds are enabled by default, but can be disabled from the Audio Tab of the Preferences dialog. </li>
-<li>Some sims have an additional option for Extra Sounds, which is also found in the Audio Tab of the Preferences dialog. </li>
-<li>Sound can be muted from the Nav bar. </li>
-<td width="50%">
-
-![sounds](https://user-images.githubusercontent.com/87318828/156214981-ebcd4ad6-4396-4007-a498-c4f663b20986.jpg)
+  <tr>
+  <td width="50%">
+  <ul> 
+  <li>Sounds are enabled by default, but can be disabled from the Audio Tab of the Preferences dialog. </li>
+  <li>Some sims have an additional option for Extra Sounds, which is also found in the Audio Tab of the Preferences dialog. </li>
+  <li>Sound can be muted from the Nav bar. </li></ul></td>
+  <td width="50%">
+  ![sounds](https://user-images.githubusercontent.com/87318828/156214981-ebcd4ad6-4396-4007-a498-c4f663b20986.jpg)
+  </td>
 </table>
 
 ##### *To test:*
@@ -1473,10 +1452,10 @@ Theoretically, all of the steps you follow to test the offline website could be 
 [section on website administration](https://github.com/phetsims/QA/blob/main/documentation/qa-book.md#63-website-administration)
 may contain pertinent information.
 
-Much of this testing may be done on the ox-dev website. This way new features or large changes can be tested before
-they go live on the main website. There are also three test accounts made with emails specifically for testing the
-website if seperate accounts are needed. These are available on the credentials sheet. Ask Katie if you need access to
-these accounts.
+Much of this testing may be done on the ox-dev website. This way new features or large changes can be tested before they
+go live on the main website. There are also three test accounts made with emails specifically for testing the website if
+seperate accounts are needed. These are available on the credentials sheet. Ask Katie if you need access to these
+accounts.
 
 Things to include in website testing:
 
@@ -1494,8 +1473,8 @@ Things to include in website testing:
 
 Open [this](https://sparky.colorado.edu/continuous-testing/aqua/html/continuous-report.html) in a private window. (You
 should always use a private window when viewing automated testing results because of caching issues.) Read the
-description at the top of the page. (The test number can increase because tests aren’t counted until the simulation
-is built.)
+description at the top of the page. (The test number can increase because tests aren’t counted until the simulation is
+built.)
 
 The name of the server that hosts the website for automated testing is called Bayes. Automated testing is commonly
 referred to as Continuous Testing (CT). When you load the website for automated testing, Bayes is always running tests
@@ -1536,10 +1515,10 @@ developer.
 * Scenery
 * Tandem
 
-There are some common errors you should be aware of. If a simulation does not load in 40 seconds, an error is given.
-If a window location changes, an error is given. If this occurs frequently, notify a developer. For other errors, make
-an issue in the appropriate repository with the "type:automated-testing" and "type:bug" labels. Lint errors can be
-fixed easily!
+There are some common errors you should be aware of. If a simulation does not load in 40 seconds, an error is given. If
+a window location changes, an error is given. If this occurs frequently, notify a developer. For other errors, make an
+issue in the appropriate repository with the "type:automated-testing" and "type:bug" labels. Lint errors can be fixed
+easily!
 
 If Bayes restarts, then it takes the automated testing page a long time to show anything. Similarly, if someone tells
 Bayes to start or stop doing something, then it takes a long time for things to show up on the automated testing page.
@@ -1575,7 +1554,7 @@ test. They should also be done for any rc.1 testing. To do a memory leak test, f
 <li>Ideally, the snapshot values won’t exceed 100 MB, but for larger sims they may. But even then, they should still level off. A small memory leak may grow by 1 MB per minute, rather than a runaway effect. In these cases it will be up to the developer whether to address the potential problems.</li>
  <br/><br/>
 <li>If it is obvious that there is a memory leak, open an issue instead of including the information as a comment.</li>
- <br/><br/><br/><br/><br/><br/><br/>
+ <br/><br/><br/><br/><br/><br/><br/></ul>
 </td>
 <td width="50%">
 
@@ -1599,14 +1578,14 @@ sims currently in RC testing may need special attention.
 ### 4.9: PhETTest
 
 [PhETTest](https://bayes.colorado.edu/dev/phettest/) contains up-to-date versions of the sim with latest code changes
-made by the
-developers. When a developer asks for something to be checked on main, this is where you will go to do that for the
-most part. PhETMarks serves a similar purpose with more options in case you need to test something more involved like
-PhET-iO. When you open the website, do so in incognito mode to ensure you aren’t looking at an old version of a sim.
-Make sure all of the common code repos are up to date, as well as the sim you want to look at. You can press the "pull"
+made by the developers. When a developer asks for something to be checked on main, this is where you will go to do that
+for the most part. PhETMarks serves a similar purpose with more options in case you need to test something more involved
+like PhET-iO. When you open the website, do so in incognito mode to ensure you aren’t looking at an old version of a
+sim. Make sure all of the common code repos are up to date, as well as the sim you want to look at. You can press the "
+pull"
 button to update one repo, or the "Pull All" button at the top to update everything. To quickly check a sim, click the
-link with the sim in the title. To build a version of the simulation, click "build", and then click "Built
-Version" when the process finishes.
+link with the sim in the title. To build a version of the simulation, click "build", and then click "Built Version" when
+the process finishes.
 
 ### 4.10: App Testing
 
@@ -1618,8 +1597,7 @@ You will need an iOS device with TestFlight on it. You may also need to coordina
 beta version of the app. The beta version replaces the published version on your device (if you have the published
 version) and each beta version lasts 90 days from when the developer publishes it. Testing should include: search
 functions, the info dialogs, Voice Over support, filtering, locale changes, and a random selection of sims. Try to
-manually test each feature and look for anything out of
-ordinary, kind of like a dev test for a simulation.
+manually test each feature and look for anything out of ordinary, kind of like a dev test for a simulation.
 
 ##### App Translation Testing
 
@@ -1675,20 +1653,17 @@ To properly test on Chromebooks, Android System Webview must be up to date. To u
 ### 4.11: Metadata Service Testing
 
 Clients and partners have access to some of the API data for PhET sims. There have been reports of some of the data
-being incorrect, inaccessible, or otherwise
-bugged from clients, so testing data retrieval is sometimes necessary. In addition, the guide is written by hand rather
-than generated, so it is important to
-make sure it is accurate to the data involved.
+being incorrect, inaccessible, or otherwise bugged from clients, so testing data retrieval is sometimes necessary. In
+addition, the guide is written by hand rather than generated, so it is important to make sure it is accurate to the data
+involved.
 
 The instructions for retrieving different types of data and domain to retrieve them from are on PhET’s Partner API
-Guide. Ask Katie or Matt how to reach this
-site. Each type of request is a different “endpoint” and you will need to append the given URL slice to the domain when
-you request the information.
-You can also narrow down your results by appending given query parameters.
+Guide. Ask Katie or Matt how to reach this site. Each type of request is a different “endpoint” and you will need to
+append the given URL slice to the domain when you request the information. You can also narrow down your results by
+appending given query parameters.
 
 As of 1/19/21 there are five endpoints. All Simulations will get a list of all simulations, including basic summary data
-about each simulation and its
-translations.
+about each simulation and its translations.
 
 * *Simulation* requires a simulation id and will get the information of that simulation.
 * *Education Standards* gets the educational standards information.
@@ -1696,24 +1671,19 @@ translations.
 * *Categories* gets subject, grade level, and other sorting categories.
 
 The instructions for testing will use a program called Postman, however other methods and text editors can be used. If
-using another method you may need
-guidance from a developer.
+using another method you may need guidance from a developer.
 
 To test:
 
 1. Go to the PhET API Testing Workspace.
 2. Open the Partner Services Metadata API folder.
-3. Either select the endpoint from the available options or create a new document by clicking a plus tab.
-   a. If making a new endpoint test: In the URL bar, paste the domain, followed by the endpoint URL. Make sure the URL
-   bar is set to GET.
-   b. Add any query parameters in the table below the URL bar. In the key section add the query parameter. In the value
-   section, add a value if the
-   query parameter has to equal something.
-   c. Save the test in the folder.
+3. Either select the endpoint from the available options or create a new document by clicking a plus tab. a. If making a
+   new endpoint test: In the URL bar, paste the domain, followed by the endpoint URL. Make sure the URL bar is set to
+   GET. b. Add any query parameters in the table below the URL bar. In the key section add the query parameter. In the
+   value section, add a value if the query parameter has to equal something. c. Save the test in the folder.
 4. Check any parameter needed for the test and click Send.
 5. Compare the results to the table of expected responses. In the Partner API guide, click on the response link in the
-   endpoint to see what is expected.
-   Nested results will have further links describing what is expected.
+   endpoint to see what is expected. Nested results will have further links describing what is expected.
 
 ### 4.12: Sim Testing Tips
 
@@ -1763,8 +1733,8 @@ still being translated. To translate a Flash or Java simulation, do the followin
 18. Wait for it to load.
 19. Test the English version and the translated version of each simulation. (Make sure the strings look normal.)
 20. If the strings look normal, then press the "Publish Now" button.
-21. Send an email to the translator with a link to the page on the PhET website where their newly translated
-    simulations can be found.
+21. Send an email to the translator with a link to the page on the PhET website where their newly translated simulations
+    can be found.
 22. Delete the contents of the “Translations” folder.
 23. Send the translator a thank-you email.
 
@@ -1801,11 +1771,11 @@ course please read the full instructions page prior to starting your translation
 
 https://phet.colorado.edu/en/for-translators/website
 
-As I'm sure you've realized at this point translating the website is not a small task. We estimate it will probably
-take about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one
-public translation per language, we encourage translators to collaborate on a translation for their language. We want
-translators to work together to move any partial translations to one "main" translation as only one translation will
-go public.
+As I'm sure you've realized at this point translating the website is not a small task. We estimate it will probably take
+about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one public
+translation per language, we encourage translators to collaborate on a translation for their language. We want
+translators to work together to move any partial translations to one "main" translation as only one translation will go
+public.
 
 Thank you for your efforts to make PhET sims available worldwide.
 
@@ -1834,21 +1804,21 @@ more than 1000 strings:
 
 "Dear Translator,
 
-I've noticed that you recently started a Gujarati (gu) translation of our website and wanted to check in with you to
-see if you have any questions about the process. Please let me know if you have any questions about how this works and
-of course please read the full instructions page prior to starting your translation:
+I've noticed that you recently started a Gujarati (gu) translation of our website and wanted to check in with you to see
+if you have any questions about the process. Please let me know if you have any questions about how this works and of
+course please read the full instructions page prior to starting your translation:
 
 https://phet.colorado.edu/en/for-translators/website
 
-As I'm sure you've realized at this point translating the website is not a small task. We estimate it will probably
-take about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one
-public translation per language, we encourage translators to collaborate on a translation for their language. We want
-translators to work together to move any partial translations to one "main" translation as only one translation will
-go public.
+As I'm sure you've realized at this point translating the website is not a small task. We estimate it will probably take
+about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one public
+translation per language, we encourage translators to collaborate on a translation for their language. We want
+translators to work together to move any partial translations to one "main" translation as only one translation will go
+public.
 
-Also, we typically only publish translations once they reach at least 1000 strings because before that point they
-aren't completely usable. You do not need to submit your translation to save your work. All changes are automatically
-saved to our servers.
+Also, we typically only publish translations once they reach at least 1000 strings because before that point they aren't
+completely usable. You do not need to submit your translation to save your work. All changes are automatically saved to
+our servers.
 
 Thank you for your efforts to make PhET sims available worldwide.
 
@@ -1865,8 +1835,8 @@ Send this email:
 
 "Dear translator,
 
-I noticed that you recently started an English (en) translation of our website. Since our website is written in
-English, we will delete this translation. If you meant to create a translation in another language, please see here for
+I noticed that you recently started an English (en) translation of our website. Since our website is written in English,
+we will delete this translation. If you meant to create a translation in another language, please see here for
 instructions:
 
 https://phet.colorado.edu/en/for-translators/website
@@ -1889,11 +1859,11 @@ course please read the full instructions page prior to starting your translation
 
 https://phet.colorado.edu/en/for-translators/website
 
-As I'm sure you've realized at this point translating the website is not a small task. We estimate it will probably
-take about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one
-public translation per language, we encourage translators to collaborate on a translation for their language. We want
-translators to work together to move any partial translations to one "main" translation as only one translation will
-go public.
+As I'm sure you've realized at this point translating the website is not a small task. We estimate it will probably take
+about 50 - 100 hours to fully make a website translation. Because of this, and because we will only provide one public
+translation per language, we encourage translators to collaborate on a translation for their language. We want
+translators to work together to move any partial translations to one "main" translation as only one translation will go
+public.
 
 Since there are already multiple Arabic (ar) translations being worked on, I would encourage you to send a request to
 collaborate on the translation by clicking "request to collaborate". This will allow you to send an email to the
@@ -1909,8 +1879,8 @@ PhET Help"
 
 The translator submits a clone of an existing translation.
 
-Email the translator letting them know that we already have a translation in that language (provide URL) and ask them
-to instead “Request Collaboration” on the existing translation.
+Email the translator letting them know that we already have a translation in that language (provide URL) and ask them to
+instead “Request Collaboration” on the existing translation.
 
 #### Other Possible Cases
 
@@ -1946,11 +1916,10 @@ these things in mind:
 ### 6.2: PhET Test Maintenance
 
 PhETTest runs on bayes, see https://github.com/phetsims/phetmarks/blob/main/phettest/README.md for notes about
-maintaining the associated processes. This
-requires the ability to ssh into bayes with the `phet-admin` account. If you see something like
-”failed to pull,” then look through bayes logs to see if you can find the culprit. Every time a new repository
-is made, press the “Refresh Perennial” button. (Perennial is the list of simulations.) Press the ”Pull All” button
-every 5 hours.
+maintaining the associated processes. This requires the ability to ssh into bayes with the `phet-admin` account. If you
+see something like ”failed to pull,” then look through bayes logs to see if you can find the culprit. Every time a new
+repository is made, press the “Refresh Perennial” button. (Perennial is the list of simulations.) Press the ”Pull All”
+button every 5 hours.
 
 Here is a list of helpful commands:
 
@@ -1958,8 +1927,8 @@ Here is a list of helpful commands:
 * `$ pm2 start phettest-server`
 * `$ pm2 logs phettest-server`
 
-Since phettest now runs on bayes, rather than the Turing computer, you are generally better off asking a developer
-for help in using these commands and/or troubleshooting.
+Since phettest now runs on bayes, rather than the Turing computer, you are generally better off asking a developer for
+help in using these commands and/or troubleshooting.
 
 ### 6.3: Website Administration
 
@@ -2011,7 +1980,7 @@ corner.
 
 Please keep this book up-to-date so that it can be a useful resource!
 
-Use this [Markdown File](https://github.com/phetsims/QA/blob/main/doc/qa-book-maintenance.md) to record things that
-need to be added and to view dates for scheduled maintenance.
+Use this [Markdown File](https://github.com/phetsims/QA/blob/main/doc/qa-book-maintenance.md) to record things that need
+to be added and to view dates for scheduled maintenance.
 
 ***
