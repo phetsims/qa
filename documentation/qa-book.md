@@ -910,6 +910,9 @@ Using the Studio Wrapper:
 *Note:*
 Some sims may include examples where you are able to preload a set state into a Standard PhET-iO Wrapper. In these instances, set your console to "top" in order to use commands (there is a dropdown menu at the top of the console in Chrome, or at the bottom if in Safari). As an example, see 'Load premade circuits into a wrapper' in the CCK-DC examples doc.
 
+*Note:*
+Some examples with multiple code commands don't work in Safari dev tools. If copying and pasting example code from the examples.md into the console doesn't work, likely the writer of the example needs to use `let` instead of `const` along with a `.then()` statement. See Center and variability issue #537 for an example of this situation. 
+
 #### Test 11: Data: Colorized Wrapper Test
 
 *Approximate time:* <5 minutes, Only on one random platform     
