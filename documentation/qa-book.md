@@ -700,6 +700,7 @@ website. Usually you have one main screenshot and two to three alt screenshots.
 8. Check the image to make sure it has the right dimensions (1536x1008).
 9. Rename screenshots `sim-name-screenshot.png` or `sim-name-screenshot-alt#.png`.
 10. Upload the screenshots to the sim repo's assets folder in GitHub.
+11. Repeat the above process, taking the same screenshots using the `screens` query parameter. Name these screenshots `sim-name-screenshot-screen#.png` and save them to the sim repo's assets folder in Github.
 
 ##### Screenshots on Firefox
 
@@ -714,6 +715,7 @@ website. Usually you have one main screenshot and two to three alt screenshots.
 9. Check the image to make sure it has the right dimensions (1536x1008).
 10. Rename screenshots `sim-name-screenshot.png` or `sim-name-screenshot-alt#.png`.
 11. Upload the screenshots to the sim repo's assets folder in GitHub.
+12. Repeat the above process, taking the same screenshots using the `screens` query parameter. Name these screenshots `sim-name-screenshot-screen#.png` and save them to the sim repo's assets folder in Github.
 
 #### General Protocol for Z-Ordering of Tools
 
