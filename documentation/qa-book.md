@@ -910,7 +910,7 @@ and in conjunction with Column 2.
 * To test this wrapper, make sure instrumented characteristics can be modified and make sure characteristics that
   haven’t been instrumented can’t be modified.
 * Make sure the UI functions as expected.
-* Note that a certain subset of PhET-iO elements are "PhET-iO Featured" and the studio tree can be filtered to show only
+* Note that a certain subset of PhET-iO Elements are "PhET-iO Featured" and the studio tree can be filtered to show only
   these elements.
 * Test the **autoselect features** by hovering over instrumented elements while holding the appropriate button:
 
