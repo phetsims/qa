@@ -942,7 +942,7 @@ and in conjunction with Column 2.
 
 * To test with the migration wrapper in main, it is necessary to add the old version as a query parameter(?oldVersion=).
 
-#### Test 10: Examples (Client Requests)
+#### Test 10: Examples (PhET-iO Client Requests)
 
 *Approximate time:* Varies depending on the number of requests, Only on one random platform
 
