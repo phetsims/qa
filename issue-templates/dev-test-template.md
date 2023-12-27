@@ -3,6 +3,7 @@
 
 DEVELOPERS: 
 
+* Create the GitHub issue, but DO NOT PUBLISH the dev version until QA tells you they are ready to test.
 * title for this issue = Dev Test: {{SIM_TITLE}} {{VERSION}}
 * replace {{MENTIONS}} with @mentions for team members who should received GitHub notifications about this issue
 * Fill in the {{REPO}}, {{VERSION}}, and {{GITHUB_ISSUE_LINK}} placeholders.
