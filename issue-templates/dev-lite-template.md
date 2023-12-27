@@ -3,7 +3,7 @@
 
 DEVELOPERS: 
 
-* Create the GitHub issue, but DO NOT PUBLISH the dev version until QA tells you they are ready to test.
+* Create the GitHub issue, but DO NOT PUBLISH the dev version until QA tells you they are ready to begin testing.
 * title for this issue = Dev-Lite Test: {{SIM_TITLE}} {{VERSION}}
 * replace {{MENTIONS}} with @mentions for team members who should received GitHub notifications about this issue
 * Fill in the {{REPO}}, {{VERSION}}, and {{GITHUB_ISSUE_LINK}} placeholders.
@@ -21,7 +21,7 @@ DEVELOPERS:
 
 - [github repository for issues](https://github.com/phetsims/{{REPO}}/issues)
 - [phet top-level directory](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}})
-- [sim: all_phet.html](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet/{{REPO}}_all_phet.html) ← **Do not publish until QA is ready to test!**
+- [sim: all_phet.html](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet/{{REPO}}_all_phet.html) ← **Do not publish until QA is ready to begin testing!**
 - [phet-io wrapper index](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet-io)
 
 <h3>Test Matrix</h3>
