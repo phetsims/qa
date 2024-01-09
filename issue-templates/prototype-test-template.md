@@ -36,6 +36,7 @@ DEVELOPERS:
 - [ ] Sonification
 - [ ] Description
 - [ ] Voicing
+- [ ] Dynamic Locale
 
 <h3>Focus and Special Instructions</h3>
 
