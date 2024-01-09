@@ -62,6 +62,7 @@ If screen readers are being tested:
 - [ ] Sonification
 - [ ] Description
 - [ ] Voicing
+- [ ] Dynamic Locale
 
 <h3>Focus and Special Instructions</h3>
 
