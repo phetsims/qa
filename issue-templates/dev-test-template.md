@@ -29,15 +29,15 @@ DEVELOPERS:
 Please include all (non-screen reader) feature testing in these records if applicable.
 
 - [ ] Latest macOS, Safari (Time = )
-- [ ] Windows 10, Chrome (Time = )
-- [ ] Windows 10/11, Firefox (Time = )
 - [ ] Latest iOS, Safari (Time = )
+- [ ] Windows 10/11, Firefox (Time = )
 - [ ] Windows 11, Chrome (Time = )
+- [ ] Latest Chrome OS, Chrome (Time = )
 
 Light testing, or optionally skip if time crunch:
 
 - [ ] Latest macOS, Chrome (Time = )
-- [ ] Latest Chrome OS, Chrome (Time = )
+- [ ] Windows 10, Chrome (Time = )
 
 If PhET-iO is being tested:
 
