@@ -39,6 +39,7 @@ Matrices will be pared down to fit scope of Lite test.
 - [ ] Sonification
 - [ ] Description
 - [ ] Voicing
+- [ ] Dynamic Locale
 
 <h3>Focus and Special Instructions</h3>
 
