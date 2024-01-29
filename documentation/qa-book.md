@@ -89,7 +89,7 @@ your fingers. Be cognizant of this.
 ### 1.2: Operating Systems
 
 For a comprehensive list of operating systems (OS's) we support, check out the
-[the PhET Help Center](https://phet.colorado.edu/en/help-center/running-sims). (Open the "What are the System
+[the PhET Help Center](https://phet.colorado.edu/en/help-center/running-sims#q11-header). (Open the "What are the System
 Requirements for running PhET simulations?" details.)
 
 As of 2021-12-16 the operating systems we officially support are:
