@@ -101,8 +101,11 @@ As of 2021-12-16 the operating systems we officially support are:
 * macOS 11+
 * macOS 12+
 * macOS 13+
+* macOS 14+
 * Windows 10
 * Windows 11
+
+When determining if a OS should have support we look at usage statistics (engaged sessions) for the last 6 months. If usage is under 1% of users and support for the OS has been dropped by it's parent company we will drop that OS. This check should be done shortly after Jan 1st of a new year.
 
 ### 1.3: Web Browsers
 
