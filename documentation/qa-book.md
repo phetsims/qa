@@ -901,6 +901,7 @@ and in conjunction with Column 2.
 * *Note: The following items in the Preferences dialog are stateful (changes should carry over to launched/saved sim):*
   * anything in the Simulation tab
   * locale
+  * region and culture
   * projector mode
   * audio features toggle (and sound button in nav bar)
   * Every dialog's isShowingProperty is stateful
