@@ -66,8 +66,6 @@ Please document all known AT bugs in this document.
 
 ### 1.3: NVDA
 
-So empty. Much goodness.
-
 #### 1.3.1: Firefox Bugs
 
 * When changing screens from the Home Screen, NVDA may read the page title several times and then the first line in the
@@ -78,6 +76,7 @@ So empty. Much goodness.
 * NVDA may say name of WASD keys when pressed
 * NVDA might get "stuck" on the heading of a dialog. You have to press "tab" to get out of it.
   See https://github.com/phetsims/quadrilateral/issues/452
+* Home/End/Page Up/Page Down from the number pad do not work with NVDA. See https://github.com/phetsims/sun/issues/872.
 
 ### 1.4: VoiceOver
 
