@@ -576,6 +576,8 @@ To do the query parameters test, append the URL with the following query paramet
 * `?phetioWrapperDebug=true`: adds and checks for assertions in PhET-iO wrappers themselves (this is like `?ea` for the
   wrapper code)
 * `?printVoicingResponses`: prints strings read by voicing to the console
+* `?forceSVGRefresh`: may mitigate graphical errors, but too energy/performance intensive to generalize. Check beheavior here when looking at graphical issues.
+* `?rootRenderer=canvas`: check behavior with this parameter when looking at graphical issues.
 
 ##### Private Query Parameters
 
