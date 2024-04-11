@@ -34,12 +34,12 @@ Matrices will be pared down to fit scope of Lite test.
 <h3>Features included</h3>
 
 - [ ] PhET-iO
+- [ ] Dynamic Locale
 - [ ] Alternative Input
 - [ ] UI Sound
 - [ ] Sonification
 - [ ] Description
 - [ ] Voicing
-- [ ] Dynamic Locale
 
 <h3>Focus and Special Instructions</h3>
 
