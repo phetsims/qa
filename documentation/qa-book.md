@@ -461,6 +461,8 @@ If the developer has issues they want tested they will use the label `status:rea
 not the issue is fixed and assign back to the developer. Only close the issue if the developer has indicated that you
 may do so.
 
+A memory test should also be done during dev testing.
+
 Here's a list of platforms we like to do development tests on:
 
 * Chrome OS
