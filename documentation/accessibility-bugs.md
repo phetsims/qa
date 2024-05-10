@@ -78,6 +78,7 @@ Please document all known AT bugs in this document.
   See https://github.com/phetsims/quadrilateral/issues/452
 * Home/End/Page Up/Page Down from the number pad do not work with NVDA. See https://github.com/phetsims/sun/issues/872.
 * When using a ComboBox, the name of the ComboBox button can be incorrect after changing selection. See https://github.com/phetsims/a11y-research/issues/196.
+* NVDA may incorrectly describe components as "unavailable" after they are re-enabled. See https://github.com/phetsims/a11y-research/issues/197.
 
 ### 1.4: VoiceOver
 
