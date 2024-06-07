@@ -111,6 +111,8 @@ Please document all known AT bugs in this document.
 * iOS VoiceOver may skip over dynamic content in the PDOM when reading with swipe gestures.
   See https://github.com/phetsims/a11y-research/issues/175
 
+* iOS VoiceOver reads radio buttons as "radio button, checkbox". See https://github.com/Nancy-Salpepi.
+
 ## 2: Keyboard Navigation
 
 ### 2.1: General Bugs
