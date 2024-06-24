@@ -85,7 +85,7 @@ Please document all known AT bugs in this document.
 #### 1.4.1: Safari Bugs
 
 * When closing a dialog with “escape” while the virtual cursor is on a list item, focus might not return to the Keyboard
-  Help button in the navigation bar. See https://github.com/phetsims/ohms-law/issues/114.
+  Help button in the navigation bar. See https://github.com/phetsims/ohms-law/issues/114. A user setting fixes this.
 * When using VoiceOver and the “Increment” feature on a slider (ctrl+option+spacebar), VoiceOver will sometimes read the
   previous aria-valuetext instead of the new one. See https://github.com/phetsims/a11y-research/issues/36.
 * VoiceOver doesn’t interrupt alerts as aggressively as some other AT, so older alerts might queue and be read one after
@@ -112,6 +112,8 @@ Please document all known AT bugs in this document.
   See https://github.com/phetsims/a11y-research/issues/175
 
 * iOS VoiceOver reads radio buttons as "radio button, checkbox". See https://github.com/Nancy-Salpepi.
+
+* iOS VoiceOver does not queue any context responses (aria-live), see https://github.com/phetsims/utterance-queue/issues/117
 
 ## 2: Keyboard Navigation
 
