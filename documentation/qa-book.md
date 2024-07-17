@@ -712,7 +712,7 @@ there is a problem, notify the developers.
 
 #### Screenshots
 
-When a simulation is about to be published, we have to take screenshots of the simulation that will be used on the
+When a simulation is about to be published, we sometimes take screenshots of the simulation that will be used on the
 website. Usually you have one main screenshot and two to three alt screenshots.
 
 ##### Screenshots on Chrome
@@ -731,6 +731,10 @@ website. Usually you have one main screenshot and two to three alt screenshots.
 8. Check the image to make sure it has the right dimensions (1536x1008).
 9. Rename screenshots `sim-name-screenshot.png` or `sim-name-screenshot-alt#.png`.
 10. Upload the screenshots to the sim repo's assets folder in GitHub.
+
+As an alternative to using Screenshot Capture, you can type in a command to take a screenshot. Open the console/dev tools, then click the three-dot menu and select Run Command (or hold command+shift+p). Type in `screenshot` and select `Capture full size screenshot`. 
+
+You can also use PhET Menu > screenshot. 
 
 ##### Screenshots on Firefox
 
