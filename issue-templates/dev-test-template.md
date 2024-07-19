@@ -30,31 +30,31 @@ DEVELOPERS:
 
 Please include all (non-screen reader) feature testing in these records if applicable.
 
-- [ ] Latest macOS, Safari (Time = )
-- [ ] Latest iOS, Safari (Time = )
-- [ ] Windows 10/11, Firefox (Time = )
-- [ ] Windows 11, Chrome (Time = )
-- [ ] Latest Chrome OS, Chrome (Time = )
+- [ ] Latest macOS, Safari (Time = ) (Tester = )
+- [ ] Latest iOS, Safari (Time = ) (Tester = )
+- [ ] Windows 10/11, Firefox (Time = ) (Tester = )
+- [ ] Windows 11, Chrome (Time = ) (Tester = )
+- [ ] Latest Chrome OS, Chrome (Time = ) (Tester = )
 
 Light testing, or optionally skip if time crunch:
 
-- [ ] Latest macOS, Chrome (Time = )
-- [ ] Windows 10, Chrome (Time = )
+- [ ] Latest macOS, Chrome (Time = ) (Tester = )
+- [ ] Windows 10, Chrome (Time = ) (Tester = )
 
 If PhET-iO is being tested:
 
-- [ ] Latest macOS, Safari (Time = )
-- [ ] Windows 10, Chrome (Time = )
-- [ ] Windows 10, Firefox (Time = )
-- [ ] Latest iOS, Safari (Time = )
-- [ ] Windows 11, Chrome (Time = )
+- [ ] Latest macOS, Safari (Time = ) (Tester = )
+- [ ] Windows 10, Chrome (Time = ) (Tester = )
+- [ ] Windows 10, Firefox (Time = ) (Tester = )
+- [ ] Latest iOS, Safari (Time = ) (Tester = )
+- [ ] Windows 11, Chrome (Time = ) (Tester = )
 
 If screen readers are being tested:
 
-- [ ] Win 10/11 Chrome + Jaws (Time = )
-- [ ] Win 10/11 Firefox + NVDA (Time = )
-- [ ] MacOS Safari + VO (Time = )
-- [ ] iPadOS Mobile VO (Time = )
+- [ ] Win 10/11 Chrome + Jaws (Time = ) (Tester = )
+- [ ] Win 10/11 Firefox + NVDA (Time = ) (Tester = )
+- [ ] MacOS Safari + VO (Time = ) (Tester = )
+- [ ] iPadOS Mobile VO (Time = ) (Tester = )
 
 <h3>Features included</h3>
 
