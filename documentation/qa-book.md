@@ -1232,6 +1232,8 @@ To test the accessibility features of a simulation, follow the steps below:
 
 * If keyboard navigation does not work on Safari, you likely need to enable it in user settings.
   See https://www.seanmcp.com/articles/tab-focus-not-working-in-safari/
+* Keyboard navigation will not work on the iPad using a bluetooth keyboard. For more information see 
+  https://github.com/phetsims/scenery/issues/1659 
 * Please be aware that an object may have focus while you are using your mouse. The highlight may become visible as soon
   as you interact with a keyboard. It should become invisible again when you continue to press down with a mouse or
   finger.
