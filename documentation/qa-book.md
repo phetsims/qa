@@ -101,6 +101,7 @@ As of 2021-12-16 the operating systems we officially support are:
 * macOS 12+
 * macOS 13+
 * macOS 14+
+* macOS 15+
 * Windows 10
 * Windows 11
 
