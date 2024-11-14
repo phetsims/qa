@@ -95,8 +95,8 @@ Requirements for running PhET simulations?" details.)
 As of 2021-12-16 the operating systems we officially support are:
 
 * Chrome OS
-* iOS 14+
-* iPadOS 14+
+* iOS 15+
+* iPadOS 15+
 * macOS 11+
 * macOS 12+
 * macOS 13+
