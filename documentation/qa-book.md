@@ -97,7 +97,6 @@ As of 2021-12-16 the operating systems we officially support are:
 * Chrome OS
 * iOS 14+
 * iPadOS 14+
-* macOS 10.14+
 * macOS 11+
 * macOS 12+
 * macOS 13+
@@ -105,7 +104,9 @@ As of 2021-12-16 the operating systems we officially support are:
 * Windows 10
 * Windows 11
 
-When determining if a OS should have support we look at usage statistics (engaged sessions) for the last 6 months. If usage is under 1% of users and support for the OS has been dropped by it's parent company we will drop that OS. This check should be done shortly after Jan 1st of a new year.
+For all platforms except MacOS, when determining if a OS should have support we look at usage statistics (engaged sessions) for the last 6 months. If usage is under 1% of users and support for the OS has been dropped by it's parent company we will drop that OS. This check should be done shortly after Jan 1st of a new year.
+
+For MacOS, we drop support if Apple has ended support for the OS version AND a 1 year grace period has elapsed. Use https://en.wikipedia.org/wiki/MacOS to determine Apple support.
 
 ### 1.3: Web Browsers
 
