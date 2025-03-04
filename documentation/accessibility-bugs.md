@@ -116,6 +116,7 @@ Please document all known AT bugs in this document.
 * iOS VoiceOver reads radio buttons as "radio button, checkbox". See https://github.com/Nancy-Salpepi.
 
 * iOS VoiceOver does not queue any context responses (aria-live), see https://github.com/phetsims/utterance-queue/issues/117
+* iOS VoiceOver does not support the aria-roledescription attribute, see https://github.com/phetsims/trig-tour/issues/129. You will not hear custom roles like "movable" for draggable things. 
 
 ## 2: Keyboard Navigation
 
