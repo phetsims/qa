@@ -33,6 +33,11 @@ Please document all known AT bugs in this document.
 
 ### 1.2: JAWS
 
+#### General Bugs
+
+* JAWS doesn't support press and hold with keys for drag and drop. You have to repeatedly press a key to move things
+  little by little. See https://github.com/phetsims/a11y-research/issues/9.
+
 #### 1.2.1: Firefox Bugs
 
 * Be aware that JAWS may shift keyboard focus with Firefox Quantum. See
@@ -77,8 +82,10 @@ Please document all known AT bugs in this document.
 * NVDA might get "stuck" on the heading of a dialog. You have to press "tab" to get out of it.
   See https://github.com/phetsims/quadrilateral/issues/452
 * Home/End/Page Up/Page Down from the number pad do not work with NVDA. See https://github.com/phetsims/sun/issues/872.
-* When using a ComboBox, the name of the ComboBox button can be incorrect after changing selection. See https://github.com/phetsims/a11y-research/issues/196.
-* NVDA may incorrectly describe components as "unavailable" after they are re-enabled. See https://github.com/phetsims/a11y-research/issues/197.
+* When using a ComboBox, the name of the ComboBox button can be incorrect after changing selection.
+  See https://github.com/phetsims/a11y-research/issues/196.
+* NVDA may incorrectly describe components as "unavailable" after they are re-enabled.
+  See https://github.com/phetsims/a11y-research/issues/197.
 
 ### 1.4: VoiceOver
 
@@ -102,8 +109,8 @@ Please document all known AT bugs in this document.
   See https://github.com/phetsims/greenhouse-effect/issues/178.
 * Safari will duplicate alerts when the sim is embedded in an iFrame.
   See https://github.com/phetsims/friction/issues/286
-* VoiceOver reads the name, role, AND first element in a container (like a movable non-modal dialog) when the container has focus. This is the expected behavior.
-  See https://github.com/phetsims/models-of-the-hydrogen-atom/issues/149.
+* VoiceOver reads the name, role, AND first element in a container (like a movable non-modal dialog) when the container
+  has focus. This is the expected behavior. See https://github.com/phetsims/models-of-the-hydrogen-atom/issues/149.
 
 #### 1.4.2: Mobile Safari Bugs
 
@@ -115,8 +122,11 @@ Please document all known AT bugs in this document.
 
 * iOS VoiceOver reads radio buttons as "radio button, checkbox". See https://github.com/Nancy-Salpepi.
 
-* iOS VoiceOver does not queue any context responses (aria-live), see https://github.com/phetsims/utterance-queue/issues/117
-* iOS VoiceOver does not support the aria-roledescription attribute, see https://github.com/phetsims/trig-tour/issues/129. You will not hear custom roles like "movable" for draggable things. 
+* iOS VoiceOver does not queue any context responses (aria-live),
+  see https://github.com/phetsims/utterance-queue/issues/117
+* iOS VoiceOver does not support the aria-roledescription attribute,
+  see https://github.com/phetsims/trig-tour/issues/129. You will not hear custom roles like "movable" for draggable
+  things.
 
 ## 2: Keyboard Navigation
 
