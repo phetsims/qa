@@ -37,6 +37,8 @@ Please document all known AT bugs in this document.
 
 * JAWS doesn't support press and hold with keys for drag and drop. You have to repeatedly press a key to move things
   little by little. See https://github.com/phetsims/a11y-research/issues/9.
+* Pressing Enter or Spacebar when the virtual cursor is on a non-interactive element (like a paragraph) makes the cursor
+  go back to the beginning of the page.
 
 #### 1.2.1: Firefox Bugs
 
