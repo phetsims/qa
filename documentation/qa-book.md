@@ -793,6 +793,22 @@ position of the magnet. For a more comprehensive treatment of tandem IDs, read
 When making issues, try to include the specific link you were using when you found the problem. You need to Slack the
 link to the developer if the issue is in a public GitHub repository.
 
+#### Test 0: PhET Studio
+
+PhET Studio will be supported in most all cases that PhET-iO is, so this testing will be under this section for now.
+
+PhET Studio is a payed-for service that lets teachers build and share presets of sims.
+
+*How?*
+
+1. Please test your sim via the phet-studio sandbox link on [bayes](https://bayes.colorado.edu/phet-studio-sandbox/)
+2. Fill in the PhET-iO Lib Url: This will be the path to the phet-io wrapper index with the following at the end: `/lib/phet-io.js`
+3. Please test these functionalities of PhET Studio with your sim:
+   - Advanced options
+   - Downloading presets.
+   - Using the sim.
+4. Please test a couple of downloaded presets.
+
 #### Test 1: Doc Files
 
 *Approximate time:* 5 minutes, Only on one random platform  
