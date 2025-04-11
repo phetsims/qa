@@ -5,7 +5,7 @@ DEVELOPERS:
 
 * title for this issue = Website RC-Lite Test: {{WEBSITE_PROJECT_TITLE}} {{VERSION}}
 * replace {{MENTIONS}} with @mentions for team members who should receive GitHub notifications about this issue
-* Fill in the {{REPO}}, {{VERSION}}, and {{GITHUB_ISSUE_LINK}} placeholders.
+* Fill in the {{GITHUB_ISSUE_LINK}} placeholders.
 * assign the issue to @KatieWoe and @kathy-phet
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
