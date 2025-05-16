@@ -46,9 +46,9 @@ Light testing, or optionally skip if time crunch:
 If PhET-iO is being tested:
 
 - [ ] Latest macOS, Safari (Time = ) (Tester = )
-- [ ] Windows 10, Chrome (Time = ) (Tester = )
-- [ ] Windows 10, Firefox (Time = ) (Tester = )
+- [ ] Windows 10, Chrome/Firefox (Time = ) (Tester = )
 - [ ] Latest iOS, Safari (Time = ) (Tester = )
+- [ ] Windows 11, Firefox (Time = ) (Tester = )
 - [ ] Windows 11, Chrome (Time = ) (Tester = )
 
 If screen readers are being tested:
