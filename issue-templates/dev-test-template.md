@@ -20,6 +20,7 @@ DEVELOPERS:
 <h3>Simulation links</h3>
 
 - [github repository for issues](https://github.com/phetsims/{{REPO}}/issues)
+- [release notes](https://github.com/phetsims/{{REPO}}/blob/main/doc/release-notes.md)
 - [phet top-level directory](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}) ← **Do not publish until QA
   is ready to begin testing!**
 - [sim: all_phet.html](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet/{{REPO}}_all_phet.html) ← **Do not
