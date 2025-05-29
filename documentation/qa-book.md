@@ -550,6 +550,7 @@ To do the query parameters test, append the URL with the following query paramet
 * `?stringTest=rtl`: makes strings Farsi
   * Make sure everything looks good.
   * Make sure everything functions normally.
+  * If the sim displays negative numbers in any situations, verify that the minus sign is on the correct (right) side.
 * `?stringTest=X`: makes strings X
 * `?stringTest=xss`: cross site scripting
   * This query parameter puts JavaScript into every string. The page should not redirect.
