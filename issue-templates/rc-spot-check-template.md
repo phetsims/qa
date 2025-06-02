@@ -23,7 +23,7 @@ DEVELOPERS:
 - [sim: all_phet.html](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet/{{REPO}}_all_phet.html)
 - [phet-io wrapper index](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet-io)
 - [link to phet-io zip file](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet-io/{{REPO}}-phet-io-{{VERSION}}.zip)
-- [link to PhET Studio Sandbox](https://bayes.colorado.edu/phet-studio-sandbox/)
+- [link to PhET Studio Sandbox](https://phet.colorado.edu/admin/phet-studio/sandbox)
 
 <h3>Test Matrices</h3>
 
