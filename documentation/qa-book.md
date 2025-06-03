@@ -1364,7 +1364,7 @@ when it is voiced.
   * The words and phrases that are described by the above categories are strung together and then voiced (i.e., spoken
     out loud) through interaction. The more checkboxes that are checked, the more a user will hear.
   * These settings should ***only*** apply to components within the simulation Screens. All Voicing content within
-    dialogs, toolbar, navigation bar, and the PhET menu should not be changed by these settings.
+    dialogs, voicing toolbar, navigation bar, and the PhET menu should not be changed by these settings.
 
 * Change the rate, pitch, or voice under “Customized Voice”.
 
@@ -1386,7 +1386,7 @@ should surround the content.
    Voicing is disabled. </li> <br>
   <li>The "Sim Voicing" toggle is a control that quickly enables/disables Voicing without going through the Preferences
   dialog. When "Sim Voicing" is off, no Voicing content should be heard and you should not be able to find or use
-  any Reading Blocks. The only exception is the "Quick Info" buttons in the Toolbar. Clicking these while "Sim Voicing"
+  any Reading Blocks. The only exception is the "Quick Info" buttons in the Voicing Toolbar. Clicking these while "Sim Voicing"
    is off should still produce voicing content. </li></ul></td>
   <td width="40%">
   ![voicing](https://user-images.githubusercontent.com/87318828/156220219-1c2b941d-c7cc-4de8-9458-52ca2ff66c8e.jpg)
