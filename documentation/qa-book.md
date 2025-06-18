@@ -1337,6 +1337,34 @@ and follow the registration steps to add JAWS to your computer.
     different parts of sim pages etc
   * Make sure that any information attainable by sight is attainable by screen reader
 
+##### Tier 1 Interactive Description
+
+Tier 1 Interactive Description emphasizes the most essential accessibility features required for screen reader users, with fewer dynamic updates than full accessibility support.
+
+##### Tier 1 Interactive Description includes:
+- Accessible names for all interactive objects
+- Accessible help text for key interactive items
+- Accurate role descriptions for custom or unique interactive elements
+- Screen summaries for each screen (overview, current details, hints)
+- Descriptions of important visual (non-interactive) content
+- Simple alerts (responses) for key events (e.g., slider value changes, object added/removed)
+
+##### How to Test Tier 1 Interactive Description:
+Test using a screen reader and the a11y view.
+
+1) Accessible Names: Verify every interactive component has a name.
+2) Accessible Help Text: Check that help text is provided where needed and accurately guides users. Not all components require help text.
+3) Role Descriptions: Confirm each interactive object has a role (e.g., “button”, “slider”, “checkbox”). For custom controls, roles may be announced as “movable” or similar.
+4) Screen Summary: Review that the screen summary gives an accurate overview of the current screen, including details and hints. If the screen state changes, ensure the summary reflects the update.
+5) Visual Content Descriptions: Ensure important non-interactive graphics or diagrams include accurate descriptions.
+6) Alerts: When important events or state changes occur, make sure the screen reader announces a clear, relevant notification.
+
+After using the a11y view, always test with a real screen reader to confirm the content is accessible and accurate.
+
+Limitations:
+- Do not test on iOS VoiceOver; it is not supported for Tier 1.
+- Expect fewer dynamic updates or descriptions for continuous changes or fine details.
+
 #### Voicing
 
 ##### *What is "Voicing"?*
@@ -1420,6 +1448,26 @@ should surround the content.
   Preferences.
 - Only English voices may be present with Win + Firefox. To add more voices to your device, go to Settings > Speech
   Settings > Manage Voices. Click on Add Voices Button.
+
+#### Tier 1 Voicing
+
+Tier 1 Voicing provides the most essential Voicing features. It is intentionally less comprehensive and dynamic than full Voicing support.
+
+##### Tier 1 Voicing includes:
+- Voicing names for interactive objects
+- Voicing hint responses (spoken hints that guide users)
+- Screen summary content (overview, details, hints)
+- Reading Blocks for prominent or important text
+
+##### How to Test Tier 1 Voicing:
+1) Voicing Name Responses: Verify each interactive object has a name spoken when focused or clicked on.
+2) Voicing Hints: Ensure usage hints are provided for interactive objects that require it. Not all objects will have hints. Hints should only spoken when enabled in the Preferences dialog.
+3) Screen Summary: Confirm that the buttons in the Voicing Toolbar provide accurate summary content.
+4) Reading Blocks: Make sure that prominent text is clickable and focusable. When activated, the text should be spoken.
+
+##### Limitations:
+- Less dynamic, less detailed content than full Voicing (e.g., fewer updates, fewer contextual changes voiced).
+- "Object" and "Context" responses are not available in Tier 1 Voicing and cannot be enabled in the Preferences dialog.
 
 #### Interactive Highlights
 
