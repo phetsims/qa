@@ -114,6 +114,7 @@ Please document all known AT bugs in this document.
 * VoiceOver reads the name, role, AND first element in a container (like a movable non-modal dialog) when the container
   has focus. This is the expected behavior. See https://github.com/phetsims/models-of-the-hydrogen-atom/issues/149.
 * VoiceOver may read hidden elements. See https://github.com/phetsims/center-and-variability/issues/644.
+* VoiceOver may not read aria-live alerts after a change in focus. See https://github.com/phetsims/membrane-transport/issues/299.
 
 #### 1.4.2: Mobile Safari Bugs
 
