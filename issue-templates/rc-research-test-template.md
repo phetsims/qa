@@ -208,11 +208,11 @@ please check it against this list.
 This sim supports keyboard navigation. Please make sure it works as intended on all platforms by itself and with a
 screen reader.
 
-<h3>Magnification</h3>
+<h3>Pan and Zoom</h3>
 
-This sim supports magnification with pinch and drag gestures on touch screens, keyboard shortcuts, and mouse/wheel
-controls. Please test magnfication and make sure it is working as intended and well with the use cases of the
-simulation. Due to the way screen readers handle user input, magnification is NOT expected to work while using a screen
+This sim supports pan and zoom with pinch and drag gestures on touch screens, keyboard shortcuts, and mouse/wheel
+controls. Please test pan and zoom and make sure it is working as intended and well with the use cases of the
+simulation. Due to the way screen readers handle user input, pan and zoom is NOT expected to work while using a screen
 reader so there is no need to test this case.
 
 <hr>
