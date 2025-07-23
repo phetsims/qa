@@ -47,8 +47,6 @@ Things to include here:
 * instructions for any non-standard tests
 -->
 
-- [ ] Please check the QA credits and open a new issue if anything needs to be updated.
-
 <h3>Issues to Verify</h3>
 
 These issues should have the "status:ready-for-review" label. Unless an issue says to close after verifying, assign the
