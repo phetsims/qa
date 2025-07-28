@@ -39,6 +39,8 @@ Please document all known AT bugs in this document.
   little by little. See https://github.com/phetsims/a11y-research/issues/9.
 * Pressing Enter or Spacebar when the virtual cursor is on a non-interactive element (like a paragraph) makes the cursor
   go back to the beginning of the page.
+* Pressing enter or spacebar on a slider that does not have focus will cause the slider to move. This is the expected
+  behavior, see https://github.com/phetsims/center-and-variability/issues/665#issuecomment-3129999586.
 
 #### 1.2.1: Firefox Bugs
 
