@@ -73,7 +73,13 @@ Please document all known AT bugs in this document.
 * If there is a list in a dialog, when the dialog is first opened JAWS will read the list items as "bullet, bullet, ..."
   instead of reading the names of the items. See https://github.com/phetsims/a11y-research/issues/185.
 
-### 1.3: NVDA
+### 1.3: 
+
+#### 1.3.1: General Bugs
+
+* It is possible for the virtual cursor to get "stuck" when reading through interactive elements. For example, if you
+  tab to a draggable object, then switch to browse (reading) mode, you will not be able to read out of the draggable
+  object. You will have to tab out of it. See https://github.com/phetsims/membrane-transport/issues/376.
 
 #### 1.3.1: Firefox Bugs
 
