@@ -35,8 +35,8 @@ Please document all known AT bugs in this document.
 
 #### General Bugs
 
-* JAWS doesn't support press and hold with keys for drag and drop. You have to repeatedly press a key to move things
-  little by little. See https://github.com/phetsims/a11y-research/issues/9.
+* JAWS doesn't support press and hold with arrow keys for drag and drop. You have to repeatedly press a key to move things
+  little by little. See https://github.com/phetsims/a11y-research/issues/9. Press and hold should still work with WASD keys.
 * Pressing Enter or Spacebar when the virtual cursor is on a non-interactive element (like a paragraph) makes the cursor
   go back to the beginning of the page.
 * Pressing enter or spacebar on a slider that does not have focus will cause the slider to move. This is the expected
