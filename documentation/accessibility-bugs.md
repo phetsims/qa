@@ -42,6 +42,8 @@ Please document all known AT bugs in this document.
   go back to the beginning of the page.
 * Pressing enter or spacebar on a slider that does not have focus will cause the slider to move. This is the expected
   behavior, see https://github.com/phetsims/center-and-variability/issues/665#issuecomment-3129999586.
+* JAWS does not support aria-valuetext for sliders. Object responses related to changing values will not be read.
+  See https://github.com/phetsims/wave-on-a-string/issues/205 and https://github.com/FreedomScientific/standards-support/issues/916.
 
 #### 1.2.1: Firefox Bugs
 
