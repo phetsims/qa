@@ -120,8 +120,7 @@ Please document all known AT bugs in this document.
   document. See https://github.com/phetsims/a11y-research/issues/164.
 * When using a combo box, Safari may say "Text" after reading each item in the combo box list.
   See https://github.com/phetsims/greenhouse-effect/issues/178.
-* Safari will duplicate alerts when the sim is embedded in an iFrame.
-  See https://github.com/phetsims/friction/issues/286
+* Safari will duplicate alerts when the sim is embedded in an iFrame. See https://github.com/phetsims/a11y-research/issues/177 and https://github.com/phetsims/friction/issues/286
 * VoiceOver reads the name, role, AND first element in a container (like a movable non-modal dialog) when the container
   has focus. This is the expected behavior. See https://github.com/phetsims/models-of-the-hydrogen-atom/issues/149.
 * VoiceOver may read hidden elements. See https://github.com/phetsims/center-and-variability/issues/644.
