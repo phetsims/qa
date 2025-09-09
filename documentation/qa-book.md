@@ -811,29 +811,6 @@ PhET Studio is a payed-for service that lets teachers build and share presets of
    - Using the sim.
 4. Please test a couple of downloaded presets.
 
-#### Test 1: Doc Files
-
-*Approximate time:* 5 minutes, Only on one random platform  
-*Test Matrix says:* /doc and doc in the root. Do they exist? Is formatting OK?
-
-*How?*
-
-1. Add `/doc` to the end of the wrapper index url.
-2. Open folders/files to make sure items are there.
-
-#### Test 2: Login Wrapper Test
-
-*Approximate time:* 5 minutes, Only on one random platform
-
-*How?*
-
-* Add this to the end of the link to test:
-  `/wrappers/login/?wrapper=record&validationRule=validateDigits&&numberOfDigits=5&promptText=ENTER_A_5_DIGIT_NUMBER`.
-* Successful login should take you to the record wrapper.
-* Make sure login `phettest` successfully loads.
-* Make sure a five digit number successfully loads.
-* Once on the record wrapper, type `window.sessionStorage` into the console, and make sure the key
-  `phet.metacog.learner_id` has a value of the login ID you provided it.
 
 #### Test 3: Password Protection
 
@@ -843,7 +820,7 @@ PhET Studio is a payed-for service that lets teachers build and share presets of
 *How?*
 
 1. Open the wrapper index link in a private tab. Make sure it asks for username and password.
-2. Check each page in a new private tab so that caching does not save the password.
+2. Check each page in a new private tab so that caching does not save the password. Make sure each page opens/exists as it should.
 3. Make sure wrappers are password protected. The following wrappers are not password protected:
 
 * The simulation
@@ -913,7 +890,7 @@ Test that the sim works offline:
 
 **_There are 2 columns in the test matrix for this wrapper:_**
 
-*Column 1 says:* Standard PhET-iO Wrapper  
+*Column 1 says:* Test/Standard PhET-iO Wrapper  
 *How?*  
 This test focuses on the buttons found under the 'Standard PhET-iO Wrapper' section of Studio and is done continuously
 and in conjunction with Column 2.
@@ -1084,7 +1061,7 @@ doc.
 |------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Play with the upstream sim.                                                  | The downstream sim should mirror your actions. </br> Note: The opening of a menu/combobox will not be mirrored                  |
 | Change the “set state rate” equal to zero. Make changes in the upstream sim. | Nothing should happen in the downstream sim.                                                                                    |
-| Click “Set State Now” button.                                                | The downstream sim should now match the upstream sim.                                                                           | 
+| Click “Set State Now” button.                                                | The downstream sim should now match the upstream sim. Even after playing with downstream sim before setting state.              | 
 | Uncheck the “Upstream Active” button.                                        | You shouldn’t be able to manipulate anything in the upstream sim, but you can now manipulate items in the downstream sim.       |
 | Press the “Launch” button at the bottom of the wrapper.                      | It should load a version of the sim starting in the current state of the upstream sim (similar to launching in Studio wrapper). |
 
@@ -1101,7 +1078,7 @@ On one random platform combination:
 
 1. Add the `?phetioDebug=true` query parameter.
 2. Open the console.
-3. Play with the upstream sim and see if any errors come up.
+3. Repeat actions above and see if any errors come up.
 
 #### Test 16: Screenshot Wrapper Test
 
