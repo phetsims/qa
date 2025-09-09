@@ -812,7 +812,7 @@ PhET Studio is a payed-for service that lets teachers build and share presets of
 4. Please test a couple of downloaded presets.
 
 
-#### Test 3: Password Protection
+#### Test 1: Password Protection
 
 *Approximate time:* 10 minutes  
 *Test Matrix says:* Wrappers/Is it password protected? Does the password work?
@@ -827,7 +827,7 @@ PhET Studio is a payed-for service that lets teachers build and share presets of
 * Data: Colorized
 * Data: JSON
 
-#### Test 4: Library Test
+#### Test 2: Library Test
 
 *Approximate time:* <5 minutes, Only on one random platform  
 *Test Matrix says:* Is phet-io.js in lib? Is it minified and not behind a password?
@@ -840,7 +840,7 @@ PhET Studio is a payed-for service that lets teachers build and share presets of
 * It should NOT be password protected.
 * Make sure it is *minified* (spaces have been removed so the code takes up the whole screen).
 
-#### Test 5: Offline Test
+#### Test 3: Offline Test
 
 *Approximate time:* <5 minutes, Only on one random platform.
 
@@ -854,7 +854,7 @@ Test that the sim works offline:
 4. Open `index.html` by double clicking it on your desktop or in a finder-view.
 5. It should look like the standalone version of the sim in PhET-iO brand.
 
-#### Test 6: Wrapper Index Test
+#### Test 4: Wrapper Index Test
 
 *Approximate time:* 5 minutes  
 *Test Matrix says:* Does the example html open and function properly?
@@ -864,7 +864,7 @@ Test that the sim works offline:
 * In the Wrapper Index there should be some example code. Copy and paste it into a text editor (ex. Atom), save it, and
   make sure the resulting html file runs properly.
 
-#### Test 7: Simulation Wrapper Test
+#### Test 5: Simulation Wrapper Test
 
 *Approximate time:* 15-20 minutes
 
@@ -877,7 +877,7 @@ Test that the sim works offline:
 * To test this wrapper, follow the steps for a development test or a release candidate test depending on what the issue
   specifies. A memory test should be included on one platform here.
 
-#### Test 8: Studio Wrapper Test
+#### Test 6: Studio Wrapper Test
 
 *Approximate time:* 2hrs for first platform tested, 1 hr for subsequent platforms
 
@@ -929,7 +929,7 @@ and in conjunction with Column 2.
   * `Ctrl`: selects the linked/model element. This option can go to a stringProperty if it was a linked element.
   * *Note: If doing this while filtering on PhET-iO featured, unfeatured elements won't be selected.*
 
-#### Test 9: Migration Wrapper Test
+#### Test 7: Migration Wrapper Test
 
 *Approximate time:* 1 hour (per device type)
 
@@ -951,7 +951,7 @@ and in conjunction with Column 2.
 
 * To test with the migration wrapper in main, it is necessary to add the old version as a query parameter(?oldVersion=).
 
-#### Test 10: Examples (PhET-iO Client Requests)
+#### Test 8: Examples (PhET-iO Client Requests)
 
 *Approximate time:* Varies depending on the number of requests, Only on one random platform
 
@@ -973,7 +973,7 @@ instances, set your console to "top" in order to use commands (there is a dropdo
 Chrome, or at the bottom if in Safari). As an example, see 'Load premade circuits into a wrapper' in the CCK-DC examples
 doc.
 
-#### Test 11: Data: Colorized Wrapper Test
+#### Test 9: Data: Colorized Wrapper Test
 
 *Approximate time:* <5 minutes, Only on one random platform     
 *Test Matrix says:* Events: Colorized
@@ -988,7 +988,7 @@ doc.
   manipulations.
 * This test should be done lightly to make sure the data stream prints out to the console as it should.
 
-#### Test 12: Data: JSON Wrapper Test
+#### Test 10: Data: JSON Wrapper Test
 
 *Approximate time:* <5 minutes, Only on one random platform     
 *Test Matrix says:* Events: JSON
@@ -1004,7 +1004,7 @@ doc.
   manipulations.
 * This test should be done lightly to make sure the data stream prints out to the console as it should.
 
-#### Test 13: Data: Text Area Wrapper Test
+#### Test 11: Data: Text Area Wrapper Test
 
 *Approximate time:* <5 minutes  
 *Test Matrix says:* Events: textarea
@@ -1021,7 +1021,7 @@ doc.
 * This test should be a bit more in depth than the colorized and JSON tests.
 * Performance should also be acceptable.
 
-#### Test 14: Data: Recording Wrapper Test
+#### Test 12: Data: Recording Wrapper Test
 
 *Approximate time:* 10 minutes  
 *Test Matrix says:* Events: record. Replace &console with &localFile
@@ -1040,7 +1040,7 @@ doc.
 4. Follow the directions in the console to download a copy of the recording.
 5. Make sure the file size isn't empty.
 
-#### Test 15: State Wrapper Test
+#### Test 13: State Wrapper Test
 
 *Approximate Time:* 30-60 minutes
 
@@ -1080,7 +1080,7 @@ On one random platform combination:
 2. Open the console.
 3. Repeat actions above and see if any errors come up.
 
-#### Test 16: Screenshot Wrapper Test
+#### Test 14: Screenshot Wrapper Test
 
 *Approximate time:* 5 minutes
 
@@ -1095,7 +1095,7 @@ On one random platform combination:
 * Be sure to take at least one screenshot per screen
 * Some blurriness of the screenshot is acceptable.
 
-#### Test 17: Active Wrapper Test
+#### Test 15: Active Wrapper Test
 
 *Approximate time:* 5 minutes
 
@@ -1109,7 +1109,7 @@ On one random platform combination:
   the simulation when it is inactive.
 * Animations should resume without “jumping.”
 
-#### Test 18: Multi Wrapper Test
+#### Test 16: Multi Wrapper Test
 
 *Approximate time:* 5 minutes, Only on one random platform
 
@@ -1123,7 +1123,7 @@ On one random platform combination:
   effect based on its language for each. If the sim is not active, property changes will not appear until the sim is
   active again.
 
-#### Test 19: Testing Batch Forward Migration
+#### Test 17: Testing Batch Forward Migration
 
 *Approximate time:* 10 minutes, Only on one random platform
 
