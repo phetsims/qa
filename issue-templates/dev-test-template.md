@@ -27,7 +27,7 @@ DEVELOPERS:
   publish until QA is ready to begin testing!**
 - [phet-io wrapper index](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet-io) ← **Do not publish until QA
   is ready to begin testing!**
-- [link to PhET Studio Sandbox](https://phet.colorado.edu/admin/phet-studio/sandbox)
+- [link to PhET Studio Sandbox](https://phet.colorado.edu/admin/studio/sandbox)
 
 <h3>Test Matrix</h3>
 
