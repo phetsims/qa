@@ -803,7 +803,7 @@ PhET Studio is a payed-for service that lets teachers build and share presets of
 
 *How?*
 
-1. Please test your sim via the phet-studio sandbox link on [phet.colorado.edu](https://phet.colorado.edu/admin/phet-studio/sandbox)
+1. Please test your sim via the phet-studio sandbox link on [phet.colorado.edu](https://phet.colorado.edu/admin/studio/sandbox)
 2. Fill in the PhET-iO Lib Url: This will be the path to the phet-io wrapper index with the following at the end: `/lib/phet-io.js`
 3. Please test these functionalities of PhET Studio with your sim:
    - Advanced options
