@@ -42,6 +42,8 @@ Please document all known AT bugs in this document.
   go back to the beginning of the page.
 * Pressing enter or spacebar on a slider that does not have focus will cause the slider to move. This is the expected
   behavior, see https://github.com/phetsims/center-and-variability/issues/665#issuecomment-3129999586.
+* With tab navigation, JAWS may place the virtual cursor on a heading or other readable element. This is out of our
+  control and acceptable. See https://github.com/phetsims/ph-scale/issues/350.
 
 #### 1.2.1: Firefox Bugs
 
