@@ -1423,7 +1423,7 @@ should surround the content.
 - Voicing should only be available in the "en" locale. It should not be possible to enable Voicing in any other locale
   from Preferences.
 - Voicing does not work in the Android App. In this platform, it should not be possible to enable Voicing form
-  Preferences.
+  Preferences. SpeechSynthesis is not supported in an Android WebView right now. It may be soon, see https://issues.chromium.org/issues/40417848
 - Only English voices may be present with Win + Firefox. To add more voices to your device, go to Settings > Speech
   Settings > Manage Voices. Click on Add Voices Button.
 
