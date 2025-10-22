@@ -83,6 +83,8 @@ Please document all known AT bugs in this document.
 * It is possible for the virtual cursor to get "stuck" when reading through interactive elements. For example, if you
   tab to a draggable object, then switch to browse (reading) mode, you will not be able to read out of the draggable
   object. You will have to tab out of it. See https://github.com/phetsims/membrane-transport/issues/376.
+* NVDA will repeat the content related to a component when focus lands on it after being on an "application" role
+  element. See https://github.com/phetsims/a11y-research/issues/201.
 
 #### 1.3.1: Firefox Bugs
 
