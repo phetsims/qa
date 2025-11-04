@@ -1204,6 +1204,13 @@ To test the accessibility features of a simulation, follow the steps below:
 3. If the developer wants you to test previous issues, then test those first.
 4. Perform the below tests.
 
+#### Axe Dev Tools
+
+##### *What are Axe Dev Tools?*
+
+* These tools are a browser extension that allow us to scan a page for accessability compliance from the dev tools.
+* Instructions are [here](https://github.com/phetsims/phet-info/blob/37d3c35fb4a8c5493b6f3b8bfa6c6092e2792255/doc/axe-devtools-guide.md)
+
 #### Keyboard Navigation
 
 ##### *What is keyboard navigation?*
