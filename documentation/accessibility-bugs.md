@@ -104,6 +104,11 @@ Please document all known AT bugs in this document.
 
 ### 1.4: VoiceOver
 
+#### General Bugs
+
+* If focus is manually placed on a heading, VoiceOver may not announce the heading text. This is expected behavior for
+  VoiceOver and not a bug in the sim.
+
 #### 1.4.1: Safari Bugs
 
 * When closing a dialog with “escape” while the virtual cursor is on a list item, focus might not return to the Keyboard
