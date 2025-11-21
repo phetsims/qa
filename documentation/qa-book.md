@@ -1194,7 +1194,7 @@ disabilities. There are several features unique to accessibility testing: keyboa
 compatibility, voicing, interactive highlights, and sound effects (sonification).
 
 Please read through this
-[list of known a11y bugs](https://github.com/phetsims/qa/blob/main/documentation/accessibility-bugs.md) before doing any
+[list of known a11y bugs](https://github.com/phetsims/qa/blob/main/documentation/accessibility-bugs-and-behaviors.md) before doing any
 testing.
 
 To test the accessibility features of a simulation, follow the steps below:
