@@ -85,6 +85,8 @@ Please document all known AT bugs in this document.
   object. You will have to tab out of it. See https://github.com/phetsims/membrane-transport/issues/376.
 * NVDA will repeat the content related to a component when focus lands on it after being on an "application" role
   element. See https://github.com/phetsims/a11y-research/issues/201.
+* When tabbing beyond an element or group with the "application" role, NVDA may read the accessible name of an
+  unexpected component. See https://github.com/phetsims/number-pairs/issues/388
 
 #### 1.3.1: Firefox Bugs
 
