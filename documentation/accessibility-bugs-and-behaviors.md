@@ -76,7 +76,7 @@ Please document all known AT bugs in this document.
 * If there is a list in a dialog, when the dialog is first opened JAWS will read the list items as "bullet, bullet, ..."
   instead of reading the names of the items. See https://github.com/phetsims/a11y-research/issues/185.
 
-### 1.3: 
+### 1.3 NVDA: 
 
 #### 1.3.1: General Bugs
 
