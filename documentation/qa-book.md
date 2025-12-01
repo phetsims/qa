@@ -584,6 +584,8 @@ To do the query parameters test, append the URL with the following query paramet
 * `?forceSVGRefresh`: may mitigate graphical errors, but too energy/performance intensive to generalize. Check beheavior here when looking at graphical issues.
 * `?rootRenderer=canvas`: check behavior with this parameter when looking at graphical issues.
 * `?logBlockedResponses`: use with a11y view during dev tests to see what alerts are blocked when screen readers are being used.
+* `?logInteractiveDescriptionResponses&logVoicingResponses&phetioStudioA11y`: combination used on studio allows user to view a11y view and changes to it when working in studio.
+* `&phetioInstrumentA11yStrings`: add this to the above to allow editing of a11y strings.
 
 ##### Private Query Parameters
 
