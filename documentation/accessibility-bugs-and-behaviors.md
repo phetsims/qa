@@ -87,6 +87,7 @@ Please document all known AT bugs in this document.
   element. See https://github.com/phetsims/a11y-research/issues/201.
 * When tabbing beyond an element or group with the "application" role, NVDA may read the accessible name of an
   unexpected component. See https://github.com/phetsims/number-pairs/issues/388
+* NVDA may read the labels of buttons and UI components twice when focus is placed on a section in the Preferences dialog. See https://github.com/phetsims/vector-addition/issues/439. 
 
 #### 1.3.1: Firefox Bugs
 
