@@ -136,6 +136,7 @@ Please document all known AT bugs in this document.
 * VoiceOver may read hidden elements. See https://github.com/phetsims/center-and-variability/issues/644.
 * VoiceOver may not read aria-live alerts after a change in focus. See https://github.com/phetsims/membrane-transport/issues/299.
 * VoiceOver virtual cursor may move unexpectedly when reading dynamic content. See https://github.com/phetsims/forces-and-motion-basics/issues/443.
+* When focus is placed on an element that was previously invisible (hidden), VoiceOver may not read the element name. See https://github.com/phetsims/build-an-atom/issues/468.
 
 #### 1.4.2: Mobile Safari Bugs
 
