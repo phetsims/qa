@@ -44,6 +44,7 @@ Please document all known AT bugs in this document.
   behavior, see https://github.com/phetsims/center-and-variability/issues/665#issuecomment-3129999586.
 * With tab navigation, JAWS may place the virtual cursor on a heading or other readable element. This is out of our
   control and acceptable. See https://github.com/phetsims/ph-scale/issues/350.
+* When using tab navigation after reading with the virtual cursor, JAWS may move focus to an unexpected element in the traversal order. This is acceptable and out of our control.
 
 #### 1.2.1: Firefox Bugs
 
