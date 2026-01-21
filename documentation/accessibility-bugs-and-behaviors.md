@@ -45,6 +45,7 @@ Please document all known AT bugs in this document.
 * With tab navigation, JAWS may place the virtual cursor on a heading or other readable element. This is out of our
   control and acceptable. See https://github.com/phetsims/ph-scale/issues/350.
 * When using tab navigation after reading with the virtual cursor, JAWS may move focus to an unexpected element in the traversal order. This is acceptable and out of our control.
+* When a control is focused via Tab, pressing it immediately afterward may not activate in JAWS. The virtual cursor can lag behind focus, so input can be missed if activation is too fast. Known JAWS behavior; not fixable on our side. See https://github.com/phetsims/build-an-atom/issues/479
 
 #### 1.2.1: Firefox Bugs
 
