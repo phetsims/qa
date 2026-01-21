@@ -36,16 +36,19 @@ Please document all known AT bugs in this document.
 #### General Bugs
 
 * JAWS doesn't support press and hold with arrow keys for drag and drop. You have to repeatedly press a key to move
-  things in tiny increments. That will not always produce good simulation behavior. Dragging with WASD keys should work well.
-  See https://github.com/phetsims/a11y-research/issues/9.
+  things in tiny increments. That will not always produce good simulation behavior. Dragging with WASD keys should work
+  well. See https://github.com/phetsims/a11y-research/issues/9.
 * Pressing Enter or Spacebar when the virtual cursor is on a non-interactive element (like a paragraph) makes the cursor
   go back to the beginning of the page.
 * Pressing enter or spacebar on a slider that does not have focus will cause the slider to move. This is the expected
   behavior, see https://github.com/phetsims/center-and-variability/issues/665#issuecomment-3129999586.
 * With tab navigation, JAWS may place the virtual cursor on a heading or other readable element. This is out of our
   control and acceptable. See https://github.com/phetsims/ph-scale/issues/350.
-* When using tab navigation after reading with the virtual cursor, JAWS may move focus to an unexpected element in the traversal order. This is acceptable and out of our control.
-* When a control is focused via Tab, pressing it immediately afterward may not activate in JAWS. The virtual cursor can lag behind focus, so input can be missed if activation is too fast. Known JAWS behavior; not fixable on our side. See https://github.com/phetsims/build-an-atom/issues/479
+* When using tab navigation after reading with the virtual cursor, JAWS may move focus to an unexpected element in the
+  traversal order. This is acceptable and out of our control.
+* When a control is focused via Tab, pressing it immediately afterward may not activate in JAWS. The virtual cursor can
+  lag behind focus, so input can be missed if activation is too fast. Known JAWS behavior; not fixable on our side.
+  See https://github.com/phetsims/build-an-atom/issues/479
 
 #### 1.2.1: Firefox Bugs
 
@@ -78,7 +81,7 @@ Please document all known AT bugs in this document.
 * If there is a list in a dialog, when the dialog is first opened JAWS will read the list items as "bullet, bullet, ..."
   instead of reading the names of the items. See https://github.com/phetsims/a11y-research/issues/185.
 
-### 1.3 NVDA: 
+### 1.3 NVDA:
 
 #### 1.3.1: General Bugs
 
@@ -89,7 +92,8 @@ Please document all known AT bugs in this document.
   element. See https://github.com/phetsims/a11y-research/issues/201.
 * When tabbing beyond an element or group with the "application" role, NVDA may read the accessible name of an
   unexpected component. See https://github.com/phetsims/number-pairs/issues/388
-* NVDA may read the labels of buttons and UI components twice when focus is placed on a section in the Preferences dialog. See https://github.com/phetsims/vector-addition/issues/439. 
+* NVDA may read the labels of buttons and UI components twice when focus is placed on a section in the Preferences
+  dialog. See https://github.com/phetsims/vector-addition/issues/439.
 
 #### 1.3.1: Firefox Bugs
 
@@ -132,15 +136,21 @@ Please document all known AT bugs in this document.
   document. See https://github.com/phetsims/a11y-research/issues/164.
 * When using a combo box, Safari may say "Text" after reading each item in the combo box list.
   See https://github.com/phetsims/greenhouse-effect/issues/178.
-* Safari will duplicate alerts when the sim is embedded in an iFrame. See https://github.com/phetsims/a11y-research/issues/177 and https://github.com/phetsims/friction/issues/286
+* Safari will duplicate alerts when the sim is embedded in an iFrame.
+  See https://github.com/phetsims/a11y-research/issues/177 and https://github.com/phetsims/friction/issues/286
 * VoiceOver reads the name, role, AND first element in a container (like a movable non-modal dialog) when the container
   has focus. This is the expected behavior. See https://github.com/phetsims/models-of-the-hydrogen-atom/issues/149.
 * VoiceOver may read hidden elements. See https://github.com/phetsims/center-and-variability/issues/644.
-* VoiceOver may not read aria-live alerts after a change in focus. See https://github.com/phetsims/membrane-transport/issues/299.
-* VoiceOver virtual cursor may move unexpectedly when reading dynamic content. See https://github.com/phetsims/forces-and-motion-basics/issues/443.
-* When focus is placed on an element that was previously invisible (hidden), VoiceOver may not read the element name. See https://github.com/phetsims/build-an-atom/issues/468.
-* VoiceOver may simply fail to read some specific strings in object or context responses. See https://github.com/phetsims/number-pairs/issues/438.
-* VoiceOver often fails to read the accessible name for elements when they change location in the traversal order or change their accessible name. See https://github.com/phetsims/number-pairs/issues/437. 
+* VoiceOver may not read aria-live alerts after a change in focus.
+  See https://github.com/phetsims/membrane-transport/issues/299.
+* VoiceOver virtual cursor may move unexpectedly when reading dynamic content.
+  See https://github.com/phetsims/forces-and-motion-basics/issues/443.
+* When focus is placed on an element that was previously invisible (hidden), VoiceOver may not read the element name.
+  See https://github.com/phetsims/build-an-atom/issues/468.
+* VoiceOver may simply fail to read some specific strings in object or context responses.
+  See https://github.com/phetsims/number-pairs/issues/438.
+* VoiceOver often fails to read the accessible name for elements when they change location in the traversal order or
+  change their accessible name. See https://github.com/phetsims/number-pairs/issues/437.
 
 #### 1.4.2: Mobile Safari Bugs
 
