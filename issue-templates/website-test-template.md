@@ -3,7 +3,7 @@
 
 DEVELOPERS: 
 
-* title for this issue = Website RC Test: {{WEBSITE_PROJECT_TITLE}} {{VERSION}}
+* title for this issue = Website Test: {{WEBSITE_PROJECT_TITLE}} {{VERSION}}
 * replace {{MENTIONS}} with @mentions for team members who should receive GitHub notifications about this issue
 * Fill in the {{GITHUB_ISSUE_LINK}} placeholder.
 * assign the issue to @KatieWoe and @kathy-phet
@@ -11,7 +11,7 @@ DEVELOPERS:
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
 
-<h1>Website RC Test</h1>
+<h1>Website Test</h1>
 
 **Mentions**: {{MENTIONS}}
 
@@ -31,7 +31,10 @@ https://ox-stage.colorado.edu/
 - [ ] macOS + Safari + VoiceOver (Tester = ) (Time = )
 - [ ] iOS + Safari + VoiceOver (Tester = ) (Time = )
 
-<h3>User Stories</h3>
+<h3>User Stories </h3>
+(include shortcut story links if appropriate)
+
+- [ ] _I am a user and I need to . . ._
 
 <h3>Focus and Special Instructions</h3>
 
@@ -43,13 +46,6 @@ Things to include here:
 * specific platforms to test
 * instructions for any non-standard tests
 -->
-
-<h3>Issues to Verify</h3>
-
-These issues should have the "status:ready-for-review" label. Unless an issue says to close after verifying, assign the
-issue back to the developer.
-
-- [ ] {{GITHUB_ISSUE_LINK}}
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
