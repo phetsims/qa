@@ -1348,6 +1348,9 @@ Test using a screen reader and the a11y view.
 
 After using the a11y view, always test with a real screen reader to confirm the content is accessible and accurate.
 
+:warning: Do not test the a11y view with a screen reader as the surrounding a11y view can cause the screen reader to duplicate
+or interrupt speech.
+
 Limitations:
 - Do not test on iOS VoiceOver; it is not supported for Core Description.
 - Expect fewer dynamic updates or descriptions for continuous changes or fine details.
