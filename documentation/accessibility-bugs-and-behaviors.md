@@ -129,9 +129,11 @@ Please document all known AT bugs in this document.
 * In iOS 14, VoiceOver has a setting to describe images, which is on by default, and it is really bad at doing it for
   PhET Sims! To turn off this setting (as of 1/19/21), Settings -> Accessibility -> VoiceOver -> Verbosity -> Scene
   Descriptions -> switch off. See https://github.com/phetsims/ratio-and-proportion/issues/256 for more details.
-* After a bit of use, VoiceOver may stop speaking alerts related to the slider value (aria-valuetext). Tabbing away from
+* After a bit of use, VoiceOver may stop speaking alerts related to the slider value (object response). Tabbing away from
   the component then returning to it will cause VoiceOver to speak its content again.
   See https://github.com/phetsims/sun/issues/508 and https://github.com/phetsims/ohms-law/issues/141
+* If you press and hold arrow keys with a slider, VoiceOver may skip object and context responses. See
+  https://github.com/phetsims/molecule-polarity/issues/295.
 * When using a slider, "Home" and "End" keys will both change the value AND move the cursor to a different place in the
   document. See https://github.com/phetsims/a11y-research/issues/164.
 * When using a combo box, Safari may say "Text" after reading each item in the combo box list.
