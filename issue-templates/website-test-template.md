@@ -25,7 +25,7 @@ https://ox-stage.colorado.edu/
 Things to include here:
 * purpose/focus of the test
 * milestones
-* specific things to test (including regression tests)
+* specific things to test (including regression tests)/what changed
 * specific platforms to test
 * instructions for any non-standard tests
 -->
