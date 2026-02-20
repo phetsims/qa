@@ -28,6 +28,7 @@ Things to include here:
 * specific things to test/what changed
 * specific platforms to test
 * instructions for any non-standard tests
+* expected complexity/story points
 -->
 
 <h3>Test Matrices </h3>
