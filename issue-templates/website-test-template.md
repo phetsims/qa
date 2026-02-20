@@ -19,6 +19,17 @@ DEVELOPERS:
 
 https://ox-stage.colorado.edu/
 
+<h3>Focus and Special Instructions</h3>
+
+<!---
+Things to include here:
+* purpose/focus of the test
+* milestones
+* specific things to test (including regression tests)
+* specific platforms to test
+* instructions for any non-standard tests
+-->
+
 <h3>Test Matrices</h3>
 
 - [ ] Windows 11 + Latest Chrome (Tester = ) (Time = )
@@ -36,16 +47,10 @@ https://ox-stage.colorado.edu/
 
 - [ ] _I am a user and I need to . . ._
 
-<h3>Focus and Special Instructions</h3>
+<h3>Acceptance Criteria </h3>
 
-<!---
-Things to include here:
-* purpose/focus of the test
-* milestones
-* specific things to test (including regression tests)
-* specific platforms to test
-* instructions for any non-standard tests
--->
+- [ ] _List of things that should be ture to know this is working_
+
 
 <!---
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
