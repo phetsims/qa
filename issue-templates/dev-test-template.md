@@ -57,7 +57,6 @@ If screen readers are being tested:
 - [ ] Win 10/11 Chrome + Jaws (Time = ) (Tester = )
 - [ ] Win 10/11 Firefox + NVDA (Time = ) (Tester = )
 - [ ] MacOS Safari + VO (Time = ) (Tester = )
-- [ ] iPadOS Mobile VO (Time = ) (Tester = )
 
 <h3>Features included</h3>
 
