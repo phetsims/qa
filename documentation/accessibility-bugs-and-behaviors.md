@@ -149,8 +149,6 @@ Please document all known AT bugs in this document.
   See https://github.com/phetsims/forces-and-motion-basics/issues/443.
 * When focus is placed on an element that was previously invisible (hidden), VoiceOver may not read the element name.
   See https://github.com/phetsims/build-an-atom/issues/468.
-* VoiceOver may simply fail to read some specific strings in object or context responses.
-  See https://github.com/phetsims/number-pairs/issues/438.
 * VoiceOver often fails to read the accessible name for elements when they change location in the traversal order or
   change their accessible name. See https://github.com/phetsims/number-pairs/issues/437.
 
