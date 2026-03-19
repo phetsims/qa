@@ -49,6 +49,7 @@ Please document all known AT bugs in this document.
 * When a control is focused via Tab, pressing it immediately afterward may not activate in JAWS. The virtual cursor can
   lag behind focus, so input can be missed if activation is too fast. Known JAWS behavior; not fixable on our side.
   See https://github.com/phetsims/build-an-atom/issues/479
+* If aria-valuetext has a comma in it, it is spoken as "backslash". See https://github.com/phetsims/molecule-polarity/issues/348.
 
 #### 1.2.1: Firefox Bugs
 
