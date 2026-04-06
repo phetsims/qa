@@ -1987,24 +1987,7 @@ these things in mind:
    tab).
 3. Do some tests filling out the matrix to make sure everything adds up correctly.
 
-### 6.2: PhET Test Maintenance
-
-PhETTest runs on bayes, see https://github.com/phetsims/phetmarks/blob/main/phettest/README.md for notes about
-maintaining the associated processes. This requires the ability to ssh into bayes with the `phet-admin` account. If you
-see something like ”failed to pull,” then look through bayes logs to see if you can find the culprit. Every time a new
-repository is made, press the “Refresh Perennial” button. (Perennial is the list of simulations.) Press the ”Pull All”
-button every 5 hours.
-
-Here is a list of helpful commands:
-
-* `$ pm2 stop phettest-server`
-* `$ pm2 start phettest-server`
-* `$ pm2 logs phettest-server`
-
-Since phettest now runs on bayes, rather than the Turing computer, you are generally better off asking a developer for
-help in using these commands and/or troubleshooting.
-
-### 6.3: Website Administration
+### 6.2: Website Administration
 
 IMPORTANT: Do not delete English versions of simulations!
 
@@ -2050,7 +2033,7 @@ corner.
 * “Schools” is where our list of schools maintained.
 * “Organizations” is where our list of organizations is maintained.
 
-### 6.4: QA Book Maintenance
+### 6.3: QA Book Maintenance
 
 Please keep this book up-to-date so that it can be a useful resource!
 
