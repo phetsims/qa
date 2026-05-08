@@ -5,7 +5,7 @@ DEVELOPERS:
 
 * title for this issue = Desktop App Test
 * replace {{MENTIONS}} with @mentions for team members who should receive GitHub notifications about this issue
-* Describe level of testing required
+* Describe level of testing required (Full, lite, spot-check) How thurough/how much time?
 * assign the issue to @KatieWoe and @kathy-phet
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
