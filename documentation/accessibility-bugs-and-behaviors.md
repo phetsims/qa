@@ -49,7 +49,8 @@ Please document all known AT bugs in this document.
 * When a control is focused via Tab, pressing it immediately afterward may not activate in JAWS. The virtual cursor can
   lag behind focus, so input can be missed if activation is too fast. Known JAWS behavior; not fixable on our side.
   See https://github.com/phetsims/build-an-atom/issues/479
-* If aria-valuetext has a comma in it, it is spoken as "backslash". See https://github.com/phetsims/molecule-polarity/issues/348.
+* If aria-valuetext has a comma in it, it is spoken as "backslash".
+  See https://github.com/phetsims/molecule-polarity/issues/348.
 
 #### 1.2.1: Firefox Bugs
 
@@ -130,8 +131,8 @@ Please document all known AT bugs in this document.
 * In iOS 14, VoiceOver has a setting to describe images, which is on by default, and it is really bad at doing it for
   PhET Sims! To turn off this setting (as of 1/19/21), Settings -> Accessibility -> VoiceOver -> Verbosity -> Scene
   Descriptions -> switch off. See https://github.com/phetsims/ratio-and-proportion/issues/256 for more details.
-* After a bit of use, VoiceOver may stop speaking alerts related to the slider value (object response). Tabbing away from
-  the component then returning to it will cause VoiceOver to speak its content again.
+* After a bit of use, VoiceOver may stop speaking alerts related to the slider value (object response). Tabbing away
+  from the component then returning to it will cause VoiceOver to speak its content again.
   See https://github.com/phetsims/sun/issues/508 and https://github.com/phetsims/ohms-law/issues/141
 * If you press and hold arrow keys with a slider, VoiceOver may skip object and context responses. See
   https://github.com/phetsims/molecule-polarity/issues/295.
@@ -152,6 +153,8 @@ Please document all known AT bugs in this document.
   the element name. See https://github.com/phetsims/build-an-atom/issues/468.
 * VoiceOver often fails to read the accessible name for elements when they change location in the traversal order or
   change their accessible name. See https://github.com/phetsims/number-pairs/issues/437.
+* VoiceOver may read "bullet" before each text run in a list item when the list item contains inline formatting tags.
+  See https://github.com/phetsims/resistance-in-a-wire/issues/232.
 
 #### 1.4.2: Mobile Safari Bugs
 
