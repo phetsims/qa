@@ -21,12 +21,9 @@ DEVELOPERS:
 
 - [github repository for issues](https://github.com/phetsims/{{REPO}}/issues)
 - [release notes](https://github.com/phetsims/totality/blob/main/{{REPO}}/doc/release-notes.md)
-- [phet top-level directory](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}) ← **Do not publish until QA
-  is ready to begin testing!**
-- [sim: all_phet.html](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet/{{REPO}}_all_phet.html) ← **Do not
-  publish until QA is ready to begin testing!**
-- [phet-io wrapper index](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet-io) ← **Do not publish until QA
-  is ready to begin testing!**
+- [phet top-level directory](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}) ← **Do not publish until QA is ready to begin testing!**
+- [sim: all_phet.html](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet/{{REPO}}_all_phet.html) ← **Do not publish until QA is ready to begin testing!**
+- [phet-io wrapper index](https://phet-dev.colorado.edu/html/{{REPO}}/{{VERSION}}/phet-io) ← **Do not publish until QA is ready to begin testing!**
 - [link to PhET Studio Sandbox](https://phet.colorado.edu/admin/studio/sandbox)
 
 <h3>Test Matrix</h3>
